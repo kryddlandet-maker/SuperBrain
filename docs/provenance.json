@@ -1,0 +1,668 @@
+{
+  "inspected": "2026-10-07",
+  "repositories": [
+    {
+      "repository": "kryddlandet-maker/ai-design-brain",
+      "commit": "ed934cfe0f53241e7d648168255f905ea21eb457",
+      "files": [
+        {
+          "path": ".env.example",
+          "sha": "c367f092252694ee87d637fed7e9cf03a46d6142",
+          "size": 208
+        },
+        {
+          "path": ".gitignore",
+          "sha": "eb278713a147478f623490640df46b536677afdf",
+          "size": 78
+        },
+        {
+          "path": "BRAIN.md",
+          "sha": "fd1f1337e182064cc7749a3cb226a48c376ea401",
+          "size": 13547
+        },
+        {
+          "path": "CHANGELOG.md",
+          "sha": "a86af95444a5153ef90ef8e4310adb305e5070c3",
+          "size": 1069
+        },
+        {
+          "path": "INTEGRATION.md",
+          "sha": "bd37f3f114036b8c3fa854ec7a1b00fae69f0a17",
+          "size": 3702
+        },
+        {
+          "path": "README.md",
+          "sha": "15f3591f46135c7a651917a9600bdca47f2f0c5e",
+          "size": 3488
+        },
+        {
+          "path": "VERSION",
+          "sha": "60a2d3e96c80e344efb192a6536f018f6deef60a",
+          "size": 5
+        },
+        {
+          "path": "brain.manifest.json",
+          "sha": "bc31496c9bbf552d8f9345df571b107e1bc33b8e",
+          "size": 298
+        },
+        {
+          "path": "knowledge/APPLICATION_UX.md",
+          "sha": "7c81ad93215c7e661a0649cfb6abd4ed0262794f",
+          "size": 2784
+        },
+        {
+          "path": "knowledge/ART_DIRECTION.md",
+          "sha": "228c70e56c7adf665e1150be3e90f1fc345b0ab4",
+          "size": 2298
+        },
+        {
+          "path": "knowledge/COMPONENT_RULES.md",
+          "sha": "26b1d7a26f3957f12331a7ada62a28cf7d561c81",
+          "size": 716
+        },
+        {
+          "path": "knowledge/CREATIVE_CAMPAIGN_MODE.md",
+          "sha": "4f48be9a6b38319fd22309240858b86741a09259",
+          "size": 7848
+        },
+        {
+          "path": "knowledge/DESIGN_EVIDENCE_PROTOCOL.md",
+          "sha": "ff66ffd9ed4c590be4c6dac99b9d4fd6cb685cfb",
+          "size": 3004
+        },
+        {
+          "path": "knowledge/DESIGN_PRINCIPLES.md",
+          "sha": "1d56d0845aea961fd93c81621990b6d467458dd3",
+          "size": 1811
+        },
+        {
+          "path": "knowledge/DESIGN_SMELLS.md",
+          "sha": "9b6d711b343722363b4737bec0e9dd4d9d58ca41",
+          "size": 2446
+        },
+        {
+          "path": "knowledge/FEEDBACK.md",
+          "sha": "3fe8f3717a2614c3dacc4fa98d1e1e23c1069a96",
+          "size": 556
+        },
+        {
+          "path": "knowledge/FRONTEND_IMPLEMENTATION.md",
+          "sha": "c7893fc587bcf56a963dc8ec02c53f6f7f3d7690",
+          "size": 3122
+        },
+        {
+          "path": "knowledge/INDEX.md",
+          "sha": "dcdcfe24d0d6b22b0129825dbeb008335249f1f1",
+          "size": 2606
+        },
+        {
+          "path": "knowledge/MOTION_DESIGN.md",
+          "sha": "19785633d07cdb17ccba7b3dfd6156d3caf6f40a",
+          "size": 4061
+        },
+        {
+          "path": "knowledge/PREMIUM_WEB_DESIGN.md",
+          "sha": "2c3f6af2a6f76cd8ee21d020f3888334188aab15",
+          "size": 2453
+        },
+        {
+          "path": "knowledge/PROJECT_BRIEF_TEMPLATE.md",
+          "sha": "333649dca148fdb260fe732a98bd4a5c3cde8352",
+          "size": 266
+        },
+        {
+          "path": "knowledge/PROPOSED_LEARNINGS.md",
+          "sha": "360ea0f0cf29de9d96a85a03e6d9dc0a262fa74a",
+          "size": 275
+        },
+        {
+          "path": "knowledge/RESPONSIVE_ACCESSIBILITY.md",
+          "sha": "7da9d785bec9274254f03ee17046c98c560b63dd",
+          "size": 2700
+        },
+        {
+          "path": "knowledge/SITE_TYPE_PLAYBOOKS.md",
+          "sha": "7bcd27bf3f3c4773fec12917e73312a581a84e29",
+          "size": 3126
+        },
+        {
+          "path": "knowledge/VISUAL_REFERENCES.md",
+          "sha": "27849c66fc5f7463caf2270bc60e1d56e3f17d8e",
+          "size": 526
+        },
+        {
+          "path": "package.json",
+          "sha": "307c61a4a070e00ad4bac908f1805593efcb04c5",
+          "size": 633
+        },
+        {
+          "path": "playwright.config.ts",
+          "sha": "ef3f663e95dd915b0636328914da3ce785a68996",
+          "size": 440
+        },
+        {
+          "path": "prompts/CAMPAIGN.md",
+          "sha": "abf945177fec525f01854b0b37c375ead1cbebe5",
+          "size": 1848
+        },
+        {
+          "path": "prompts/CREATE.md",
+          "sha": "302cec457b88f20a81cb58fa554979f0efe22719",
+          "size": 2186
+        },
+        {
+          "path": "prompts/IMPLEMENT.md",
+          "sha": "8fb618e4448cd268eaab42cf320738343ef18694",
+          "size": 1516
+        },
+        {
+          "path": "prompts/MOTION.md",
+          "sha": "0c349c8a028a9e2deb4e79ed681ef6ab055e5aae",
+          "size": 1363
+        },
+        {
+          "path": "prompts/REDESIGN.md",
+          "sha": "2c97f1f45a7fc623c71237f3e72580fa925a96a5",
+          "size": 1585
+        },
+        {
+          "path": "prompts/REFINE.md",
+          "sha": "cea2043b4601bf1b169212732b51e9cb623ed042",
+          "size": 849
+        },
+        {
+          "path": "prompts/REVIEW.md",
+          "sha": "ad7a057c1dcecdad1076ad54ad59ff5e2a6752c6",
+          "size": 1504
+        },
+        {
+          "path": "scripts/install.mjs",
+          "sha": "081a3f9467dff2e8e3ef73a771b405e1b7a0aa4a",
+          "size": 9878
+        },
+        {
+          "path": "src/brain-builder.ts",
+          "sha": "93a061e359048786c24575c3503e61428a88a706",
+          "size": 1564
+        },
+        {
+          "path": "src/build-brain.ts",
+          "sha": "66ff6866cac02983960cb25615ff257fed0f3d05",
+          "size": 409
+        },
+        {
+          "path": "src/install-brain.ts",
+          "sha": "3aa85091c3af3f8861c85ca8694ef4e7ca9603d5",
+          "size": 150
+        },
+        {
+          "path": "src/review.ts",
+          "sha": "d71b628498f461b789e3d415c246055cc91420a3",
+          "size": 3792
+        },
+        {
+          "path": "tests/installation.test.mjs",
+          "sha": "f99db722c57be7ee46c8ebcd35790a0e2df1cfb1",
+          "size": 6622
+        },
+        {
+          "path": "tests/smoke.spec.ts",
+          "sha": "48e503ddf42f59e66db2e44bd79d9eecbac43ac1",
+          "size": 608
+        },
+        {
+          "path": "tsconfig.json",
+          "sha": "51ba1ea1e02523944ee74b9eb9fd38383fbe4fac",
+          "size": 307
+        }
+      ]
+    },
+    {
+      "repository": "kryddlandet-maker/ai-web-creation-brain",
+      "commit": "01d5f18b6252f752188683d17a5ad3dd639810c4",
+      "files": [
+        {
+          "path": ".gitignore",
+          "sha": "70b28e4b7d2e844a2cf6310cf2e6a89b2d2bd83b",
+          "size": 28
+        },
+        {
+          "path": "AGENTS_TEMPLATE.md",
+          "sha": "f323232c41aeef8000ac2a2950d76e96c4df645d",
+          "size": 1732
+        },
+        {
+          "path": "CHANGELOG.md",
+          "sha": "17e4cbb4deef226bf72aa3eb0b2d826385bd9dba",
+          "size": 1045
+        },
+        {
+          "path": "README.md",
+          "sha": "b2c6bb51d965c7493b3d8f6c02fa6e49c795771f",
+          "size": 5005
+        },
+        {
+          "path": "VERSION",
+          "sha": "1cc5f657e054cf13e5a0ac45d475d8caab594d9f",
+          "size": 5
+        },
+        {
+          "path": "brain.manifest.json",
+          "sha": "710de5a6ed705414dccba0fbda1947ab5955116a",
+          "size": 384
+        },
+        {
+          "path": "brain/BRAIN.md",
+          "sha": "0532bce68859363ca6b1b4587f8e5b048210dd3b",
+          "size": 2887
+        },
+        {
+          "path": "brain/CORE.md",
+          "sha": "a5abad6e46ba2dc248a424a7ca238ea4d08eef01",
+          "size": 2678
+        },
+        {
+          "path": "brain/EXPERIENCE_MODES.md",
+          "sha": "4d406fc78851d0bc7a5a8259386526fe1885a3cd",
+          "size": 3373
+        },
+        {
+          "path": "brain/MODULE_REGISTRY.md",
+          "sha": "62458c20298ec6ad6d5e72c1fc31a54bd56d80bd",
+          "size": 3082
+        },
+        {
+          "path": "brain/PIPELINE.md",
+          "sha": "b98f49f748c3407885b2d07033cab4acb4767b8c",
+          "size": 3138
+        },
+        {
+          "path": "brain/POLICY_MAP.md",
+          "sha": "edcaf6cda0ba381199446f3d42cf961c9d672ad8",
+          "size": 2361
+        },
+        {
+          "path": "brain/modules.json",
+          "sha": "30725069923cbfc038d604adf006e7d9ea295b25",
+          "size": 6205
+        },
+        {
+          "path": "integration/AI_DESIGN_BRAIN.md",
+          "sha": "bfc175cc965deb90ee8cf69b162795455426f039",
+          "size": 882
+        },
+        {
+          "path": "integration/INSTALLATION.md",
+          "sha": "14c384992131d92fc541885bff8fa39d19c2004b",
+          "size": 2132
+        },
+        {
+          "path": "integration/MOTION_DESIGN_BRAIN.md",
+          "sha": "f8911ab78e9e6e38eaf4ee98362ed9f9ca224670",
+          "size": 914
+        },
+        {
+          "path": "integration/PROJECT_LAYER.md",
+          "sha": "409b9500e8e0347a5f034ce4c235b09534878dcc",
+          "size": 1045
+        },
+        {
+          "path": "modules/ACCESSIBILITY.md",
+          "sha": "a2786a9c185647f9aac20007ad6ec5fbd4086b43",
+          "size": 1114
+        },
+        {
+          "path": "modules/ASSETS.md",
+          "sha": "c40c53f186e7e3df3fe015066d68c4fae2480d67",
+          "size": 1087
+        },
+        {
+          "path": "modules/DESIGN_SYSTEM.md",
+          "sha": "5d0bfa4fcbd9609074974995180953f9a4cc0538",
+          "size": 1200
+        },
+        {
+          "path": "modules/IMPLEMENTATION.md",
+          "sha": "52eefa12b7cf50050f1c84635621dd10456368ef",
+          "size": 1455
+        },
+        {
+          "path": "modules/INTENT.md",
+          "sha": "725a7521b196d5ecfdf1dee4dd9ad090d8171804",
+          "size": 1320
+        },
+        {
+          "path": "modules/MOTION.md",
+          "sha": "90f27447ff2b723f37e002d47fe9314a8ff95f6d",
+          "size": 1241
+        },
+        {
+          "path": "modules/MOTION_SCENES.md",
+          "sha": "ac74694e11b319f7ec16aa7963c6196ba8892630",
+          "size": 1108
+        },
+        {
+          "path": "modules/PERFORMANCE.md",
+          "sha": "747873ab74758381b8d793466cf95fd31729fb8a",
+          "size": 1141
+        },
+        {
+          "path": "modules/RESEARCH.md",
+          "sha": "a50c12912441147cc895784ba4217d0efc113409",
+          "size": 1191
+        },
+        {
+          "path": "modules/RESPONSIVE.md",
+          "sha": "cb91ede45623469a50a42ef479b9852970bd7930",
+          "size": 1059
+        },
+        {
+          "path": "modules/STRATEGY.md",
+          "sha": "730ec0e948f0346543b1647425a27752311be20f",
+          "size": 1287
+        },
+        {
+          "path": "modules/UX_CONTENT.md",
+          "sha": "de6627f44fbe808e808f14f8404f4719cf14a717",
+          "size": 1018
+        },
+        {
+          "path": "modules/VISUAL_DESIGN.md",
+          "sha": "43d2effba78a419dccf71d2b15b963a5c3e05dec",
+          "size": 1524
+        },
+        {
+          "path": "package.json",
+          "sha": "006f758d7af1a943c6148fecc11daef5a2085381",
+          "size": 317
+        },
+        {
+          "path": "quality/ACCEPTANCE_GATES.md",
+          "sha": "cc1975f482905a5e1a0a848c487797f9f75639b5",
+          "size": 2093
+        },
+        {
+          "path": "quality/ACCESSIBILITY_QA.md",
+          "sha": "b2adc7270cc3184993008018a5b01eb42f72c805",
+          "size": 871
+        },
+        {
+          "path": "quality/DESIGN_CRITIC.md",
+          "sha": "157e3c5eb88bfea9972c9b1ad3bd6800f4b3a60d",
+          "size": 2156
+        },
+        {
+          "path": "quality/MOTION_QA.md",
+          "sha": "3cd42262292e4499e415a5d8d5b4c6e1479cee5b",
+          "size": 899
+        },
+        {
+          "path": "quality/PERFORMANCE_QA.md",
+          "sha": "fc95c240a9ec86303e1290b4aa61bd39cbf4deb2",
+          "size": 852
+        },
+        {
+          "path": "quality/VISUAL_QA.md",
+          "sha": "50c38bdfb1c01e75e90689520200aa34320ff14e",
+          "size": 896
+        },
+        {
+          "path": "scripts/install.mjs",
+          "sha": "081a3f9467dff2e8e3ef73a771b405e1b7a0aa4a",
+          "size": 9878
+        },
+        {
+          "path": "scripts/verify-installation.mjs",
+          "sha": "9a21cf71d0b205ead0675a6be1f38c07db6ae7a3",
+          "size": 6280
+        },
+        {
+          "path": "templates/CREATION_SPEC.md",
+          "sha": "e3546982e59de228503d339b3d11faa02e08ba34",
+          "size": 781
+        },
+        {
+          "path": "templates/INTERACTION_SPEC.md",
+          "sha": "3c497dbbc36f4388725dff609a753d18d6837fc8",
+          "size": 425
+        },
+        {
+          "path": "templates/MOTION_SPEC.md",
+          "sha": "c1f35c356d60b3ce5e5397bda88bede08b7346d7",
+          "size": 646
+        },
+        {
+          "path": "templates/PROJECT_ART_DIRECTION.md",
+          "sha": "bd4e602880d63dfc6d67c219c1b5edb70180ad56",
+          "size": 773
+        },
+        {
+          "path": "templates/QA_EVIDENCE.md",
+          "sha": "d5ad3301641cf56771f021a6f312fa9e956a4866",
+          "size": 646
+        },
+        {
+          "path": "templates/REFERENCE_MATRIX.md",
+          "sha": "3d77792ed21fb396aaa8709043e030c342cec881",
+          "size": 408
+        },
+        {
+          "path": "templates/RESPONSIVE_SPEC.md",
+          "sha": "2e8920492109e2b09b6f7bf52965a7d78382c8fa",
+          "size": 390
+        },
+        {
+          "path": "tests/installation.test.mjs",
+          "sha": "f99db722c57be7ee46c8ebcd35790a0e2df1cfb1",
+          "size": 6622
+        },
+        {
+          "path": "tests/registry.test.mjs",
+          "sha": "e1aa0bdb0fe2545edf46c9b201412987fde9218c",
+          "size": 2573
+        },
+        {
+          "path": "tests/verification.test.mjs",
+          "sha": "0e329cf7286a2d5d48625e74c79f0f7abb7f9026",
+          "size": 4730
+        }
+      ]
+    },
+    {
+      "repository": "kryddlandet-maker/motion-deisgn-brain",
+      "commit": "8b40996db739973d7bff32b9fac9ca0e8db12668",
+      "files": [
+        {
+          "path": ".env.example",
+          "sha": "2b67fa04abc83b8e243e12947721b7a0ac8da874",
+          "size": 65
+        },
+        {
+          "path": ".gitignore",
+          "sha": "0df5ab3c7f90d0dfaa23a3b8e1fcc4f7a983988d",
+          "size": 41
+        },
+        {
+          "path": "BRAIN.md",
+          "sha": "2480ecbc4162d21f3dba390415b8887c6e505371",
+          "size": 12935
+        },
+        {
+          "path": "CHANGELOG.md",
+          "sha": "1d3ea32216bdb265d5b8d72637ccbab0ba96765a",
+          "size": 1213
+        },
+        {
+          "path": "INTEGRATION.md",
+          "sha": "8f78d2741b4f45a6b6373512f762af4f7d721cd6",
+          "size": 4156
+        },
+        {
+          "path": "README.md",
+          "sha": "c3b08134784cab8712944d0aa4a5ce326f1f6046",
+          "size": 3691
+        },
+        {
+          "path": "VERSION",
+          "sha": "589268e6fedb18e0dcdb97be4f19d569c5878d2b",
+          "size": 5
+        },
+        {
+          "path": "brain.manifest.json",
+          "sha": "38e0f0eeb9c37c8efc08aa4ac56d0dd610cafb29",
+          "size": 306
+        },
+        {
+          "path": "knowledge/01_MOTION_FOUNDATIONS.md",
+          "sha": "bed56d3016d8ec94a1582670bf0ebcd5c6a97006",
+          "size": 2821
+        },
+        {
+          "path": "knowledge/02_TIMING_EASING_PHYSICS.md",
+          "sha": "1c58894df5bd4dd714a2ff384fca57fb7988f942",
+          "size": 2779
+        },
+        {
+          "path": "knowledge/03_CONTINUITY_SCENE_CHOREOGRAPHY.md",
+          "sha": "6e9ffc6972636402409334e9782ad31813272bfd",
+          "size": 3082
+        },
+        {
+          "path": "knowledge/04_SCROLL_STORYTELLING.md",
+          "sha": "4b3903635f1d13adeef247fe82ccd9f59ef799fd",
+          "size": 2192
+        },
+        {
+          "path": "knowledge/05_CINEMATIC_ASSET_PIPELINE.md",
+          "sha": "d41b93bf6eb31bf2e60c0f09bb7927cd3e66c4e1",
+          "size": 2726
+        },
+        {
+          "path": "knowledge/06_MICROINTERACTIONS_UI.md",
+          "sha": "7343a7b3b4329b3b6eb355e9c408231b61bf50d6",
+          "size": 1951
+        },
+        {
+          "path": "knowledge/07_RESPONSIVE_REDUCED_MOTION.md",
+          "sha": "37809ce10df44a8130e9a2441dc52a30bff6dfc7",
+          "size": 1684
+        },
+        {
+          "path": "knowledge/08_PERFORMANCE_RENDERING.md",
+          "sha": "f4cd4587ce9d8ffcc3b37997f7c88964c513a1fb",
+          "size": 1923
+        },
+        {
+          "path": "knowledge/09_IMPLEMENTATION_PATTERNS.md",
+          "sha": "59a71ff4c539cd153dea8a76620f702b991d6d1c",
+          "size": 2094
+        },
+        {
+          "path": "knowledge/10_MOTION_SMELLS_AND_QA.md",
+          "sha": "3e10185d6aba0b58bb10cc83dadd4067b9860fc5",
+          "size": 2313
+        },
+        {
+          "path": "knowledge/11_CINEMATOGRAPHY_DEPTH.md",
+          "sha": "be6c0fa39dea29cb0ddc622b67501ef92c0454bc",
+          "size": 2390
+        },
+        {
+          "path": "knowledge/12_TYPOGRAPHY_MOTION.md",
+          "sha": "76d16ec12730ca1d73a67df0353143bbc59ef573",
+          "size": 1840
+        },
+        {
+          "path": "knowledge/13_ROUTE_VIEW_TRANSITIONS.md",
+          "sha": "9007c7cd6112db59e8517530d79d3760e32c2234",
+          "size": 1731
+        },
+        {
+          "path": "knowledge/14_DEBUGGING_MOTION.md",
+          "sha": "4439c9671f4c1eefadbacb32ec653906425d93fc",
+          "size": 2333
+        },
+        {
+          "path": "knowledge/15_BRAND_MOTION_SYSTEM.md",
+          "sha": "794ef5b270674c523c1027472995fd8e49be6a03",
+          "size": 2306
+        },
+        {
+          "path": "knowledge/16_MOTION_SPEC_PROTOCOL.md",
+          "sha": "d0c05a05151a7446ca1b43c2df423e29acc4923f",
+          "size": 4476
+        },
+        {
+          "path": "knowledge/17_VALIDATION_GATES.md",
+          "sha": "6f7d85c1d4623de6676248773432008cdc3b2891",
+          "size": 3133
+        },
+        {
+          "path": "knowledge/18_EVIDENCE_AND_INTEGRATION.md",
+          "sha": "47f44b82fc490ead9ed7d4b5e8fb421693ac4228",
+          "size": 1505
+        },
+        {
+          "path": "knowledge/19_CREATIVE_CAMPAIGN_MOTION.md",
+          "sha": "f7d5f27e76b2015df956ddd23349285fd6c79d36",
+          "size": 4989
+        },
+        {
+          "path": "package.json",
+          "sha": "44e90a706af0d83d5624795db381005162af97ee",
+          "size": 536
+        },
+        {
+          "path": "prompts/CINEMATIC_SEQUENCE.md",
+          "sha": "1047c47a9ed53084b6f416873593a850c128bd81",
+          "size": 1175
+        },
+        {
+          "path": "prompts/MOTION_DIRECTOR.md",
+          "sha": "aa330c2036fe410800844b75a95e56fd601707ca",
+          "size": 1937
+        },
+        {
+          "path": "prompts/REFINE_EXISTING.md",
+          "sha": "bc63bc9ec4a6645f487d7a373a65cc361b57858e",
+          "size": 991
+        },
+        {
+          "path": "scripts/install.mjs",
+          "sha": "081a3f9467dff2e8e3ef73a771b405e1b7a0aa4a",
+          "size": 9878
+        },
+        {
+          "path": "src/brain-builder.ts",
+          "sha": "ef5ab624613c70945ed63932d7cd64ded2c2f1bf",
+          "size": 1654
+        },
+        {
+          "path": "src/build-brain.ts",
+          "sha": "2a87eec917f63c1d44a08caeda264b9460fe46d6",
+          "size": 396
+        },
+        {
+          "path": "src/install-brain.ts",
+          "sha": "3aa85091c3af3f8861c85ca8694ef4e7ca9603d5",
+          "size": 150
+        },
+        {
+          "path": "src/motion-audit.ts",
+          "sha": "b64d52dae6b0cf382a0afccc4445928406f1b722",
+          "size": 14969
+        },
+        {
+          "path": "tests/installation.test.mjs",
+          "sha": "f99db722c57be7ee46c8ebcd35790a0e2df1cfb1",
+          "size": 6622
+        },
+        {
+          "path": "tsconfig.json",
+          "sha": "71acd3794526b7a163b0add0e3534a57402a7ad1",
+          "size": 244
+        }
+      ]
+    }
+  ]
+}

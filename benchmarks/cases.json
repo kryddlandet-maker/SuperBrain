@@ -1,0 +1,8 @@
+[
+ {"id":"salon-editorial","brief":"Build a warm, clean multi-page salon site using the supplied real services, prices, team and portraits. Services, team and booking must have actual URLs. Recommend a direction and begin. Keep mobile booking usable.","focus":["type","business fit","routes","mobile"]},
+ {"id":"builder-projects","brief":"Build a construction firm site from the supplied service area, project photos and process. Include project detail and a working test-only quote destination. Clean visual continuity without repetitive boxed sections.","focus":["continuity","project navigation","form truth"]},
+ {"id":"tech-interactive","brief":"Build a multi-page tech product marketing site inspired by Huly's interaction quality. Create an original cursor reveal, light-following CTA and bubble scene. Include product and pricing routes, complete touch and reduced-motion versions.","focus":["creative freedom","pointer","touch","motion fallback"]},
+ {"id":"quiet-content-rich","brief":"Build a content-rich service company site that feels clean without removing content. Use strong hierarchy, connected sections and distinct inner-page layouts. No need for spectacular motion.","focus":["reading","rhythm","clean without empty"]},
+ {"id":"one-page-explicit","brief":"Build one short one-page event campaign because that is the requested scope. Use a single conversion action and supplied verified facts.","focus":["user scope","default exception"]},
+ {"id":"bounded-fix","brief":"Fix keyboard focus visibility on this existing expressive website. Preserve the current layout, typography and route map.","focus":["scope preservation","no forced planning overhead"]}
+]
