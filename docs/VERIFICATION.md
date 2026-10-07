@@ -29,4 +29,14 @@ Mobiltestet använde begärd viewport 390×844; scrollbar/in-app-rendering rappo
 - Demona har avsiktligt abstrakta originalillustrationer och tydliga demouppgifter. De tar inga verkliga bokningar/offertförfrågningar.
 - Ingen jämförande AI-generation med tidigare hjärnor har körts. Benchmarkprotokollet finns, men designöverlägsenhet är inte bevisad.
 
-GitHub-publicering och lokal checkout verifieras separat mot det faktiska publicerade committrädet. De tre källhjärnorna har inte ändrats.
+## Publicering och lokal leverans
+
+55 källfiler publicerades på GitHub `kryddlandet-maker/SuperBrain`, med huvudsaklig implementation i commit `b860a9df66706558823d90f0a9a25f65fbeff68f`. Remote-filerna hämtades igen och inventerades. Den lokala indexträdhashen var `d95c3eeb8b1457bba551e9740d15bd8853e1b887`, samma som det publicerade implementationsträdet.
+
+Alla källfiler finns i `C:/Users/krydd/Desktop/SuperBrain`; tester och validerare kördes där med godkänt resultat. `resources` innehåller ett originalarkiv och förhandsbilder som lokal komplettering.
+
+Den lokala Git-checkouten är ofullständig: Git kunde initialiseras och indexera filerna, men Windows sandbox-ACL nekade senare skrivning av commitobjekt och Git-konfiguration, även efter separat beviljad `.git`-åtkomst. Lokala filer och verktyg fungerar, men den mappen ska inte beskrivas som en fullt synkad clone. Fortsatt Git-arbete kräver en normal kloning eller reparation utanför den här begränsningen. GitHub-repot är den verifierade canonical-versionen.
+
+Skill-creators separata Python-validator kunde inte köras klart eftersom `PyYAML` saknades och beroendeinstallationen inte slutfördes. SuperBrains egen Node-validator kontrollerade frontmatter, namn, ingångens storlek, samtliga referenser och länkar. Detta är filstrukturvalidering, inte modellevaluering.
+
+De tre källhjärnorna har inte ändrats.
