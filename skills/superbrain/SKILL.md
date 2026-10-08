@@ -33,6 +33,8 @@ Read [references/motion.md](references/motion.md) for animation, [references/int
 
 Preserve native scrolling by default. Keep primary actions available. Give touch, keyboard, reduced-motion and no-JavaScript users a complete usable experience; a hover reveal must never carry essential hidden information. Read [references/accessibility.md](references/accessibility.md) for those adaptations.
 
+For choosing compatible techniques, read [references/effect-selection.md](references/effect-selection.md), which routes to materials, type motion, product stories, galleries/commerce and advanced graphics. For portfolios, restaurants or shops read [references/site-archetypes.md](references/site-archetypes.md). Use detailed families selectively; a larger library should expand options without inflating every brief.
+
 ## Judge what was built
 
 Run it. Inspect representative desktop and mobile routes, interactions, focus, reduced motion and navigation. Review against the brief and chosen direction, not against a single universal style. Fix the highest-impact defects first. Read [references/review.md](references/review.md).

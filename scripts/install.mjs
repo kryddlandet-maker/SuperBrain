@@ -26,7 +26,7 @@ export async function install(targetArg) {
     }
     return files.sort();
   }
-  const mapping=[['skills/superbrain','.agents/skills/superbrain'],['examples/shared','.superbrain/examples/shared'],['lib','.superbrain/lib']];
+  const mapping=[['skills/superbrain','.agents/skills/superbrain'],['examples/shared','.superbrain/examples/shared'],['lib','.superbrain/lib'],['docs','.superbrain/docs'],['data','.superbrain/data']];
   const files=[];
   for(const [from,to] of mapping) for(const rel of await walk(path.join(root,from))) {
     const content=await readFile(path.join(root,from,rel),'utf8');

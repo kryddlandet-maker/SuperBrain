@@ -49,3 +49,11 @@ Kodtester bevisar verktygens beteende; de bevisar inte AI:ns designförmåga. L�
 ## Effektbibliotek 1.1
 
 Fyra utvecklade tekniker finns i [effektlabbet](examples/effects/index.html): mjuk pekar-reveal, ljusknappar med klickrespons, en sammanhängande scrollscen och bildövergång mellan riktiga sidor. Två känslor kan provas: mjuk/elegant och precis/futuristisk. [Integrationsguide](docs/EFFECTS.md) beskriver återanvändning, mobilversioner och rörelsepreferenser.
+
+## Designresearch och kollektion 1.2
+
+[Designresearch](docs/DESIGN-RESEARCH.md) och [teknikatlas](docs/TECHNIQUES.md) kartlägger 54 tekniker från 28 primärkällor, originaltutorials och demos. Atlasen skiljer lokala exempel från integrationsråd och framtida prototyper. [Visuell granskning](docs/VISUAL-AUDIT.md) beskriver vad som faktiskt observerats och justerats.
+
+Öppna `/examples/collection/` i studion: eget WebGL-ljusfält, produktsteg, pekardjup, radentré, SVG-linje, bildmask, jämförelse, filtrerat galleri, bildzoom, produktserie och färgval. Alla illustrationer är originalmaterial och exemplen är fiktiva. 3D, fluid simulation, Rive och Lottie ingår som kunskap och integrationsvägar, inte som färdigtestade lokala komponenter.
+
+Briefbyggaren stöder nu även portfolio, webbshop och restaurang. Valfria teknikfamiljer lägger bara till relevant fördjupning. Fördjupningarna är inte en obligatorisk effektlista.

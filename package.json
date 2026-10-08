@@ -1,5 +1,5 @@
 {
-  "name": "superbrain-design", "version": "1.1.0", "private": true, "type": "module",
+  "name": "superbrain-design", "version": "1.2.0", "private": true, "type": "module",
   "description": "A modular design skill, project brief compiler and interactive multi-page motion laboratory.",
   "engines": {"node": ">=22"},
   "scripts": {"test": "node tests/run.mjs", "validate": "node scripts/validate.mjs", "studio": "node scripts/serve.mjs", "brief": "node scripts/brief.mjs", "install:brain": "node scripts/install.mjs"}

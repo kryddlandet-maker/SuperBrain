@@ -1,0 +1,32 @@
+import test from 'node:test';import assert from 'node:assert/strict';
+import {initCreative,depthCoordinates,comparisonValue} from '../examples/shared/creative.js';
+import {initAtmosphere,canvasSize} from '../examples/shared/atmosphere.js';
+class Target{
+ listeners=new Map();attributes=new Map();values=new Map();dataset={};hidden=false;
+ style={setProperty:(k,v)=>this.values.set(k,v),removeProperty:k=>this.values.delete(k)};
+ addEventListener(n,f){if(!this.listeners.has(n))this.listeners.set(n,new Set());this.listeners.get(n).add(f);}
+ removeEventListener(n,f){this.listeners.get(n)?.delete(f);}fire(n,e={}){for(const f of this.listeners.get(n)||[])f(e);}
+ setAttribute(n,v){this.attributes.set(n,v);}removeAttribute(n){this.attributes.delete(n);}getAttribute(n){return this.attributes.get(n);}
+ getBoundingClientRect(){return {left:10,top:20,width:400,height:200};}querySelectorAll(){return [];}
+}
+function env(){const keys=['window','document','matchMedia','requestAnimationFrame','cancelAnimationFrame','IntersectionObserver'];const previous=Object.fromEntries(keys.map(k=>[k,globalThis[k]]));const doc=new Target(),win=new Target(),reduced=new Target(),fine=new Target();fine.matches=true;reduced.matches=false;win.devicePixelRatio=2;const frames=new Map();let id=0;Object.assign(globalThis,{document:doc,window:win,matchMedia:q=>q.includes('reduced')?reduced:fine,requestAnimationFrame:f=>{frames.set(++id,f);return id;},cancelAnimationFrame:id=>frames.delete(id),IntersectionObserver:undefined});return {doc,win,reduced,fine,frames,tick:t=>{const callbacks=[...frames.values()];frames.clear();callbacks.forEach(f=>f(t));},restore:()=>Object.assign(globalThis,previous)};}
+test('depth is bounded, coalesces input and resets on preference/visibility and disposal',()=>{
+ const e=env(),owner=new Target();try{const dispose=initCreative({querySelectorAll:s=>s==='[data-depth]'?[owner]:[]});owner.fire('pointermove',{clientX:900,clientY:-10});owner.fire('pointermove',{clientX:900,clientY:-10});assert.equal(e.frames.size,1);e.tick(16);assert.equal(owner.values.get('--depth-x'),'6deg');assert.equal(owner.values.get('--depth-y'),'6deg');e.reduced.matches=true;e.reduced.fire('change');assert.equal(owner.values.size,0);owner.fire('pointermove',{clientX:200,clientY:100});assert.equal(e.frames.size,0);dispose();assert.equal(owner.listeners.get('pointermove').size,0);assert.deepEqual(depthCoordinates(210,120,owner.getBoundingClientRect()),{x:0,y:0});}finally{e.restore();}
+});
+test('comparison and product state still work with motion disabled, and teardown removes actions',()=>{
+ const e=env(),compare=new Target(),range=new Target(),output=new Target(),product=new Target(),board=new Target(),status=new Target(),first=new Target(),second=new Target();
+ range.value='50';compare.querySelector=s=>s==='output'?output:range;first.dataset={productStep:'plan',description:'Planning'};second.dataset={productStep:'finish',description:'Finished'};product.querySelectorAll=()=>[first,second];product.querySelector=s=>s==='.product-board'?board:status;board.animate=()=>{throw Error('Disabled animation should not play');};
+ try{const dispose=initCreative({querySelectorAll:s=>s==='[data-compare]'?[compare]:s==='[data-product-demo]'?[product]:[]},{reducedMotion:true});range.value='100';range.fire('input');assert.equal(compare.values.get('--comparison'),'100%');assert.equal(output.textContent,'100%');second.fire('click');assert.equal(product.getAttribute('data-state'),'finish');assert.equal(first.getAttribute('aria-pressed'),'false');assert.equal(status.textContent,'Finished');dispose();second.fire('click');assert.equal(second.listeners.get('click').size,0);assert.equal(comparisonValue('bad'),50);assert.equal(comparisonValue(500),100);}finally{e.restore();}
+});
+test('rapid gallery filtering cancels previous animation and leaves correct visible cards',()=>{
+ const e=env(),gallery=new Target(),all=new Target(),objects=new Target(),status=new Target(),a=new Target(),b=new Target();all.dataset.filter='all';objects.dataset.filter='object';a.dataset.category='space';b.dataset.category='object';let canceled=0,played=0;b.animate=a.animate=()=>{played++;return {cancel:()=>canceled++};};gallery.querySelectorAll=s=>s==='[data-filter]'?[all,objects]:[a,b];gallery.querySelector=()=>status;
+ try{const dispose=initCreative({querySelectorAll:s=>s==='[data-filter-gallery]'?[gallery]:[]});objects.fire('click');assert(a.hidden);assert(!b.hidden);all.fire('click');assert(!a.hidden);assert(!b.hidden);assert.equal(status.textContent,'2 studier visas.');assert(canceled>0);assert(played>0);dispose();assert.equal(objects.listeners.get('click').size,0);}finally{e.restore();}
+});
+test('canvas resolution is bounded and unsupported graphics leave the static fallback',()=>{
+ const [w,h]=canvasSize(3000,2000,3);assert(w*h<=902000);assert(w>=1&&h>=1);const canvas=new Target(),button=new Target();canvas.getContext=()=>null;const dispose=initAtmosphere(canvas,button);assert(button.hidden);assert(!canvas.attributes.has('data-renderer'));dispose();
+});
+test('GPU study renders on demand, stops playback on visibility, and releases owned resources',()=>{
+ const e=env(),canvas=new Target(),button=new Target(),surface=new Target();canvas.parentElement=surface;let draws=0,released=0;
+ const gl={VERTEX_SHADER:1,FRAGMENT_SHADER:2,COMPILE_STATUS:3,LINK_STATUS:4,ARRAY_BUFFER:5,STATIC_DRAW:6,FLOAT:7,TRIANGLES:8};for(const name of ['createShader','createProgram','createBuffer'])gl[name]=()=>({});for(const name of ['shaderSource','compileShader','attachShader','linkProgram','useProgram','bindBuffer','bufferData','enableVertexAttribArray','vertexAttribPointer','viewport','uniform2f','uniform1f'])gl[name]=()=>{};gl.getShaderParameter=gl.getProgramParameter=()=>true;gl.getAttribLocation=()=>0;gl.getUniformLocation=()=>({});gl.drawArrays=()=>draws++;for(const name of ['deleteBuffer','deleteProgram','deleteShader'])gl[name]=()=>released++;canvas.getContext=()=>gl;
+ try{const dispose=initAtmosphere(canvas,button);e.tick(16);assert.equal(draws,1);assert.equal(e.frames.size,0);button.fire('click');e.tick(32);assert.equal(e.frames.size,1);e.doc.hidden=true;e.doc.fire('visibilitychange');assert.equal(e.frames.size,0);assert.equal(button.getAttribute('aria-pressed'),'false');dispose();dispose();assert.equal(released,4);assert.equal(canvas.listeners.get('webglcontextlost').size,0);assert(!canvas.attributes.has('data-renderer'));}finally{e.restore();}
+});

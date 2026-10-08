@@ -45,3 +45,8 @@ De tre källhjärnorna har inte ändrats.
 ## Version 1.1
 
 Se [verifiering av effektbiblioteket](EFFECTS-VERIFICATION.md) för de fyra nya effekterna, 10 passerande tester och 211 strukturkontroller.
+# Version 1.2 — 2026-10-08
+
+`npm test`: 16 tests passed. `npm run validate`: 384 skill, brief, page and local-link invariants passed. Installer coverage includes copying research and the 54-entry data catalogue while preserving project instructions and refusing locally modified managed files. Server coverage includes the new collection and atlas routes.
+
+Browser review and its limits are recorded in [VISUAL-AUDIT.md](VISUAL-AUDIT.md). The new collection was inspected in desktop and 390 px layouts; filter, comparison, product steps, still preview, shader rendering and swatch state were exercised. Studio produced an ecommerce brief with image-family knowledge and without the advanced graphics chapter. Atlas search and local-evidence filtering were exercised. No broad performance certification or claim that every researched effect was visually tested is made.

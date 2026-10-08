@@ -1,0 +1,942 @@
+{
+  "schema": 1,
+  "version": "1.2.0",
+  "date": "2026-10-08",
+  "sources": [
+    {
+      "id": "huly",
+      "title": "Huly",
+      "url": "https://huly.io/",
+      "kind": "reference",
+      "evidence": "hero, pointer discovery and product continuity inspected",
+      "accessed": "2026-10-08"
+    },
+    {
+      "id": "codrops-image",
+      "title": "Codrops: Gooey Image Hover",
+      "url": "https://tympanus.net/codrops/2019/10/23/making-gooey-image-hover-effects-with-three-js/",
+      "kind": "original tutorial",
+      "evidence": "linked demo inspected: reveal intermediate state",
+      "accessed": "2026-10-08"
+    },
+    {
+      "id": "codrops-type",
+      "title": "Codrops: On-Scroll Typography Set 2",
+      "url": "https://tympanus.net/Development/OnScrollTypographyAnimations/index2.html",
+      "kind": "demo",
+      "evidence": "composition inspected; scroll sequence not fully verified",
+      "accessed": "2026-10-08"
+    },
+    {
+      "id": "webgl",
+      "title": "MDN: WebGL drawing",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API/Tutorial/Adding_2D_content_to_a_WebGL_context",
+      "kind": "documentation",
+      "evidence": "read",
+      "accessed": "2026-10-08"
+    },
+    {
+      "id": "three",
+      "title": "Three.js responsive rendering",
+      "url": "https://threejs.org/manual/pages/responsive.html",
+      "kind": "documentation",
+      "evidence": "read",
+      "accessed": "2026-10-08"
+    },
+    {
+      "id": "model",
+      "title": "model-viewer",
+      "url": "https://modelviewer.dev/",
+      "kind": "documentation/demo",
+      "evidence": "rendered product model inspected",
+      "accessed": "2026-10-08"
+    },
+    {
+      "id": "rive",
+      "title": "Rive runtime feature support",
+      "url": "https://github.com/rive-app/rive-docs/blob/main/feature-support.mdx",
+      "kind": "documentation",
+      "evidence": "read",
+      "accessed": "2026-10-08"
+    },
+    {
+      "id": "lottie",
+      "title": "Lottie web",
+      "url": "https://github.com/airbnb/lottie-web",
+      "kind": "documentation",
+      "evidence": "read",
+      "accessed": "2026-10-08"
+    },
+    {
+      "id": "gsap-scroll",
+      "title": "GSAP ScrollTrigger",
+      "url": "https://gsap.com/docs/v3/Plugins/ScrollTrigger/",
+      "kind": "documentation",
+      "evidence": "read",
+      "accessed": "2026-10-08"
+    },
+    {
+      "id": "gsap-split",
+      "title": "GSAP SplitText",
+      "url": "https://gsap.com/docs/v3/Plugins/SplitText/",
+      "kind": "documentation",
+      "evidence": "read",
+      "accessed": "2026-10-08"
+    },
+    {
+      "id": "gsap-morph",
+      "title": "GSAP MorphSVG",
+      "url": "https://gsap.com/docs/v3/Plugins/MorphSVGPlugin/",
+      "kind": "documentation",
+      "evidence": "read",
+      "accessed": "2026-10-08"
+    },
+    {
+      "id": "motion",
+      "title": "Motion layout animation",
+      "url": "https://motion.dev/docs/react-layout-animations",
+      "kind": "documentation",
+      "evidence": "read",
+      "accessed": "2026-10-08"
+    },
+    {
+      "id": "timeline",
+      "title": "MDN scroll-driven animation",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Scroll-driven_animations",
+      "kind": "documentation",
+      "evidence": "read",
+      "accessed": "2026-10-08"
+    },
+    {
+      "id": "clip",
+      "title": "MDN clip-path",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/clip-path",
+      "kind": "documentation",
+      "evidence": "read",
+      "accessed": "2026-10-08"
+    },
+    {
+      "id": "displace",
+      "title": "MDN SVG displacement",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Reference/Element/feDisplacementMap",
+      "kind": "documentation",
+      "evidence": "read",
+      "accessed": "2026-10-08"
+    },
+    {
+      "id": "variable",
+      "title": "MDN variable font settings",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/font-variation-settings",
+      "kind": "documentation",
+      "evidence": "read",
+      "accessed": "2026-10-08"
+    },
+    {
+      "id": "shapes",
+      "title": "MDN CSS shapes",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Shapes",
+      "kind": "documentation",
+      "evidence": "read",
+      "accessed": "2026-10-08"
+    },
+    {
+      "id": "container",
+      "title": "MDN container queries",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Containment/Container_queries",
+      "kind": "documentation",
+      "evidence": "read",
+      "accessed": "2026-10-08"
+    },
+    {
+      "id": "subgrid",
+      "title": "MDN subgrid",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Grid_layout/Subgrid",
+      "kind": "documentation",
+      "evidence": "read",
+      "accessed": "2026-10-08"
+    },
+    {
+      "id": "snap",
+      "title": "MDN scroll snap",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/scroll-snap-type",
+      "kind": "documentation",
+      "evidence": "read",
+      "accessed": "2026-10-08"
+    },
+    {
+      "id": "dialog",
+      "title": "MDN dialog",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/dialog",
+      "kind": "documentation",
+      "evidence": "read",
+      "accessed": "2026-10-08"
+    },
+    {
+      "id": "tabs",
+      "title": "WAI APG tabs",
+      "url": "https://www.w3.org/WAI/ARIA/apg/patterns/tabs/",
+      "kind": "documentation",
+      "evidence": "read",
+      "accessed": "2026-10-08"
+    },
+    {
+      "id": "performance",
+      "title": "web.dev animation performance",
+      "url": "https://web.dev/articles/animations-guide",
+      "kind": "documentation",
+      "evidence": "read",
+      "accessed": "2026-10-08"
+    },
+    {
+      "id": "reduce",
+      "title": "W3C animation from interactions",
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/animation-from-interactions.html",
+      "kind": "standard explanation",
+      "evidence": "read; criterion AAA",
+      "accessed": "2026-10-08"
+    },
+    {
+      "id": "pause",
+      "title": "W3C pause/stop/hide",
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/pause-stop-hide.html",
+      "kind": "standard explanation",
+      "evidence": "read; criterion A",
+      "accessed": "2026-10-08"
+    },
+    {
+      "id": "transition",
+      "title": "MDN View Transitions",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/API/View_Transition_API/Using",
+      "kind": "documentation",
+      "evidence": "read in 1.1 research",
+      "accessed": "2026-10-08"
+    },
+    {
+      "id": "crossdoc",
+      "title": "Chrome cross-document transitions",
+      "url": "https://developer.chrome.com/docs/web-platform/view-transitions/cross-document",
+      "kind": "documentation",
+      "evidence": "read in 1.1 research",
+      "accessed": "2026-10-08"
+    },
+    {
+      "id": "observer",
+      "title": "MDN Intersection Observer",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API",
+      "kind": "documentation",
+      "evidence": "read in 1.1 research",
+      "accessed": "2026-10-08"
+    }
+  ],
+  "techniques": [
+    {
+      "id": "T01",
+      "name": "Pekar-reveal",
+      "family": "materials",
+      "role": "Upptäckt i bakgrund",
+      "implementation": "CSS mask + lokala koordinater",
+      "fit": "tech, portfolio",
+      "status": "local-1.1",
+      "sourceIds": [
+        "huly",
+        "clip"
+      ],
+      "pitfall": "Maskera inte viktig information"
+    },
+    {
+      "id": "T02",
+      "name": "Ljusföljande CTA",
+      "family": "materials",
+      "role": "Taktil respons",
+      "implementation": "Clipped gradient + pointer",
+      "fit": "alla efter varumärke",
+      "status": "local-1.1",
+      "sourceIds": [
+        "huly"
+      ],
+      "pitfall": "Stabil klickyta och fokus"
+    },
+    {
+      "id": "T03",
+      "name": "Klickvåg",
+      "family": "materials",
+      "role": "Bekräfta input",
+      "implementation": "Web Animations",
+      "fit": "knappar",
+      "status": "local-1.1",
+      "sourceIds": [
+        "performance"
+      ],
+      "pitfall": "Våg betyder inte lyckad inskickning"
+    },
+    {
+      "id": "T04",
+      "name": "Orbital bubbelvy",
+      "family": "graphics",
+      "role": "Visa ett samlat system",
+      "implementation": "CSS transform-lager",
+      "fit": "tech",
+      "status": "local-1.1",
+      "sourceIds": [
+        "performance"
+      ],
+      "pitfall": "Kort loop eller explicit kontroll"
+    },
+    {
+      "id": "T05",
+      "name": "Sammanhängande scrollscen",
+      "family": "product",
+      "role": "Fortsätta ett visuellt subjekt",
+      "implementation": "Sticky + observer + progress",
+      "fit": "tech, process",
+      "status": "local-1.1",
+      "sourceIds": [
+        "gsap-scroll",
+        "observer"
+      ],
+      "pitfall": "Mobil behöver egen komposition"
+    },
+    {
+      "id": "T06",
+      "name": "Delad bild mellan dokument",
+      "family": "images",
+      "role": "Kontinuitet in i detalj",
+      "implementation": "View Transitions",
+      "fit": "portfolio, projekt",
+      "status": "local-1.1",
+      "sourceIds": [
+        "transition",
+        "crossdoc"
+      ],
+      "pitfall": "Unikt namn och vanlig navigation"
+    },
+    {
+      "id": "T07",
+      "name": "Proceduralt ljusfält",
+      "family": "graphics",
+      "role": "Egen atmosfär",
+      "implementation": "WebGL fragment shader",
+      "fit": "tech, produkt",
+      "status": "local-1.2",
+      "sourceIds": [
+        "webgl"
+      ],
+      "pitfall": "Skydda läsytan och ha reservvy"
+    },
+    {
+      "id": "T08",
+      "name": "Pekardjup / tilt",
+      "family": "materials",
+      "role": "Taktildjup",
+      "implementation": "CSS perspective + inre transform",
+      "fit": "produkt, portfolio",
+      "status": "local-1.2",
+      "sourceIds": [
+        "performance"
+      ],
+      "pitfall": "Flytta inte klickmålet"
+    },
+    {
+      "id": "T09",
+      "name": "Produktberättelse i steg",
+      "family": "product",
+      "role": "Förklara relationer",
+      "implementation": "DOM state + finite animation",
+      "fit": "SaaS, tjänst",
+      "status": "local-1.2",
+      "sourceIds": [
+        "tabs",
+        "huly"
+      ],
+      "pitfall": "Använd verifierade funktioner"
+    },
+    {
+      "id": "T10",
+      "name": "SVG-linje som ritas",
+      "family": "product",
+      "role": "Visa koppling",
+      "implementation": "pathLength + dashoffset",
+      "fit": "process, diagram",
+      "status": "local-1.2",
+      "sourceIds": [
+        "gsap-morph"
+      ],
+      "pitfall": "Diagrammet ska finnas utan JS"
+    },
+    {
+      "id": "T11",
+      "name": "Radvis typografisk entré",
+      "family": "type",
+      "role": "Sätta rytm",
+      "implementation": "Observer + Web Animations",
+      "fit": "editorial, varumärke",
+      "status": "local-1.2",
+      "sourceIds": [
+        "gsap-split"
+      ],
+      "pitfall": "Bevara textens semantik"
+    },
+    {
+      "id": "T12",
+      "name": "Bildmask vid entré",
+      "family": "images",
+      "role": "Introducera motiv",
+      "implementation": "Clip-path",
+      "fit": "portfolio, salong",
+      "status": "local-1.2",
+      "sourceIds": [
+        "clip"
+      ],
+      "pitfall": "Settled state måste visa motivet"
+    },
+    {
+      "id": "T13",
+      "name": "Bildjämförelse",
+      "family": "images",
+      "role": "Bedöma två tillstånd",
+      "implementation": "Native range + clip overlay",
+      "fit": "bygg, salong, produkter",
+      "status": "local-1.2",
+      "sourceIds": [
+        "clip"
+      ],
+      "pitfall": "Demo visar färgtolkning, inte verkligt resultat"
+    },
+    {
+      "id": "T14",
+      "name": "Filtrerat galleri med FLIP",
+      "family": "images",
+      "role": "Hitta rätt projekt",
+      "implementation": "DOM filter + före/efter-transform",
+      "fit": "portfolio, katalog",
+      "status": "local-1.2",
+      "sourceIds": [
+        "motion"
+      ],
+      "pitfall": "Hantera snabb upprepad input"
+    },
+    {
+      "id": "T15",
+      "name": "Försiktig bildzoom",
+      "family": "images",
+      "role": "Peka ut interaktiv bild",
+      "implementation": "Transform inom crop",
+      "fit": "portfolio, shop",
+      "status": "local-1.2",
+      "sourceIds": [
+        "performance"
+      ],
+      "pitfall": "Bevara caption och fokus"
+    },
+    {
+      "id": "T16",
+      "name": "Horisontell produktserie",
+      "family": "images",
+      "role": "Utforska fler objekt",
+      "implementation": "Native scroll snap proximity",
+      "fit": "shop, portfolio",
+      "status": "local-1.2",
+      "sourceIds": [
+        "snap"
+      ],
+      "pitfall": "Kap inte vertikal scroll"
+    },
+    {
+      "id": "T17",
+      "name": "Material-/färgval",
+      "family": "images",
+      "role": "Inspektera variant",
+      "implementation": "Labeled buttons + selected state",
+      "fit": "shop, produkt",
+      "status": "local-1.2",
+      "sourceIds": [
+        "tabs"
+      ],
+      "pitfall": "Koppla verklig variantlogik i kundprojekt"
+    },
+    {
+      "id": "T18",
+      "name": "Mesh-liknande gradient",
+      "family": "materials",
+      "role": "Mjukt färgrum",
+      "implementation": "CSS layered gradients / shader",
+      "fit": "tech, kultur",
+      "status": "recipe",
+      "sourceIds": [
+        "webgl"
+      ],
+      "pitfall": "Komposition framför slumpmässiga blobbar"
+    },
+    {
+      "id": "T19",
+      "name": "Fin grain / dithering",
+      "family": "materials",
+      "role": "Material och bandningskontroll",
+      "implementation": "Small noise texture / shader",
+      "fit": "editorial, tech",
+      "status": "recipe",
+      "sourceIds": [
+        "webgl"
+      ],
+      "pitfall": "Inspektera textkontrast"
+    },
+    {
+      "id": "T20",
+      "name": "Ljusstråk / bloom",
+      "family": "materials",
+      "role": "Stark visuell accent",
+      "implementation": "Pre-render / shader / layered glow",
+      "fit": "tech",
+      "status": "recipe",
+      "sourceIds": [
+        "webgl"
+      ],
+      "pitfall": "Undvik stora dyra blur-lager"
+    },
+    {
+      "id": "T21",
+      "name": "Glas och genomskinliga ytor",
+      "family": "materials",
+      "role": "Lagerhierarki",
+      "implementation": "Alpha surface + optional backdrop filter",
+      "fit": "produkt UI",
+      "status": "recipe",
+      "sourceIds": [
+        "performance"
+      ],
+      "pitfall": "Kontrast på alla underlag"
+    },
+    {
+      "id": "T22",
+      "name": "Material som fortsätter mellan sektioner",
+      "family": "layout",
+      "role": "Minska visuella snitt",
+      "implementation": "Shared background + anchor motif",
+      "fit": "alla",
+      "status": "recipe",
+      "sourceIds": [
+        "huly"
+      ],
+      "pitfall": "Semantiska rubriker kvar"
+    },
+    {
+      "id": "T23",
+      "name": "Bunden scroll-parallax",
+      "family": "materials",
+      "role": "Djup mellan lager",
+      "implementation": "Scroll progress + transforms",
+      "fit": "portfolio, arkitektur",
+      "status": "recipe",
+      "sourceIds": [
+        "timeline",
+        "gsap-scroll"
+      ],
+      "pitfall": "Begränsa amplitud, stilla mobil"
+    },
+    {
+      "id": "T24",
+      "name": "SVG form-morph",
+      "family": "product",
+      "role": "Visa förändring",
+      "implementation": "Compatible paths / MorphSVG",
+      "fit": "varumärke, process",
+      "status": "recipe",
+      "sourceIds": [
+        "gsap-morph"
+      ],
+      "pitfall": "Alla path-par är inte kompatibla"
+    },
+    {
+      "id": "T25",
+      "name": "Gooey bild-reveal",
+      "family": "graphics",
+      "role": "Visuell upptäckt",
+      "implementation": "Texture shader + noise",
+      "fit": "kreativ portfolio",
+      "status": "external-seen",
+      "sourceIds": [
+        "codrops-image"
+      ],
+      "pitfall": "Behåll identifierbart motiv och stillvy"
+    },
+    {
+      "id": "T26",
+      "name": "Bildrefraction / displacement",
+      "family": "graphics",
+      "role": "Materialförvrängning",
+      "implementation": "WebGL textures or SVG filter",
+      "fit": "kultur, experiment",
+      "status": "recipe",
+      "sourceIds": [
+        "codrops-image",
+        "displace"
+      ],
+      "pitfall": "Profilera storlek och förvräng inte produktdetalj"
+    },
+    {
+      "id": "T27",
+      "name": "Fluid / flow-map",
+      "family": "graphics",
+      "role": "Flytande pekarspår",
+      "implementation": "GPU simulation/render targets",
+      "fit": "experimentell hero",
+      "status": "research",
+      "sourceIds": [
+        "webgl",
+        "three"
+      ],
+      "pitfall": "Separat mätning och statisk reservvy behövs"
+    },
+    {
+      "id": "T28",
+      "name": "Partikelfält",
+      "family": "graphics",
+      "role": "Rymd och rörelsesamband",
+      "implementation": "Canvas2D / GPU particles",
+      "fit": "tech, kultur",
+      "status": "recipe",
+      "sourceIds": [
+        "webgl"
+      ],
+      "pitfall": "Bunden mängd och livslängd"
+    },
+    {
+      "id": "T29",
+      "name": "Kort pekartrail",
+      "family": "graphics",
+      "role": "Lekfull gest",
+      "implementation": "Canvas2D pooled particles",
+      "fit": "portfolio",
+      "status": "recipe",
+      "sourceIds": [
+        "performance"
+      ],
+      "pitfall": "Dekorativt, inte ersätta systempekare"
+    },
+    {
+      "id": "T30",
+      "name": "Riktig 3D-produkt",
+      "family": "graphics",
+      "role": "Inspektera form",
+      "implementation": "model-viewer / Three.js",
+      "fit": "produkt, webbshop",
+      "status": "external-seen",
+      "sourceIds": [
+        "model"
+      ],
+      "pitfall": "Kräver optimerad modell och stillbild"
+    },
+    {
+      "id": "T31",
+      "name": "Bespoke 3D-hero",
+      "family": "graphics",
+      "role": "Egen scen",
+      "implementation": "Three.js/OGL scene",
+      "fit": "tech, produkt",
+      "status": "recipe",
+      "sourceIds": [
+        "three"
+      ],
+      "pitfall": "Ljus, kamera och material måste designas"
+    },
+    {
+      "id": "T32",
+      "name": "3D-hotspots / annotationer",
+      "family": "graphics",
+      "role": "Förklara detaljer",
+      "implementation": "DOM overlay + projected positions",
+      "fit": "produkt",
+      "status": "recipe",
+      "sourceIds": [
+        "model"
+      ],
+      "pitfall": "Text och kontroll kvar i DOM"
+    },
+    {
+      "id": "T33",
+      "name": "AR-produktförhandsvisning",
+      "family": "graphics",
+      "role": "Bedöma objekt i rum",
+      "implementation": "model-viewer + supported AR mode",
+      "fit": "produkt",
+      "status": "research",
+      "sourceIds": [
+        "model"
+      ],
+      "pitfall": "Enhetsstöd och fysisk test återstår"
+    },
+    {
+      "id": "T34",
+      "name": "Rive tillståndsmaskin",
+      "family": "graphics",
+      "role": "Authored interaktion",
+      "implementation": "Rive runtime + .riv",
+      "fit": "produkt, illustration",
+      "status": "recipe",
+      "sourceIds": [
+        "rive"
+      ],
+      "pitfall": "Kräver riktig authored asset"
+    },
+    {
+      "id": "T35",
+      "name": "Lottie vektorsekvens",
+      "family": "graphics",
+      "role": "Authored motion",
+      "implementation": "Lottie runtime + export",
+      "fit": "illustration, onboarding",
+      "status": "recipe",
+      "sourceIds": [
+        "lottie"
+      ],
+      "pitfall": "Kontrollera featurestöd och städa runtime"
+    },
+    {
+      "id": "T36",
+      "name": "Scrollstyrd videosekvens",
+      "family": "product",
+      "role": "Visa utveckling",
+      "implementation": "Video seeking + scroll",
+      "fit": "produkt, process",
+      "status": "recipe",
+      "sourceIds": [
+        "gsap-scroll"
+      ],
+      "pitfall": "Mät seeking och behåll poster"
+    },
+    {
+      "id": "T37",
+      "name": "Bildsekvens på canvas",
+      "family": "product",
+      "role": "Exakt frame-kontroll",
+      "implementation": "Decoded frame sequence",
+      "fit": "produkt",
+      "status": "recipe",
+      "sourceIds": [
+        "webgl"
+      ],
+      "pitfall": "Minnes-/överföringsbudget krävs"
+    },
+    {
+      "id": "T38",
+      "name": "CSS scroll/view timeline",
+      "family": "product",
+      "role": "Progressiv native rörelse",
+      "implementation": "animation-timeline + feature detect",
+      "fit": "reveal, process",
+      "status": "recipe",
+      "sourceIds": [
+        "timeline"
+      ],
+      "pitfall": "Kontrollera målwebbläsarnas stöd"
+    },
+    {
+      "id": "T39",
+      "name": "Delad layout inom app",
+      "family": "layout",
+      "role": "Behålla objektidentitet",
+      "implementation": "Motion layout/layoutId",
+      "fit": "React UI",
+      "status": "recipe",
+      "sourceIds": [
+        "motion"
+      ],
+      "pitfall": "En transform-ägare, undvik dubbel motor"
+    },
+    {
+      "id": "T40",
+      "name": "Expanderande innehåll",
+      "family": "layout",
+      "role": "Visa detalj på plats",
+      "implementation": "details / accordion + layout animation",
+      "fit": "FAQ, information",
+      "status": "recipe",
+      "sourceIds": [
+        "motion"
+      ],
+      "pitfall": "Korrekt semantik och fokus"
+    },
+    {
+      "id": "T41",
+      "name": "Dialog / lightbox",
+      "family": "images",
+      "role": "Inspektera större bild",
+      "implementation": "Native dialog",
+      "fit": "gallerier",
+      "status": "recipe",
+      "sourceIds": [
+        "dialog"
+      ],
+      "pitfall": "Escape, fokusretur och alttext"
+    },
+    {
+      "id": "T42",
+      "name": "Responsivt textsplit",
+      "family": "type",
+      "role": "Kinetisk rubrik",
+      "implementation": "SplitText autoSplit",
+      "fit": "kampanj, portfolio",
+      "status": "recipe",
+      "sourceIds": [
+        "gsap-split"
+      ],
+      "pitfall": "Revert/resplit efter font och bredd"
+    },
+    {
+      "id": "T43",
+      "name": "Variabel typografi",
+      "family": "type",
+      "role": "Typens egen karaktär",
+      "implementation": "Licensed variable font axes",
+      "fit": "varumärke",
+      "status": "recipe",
+      "sourceIds": [
+        "variable"
+      ],
+      "pitfall": "Kontrollera faktisk axel och reflow"
+    },
+    {
+      "id": "T44",
+      "name": "Ordvis betoning",
+      "family": "type",
+      "role": "Framhäva tanke",
+      "implementation": "Finite opacity/transform",
+      "fit": "editorial",
+      "status": "recipe",
+      "sourceIds": [
+        "gsap-split"
+      ],
+      "pitfall": "Låt övrig text vara lätt att läsa"
+    },
+    {
+      "id": "T45",
+      "name": "Text-scramble / decoding",
+      "family": "type",
+      "role": "Kort teknisk gest",
+      "implementation": "DOM text timing",
+      "fit": "experimentell tech",
+      "status": "recipe",
+      "sourceIds": [
+        "performance"
+      ],
+      "pitfall": "Äkta text och navlabel kvar"
+    },
+    {
+      "id": "T46",
+      "name": "Marquee / logoband",
+      "family": "type",
+      "role": "Visa serie/rytm",
+      "implementation": "CSS finite/controlled loop",
+      "fit": "kultur, varumärke",
+      "status": "recipe",
+      "sourceIds": [
+        "pause"
+      ],
+      "pitfall": "Pausa lång rörelse, fabricera inte kunder"
+    },
+    {
+      "id": "T47",
+      "name": "Asymmetrisk redaktionell grid",
+      "family": "layout",
+      "role": "Varierad komposition",
+      "implementation": "CSS Grid",
+      "fit": "portfolio, salong",
+      "status": "recipe",
+      "sourceIds": [
+        "subgrid"
+      ],
+      "pitfall": "Delade ankare, inte slumpmässigt ojämnt"
+    },
+    {
+      "id": "T48",
+      "name": "Subgrid för captions och produktinfo",
+      "family": "layout",
+      "role": "Gemensamma läskanter",
+      "implementation": "CSS subgrid",
+      "fit": "shop, editorial",
+      "status": "recipe",
+      "sourceIds": [
+        "subgrid"
+      ],
+      "pitfall": "Innehåll och fallback styr"
+    },
+    {
+      "id": "T49",
+      "name": "Containerbaserad komposition",
+      "family": "layout",
+      "role": "Komponenter i flera miljöer",
+      "implementation": "Container queries",
+      "fit": "alla",
+      "status": "recipe",
+      "sourceIds": [
+        "container"
+      ],
+      "pitfall": "Anpassa till tillgänglig komponentbredd"
+    },
+    {
+      "id": "T50",
+      "name": "Text runt en form",
+      "family": "layout",
+      "role": "Redaktionellt bildmöte",
+      "implementation": "shape-outside",
+      "fit": "editorial",
+      "status": "recipe",
+      "sourceIds": [
+        "shapes"
+      ],
+      "pitfall": "Läsbar measure och rak mobilkolumn"
+    },
+    {
+      "id": "T51",
+      "name": "Organisk bildbeskärning",
+      "family": "images",
+      "role": "Eget bildspråk",
+      "implementation": "Mask/clip-path + art direction",
+      "fit": "salong, mat, kultur",
+      "status": "recipe",
+      "sourceIds": [
+        "clip"
+      ],
+      "pitfall": "Motivets viktiga delar får inte försvinna"
+    },
+    {
+      "id": "T52",
+      "name": "Optisk bildövergång / crossfade",
+      "family": "images",
+      "role": "Byta variant/utsnitt",
+      "implementation": "Opacity + stable container",
+      "fit": "shop, galleri",
+      "status": "recipe",
+      "sourceIds": [
+        "performance"
+      ],
+      "pitfall": "Ingen layoutshift eller dold prisskillnad"
+    },
+    {
+      "id": "T53",
+      "name": "Kontrollerad mikrointeraktion",
+      "family": "layout",
+      "role": "Tydlig statefeedback",
+      "implementation": "CSS/WAAPI state transitions",
+      "fit": "form, navigation",
+      "status": "recipe",
+      "sourceIds": [
+        "performance"
+      ],
+      "pitfall": "Rörelse är inte bevis på lyckad handling"
+    },
+    {
+      "id": "T54",
+      "name": "Tabbar med sammanhängande panel",
+      "family": "product",
+      "role": "Organisera information",
+      "implementation": "APG tabs + finite transition",
+      "fit": "produkt, tjänst",
+      "status": "recipe",
+      "sourceIds": [
+        "tabs"
+      ],
+      "pitfall": "Piltangenter/selected state när riktiga tabs"
+    }
+  ]
+}

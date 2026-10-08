@@ -11,3 +11,8 @@
 - Kodens canonical repository är `kryddlandet-maker/SuperBrain`; lokal mapp är `C:/Users/krydd/Desktop/SuperBrain`.
 
 Tidigare bra/dåliga webbplatser har inte varit tillgängliga i det här bygget. Hypoteser om regressionens orsak är markerade som hypoteser i forskningsrapporten.
+
+
+## Researchutbyggnad 1.2 — användarval 2026-10-08
+
+Effekternas intensitet väljs fritt efter varumärket; lugna och avancerade uttryck ska båda fungera. Bredden ska omfatta tech, lokala företag, portfolio och webbshop. Bildriktningen prioriterar trovärdiga foton och produktbilder där verksamheten behöver dem; illustration och 3D används när de tillför något. Dessa är projektets accepterade önskemål, inte absoluta regler för alla användare av skillen.

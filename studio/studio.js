@@ -5,7 +5,7 @@ let brief='';
 form.addEventListener('submit',async event=>{
   event.preventDefault();
   const values=Object.fromEntries(new FormData(form));
-  const data={...values};
+  const data={...values};data.techniques=new FormData(form).getAll('techniques');if(!data.techniques.length)delete data.techniques;
   if(values.pages.trim())data.pages=values.pages.split(',').map(p=>p.trim());else delete data.pages;
   const button=form.querySelector('button[type=submit]');button.disabled=true;status.textContent='Sammanställer relevant kunskap…';
   try{

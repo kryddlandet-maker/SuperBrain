@@ -17,11 +17,22 @@ test('invalid briefing data is rejected instead of producing unsafe or invented 
  for(const pages of [['//external.com'],['/services','/services'],['/../secret']])assert.throws(()=>validateBrief({name:'A',type:'salon',goal:'B',pages}));
  assert.throws(()=>validateBrief({name:'A',type:'unknown',goal:'B'}));
 });
+
+test('new site types and explicit technique families include only relevant deep chapters',async()=>{
+ const shop={name:'Objects',type:'ecommerce',goal:'Choose a real product',motion:'quiet',techniques:['images']};
+ const selected=selectReferences(shop);assert(selected.includes('galleries-commerce'));assert(selected.includes('site-archetypes'));assert(!selected.includes('advanced-graphics'));assert(!selected.includes('interactive-effects'));
+ const tech={...shop,type:'technology',motion:'immersive',techniques:['graphics','product']};const refs=selectReferences(tech);assert(refs.includes('advanced-graphics'));assert(refs.includes('product-stories'));assert(!refs.includes('type-motion'));
+ const compiled=await compileBrief(shop);assert(compiled.includes('galleries-commerce'));assert(!compiled.includes('# Advanced graphics without losing the website'));
+ assert.throws(()=>validateBrief({...shop,techniques:['unknown']}));assert.throws(()=>validateBrief({...shop,techniques:['images','images']}));
+ for(const type of ['portfolio','restaurant'])assert.doesNotThrow(()=>validateBrief({...shop,type}));
+});
 test('installer preserves project instructions, is repeatable and refuses local edits before mutation',async()=>{
  const target=await mkdtemp(path.join(os.tmpdir(),'superbrain-install-'));
  try{
   await writeFile(path.join(target,'AGENTS.md'),'# Customer project\nKeep the booking flow.\n');
   await install(target);const agents=await readFile(path.join(target,'AGENTS.md'),'utf8');assert(agents.includes('Keep the booking flow.'));
+  const atlas=JSON.parse(await readFile(path.join(target,'.superbrain/data/techniques.json'),'utf8'));assert.equal(atlas.techniques.length,54);
+  assert((await readFile(path.join(target,'.superbrain/docs/DESIGN-RESEARCH.md'),'utf8')).length>1000);
   await install(target);assert.equal(await readFile(path.join(target,'AGENTS.md'),'utf8'),agents);
   const local=path.join(target,'.agents/skills/superbrain/SKILL.md');await writeFile(local,'Local changes');
   await assert.rejects(install(target),/Locally edited/);assert.equal(await readFile(local,'utf8'),'Local changes');assert.equal(await readFile(path.join(target,'AGENTS.md'),'utf8'),agents);
@@ -40,7 +51,7 @@ test('unmanaged destinations and malformed agent markers fail before writing',as
 test('server exposes direct pages and compiles local briefs, rejects invalid requests and source access',async()=>{
  const server=createServer();await new Promise(resolve=>server.listen(0,'127.0.0.1',resolve));const base=`http://127.0.0.1:${server.address().port}`;
  try{
-  for(const route of ['/','/examples/technology/product/','/examples/salon/booking/','/examples/construction/projects/','/examples/effects/','/examples/effects/project/']){const r=await fetch(base+route);assert.equal(r.status,200);assert.match(await r.text(),/<main/);}
+  for(const route of ['/','/examples/technology/product/','/examples/salon/booking/','/examples/construction/projects/','/examples/effects/','/examples/effects/project/','/examples/collection/','/examples/atlas/']){const r=await fetch(base+route);assert.equal(r.status,200);assert.match(await r.text(),/<main/);}
   assert.equal((await fetch(base+'/package.json')).status,404);
   assert.equal((await fetch(base+'/api/brief',{method:'POST',body:'{'})).status,400);
   assert.equal((await fetch(base+'/api/brief',{method:'POST',headers:{Origin:'https://external.example'},body:'{}'})).status,403);

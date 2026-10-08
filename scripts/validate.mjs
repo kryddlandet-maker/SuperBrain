@@ -6,6 +6,12 @@ function check(value,message){if(!value)throw new Error(message);checks++;}
 const skill=await readFile(path.join(root,'skills/superbrain/SKILL.md'),'utf8');
 check(/^---\nname: superbrain\ndescription: .+\n---\n/.test(skill),'Invalid skill frontmatter');
 check(skill.length<6500,'Entrypoint too large; move conditional detail to references');
+const atlas=JSON.parse(await readFile(path.join(root,'data/techniques.json'),'utf8'));
+check(atlas.schema===1,'Unknown technique atlas schema');
+check(new Set(atlas.techniques.map(t=>t.id)).size===atlas.techniques.length,'Duplicate technique IDs');
+const sourceIds=new Set(atlas.sources.map(s=>s.id));check(sourceIds.size===atlas.sources.length,'Duplicate source IDs');
+for(const technique of atlas.techniques){check(['local-1.1','local-1.2','external-seen','recipe','research'].includes(technique.status),'Unknown evidence status');check(technique.sourceIds.length>0&&technique.sourceIds.every(id=>sourceIds.has(id)),`Missing source for ${technique.id}`);}
+for(const source of atlas.sources)check(new URL(source.url).protocol==='https:',`Invalid source URL ${source.id}`);
 for(const name of referenceNames)check((await readFile(path.join(root,'skills/superbrain/references',name+'.md'),'utf8')).trim().length>100,`Missing chapter ${name}`);
 for(const name of await readdir(path.join(root,'examples/briefs'))){const text=await compileBrief(JSON.parse(await readFile(path.join(root,'examples/briefs',name),'utf8')));check(text.length>1000,`Invalid example brief ${name}`);}
 async function walk(directory){const result=[];for(const item of await readdir(directory,{withFileTypes:true})){const file=path.join(directory,item.name);if(item.isDirectory())result.push(...await walk(file));else result.push(file);}return result;}
