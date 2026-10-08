@@ -20,7 +20,7 @@ npm run validate
 npm run studio
 ```
 
-Öppna `http://127.0.0.1:4317`. Studion har en briefbyggare och tre flersidiga exempel. Techdemot visar en bakgrund som avslöjas av pekaren, en ljusbubbla i knappen och interaktiva orbitaler. Salong och bygg använder samma principer med andra material, kompositioner och intensiteter. Alla företagsnamn och verksamhetsuppgifter i demona är fiktiva och märkta som demo.
+Öppna `http://127.0.0.1:4317`. Studion har en briefbyggare, tre flersidiga exempel och ett nytt effektlabb med en egen projektsida. Techdemot visar en bakgrund som avslöjas av pekaren, en ljusbubbla i knappen och interaktiva orbitaler. Salong och bygg använder samma principer med andra material, kompositioner och intensiteter. Alla företagsnamn och verksamhetsuppgifter i demona är fiktiva och märkta som demo.
 
 Studion kör ingen AI och skickar inga uppgifter till en extern tjänst. Den exporterar en brief som du lämnar till Codex eller annan kodande AI. Demona är laboratorier, inte färdiga kundsidor; de innehåller inga påhittade bokningar eller offertinskick.
 
@@ -45,3 +45,7 @@ En kompilerad brief innehåller kärnan och bara valda kapitel. Utan utdatapath 
 [Research report](docs/RESEARCH.md) skiljer observationer, hypoteser och rekommendationer. [Migration audit](docs/MIGRATION.md) dokumenterar vad som behållits, förenklats och ersatts från de tre hjärnorna, med källversioner. [Benchmark](benchmarks/README.md) beskriver hur faktisk designförbättring ska jämföras med tidigare versioner.
 
 Kodtester bevisar verktygens beteende; de bevisar inte AI:ns designförmåga. Läs [verifieringsrapporten](docs/VERIFICATION.md) för vad som faktiskt körts och vad som återstår.
+
+## Effektbibliotek 1.1
+
+Fyra utvecklade tekniker finns i [effektlabbet](examples/effects/index.html): mjuk pekar-reveal, ljusknappar med klickrespons, en sammanhängande scrollscen och bildövergång mellan riktiga sidor. Två känslor kan provas: mjuk/elegant och precis/futuristisk. [Integrationsguide](docs/EFFECTS.md) beskriver återanvändning, mobilversioner och rörelsepreferenser.

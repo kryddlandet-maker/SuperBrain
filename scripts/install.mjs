@@ -69,7 +69,7 @@ export async function install(targetArg) {
   const tracked=new Map((previous?.files||[]).map(f=>[f.path,f]));
   for(const {content,...f} of files)tracked.set(f.path,f);
   await mkdir(path.join(target,'.superbrain'),{recursive:true});
-  await writeFile(path.join(target,meta),JSON.stringify({id:'superbrain',schema:1,version:'1.0.0',files:[...tracked.values()]},null,2)+'\n');
+  await writeFile(path.join(target,meta),JSON.stringify({id:'superbrain',schema:1,version:JSON.parse(await readFile(path.join(root,'package.json'),'utf8')).version,files:[...tracked.values()]},null,2)+'\n');
   await writeFile(path.join(target,'AGENTS.md'),agents,'utf8');
   return {target,files:files.length};
 }

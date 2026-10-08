@@ -25,3 +25,14 @@ If used, move only the visual child over a stable hit area, by a small bounded a
 Keep content visible in HTML by default. Progressively attach an observer or a timeline after initialization. Avoid 'opacity: 0' in base CSS for essential content. Reading sections can share a quiet background even when one visual element continues through them. Pinned scenes require a useful reason, a clear exit and an appropriate mobile version.
 
 Tune the supplied code to the target brand; it is a technique library, not the design itself. Profile paint and input behavior before expanding the spotlight over a large page.
+
+## Four extended recipes (v1.1)
+
+The source demonstration is `/examples/effects/`, with a real detail route at `/examples/effects/project/`. See `docs/EFFECTS.md` for markup and integration.
+
+1. Advanced reveal: `data-pointer data-follow="soft"` owns a decorative `.reveal-art` layer. Tune `--reveal-radius`; use `data-follow="direct"` for precision. Exponential, elapsed-time smoothing converges and stops its frame loop. Never mask essential content.
+2. Refined buttons: add `data-pointer data-light-button` to a semantic button/link, a `.button-content` child and an aria-hidden `.button-ripple`. The click wave uses Web Animations, including centered keyboard activation. The hit area remains stationary.
+3. Continuous scene: add `data-scroll-scene` and style a single object from `--scene-progress` (0..1). `initEffects` initializes it once. IntersectionObserver limits work to nearby scenes; ordinary scroll drives a reversible transform. Under 760px or reduced motion, use the static state and normal document flow. Tune the breakpoint in both JS and CSS together.
+4. Shared image: assign one unique `view-transition-name` to the image in both full documents, load the shared stylesheet in each and use ordinary same-origin links. Cross-document `@view-transition` progressively enhances navigation. Retain useful instant navigation when unsupported; suppress transitions for reduced motion. Do not assign the same name to multiple visible images.
+
+Choose an effect because it fits the design. These recipes add expressive options, not mandatory decoration on every business website.

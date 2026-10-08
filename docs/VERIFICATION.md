@@ -40,3 +40,8 @@ Den lokala Git-checkouten är ofullständig: Git kunde initialiseras och indexer
 Skill-creators separata Python-validator kunde inte köras klart eftersom `PyYAML` saknades och beroendeinstallationen inte slutfördes. SuperBrains egen Node-validator kontrollerade frontmatter, namn, ingångens storlek, samtliga referenser och länkar. Detta är filstrukturvalidering, inte modellevaluering.
 
 De tre källhjärnorna har inte ändrats.
+
+
+## Version 1.1
+
+Se [verifiering av effektbiblioteket](EFFECTS-VERIFICATION.md) för de fyra nya effekterna, 10 passerande tester och 211 strukturkontroller.

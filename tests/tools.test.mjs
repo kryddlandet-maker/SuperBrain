@@ -40,7 +40,7 @@ test('unmanaged destinations and malformed agent markers fail before writing',as
 test('server exposes direct pages and compiles local briefs, rejects invalid requests and source access',async()=>{
  const server=createServer();await new Promise(resolve=>server.listen(0,'127.0.0.1',resolve));const base=`http://127.0.0.1:${server.address().port}`;
  try{
-  for(const route of ['/','/examples/technology/product/','/examples/salon/booking/','/examples/construction/projects/']){const r=await fetch(base+route);assert.equal(r.status,200);assert.match(await r.text(),/<main/);}
+  for(const route of ['/','/examples/technology/product/','/examples/salon/booking/','/examples/construction/projects/','/examples/effects/','/examples/effects/project/']){const r=await fetch(base+route);assert.equal(r.status,200);assert.match(await r.text(),/<main/);}
   assert.equal((await fetch(base+'/package.json')).status,404);
   assert.equal((await fetch(base+'/api/brief',{method:'POST',body:'{'})).status,400);
   assert.equal((await fetch(base+'/api/brief',{method:'POST',headers:{Origin:'https://external.example'},body:'{}'})).status,403);
