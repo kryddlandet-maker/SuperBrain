@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-09T09:56:38.887Z",
+  "date": "2026-10-09T10:59:55.175Z",
   "browser": "155.0.4283.45",
   "engine": "Chromium",
   "channel": "msedge",
@@ -10,41 +10,37 @@
       "name": "fill-left",
       "result": "pass",
       "details": {
-        "scope": "Idle, intermediate, transform origin, interrupted reversal and resolved fill",
+        "scope": "Translated layer: direction, idle, intermediate, stable target, interrupted reversal and resolved fill",
         "idle": {
-          "x": 0,
-          "y": 1,
+          "x": -212.668,
+          "y": 0,
           "left": 0,
           "top": 0,
           "opacity": 1,
-          "origin": "0px 26.5px",
           "transition": "0.6s"
         },
         "mid": {
-          "x": 0.194743,
-          "y": 1,
+          "x": -165.343,
+          "y": 0,
           "left": 0,
           "top": 0,
           "opacity": 1,
-          "origin": "0px 26.5px",
           "transition": "0.6s"
         },
         "reverse": {
-          "x": 0.167017,
-          "y": 1,
+          "x": -159.093,
+          "y": 0,
           "left": 0,
           "top": 0,
           "opacity": 1,
-          "origin": "0px 26.5px",
           "transition": "0.6s"
         },
         "resolved": {
-          "x": 1,
-          "y": 1,
+          "x": 0,
+          "y": 0,
           "left": 0,
           "top": 0,
           "opacity": 1,
-          "origin": "0px 26.5px",
           "transition": "0.6s"
         }
       }
@@ -53,41 +49,37 @@
       "name": "fill-bottom",
       "result": "pass",
       "details": {
-        "scope": "Idle, intermediate, transform origin, interrupted reversal and resolved fill",
+        "scope": "Translated layer: direction, idle, intermediate, stable target, interrupted reversal and resolved fill",
         "idle": {
-          "x": 1,
+          "x": 0,
+          "y": 53.53,
+          "left": 0,
+          "top": 0,
+          "opacity": 1,
+          "transition": "0.6s"
+        },
+        "mid": {
+          "x": 0,
+          "y": 43.1104,
+          "left": 0,
+          "top": 0,
+          "opacity": 1,
+          "transition": "0.6s"
+        },
+        "reverse": {
+          "x": 0,
+          "y": 43.1074,
+          "left": 0,
+          "top": 0,
+          "opacity": 1,
+          "transition": "0.6s"
+        },
+        "resolved": {
+          "x": 0,
           "y": 0,
           "left": 0,
           "top": 0,
           "opacity": 1,
-          "origin": "103.086px 53px",
-          "transition": "0.6s"
-        },
-        "mid": {
-          "x": 1,
-          "y": 0.194763,
-          "left": 0,
-          "top": 0,
-          "opacity": 1,
-          "origin": "103.086px 53px",
-          "transition": "0.6s"
-        },
-        "reverse": {
-          "x": 1,
-          "y": 0.19493,
-          "left": 0,
-          "top": 0,
-          "opacity": 1,
-          "origin": "103.086px 53px",
-          "transition": "0.6s"
-        },
-        "resolved": {
-          "x": 1,
-          "y": 1,
-          "left": 0,
-          "top": 0,
-          "opacity": 1,
-          "origin": "103.086px 53px",
           "transition": "0.6s"
         }
       }
@@ -96,41 +88,37 @@
       "name": "fill-top",
       "result": "pass",
       "details": {
-        "scope": "Idle, intermediate, transform origin, interrupted reversal and resolved fill",
+        "scope": "Translated layer: direction, idle, intermediate, stable target, interrupted reversal and resolved fill",
         "idle": {
-          "x": 1,
+          "x": 0,
+          "y": -53.53,
+          "left": 0,
+          "top": 0,
+          "opacity": 1,
+          "transition": "0.6s"
+        },
+        "mid": {
+          "x": 0,
+          "y": -43.1127,
+          "left": 0,
+          "top": 0,
+          "opacity": 1,
+          "transition": "0.6s"
+        },
+        "reverse": {
+          "x": 0,
+          "y": -43.0917,
+          "left": 0,
+          "top": 0,
+          "opacity": 1,
+          "transition": "0.6s"
+        },
+        "resolved": {
+          "x": 0,
           "y": 0,
           "left": 0,
           "top": 0,
           "opacity": 1,
-          "origin": "95.9688px 0px",
-          "transition": "0.6s"
-        },
-        "mid": {
-          "x": 1,
-          "y": 0.166922,
-          "left": 0,
-          "top": 0,
-          "opacity": 1,
-          "origin": "95.9688px 0px",
-          "transition": "0.6s"
-        },
-        "reverse": {
-          "x": 1,
-          "y": 0.167425,
-          "left": 0,
-          "top": 0,
-          "opacity": 1,
-          "origin": "95.9688px 0px",
-          "transition": "0.6s"
-        },
-        "resolved": {
-          "x": 1,
-          "y": 1,
-          "left": 0,
-          "top": 0,
-          "opacity": 1,
-          "origin": "95.9688px 0px",
           "transition": "0.6s"
         }
       }
@@ -141,21 +129,19 @@
       "details": {
         "scope": "Hidden at rest; appears on hover, x changes with invariant y, settles without pending RAF, cancel/leave reset",
         "first": {
-          "x": 1,
-          "y": 1,
+          "x": -75,
+          "y": -75,
           "left": 20,
           "top": 26.5,
           "opacity": 0.24,
-          "origin": "0px 75px",
           "transition": "0.6s"
         },
         "second": {
-          "x": 1,
-          "y": 1,
+          "x": -75,
+          "y": -75,
           "left": 169.609,
           "top": 26.5,
           "opacity": 0.24,
-          "origin": "0px 75px",
           "transition": "0.6s"
         },
         "pendingRAF": 0
@@ -194,6 +180,11 @@
       "name": "configuration",
       "result": "pass",
       "details": "Color, size, intensity, timing/easing and stationary preview apply to each button"
+    },
+    {
+      "name": "explicit-preview",
+      "result": "pass",
+      "details": "Reduced motion honored by default; explicit page preview restores movement; stationary preview takes precedence; system setting unchanged"
     },
     {
       "name": "live-preferences",

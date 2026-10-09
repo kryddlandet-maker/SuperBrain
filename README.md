@@ -1,5 +1,11 @@
 # SuperBrain
 
+## Korrigering 1.3.1 — faktisk browserkontroll
+
+Riktiga svep i knappstudierna, ljus som är dolt i viloläge även i Orbit och en scrollscen som fungerar i smala browserpaneler. Minskad rörelse respekteras som standard; labben visar aktivt läge och erbjuder ett uttryckligt val för rörelse på den aktuella sidan. Dekorativa 01/02/03 och små överrubriker har tagits bort från skillens standard, generatorn och demona.
+
+Alla 19 dokumentroutes har kontrollerats vid 1440, 768, 632, 390 och 320 px. Separata funktionella förlopp täcker knappar, scroll, reglage, sökning, produktval, export och navigation. Läs [reparationsrapporten](docs/REPAIR-VERIFICATION-1.3.1.md) för belägg och avgränsningar. `npm run test:product` kör den breda kontrollen med separat tillgänglig Playwright/Edge.
+
 ## Utbyggnad 1.3 — lokal första våg
 
 Fyra justerbara knappstudier finns på `/examples/buttons/`: fyllning från vänster, botten och toppen samt en ljusbubbla som visas vid hover och följer enbart horisontellt. Tangentbord, touch, minskad rörelse och stilla förhandsvisning har egna beteenden.

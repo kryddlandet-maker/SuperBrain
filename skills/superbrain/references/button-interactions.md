@@ -1,6 +1,6 @@
 # Four bounded button interactions
 
-Activate when directional fill or horizontal hover light is requested. Demo: examples/buttons/index.html. Original implementations live in examples/shared/buttons.css and effects.js. Do not replace the historical .light-button family; it intentionally follows both axes and remains a separate recipe.
+Activate when directional fill or horizontal hover light is requested. Demo: examples/buttons/index.html. Original implementations live in examples/shared/buttons.css and effects.js. The historical .light-button family now uses the same horizontal-only, hidden-at-rest light behavior. It remains a separate palette and ripple recipe.
 
 ## Integration
 
@@ -14,7 +14,7 @@ Load buttons.css. The three fill variants need no JavaScript:
         type="button"><span>Explore</span></button>
 ```
 
-Import initEffects from effects.js and initialize a scoped container once. Call its returned cleanup before unmount or reinitialization. An optional {reducedMotion:true} suppresses pointer decoration; it does not override the system preference or the separate legacy ripple/scroll families. The library's demo uses this for its stationary preview.
+Import initEffects from effects.js and initialize a scoped container once. Call its returned cleanup before unmount or reinitialization. An optional {reducedMotion:true} suppresses pointer, ripple and scroll decoration. Honor the system preference by default. An explicit user-enabled, page-local demo preview can supply {motionPreview:true}; stationary preview still takes precedence. The shared motion-preview.js reports the active mode without changing system settings.
 
 Customize variables on the actual .sb-button because defaults are declared there: --sb-duration, --sb-easing, --sb-base, --sb-ink, --sb-fill, --sb-glow, --sb-intensity, --sb-glow-size and --sb-focus. Start at 420ms with cubic-bezier(.22,1,.36,1), light opacity .24 and diameter 150px; these are tunable choices, not universal design rules. The demo offers three palettes, 120–900ms duration, 80–240px size and .10–.35 intensity.
 
@@ -22,7 +22,7 @@ Keep content in the span above the pseudo-element and use a semantic anchor when
 
 ## State behavior
 
-Left fill scales X from the left; bottom fill scales Y upward; top fill scales Y downward. Idle is zero scale. Hover, keyboard focus or press resolves to full scale. Leave reverses from the current value. Interruption must not flash back to the initial frame.
+The full-size fill layer translates from outside the button: left along X, bottom upward along Y, top downward along Y. Idle translation is just beyond the edge. Hover, keyboard focus or press resolves to zero translation. Leave reverses from the current value. Interruption must not flash back to the initial frame.
 
 Horizontal light starts at opacity zero, appears during fine-pointer hover and tracks only x. Its y is always 50% of the button. Pointer logic owns cached bounds and coalesced settling; CSS owns the fade. Leave/cancel clears tracking and coordinates, then fades out. Do not show a permanent light at rest. Keyboard focus intentionally shows a stationary centered light and a separate outline.
 

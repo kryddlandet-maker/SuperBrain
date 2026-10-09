@@ -24,7 +24,7 @@ export function initEffects(root = document, options = {}) {
   for (const el of root.querySelectorAll('[data-pointer]')) {
     let rect, point, current, lastTime = 0, frame = 0;
     const soft = el.getAttribute?.('data-follow') === 'soft';
-    const allowed = () => fine.matches && !reduced.matches && !options.reducedMotion && !el.disabled && el.getAttribute?.('aria-disabled') !== 'true';
+    const allowed = () => fine.matches && (!reduced.matches || options.motionPreview) && !options.reducedMotion && !el.disabled && el.getAttribute?.('aria-disabled') !== 'true';
     const flush = (time = 0) => {
       frame = 0;
       if (!point || !rect || !allowed()) return;
@@ -73,7 +73,7 @@ export function initEffects(root = document, options = {}) {
     let animation;
     listen(el, 'click', event => {
       animation?.cancel();
-      if (reduced.matches || typeof ripple.animate !== 'function') return;
+      if (options.reducedMotion || (reduced.matches && !options.motionPreview) || typeof ripple.animate !== 'function') return;
       const box = el.getBoundingClientRect();
       const x = event.detail === 0 ? box.width / 2 : event.clientX - box.left;
       const y = event.detail === 0 ? box.height / 2 : event.clientY - box.top;
@@ -81,11 +81,11 @@ export function initEffects(root = document, options = {}) {
       ripple.style.top = `${Math.max(0, Math.min(box.height, y))}px`;
       animation = ripple.animate([{transform:'translate(-50%, -50%) scale(.1)',opacity:.5},{transform:'translate(-50%, -50%) scale(3)',opacity:0}], {duration:460,easing:'cubic-bezier(.16,1,.3,1)'});
     });
-    listen(reduced, 'change', () => {if (reduced.matches) animation?.cancel();});
+    listen(reduced, 'change', () => {if (reduced.matches && !options.motionPreview) animation?.cancel();});
     listen(document, 'visibilitychange', () => {if(document.hidden) animation?.cancel();});
     cleanups.push(() => animation?.cancel());
   }
-  cleanups.push(initScrollScenes(root));
+  cleanups.push(initScrollScenes(root, options));
   for (const menu of root.querySelectorAll('[data-menu]')) {
     const button = menu.querySelector('button');
     const close = () => button.setAttribute('aria-expanded', 'false');

@@ -1,11 +1,13 @@
 import {initEffects} from '../shared/effects.js';
+import {initMotionPreview} from '../shared/motion-preview.js';
 const samples=document.querySelector('.samples'),form=document.querySelector('.controls');
-let cleanup=initEffects(samples),count=0;
+let cleanup=()=>{},count=0;
+let motion=initMotionPreview(()=>update());
 form.hidden=false;
 const colors={pine:['#315349','#d2f384'],wine:['#653544','#ffc6d0'],indigo:['#39477a','#c5d5ff']};
 function update(){
- const values=new FormData(form),still=values.has('still');
- document.body.dataset.still=String(still);
+ const values=new FormData(form);
+ const mode=motion.read();
  const [fill,glow]=colors[values.get('color')];
  samples.style.setProperty('--sb-duration',values.get('duration')+'ms');
  // Custom properties are set per button so its default declarations cannot shadow the controls.
@@ -19,9 +21,10 @@ function update(){
  document.querySelector('#duration-value').value=values.get('duration')+' ms';
  document.querySelector('#size-value').value=values.get('size')+' px';
  document.querySelector('#intensity-value').value=values.get('intensity')+' %';
- cleanup();cleanup=initEffects(samples,{reducedMotion:still});
+ cleanup();cleanup=initEffects(samples,mode);
 }
 form.addEventListener('input',update);form.addEventListener('submit',event=>event.preventDefault());
+update();
 for(const button of samples.querySelectorAll('button'))button.addEventListener('click',()=>{document.querySelector('#button-status').textContent=`Lokal respons ${++count}. Ingen uppgift skickas.`;});
-window.addEventListener('pagehide',()=>cleanup());
-window.addEventListener('pageshow',event=>{if(event.persisted){cleanup();cleanup=initEffects(samples,{reducedMotion:document.body.dataset.still==='true'});}});
+window.addEventListener('pagehide',()=>{cleanup();motion.dispose();});
+window.addEventListener('pageshow',event=>{if(event.persisted){motion=initMotionPreview(()=>update());update();}});

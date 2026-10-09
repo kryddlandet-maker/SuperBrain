@@ -20,6 +20,7 @@ async function walk(directory){const result=[];for(const item of await readdir(d
 for(const file of [...await walk(path.join(root,'examples')),...await walk(path.join(root,'studio'))]){
  if(!file.endsWith('.html'))continue;
  const html=await readFile(file,'utf8');check(html.includes('name="viewport"'),`Viewport missing ${file}`);check(html.includes('<main'),`Main missing ${file}`);
+ check(!/<(?:p|span)[^>]*class="[^\"]*\b(?:eyebrow|kicker|row-number|index)\b/.test(html),`Decorative heading/counter reintroduced ${file}`);
  for(const [,url] of html.matchAll(/(?:href|src)="([^"#]+)(?:#[^"]*)?"/g)){
   if(!url.startsWith('/'))continue;
   let target=url==='/'?path.join(root,'studio/index.html'):path.join(root,url);

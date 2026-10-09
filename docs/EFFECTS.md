@@ -6,7 +6,7 @@ Starta `npm run studio` och öppna `/examples/effects/`. Standardkänslan är mj
 
 Installera SuperBrain med `node scripts/install.mjs /sökväg/till/projekt`. Biblioteket kopieras till `.superbrain/examples/shared`. Använd sökvägar som fungerar i projektets bundler eller kopiera filerna till projektets publika tillgångar. HTML-demona använder den lokala studions absoluta URL-sökvägar; anpassa dessa vid integration.
 
-Ladda `effects.css`, importera `initEffects` från `effects.js`, anropa en gång per monterad yta och anropa returvärdet vid avmontering. `scroll-scenes.js` följer med. Vid vanlig dokumentnavigering visar `lab.js` hantering av pagehide/pageshow och återställning ur bakåtcache.
+Ladda `effects.css` samt `scene.css` efter sidans layoutstylesheet för scrollscenen. Importera `initEffects` från `effects.js`, anropa en gång per monterad yta och anropa returvärdet vid avmontering. `scroll-scenes.js` följer med. Vid vanlig dokumentnavigering visar `lab.js` hantering av pagehide/pageshow och återställning ur bakåtcache. `motion-preview.js` förklarar det aktiva rörelseläget och låter besökaren uttryckligen förhandsvisa rörelse på just demosidan; `{motionPreview:true}` aktiverar detta. `{reducedMotion:true}` har företräde för stilla förhandsvisning. Systeminställningar ändras aldrig.
 
 ### 1. Pekar-reveal
 
@@ -32,7 +32,7 @@ Koppla en verklig handling till knappen eller använd en länk för navigering. 
 
 ### 3. Sammanhängande scrollscen
 
-`data-scroll-scene` får `--scene-progress` mellan 0 och 1 samt `data-scene-state`: gather, connect eller resolve. Använd progress för att rotera, skala och samla samma visuella objekt. `lab.css` visar hur en sticky scen möter tre vanliga textavsnitt utan att låsa scrollningen. När scenen lämnar observationsområdet görs inga fler uppdateringar. På smal skärm och vid minskad rörelse blir kompositionen stilla och texten fortsätter i normal ordning.
+`data-scroll-scene` får `--scene-progress` mellan 0 och 1 samt `data-scene-state`: gather, connect eller resolve. Använd progress för att rotera, skala och samla samma visuella objekt. `scene.css` visar hur en sticky scen möter tre vanliga textavsnitt utan att låsa scrollningen, också i en smal browserpanel. När scenen lämnar observationsområdet görs inga fler uppdateringar. Minskad rörelse visar en stilla komposition som standard; demosidans uttryckliga förhandsvisningsval kan aktivera rörelsen. Stilla förhandsvisning har företräde.
 
 ### 4. Bildövergång mellan sidor
 

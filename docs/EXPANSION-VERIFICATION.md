@@ -1,5 +1,7 @@
 # Verification — local expansion batch 1.3
 
+Historical first-batch evidence. Its route smoke tests did not cover the user's reduced-motion/narrow-panel combination or fully test legacy demos. Current repairs, translation-based samples and broader checks are documented in [REPAIR-VERIFICATION-1.3.1.md](REPAIR-VERIFICATION-1.3.1.md); the generated browser/benchmark evidence now reflects 1.3.1.
+
 Baseline: 38fef3ffa2407355723e2ad8a0bd68fe3ee903f0 (1.2.0). Baseline Node tests passed 16/16. Baseline validation failed on a normal Windows CRLF checkout because the frontmatter check required LF.
 
 ## Executed checks

@@ -20,7 +20,7 @@ const observe=page=>{
 };
 const pseudo=async locator=>locator.evaluate(el=>{
  const s=getComputedStyle(el,'::before'),m=new DOMMatrix(s.transform);
- return {x:m.a,y:m.d,left:parseFloat(s.left),top:parseFloat(s.top),opacity:Number(s.opacity),origin:s.transformOrigin,transition:s.transitionDuration};
+ return {x:m.e,y:m.f,left:parseFloat(s.left),top:parseFloat(s.top),opacity:Number(s.opacity),transition:s.transitionDuration};
 });
 try{
  browser=await chromium.launch({headless:true,...(process.env.SUPERBRAIN_BROWSER_CHANNEL?{channel:process.env.SUPERBRAIN_BROWSER_CHANNEL}:{})});
@@ -39,19 +39,17 @@ try{
   const el=page.locator('[data-fill='+direction+']');
   await page.mouse.move(2,2);await el.evaluate(e=>e.blur());
   await page.waitForTimeout(650);
-  const idle=await pseudo(el);assert(idle[axis]<.001);
+  const idle=await pseudo(el);assert(Math.abs(idle[axis])>30);
+  assert.equal(Math.sign(idle[axis]),direction==='bottom'?1:-1);
   await el.hover();await page.waitForTimeout(100);
-  const mid=await pseudo(el);assert(mid[axis]>.02 && mid[axis]<.95);
+  const mid=await pseudo(el);assert(Math.abs(mid[axis])>1 && Math.abs(mid[axis])<Math.abs(idle[axis])-1);
   const box=await el.boundingBox();
-  const origin=mid.origin.split(' ').map(Number.parseFloat);
-  if(direction==='left')assert(origin[0]<1);
-  if(direction==='top')assert(origin[1]<1);
-  if(direction==='bottom')assert(Math.abs(origin[1]-box.height)<3);
+  assert.deepEqual(await el.boundingBox(),box,'Decorative slide must not move the target');
   await page.mouse.move(2,2);await page.waitForTimeout(30);
-  const reverse=await pseudo(el);assert(reverse[axis]<=mid[axis]+.08);
+  const reverse=await pseudo(el);assert(Math.abs(reverse[axis])>=Math.abs(mid[axis])-8);
   await el.hover();await page.waitForTimeout(700);
-  const resolved=await pseudo(el);assert(resolved[axis]>.999);
-  check('fill-'+direction,{scope:'Idle, intermediate, transform origin, interrupted reversal and resolved fill',idle,mid,reverse,resolved});
+  const resolved=await pseudo(el);assert(Math.abs(resolved[axis])<.01);
+  check('fill-'+direction,{scope:'Translated layer: direction, idle, intermediate, stable target, interrupted reversal and resolved fill',idle,mid,reverse,resolved});
  }
  const glow=page.locator('[data-horizontal-glow]');
  await page.mouse.move(2,2);await page.waitForTimeout(650);assert.equal((await pseudo(glow)).opacity,0);
@@ -97,6 +95,14 @@ try{
  await glow.hover();await page.emulateMedia({reducedMotion:'reduce'});
  await page.waitForFunction(()=>!document.querySelector('[data-horizontal-glow]').hasAttribute('data-tracking'));
  assert.equal(await glow.getAttribute('data-tracking'),null);assert.equal((await pseudo(glow)).transition,'0s');
+ await page.locator('[data-preview-motion]').check();
+ assert.notEqual((await pseudo(glow)).transition,'0s');
+ await page.mouse.move(2,2);await glow.hover();assert.notEqual(await glow.getAttribute('data-tracking'),null);
+ assert.match(await page.locator('[data-motion-status]').textContent(),/Systeminställningen är oförändrad/);
+ await page.locator('[name=still]').check();assert.equal((await pseudo(glow)).transition,'0s');
+ assert.equal(await page.locator('body').getAttribute('data-motion-preview'),'false');
+ await page.locator('[name=still]').uncheck();await page.locator('[data-preview-motion]').uncheck();
+ check('explicit-preview','Reduced motion honored by default; explicit page preview restores movement; stationary preview takes precedence; system setting unchanged');
  await page.emulateMedia({reducedMotion:'no-preference'});await page.mouse.move(2,2);await glow.hover();
  assert.notEqual(await glow.getAttribute('data-tracking'),null);
  await page.evaluate(()=>window.dispatchEvent(new Event('resize')));assert.equal(await glow.getAttribute('data-tracking'),null);
@@ -128,7 +134,7 @@ try{
  const plain=await noJS.newPage();observe(plain);await plain.goto(base+'/examples/buttons/');
  assert.equal(await plain.locator('.controls').isVisible(),false);
  for(const [direction,axis] of [['left','x'],['bottom','y'],['top','y']]){
-  const el=plain.locator('[data-fill='+direction+']');await el.focus();await plain.waitForTimeout(650);assert((await pseudo(el))[axis]>.99);
+  const el=plain.locator('[data-fill='+direction+']');await el.focus();await plain.waitForTimeout(650);assert(Math.abs((await pseudo(el))[axis])<.01);
  }
  check('no-javascript','Controls hidden; content/native buttons and all three CSS focus fills remain usable');await noJS.close();
  const touch=await browser.newContext({viewport:{width:390,height:844},isMobile:true,hasTouch:true});
@@ -140,7 +146,7 @@ try{
   await touchSession.send('Input.dispatchTouchEvent',{type:'touchStart',touchPoints:[{x:mb.x+mb.width/2,y:mb.y+mb.height/2}]});
   await mobile.waitForFunction(index=>document.querySelectorAll('.sb-button')[index].hasAttribute('data-pressed'),i,{timeout:2000});
   assert.equal(await el.evaluate(e=>getComputedStyle(e).backgroundColor),'rgb(49, 83, 73)');
-  if(i<3){await mobile.waitForTimeout(450);const fill=await pseudo(el);assert((i===0?fill.x:fill.y)>.99);}
+  if(i<3){await mobile.waitForTimeout(450);const fill=await pseudo(el);assert(Math.abs(i===0?fill.x:fill.y)<.01);}
   await touchSession.send('Input.dispatchTouchEvent',{type:'touchEnd',touchPoints:[]});
   assert.equal(await el.getAttribute('data-pressed'),null);assert.equal(await el.getAttribute('data-tracking'),null);
   assert.equal(await mobile.locator('#button-status').textContent(),'Lokal respons '+(i+1)+'. Ingen uppgift skickas.');
