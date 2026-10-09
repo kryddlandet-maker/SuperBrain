@@ -3,6 +3,7 @@ import { readFile, stat, realpath } from 'node:fs/promises';
 import path from 'node:path';
 import { pathToFileURL } from 'node:url';
 import { root, compileBrief } from '../lib/brief.mjs';
+import {loadLibrary,searchLibrary,summarizeLibrary} from '../lib/library.mjs';
 
 const mime = {'.html':'text/html; charset=utf-8','.css':'text/css; charset=utf-8','.js':'text/javascript; charset=utf-8','.svg':'image/svg+xml','.json':'application/json; charset=utf-8','.md':'text/plain; charset=utf-8'};
 function within(base, target) { const rel=path.relative(base,target); return !rel.startsWith('..') && !path.isAbsolute(rel); }
@@ -22,6 +23,19 @@ export function createServer() {
         res.writeHead(200,{'Content-Type':'text/plain; charset=utf-8'}); res.end(output); return;
       }
       if (!['GET','HEAD'].includes(req.method)) { res.writeHead(405,{'Allow':'GET, HEAD'}); res.end('Method not allowed'); return; }
+      // The local laboratory has no icon asset. Avoid an automatic broken request.
+      if(url.pathname==='/favicon.ico'){res.writeHead(204);res.end();return;}
+      if(url.pathname==='/api/library') {
+        const library=await loadLibrary();
+        let candidates;
+        try {
+          candidates=searchLibrary(library,{query:url.searchParams.get('q')||'',domain:url.searchParams.get('domain')||'',maturity:url.searchParams.get('state')||'',limit:Number(url.searchParams.get('limit')||20)});
+        } catch(error){res.writeHead(400);res.end(error.message);return;}
+        const used=new Set(candidates.flatMap(c=>c.sourceIds));
+        const body=JSON.stringify({summary:summarizeLibrary(library),domains:library.domains,candidates,sources:library.sources.filter(s=>used.has(s.id))});
+        res.writeHead(200,{'Content-Type':'application/json; charset=utf-8'});
+        res.end(req.method==='HEAD'?undefined:body);return;
+      }
       const pathname=decodeURIComponent(url.pathname);
       if (pathname.includes('\\') || pathname.includes('\0')) { res.writeHead(400); res.end('Bad path'); return; }
       const base=pathname==='/'?path.join(root,'studio'):pathname.startsWith('/studio/')?path.join(root,'studio'):pathname.startsWith('/examples/')?path.join(root,'examples'):null;

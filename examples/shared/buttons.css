@@ -1,0 +1,49 @@
+/* Independent opt-in family. Stable semantic target; decorative layer only. */
+.sb-button {
+  --sb-duration: 420ms;
+  --sb-easing: cubic-bezier(.22,1,.36,1);
+  --sb-base: #18231e;
+  --sb-ink: #fbf6e8;
+  --sb-fill: #315349;
+  --sb-glow: #d2f384;
+  --sb-intensity: .24;
+  --sb-glow-size: 150px;
+  position: relative; isolation: isolate; overflow: hidden;
+  display: inline-flex; align-items: center; justify-content: center;
+  min-height: 52px; padding: 1rem 1.8rem; border: 1px solid #62766b;
+  border-radius: 8px; background: var(--sb-base); color: var(--sb-ink);
+  font: inherit; font-weight: 600; cursor: pointer; text-decoration: none;
+}
+.sb-button > span { position: relative; z-index: 1; }
+.sb-button::before { content: ''; position: absolute; inset: 0; z-index: 0; pointer-events: none; background: var(--sb-fill); transform: scaleX(0); transform-origin: left; transition: transform var(--sb-duration) var(--sb-easing); }
+.sb-button[data-fill="bottom"]::before { transform: scaleY(0); transform-origin: bottom; }
+.sb-button[data-fill="top"]::before { transform: scaleY(0); transform-origin: top; }
+.sb-button[data-fill]:focus-visible::before { transform: scale(1); }
+@media (hover: hover) and (pointer: fine) {
+  .sb-button[data-fill]:not(:disabled):not([aria-disabled="true"]):hover::before { transform: scale(1); }
+}
+.sb-button[data-fill]:not(:disabled):not([aria-disabled="true"]):active::before { transform: scale(1); }
+.sb-button[data-fill][data-pressed]:not(:disabled):not([aria-disabled="true"])::before { transform: scale(1); }
+.sb-button[data-pressed]:not(:disabled):not([aria-disabled="true"]) { background: var(--sb-fill); }
+.sb-button:focus-visible { outline: 3px solid var(--sb-focus,#315349); outline-offset: 5px; }
+.sb-button:disabled,.sb-button[aria-disabled="true"] { cursor: not-allowed; opacity: .6; }
+.sb-button[data-horizontal-glow]::before { inset: auto; width: var(--sb-glow-size); height: var(--sb-glow-size); left: var(--pointer-x,50%); top: 50%; border-radius: 50%; transform: translate(-50%,-50%); background: radial-gradient(circle,var(--sb-glow),transparent 68%); opacity: 0; transition: opacity var(--sb-duration) var(--sb-easing); }
+/* Keyboard equivalent stays centered. Pointer leave always removes pointer state. */
+.sb-button[data-horizontal-glow]:focus-visible::before { left: 50%; opacity: var(--sb-intensity); }
+@media (hover: hover) and (pointer: fine) {
+  .sb-button[data-horizontal-glow][data-tracking]:not(:disabled):not([aria-disabled="true"])::before { opacity: var(--sb-intensity); }
+}
+@media (hover: none),(pointer: coarse) {
+  .sb-button:not(:disabled):not([aria-disabled="true"]):active { background: var(--sb-fill); }
+}
+[data-still="true"] .sb-button::before { transition: none; }
+[data-still="true"] .sb-button[data-horizontal-glow]::before { left: 50%; }
+@media (prefers-reduced-motion: reduce) {
+  .sb-button::before,.sb-button[data-horizontal-glow]::before { transition: none; }
+  .sb-button[data-horizontal-glow]::before { left: 50%; }
+}
+@media (forced-colors: active) {
+  .sb-button { border: 1px solid ButtonText; }
+  .sb-button::before { display: none; }
+  .sb-button:focus-visible { outline-color: Highlight; }
+}

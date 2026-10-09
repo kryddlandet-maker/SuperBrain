@@ -1,0 +1,11 @@
+#results {display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:2rem;}
+#results article {padding:1.5rem 0;border-top:1px solid #bdc8bc;}
+#results h2 {font-size:1.35rem;margin:.6rem 0;}
+#results p {line-height:1.6;}
+#results .meta {font-size:.75rem;letter-spacing:.08em;font-weight:600;}
+#results summary {cursor:pointer;}
+#results ul {padding-left:1.2rem;}
+input[type="search"] {width:100%;min-height:44px;background:#fffef5;border:1px solid #687669;border-radius:4px;padding:.6rem;font:inherit;}
+#search > button {padding:.7rem 1.3rem;border:1px solid #315349;background:#315349;color:#fffef5;border-radius:4px;font:inherit;cursor:pointer;}
+#search > button:focus-visible {outline:3px solid #315349;outline-offset:4px;}
+@media(max-width:640px){#results{grid-template-columns:1fr;}}

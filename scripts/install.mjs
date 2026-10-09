@@ -29,16 +29,16 @@ export async function install(targetArg) {
   const mapping=[['skills/superbrain','.agents/skills/superbrain'],['examples/shared','.superbrain/examples/shared'],['lib','.superbrain/lib'],['docs','.superbrain/docs'],['data','.superbrain/data']];
   const files=[];
   for(const [from,to] of mapping) for(const rel of await walk(path.join(root,from))) {
-    const content=await readFile(path.join(root,from,rel),'utf8');
+    const content=await readFile(path.join(root,from,rel));
     files.push({path:`${to}/${rel}`,content,sha256:hash(content)});
   }
   // The compiler needs the skill beside its lib in a standalone installation.
   for(const rel of await walk(path.join(root,'skills/superbrain'))) {
-    const content=await readFile(path.join(root,'skills/superbrain',rel),'utf8');
+    const content=await readFile(path.join(root,'skills/superbrain',rel));
     files.push({path:`.superbrain/skills/superbrain/${rel}`,content,sha256:hash(content)});
   }
-  for(const rel of ['scripts/brief.mjs']) {
-    const content=await readFile(path.join(root,rel),'utf8');files.push({path:`.superbrain/${rel}`,content,sha256:hash(content)});
+  for(const rel of ['scripts/brief.mjs','scripts/discover.mjs']) {
+    const content=await readFile(path.join(root,rel));files.push({path:`.superbrain/${rel}`,content,sha256:hash(content)});
   }
   const meta='.superbrain/install.json';
   await assertSafe(meta); await assertSafe('AGENTS.md');
@@ -48,7 +48,7 @@ export async function install(targetArg) {
   for(const f of previous?.files||[]) {
     if(!safe(f.path)) throw new Error('Unsafe previous path');
     await assertSafe(f.path);
-    if(hash(await readFile(path.join(target,f.path),'utf8'))!==f.sha256) throw new Error(`Locally edited installation: ${f.path}`);
+    if(hash(await readFile(path.join(target,f.path)))!==f.sha256) throw new Error(`Locally edited installation: ${f.path}`);
   }
   const owned=new Set((previous?.files||[]).map(f=>f.path));
   for(const file of files) {

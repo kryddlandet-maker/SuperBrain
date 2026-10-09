@@ -1,0 +1,60 @@
+{
+  "date": "2026-10-09T08:51:14.464Z",
+  "scope": "Deterministic brief routing and context packaging. Five archetypes; CRM uses the existing other type and has no new dedicated app chapter. No model-generated sites or blind design comparisons were run.",
+  "baseline": "38fef3f",
+  "baselineEntrypointBytesLF": 5063,
+  "currentEntrypointBytesLF": 5733,
+  "measurements": [
+    {
+      "case": "tech",
+      "type": "technology",
+      "motion": "immersive",
+      "defaultBytesLF": 30828,
+      "withButtonsBytesLF": 35570,
+      "addedBytesLF": 4742,
+      "defaultChapters": 11,
+      "additionalChapters": 1
+    },
+    {
+      "case": "salon",
+      "type": "salon",
+      "motion": "quiet",
+      "defaultBytesLF": 24170,
+      "withButtonsBytesLF": 28912,
+      "addedBytesLF": 4742,
+      "defaultChapters": 9,
+      "additionalChapters": 1
+    },
+    {
+      "case": "construction",
+      "type": "construction",
+      "motion": "quiet",
+      "defaultBytesLF": 24187,
+      "withButtonsBytesLF": 28929,
+      "addedBytesLF": 4742,
+      "defaultChapters": 9,
+      "additionalChapters": 1
+    },
+    {
+      "case": "portfolio",
+      "type": "portfolio",
+      "motion": "quiet",
+      "defaultBytesLF": 27748,
+      "withButtonsBytesLF": 32490,
+      "addedBytesLF": 4742,
+      "defaultChapters": 10,
+      "additionalChapters": 1
+    },
+    {
+      "case": "crm",
+      "type": "other",
+      "motion": "quiet",
+      "defaultBytesLF": 22430,
+      "withButtonsBytesLF": 27172,
+      "addedBytesLF": 4742,
+      "defaultChapters": 8,
+      "additionalChapters": 1
+    }
+  ],
+  "claim": "The specialized button chapter is omitted unless requested and adds exactly one chapter. This does not demonstrate better visual quality, conversion, field performance or model output."
+}

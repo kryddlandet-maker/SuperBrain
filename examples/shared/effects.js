@@ -1,6 +1,6 @@
 import { initScrollScenes } from './scroll-scenes.js';
 // One owner per surface. Framework adapters call cleanup on unmount.
-export function initEffects(root = document) {
+export function initEffects(root = document, options = {}) {
   const fine = matchMedia('(hover: hover) and (pointer: fine)');
   const reduced = matchMedia('(prefers-reduced-motion: reduce)');
   const cleanups = [];
@@ -8,10 +8,23 @@ export function initEffects(root = document) {
     target.addEventListener(name, fn, options);
     cleanups.push(() => target.removeEventListener(name, fn, options));
   };
+  // Touch :active timing varies across browsers. Explicit decorative press state
+  // follows native pointer events without cancelling scrolling or activation.
+  for(const el of root.querySelectorAll('[data-fill], [data-horizontal-glow]')) {
+    const clear=()=>el.removeAttribute('data-pressed');
+    listen(el,'pointerdown',event=>{
+      if(event.pointerType==='touch' && !el.disabled && el.getAttribute('aria-disabled')!=='true')el.setAttribute('data-pressed','');
+    });
+    listen(window,'pointerup',clear,{capture:true});
+    listen(window,'pointercancel',clear,{capture:true});
+    listen(el,'pointerleave',clear);
+    listen(document,'visibilitychange',()=>{if(document.hidden)clear();});
+    cleanups.push(clear);
+  }
   for (const el of root.querySelectorAll('[data-pointer]')) {
     let rect, point, current, lastTime = 0, frame = 0;
     const soft = el.getAttribute?.('data-follow') === 'soft';
-    const allowed = () => fine.matches && !reduced.matches;
+    const allowed = () => fine.matches && !reduced.matches && !options.reducedMotion && !el.disabled && el.getAttribute?.('aria-disabled') !== 'true';
     const flush = (time = 0) => {
       frame = 0;
       if (!point || !rect || !allowed()) return;

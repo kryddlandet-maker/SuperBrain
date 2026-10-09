@@ -37,6 +37,8 @@ For choosing compatible techniques, read [references/effect-selection.md](refere
 
 ## Judge what was built
 
+For directional button fills or a horizontal hover light, read [references/button-interactions.md](references/button-interactions.md). For honest action/toggle/submission states read [references/accessible-actions.md](references/accessible-actions.md). For interruption, disposal or engine choice read [references/motion-lifecycle.md](references/motion-lifecycle.md). For library expansion or specialized discovery read [references/library-discovery.md](references/library-discovery.md) and use scripts/discover.mjs; start with compact summaries. Research, prototype and tested evidence are separate states. These chapters are conditional, not required in every brief.
+
 Run it. Inspect representative desktop and mobile routes, interactions, focus, reduced motion and navigation. Review against the brief and chosen direction, not against a single universal style. Fix the highest-impact defects first. Read [references/review.md](references/review.md).
 
 Report actual changes and observations with unresolved limits. Screenshots show composition; they do not prove motion or booking behavior. Do not claim a skill guarantees premium results. Preserve improvements only when real use supports them, and keep client preferences in their project.
