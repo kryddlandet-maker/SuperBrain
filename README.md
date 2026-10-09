@@ -1,5 +1,15 @@
 # SuperBrain
 
+## Utbyggnad 1.3 — lokal första våg
+
+Fyra justerbara knappstudier finns på `/examples/buttons/`: fyllning från vänster, botten och toppen samt en ljusbubbla som visas vid hover och följer enbart horisontellt. Tangentbord, touch, minskad rörelse och stilla förhandsvisning har egna beteenden.
+
+`/examples/library/` och `npm run discover -- --query "horizontal light" --domain D --limit 5` söker det sammansatta registret: 54 bevarade poster plus 32 nya kandidater. De 110 kapacitetsområdena är en omfattningskarta. Totalt 4 TESTED, 17 PROTOTYPED, 63 RESEARCHED och 2 EXPERIMENTAL; inga produktionsklara anspråk. Fyra nya fördjupningar laddas bara vid behov. I en installation används `node .superbrain/scripts/discover.mjs`.
+
+Läs [research](docs/EXPANSION-RESEARCH.md), [lokal verifiering](docs/EXPANSION-VERIFICATION.md) och [checkpoint med nästa batcher](docs/EXPANSION-CHECKPOINT.md). Målet om 300 kandidater och full research över alla domäner är ännu inte uppnått. Tidigare rapporter nedan är historiska.
+
+Kör `node benchmarks/check-routing.mjs` för en deterministisk mätning av selektiv briefstorlek. `npm run test:browser` kräver separat tillgänglig Playwright och webbläsare, se verifieringsrapporten. Grundverktyg och demos har fortsatt inga paketberoenden eller API-nycklar. Ingen publicering eller konsumentuppdatering ingår i denna lokala batch.
+
 En gemensam designhjärna för kodande AI: avancerade techsidor, frisörsalonger, byggfirmor och andra verksamheter. Den kombinerar design, informationsarkitektur, innehåll och motion utan att låsa alla projekt till samma mall.
 
 ## Börja här
