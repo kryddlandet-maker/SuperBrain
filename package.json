@@ -1,6 +1,6 @@
 {
   "name": "superbrain-design",
-  "version": "1.4.0",
+  "version": "2.0.0-rc.1",
   "private": true,
   "type": "module",
   "description": "A modular design skill, project brief compiler and interactive multi-page motion laboratory.",
@@ -17,6 +17,9 @@
     "test:browser": "node scripts/check-buttons.mjs",
     "test:product": "node scripts/check-product.mjs",
     "test:pointer": "node scripts/check-pointer-buttons.mjs",
-    "test:navigation": "node scripts/check-navigation.mjs"
+    "test:navigation": "node scripts/check-navigation.mjs",
+    "design": "node scripts/design.mjs",
+    "audit": "node scripts/audit.mjs",
+    "test:engine": "node scripts/check-engine.mjs"
   }
 }

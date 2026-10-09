@@ -1,8 +1,8 @@
 {
-  "date": "2026-10-09T13:15:07.288Z",
+  "date": "2026-10-09T14:41:14.635Z",
   "browser": "155.0.4283.45",
   "engine": "Chromium",
-  "channel": "host-provided-executable",
+  "channel": "msedge",
   "platform": "win32",
   "scope": "Local button study, library search and legacy route smoke tests. Emulated viewports/input/media; no physical-device, Firefox/WebKit, screen-reader, production or controlled model benchmark certification.",
   "checks": [
@@ -20,7 +20,7 @@
           "transition": "0.6s"
         },
         "mid": {
-          "x": -171.272,
+          "x": -171.301,
           "y": 0,
           "left": 0,
           "top": 0,
@@ -28,7 +28,7 @@
           "transition": "0.6s"
         },
         "reverse": {
-          "x": -171.189,
+          "x": -177.172,
           "y": 0,
           "left": 0,
           "top": 0,
@@ -60,7 +60,7 @@
         },
         "mid": {
           "x": 0,
-          "y": 43.1106,
+          "y": 43.1049,
           "left": 0,
           "top": 0,
           "opacity": 1,
@@ -68,7 +68,7 @@
         },
         "reverse": {
           "x": 0,
-          "y": 43.0718,
+          "y": 44.5741,
           "left": 0,
           "top": 0,
           "opacity": 1,
@@ -99,7 +99,7 @@
         },
         "mid": {
           "x": 0,
-          "y": -43.1172,
+          "y": -43.1405,
           "left": 0,
           "top": 0,
           "opacity": 1,
@@ -107,7 +107,7 @@
         },
         "reverse": {
           "x": 0,
-          "y": -41.6062,
+          "y": -43.1285,
           "left": 0,
           "top": 0,
           "opacity": 1,

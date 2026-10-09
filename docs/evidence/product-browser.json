@@ -1,16 +1,19 @@
 {
-  "date": "2026-10-09T13:18:01.485Z",
+  "date": "2026-10-09T14:39:17.120Z",
   "browser": "155.0.4283.45",
+  "host": "5CD513936W",
   "scope": "Local Windows Edge automation. All document routes at five viewport/preference combinations plus functional journeys. Emulation does not certify physical devices, Firefox/WebKit, screen readers or production.",
   "routes": [
     "/",
     "/examples/atlas/",
     "/examples/buttons/",
+    "/examples/cinematic/",
     "/examples/collection/",
     "/examples/construction/contact/",
     "/examples/construction/",
     "/examples/construction/projects/",
     "/examples/construction/services/",
+    "/examples/crm-scope/",
     "/examples/effects/",
     "/examples/effects/project/",
     "/examples/library/",
@@ -29,7 +32,7 @@
       "name": "all-routes-1440-no-preference",
       "result": "pass",
       "details": {
-        "routes": 20,
+        "routes": 22,
         "scope": "Direct loading, primary heading, no horizontal page overflow, no decorative numbered/eyebrow headings"
       }
     },
@@ -37,7 +40,7 @@
       "name": "all-routes-768-no-preference",
       "result": "pass",
       "details": {
-        "routes": 20,
+        "routes": 22,
         "scope": "Direct loading, primary heading, no horizontal page overflow, no decorative numbered/eyebrow headings"
       }
     },
@@ -45,7 +48,7 @@
       "name": "all-routes-390-reduce",
       "result": "pass",
       "details": {
-        "routes": 20,
+        "routes": 22,
         "scope": "Direct loading, primary heading, no horizontal page overflow, no decorative numbered/eyebrow headings"
       }
     },
@@ -53,7 +56,7 @@
       "name": "all-routes-632-reduce",
       "result": "pass",
       "details": {
-        "routes": 20,
+        "routes": 22,
         "scope": "Direct loading, primary heading, no horizontal page overflow, no decorative numbered/eyebrow headings"
       }
     },
@@ -61,7 +64,7 @@
       "name": "all-routes-320-no-preference",
       "result": "pass",
       "details": {
-        "routes": 20,
+        "routes": 22,
         "scope": "Direct loading, primary heading, no horizontal page overflow, no decorative numbered/eyebrow headings"
       }
     },

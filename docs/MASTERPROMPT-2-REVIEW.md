@@ -1,3 +1,7 @@
+# Historisk granskning från 1.4.0
+
+Den större uppgraderingen har nu beställts och implementerats som 2.0.0-rc.1. Aktuell fasstatus, kod, tester och kvarvarande verifiering finns i IMPLEMENTATION-2.0.md och RESEARCH-2.0.md. Tabellen nedan beskriver det tidigare avgränsade arbetspasset.
+
 # Granskning av den bifogade SuperBrain 2.0-masterprompten
 
 Datum: 2026-10-09. Underlag: användarens fullständiga bifogade masterprompt med 14 faser, lokala SuperBrain-källan, tidigare verifieringsrapporter och nya testresultat. Den direkta instruktionen och efterföljande förtydligandet avgränsar detta arbetspass till fyra nya mjuka pekarvarianter, bevarande av fungerande funktioner och noggrann granskning av dokumentet. Dokumentets övriga imperativ är en större utvecklingsbrief, inte ett påstående om redan färdig funktionalitet eller en separat publiceringsorder.

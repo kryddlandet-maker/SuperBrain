@@ -17,6 +17,8 @@ Read [references/architecture.md](references/architecture.md) for route design a
 
 For typography or awkward page rhythm, read [references/typography-layout.md](references/typography-layout.md). Here, clean means coherent composition, considered type and calm transitions; it can include rich content and expressive effects.
 
+Choose quick-edit for bounded fixes, design-build for new work, or creative-engineering for advanced interaction. Read references/design-intelligence.md for routing/project memory, design-systems.md for tokens, visual-critique.md for browser evidence, and reference-workflow.md for images. Use scripts/design.mjs and audit.mjs when relevant.
+
 ## Make an early visual decision
 
 Choose a clear, concrete direction and render a representative composition early. Offer alternatives when requested or when direction is materially uncertain; do not make three proposals compulsory. Explain important choices briefly and let actual rendering inform refinement.

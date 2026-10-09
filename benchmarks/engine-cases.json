@@ -1,0 +1,115 @@
+[
+  {
+    "id": "salon",
+    "brief": {
+      "name": "Salon study",
+      "type": "salon",
+      "goal": "Choose verified services and reach booking",
+      "motion": "quiet"
+    }
+  },
+  {
+    "id": "saas",
+    "brief": {
+      "name": "Product study",
+      "type": "technology",
+      "goal": "Evaluate an actual product",
+      "motion": "immersive",
+      "techniques": [
+        "buttons",
+        "materials",
+        "graphics"
+      ]
+    }
+  },
+  {
+    "id": "crm",
+    "brief": {
+      "name": "Workspace",
+      "type": "crm",
+      "goal": "Navigate and save actual states",
+      "motion": "quiet"
+    }
+  },
+  {
+    "id": "portfolio",
+    "brief": {
+      "name": "Work study",
+      "type": "portfolio",
+      "goal": "Inspect actual work and contact the owner",
+      "motion": "expressive",
+      "techniques": [
+        "images",
+        "buttons"
+      ]
+    }
+  },
+  {
+    "id": "construction",
+    "brief": {
+      "name": "Craft study",
+      "type": "construction",
+      "goal": "See real projects and request a quote",
+      "motion": "quiet"
+    }
+  },
+  {
+    "id": "exclusive-product",
+    "brief": {
+      "name": "Product detail",
+      "type": "automotive",
+      "goal": "Evaluate supplied verified specifications",
+      "motion": "immersive",
+      "techniques": [
+        "product"
+      ]
+    }
+  },
+  {
+    "id": "scroll-product",
+    "brief": {
+      "name": "Scroll study",
+      "type": "technology",
+      "goal": "Explain a product through native reversible scroll",
+      "motion": "immersive",
+      "techniques": [
+        "product"
+      ]
+    }
+  },
+  {
+    "id": "mobile-content",
+    "brief": {
+      "name": "Information",
+      "type": "other",
+      "goal": "Read detailed mobile information",
+      "motion": "quiet",
+      "preferences": {
+        "contentDensity": 8
+      }
+    }
+  },
+  {
+    "id": "bounded-change",
+    "brief": {
+      "name": "Existing workspace",
+      "type": "other",
+      "goal": "Preserve a supplied sidebar",
+      "task": "Justera hover på knappen",
+      "mode": "quick-edit",
+      "motion": "quiet"
+    }
+  },
+  {
+    "id": "reduced-input",
+    "brief": {
+      "name": "Adaptation",
+      "type": "technology",
+      "goal": "Use actions without a pointer and with reduced motion",
+      "motion": "quiet",
+      "techniques": [
+        "buttons"
+      ]
+    }
+  }
+]

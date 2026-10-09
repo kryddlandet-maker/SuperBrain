@@ -1,3 +1,7 @@
+import {generateDesignSystem} from '../lib/design-system.mjs';
+import {searchSkills} from '../lib/skill-router.mjs';
+import {creativeReview,refinementPlan,auditSnapshot} from '../lib/critique.mjs';
+import {planDesign} from '../lib/design-engine.mjs';
 import http from 'node:http';
 import { readFile, stat, realpath } from 'node:fs/promises';
 import path from 'node:path';
@@ -13,18 +17,20 @@ export function createServer() {
     res.setHeader('Cache-Control','no-store');
     try {
       const url = new URL(req.url, 'http://127.0.0.1');
-      if (url.pathname === '/api/brief' && req.method === 'POST') {
+      if (['/api/brief','/api/design','/api/critique'].includes(url.pathname) && req.method === 'POST') {
         if (req.headers.origin && req.headers.origin !== `http://${req.headers.host}`) { res.writeHead(403); res.end('Forbidden origin'); return; }
         let body='';
-        for await (const chunk of req) { body+=chunk; if(Buffer.byteLength(body)>32768) { res.writeHead(413); res.end('Brief too large'); return; } }
+        for await (const chunk of req) { body+=chunk; if(Buffer.byteLength(body)>(url.pathname==='/api/critique'?1048576:32768)) { res.writeHead(413); res.end('Brief too large'); return; } }
         let output;
-        try { output=await compileBrief(JSON.parse(body)); }
+        try { const data=JSON.parse(body);if(url.pathname==='/api/design'){output=JSON.stringify(generateDesignSystem(data));}else if(url.pathname==='/api/critique'){const creative=creativeReview(planDesign(data.brief),data.snapshots,data.observations);const audits=data.snapshots.map(auditSnapshot);output=JSON.stringify({creative,deterministic:audits,refinement:refinementPlan(audits,creative)});}else output=await compileBrief(data); }
         catch(error) { res.writeHead(400); res.end(error.message); return; }
-        res.writeHead(200,{'Content-Type':'text/plain; charset=utf-8'}); res.end(output); return;
+        res.writeHead(200,{'Content-Type':url.pathname==='/api/brief'?'text/plain; charset=utf-8':'application/json; charset=utf-8'}); res.end(output); return;
       }
       if (!['GET','HEAD'].includes(req.method)) { res.writeHead(405,{'Allow':'GET, HEAD'}); res.end('Method not allowed'); return; }
       // The local laboratory has no icon asset. Avoid an automatic broken request.
       if(url.pathname==='/favicon.ico'){res.writeHead(204);res.end();return;}
+      if(url.pathname==='/api/skills'){res.writeHead(200,{'Content-Type':'application/json; charset=utf-8'});res.end(req.method==='HEAD'?undefined:JSON.stringify(searchSkills(url.searchParams.get('q')||'')));return;}
+      if(url.pathname==='/api/benchmarks'){res.writeHead(200,{'Content-Type':'application/json; charset=utf-8'});res.end(req.method==='HEAD'?undefined:await readFile(path.join(root,'docs/evidence/engine-benchmark.json'),'utf8'));return;}
       if(url.pathname==='/api/library') {
         const library=await loadLibrary();
         let candidates;

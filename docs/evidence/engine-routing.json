@@ -1,0 +1,412 @@
+{
+  "schema": 1,
+  "baselineCommit": "2597b3ff37546494960e3f3207e7c0153483340c",
+  "scope": "Ten functional briefing cases: packaging, scope, actual token generation and contrast. This does not measure website aesthetics, model quality or field performance.",
+  "results": [
+    {
+      "id": "salon",
+      "status": "pass",
+      "mode": "design-build",
+      "milliseconds": 15.661500000000004,
+      "contextBytes": 30874,
+      "references": [
+        "accessibility",
+        "architecture",
+        "art-direction",
+        "typography-layout",
+        "continuity",
+        "design-intelligence",
+        "design-systems",
+        "review",
+        "assets-performance",
+        "motion",
+        "local-business"
+      ],
+      "generatedFiles": 15,
+      "solidColorContrast": {
+        "body": 12.865648681442066,
+        "action": 6.9164467337684075,
+        "muted": 6.138650086256499
+      },
+      "baseline": {
+        "status": "measured",
+        "bytes": 24965,
+        "references": [
+          "architecture",
+          "art-direction",
+          "typography-layout",
+          "continuity",
+          "local-business",
+          "motion",
+          "accessibility",
+          "assets-performance",
+          "review"
+        ]
+      }
+    },
+    {
+      "id": "saas",
+      "status": "pass",
+      "mode": "creative-engineering",
+      "milliseconds": 8.433999999999997,
+      "contextBytes": 51772,
+      "references": [
+        "accessibility",
+        "architecture",
+        "art-direction",
+        "typography-layout",
+        "continuity",
+        "design-intelligence",
+        "design-systems",
+        "review",
+        "assets-performance",
+        "motion",
+        "technology",
+        "interactive-effects",
+        "motion-lifecycle",
+        "button-interactions",
+        "visual-materials",
+        "advanced-graphics"
+      ],
+      "generatedFiles": 15,
+      "solidColorContrast": {
+        "body": 15.893074405848578,
+        "action": 11.432374084451352,
+        "muted": 9.607058253380302
+      },
+      "baseline": {
+        "status": "measured",
+        "bytes": 44987,
+        "references": [
+          "architecture",
+          "art-direction",
+          "typography-layout",
+          "continuity",
+          "technology",
+          "motion",
+          "interactive-effects",
+          "effect-selection",
+          "button-interactions",
+          "visual-materials",
+          "advanced-graphics",
+          "accessibility",
+          "assets-performance",
+          "review"
+        ]
+      }
+    },
+    {
+      "id": "crm",
+      "status": "pass",
+      "mode": "design-build",
+      "milliseconds": 6.197900000000004,
+      "contextBytes": 31444,
+      "references": [
+        "accessibility",
+        "architecture",
+        "art-direction",
+        "typography-layout",
+        "continuity",
+        "design-intelligence",
+        "design-systems",
+        "review",
+        "assets-performance",
+        "motion",
+        "accessible-actions"
+      ],
+      "generatedFiles": 15,
+      "solidColorContrast": {
+        "body": 11.972319637855529,
+        "action": 6.325815888980449,
+        "muted": 5.813755907150217
+      },
+      "baseline": {
+        "status": "unsupported",
+        "reason": "Unknown business type"
+      }
+    },
+    {
+      "id": "portfolio",
+      "status": "pass",
+      "mode": "design-build",
+      "milliseconds": 8.132499999999993,
+      "contextBytes": 41409,
+      "references": [
+        "accessibility",
+        "architecture",
+        "art-direction",
+        "typography-layout",
+        "continuity",
+        "design-intelligence",
+        "design-systems",
+        "review",
+        "assets-performance",
+        "motion",
+        "site-archetypes",
+        "galleries-commerce",
+        "button-interactions"
+      ],
+      "generatedFiles": 15,
+      "solidColorContrast": {
+        "body": 12.95429482114548,
+        "action": 7.326282656048262,
+        "muted": 6.183825948120483
+      },
+      "baseline": {
+        "status": "measured",
+        "bytes": 42598,
+        "references": [
+          "architecture",
+          "art-direction",
+          "typography-layout",
+          "continuity",
+          "site-archetypes",
+          "galleries-commerce",
+          "motion",
+          "interactive-effects",
+          "effect-selection",
+          "button-interactions",
+          "accessibility",
+          "assets-performance",
+          "review"
+        ]
+      }
+    },
+    {
+      "id": "construction",
+      "status": "pass",
+      "mode": "design-build",
+      "milliseconds": 7.338699999999989,
+      "contextBytes": 30855,
+      "references": [
+        "accessibility",
+        "architecture",
+        "art-direction",
+        "typography-layout",
+        "continuity",
+        "design-intelligence",
+        "design-systems",
+        "review",
+        "assets-performance",
+        "motion",
+        "local-business"
+      ],
+      "generatedFiles": 15,
+      "solidColorContrast": {
+        "body": 11.676705468419994,
+        "action": 6.457198156467406,
+        "muted": 5.728066702451673
+      },
+      "baseline": {
+        "status": "measured",
+        "bytes": 24967,
+        "references": [
+          "architecture",
+          "art-direction",
+          "typography-layout",
+          "continuity",
+          "local-business",
+          "motion",
+          "accessibility",
+          "assets-performance",
+          "review"
+        ]
+      }
+    },
+    {
+      "id": "exclusive-product",
+      "status": "pass",
+      "mode": "creative-engineering",
+      "milliseconds": 7.53619999999998,
+      "contextBytes": 42300,
+      "references": [
+        "accessibility",
+        "architecture",
+        "art-direction",
+        "typography-layout",
+        "continuity",
+        "design-intelligence",
+        "design-systems",
+        "review",
+        "assets-performance",
+        "motion",
+        "site-archetypes",
+        "interactive-effects",
+        "motion-lifecycle",
+        "product-stories"
+      ],
+      "generatedFiles": 15,
+      "solidColorContrast": {
+        "body": 16.443678150509527,
+        "action": 9.719731444362457,
+        "muted": 9.84073488095806
+      },
+      "baseline": {
+        "status": "unsupported",
+        "reason": "Unknown business type"
+      }
+    },
+    {
+      "id": "scroll-product",
+      "status": "pass",
+      "mode": "creative-engineering",
+      "milliseconds": 6.899000000000001,
+      "contextBytes": 40990,
+      "references": [
+        "accessibility",
+        "architecture",
+        "art-direction",
+        "typography-layout",
+        "continuity",
+        "design-intelligence",
+        "design-systems",
+        "review",
+        "assets-performance",
+        "motion",
+        "technology",
+        "interactive-effects",
+        "motion-lifecycle",
+        "product-stories"
+      ],
+      "generatedFiles": 15,
+      "solidColorContrast": {
+        "body": 15.893074405848578,
+        "action": 11.432374084451352,
+        "muted": 9.607058253380302
+      },
+      "baseline": {
+        "status": "measured",
+        "bytes": 34278,
+        "references": [
+          "architecture",
+          "art-direction",
+          "typography-layout",
+          "continuity",
+          "technology",
+          "motion",
+          "interactive-effects",
+          "effect-selection",
+          "product-stories",
+          "accessibility",
+          "assets-performance",
+          "review"
+        ]
+      }
+    },
+    {
+      "id": "mobile-content",
+      "status": "pass",
+      "mode": "design-build",
+      "milliseconds": 5.657900000000012,
+      "contextBytes": 31453,
+      "references": [
+        "accessibility",
+        "architecture",
+        "art-direction",
+        "typography-layout",
+        "continuity",
+        "design-intelligence",
+        "design-systems",
+        "review",
+        "assets-performance",
+        "motion",
+        "accessible-actions"
+      ],
+      "generatedFiles": 15,
+      "solidColorContrast": {
+        "body": 12.008164272748974,
+        "action": 6.831394743159498,
+        "muted": 5.802496690397389
+      },
+      "baseline": {
+        "status": "measured",
+        "bytes": 23188,
+        "references": [
+          "architecture",
+          "art-direction",
+          "typography-layout",
+          "continuity",
+          "motion",
+          "accessibility",
+          "assets-performance",
+          "review"
+        ]
+      }
+    },
+    {
+      "id": "bounded-change",
+      "status": "pass",
+      "mode": "quick-edit",
+      "milliseconds": 3.589000000000027,
+      "contextBytes": 19860,
+      "references": [
+        "accessibility",
+        "button-interactions",
+        "motion-lifecycle"
+      ],
+      "generatedFiles": 1,
+      "solidColorContrast": null,
+      "baseline": {
+        "status": "measured",
+        "bytes": 23190,
+        "references": [
+          "architecture",
+          "art-direction",
+          "typography-layout",
+          "continuity",
+          "motion",
+          "accessibility",
+          "assets-performance",
+          "review"
+        ]
+      }
+    },
+    {
+      "id": "reduced-input",
+      "status": "pass",
+      "mode": "design-build",
+      "milliseconds": 7.275200000000012,
+      "contextBytes": 37373,
+      "references": [
+        "accessibility",
+        "architecture",
+        "art-direction",
+        "typography-layout",
+        "continuity",
+        "design-intelligence",
+        "design-systems",
+        "review",
+        "assets-performance",
+        "motion",
+        "technology",
+        "button-interactions"
+      ],
+      "generatedFiles": 15,
+      "solidColorContrast": {
+        "body": 15.893074405848578,
+        "action": 11.432374084451352,
+        "muted": 9.607058253380302
+      },
+      "baseline": {
+        "status": "measured",
+        "bytes": 31411,
+        "references": [
+          "architecture",
+          "art-direction",
+          "typography-layout",
+          "continuity",
+          "technology",
+          "motion",
+          "button-interactions",
+          "accessibility",
+          "assets-performance",
+          "review"
+        ]
+      }
+    }
+  ],
+  "comparativeTrials": {
+    "status": "not-run",
+    "reason": "Independent controlled same-model site builds and blind human preference assessment are not available from these deterministic tool runs."
+  }
+}

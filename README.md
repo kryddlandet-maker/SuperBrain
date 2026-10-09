@@ -1,4 +1,15 @@
-# SuperBrain
+# SuperBrain 2.0.0-rc.1
+
+## Implemented 2.0 release candidate
+
+Run npm run studio and open /studio/engine/ for the design-system builder, chapter explorer, local visual-review intake and honest benchmark viewer. Run node scripts/design.mjs brief.json --out existing-project to save tokens and project memory. Use scripts/audit.mjs with optional host-provided Playwright and an installed browser for actual captures.
+
+The 1.4.0 interactions are preserved. The 2.0 pipeline now has explicit work modes, scoped reference analysis and safe standalone installation. See docs/IMPLEMENTATION-2.0.md for the complete phase/evidence table and docs/RESEARCH-2.0.md for pinned research. Remote Desktop review stopped and remains outstanding; this is a release candidate. Controlled comparative design trials and blind human judgments have not run.
+
+Current evidence: 38 tool tests, 510 validation checks and 22 new browser groups pass. [Phase acceptance and remaining verification](docs/IMPLEMENTATION-2.0.md).
+
+The version notes below describe historical releases.
+
 
 ## Tillägg 1.4.0 — fyra mjuka pekarvarianter
 

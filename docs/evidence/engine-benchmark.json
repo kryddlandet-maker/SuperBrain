@@ -1,0 +1,46 @@
+{
+  "schema": 1,
+  "scope": "Lokala kod- och headless-browserkontroller av SuperBrain 2.0.0-rc.1. Desktopgranskningen avbröts och återstår.",
+  "checks": [
+    {
+      "name": "Enhets-/verktygstester",
+      "result": "38/38 passerade"
+    },
+    {
+      "name": "Validering",
+      "result": "510 kontroller passerade"
+    },
+    {
+      "name": "Nya Studio-/motionflöden",
+      "result": "22 kontrollgrupper passerade"
+    },
+    {
+      "name": "Tidigare pekarknappar",
+      "result": "20 kontroller passerade"
+    },
+    {
+      "name": "Tidigare knapplabb",
+      "result": "19 kontroller passerade"
+    },
+    {
+      "name": "Produktregression",
+      "result": "17 grupper / 22 routes / 110 kombinationer"
+    },
+    {
+      "name": "Native-navigation",
+      "result": "12 kontroller passerade"
+    },
+    {
+      "name": "Funktionella brief-fall",
+      "result": "10/10 passerade"
+    },
+    {
+      "name": "Remote Desktop Commander",
+      "result": "Avbruten: browseradressen kunde inte verifieras"
+    }
+  ],
+  "comparativeTrials": {
+    "status": "Ej genomförda",
+    "reason": "Kontrollerade samma-modell-byggen och blind mänsklig jämförelse återstår. Resultaten bevisar funktion, inte estetisk överlägsenhet."
+  }
+}

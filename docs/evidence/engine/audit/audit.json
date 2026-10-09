@@ -1,0 +1,4157 @@
+{
+  "schema": 1,
+  "url": "http://127.0.0.1:64325/studio/engine/",
+  "snapshots": [
+    {
+      "schema": 1,
+      "url": "http://127.0.0.1:64325/studio/engine/",
+      "title": "SuperBrain — Designverktyg",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "reducedMotion": false,
+      "overflow": false,
+      "main": true,
+      "headings": [
+        {
+          "level": 1,
+          "text": "Från idétill beslut."
+        },
+        {
+          "level": 2,
+          "text": "Skapa ditt designsystem"
+        },
+        {
+          "level": 3,
+          "text": "Renderad komponentstudie"
+        },
+        {
+          "level": 2,
+          "text": "Hitta relevant kunskap"
+        },
+        {
+          "level": 3,
+          "text": "architecture"
+        },
+        {
+          "level": 3,
+          "text": "art-direction"
+        },
+        {
+          "level": 3,
+          "text": "typography-layout"
+        },
+        {
+          "level": 3,
+          "text": "continuity"
+        },
+        {
+          "level": 3,
+          "text": "local-business"
+        },
+        {
+          "level": 3,
+          "text": "technology"
+        },
+        {
+          "level": 3,
+          "text": "motion"
+        },
+        {
+          "level": 3,
+          "text": "interactive-effects"
+        },
+        {
+          "level": 2,
+          "text": "Granska med verkliga belägg"
+        },
+        {
+          "level": 2,
+          "text": "Tester och jämförelser"
+        }
+      ],
+      "controls": [
+        {
+          "selector": "html > body > a",
+          "tag": "A",
+          "name": "Till innehållet",
+          "width": 124.796875,
+          "height": 50,
+          "disabled": false,
+          "href": "#main",
+          "fragmentMissing": false
+        },
+        {
+          "selector": "html > body > header > a:nth-of-type(1)",
+          "tag": "A",
+          "name": "✳ SuperBrain",
+          "width": 132.25,
+          "height": 44,
+          "disabled": false,
+          "href": "/",
+          "fragmentMissing": false
+        },
+        {
+          "selector": "html > body > header > a:nth-of-type(2)",
+          "tag": "A",
+          "name": "Prova scrollstudien",
+          "width": 109.828125,
+          "height": 44,
+          "disabled": false,
+          "href": "/examples/cinematic/",
+          "fragmentMissing": false
+        },
+        {
+          "selector": "#main > nav > a:nth-of-type(1)",
+          "tag": "A",
+          "name": "Designsystem",
+          "width": 100.484375,
+          "height": 44,
+          "disabled": false,
+          "href": "#builder",
+          "fragmentMissing": false
+        },
+        {
+          "selector": "#main > nav > a:nth-of-type(2)",
+          "tag": "A",
+          "name": "Kunskap",
+          "width": 62.265625,
+          "height": 44,
+          "disabled": false,
+          "href": "#explorer",
+          "fragmentMissing": false
+        },
+        {
+          "selector": "#main > nav > a:nth-of-type(3)",
+          "tag": "A",
+          "name": "Granskning",
+          "width": 81.828125,
+          "height": 44,
+          "disabled": false,
+          "href": "#review",
+          "fragmentMissing": false
+        },
+        {
+          "selector": "#main > nav > a:nth-of-type(4)",
+          "tag": "A",
+          "name": "Testresultat",
+          "width": 81.8125,
+          "height": 44,
+          "disabled": false,
+          "href": "#benchmarks",
+          "fragmentMissing": false
+        },
+        {
+          "selector": "#design-form > div:nth-of-type(1) > label:nth-of-type(1) > input",
+          "tag": "INPUT",
+          "name": "Projektnamn",
+          "width": 304,
+          "height": 43,
+          "disabled": false,
+          "href": null,
+          "fragmentMissing": false
+        },
+        {
+          "selector": "#design-form > div:nth-of-type(1) > label:nth-of-type(2) > select",
+          "tag": "SELECT",
+          "name": "VerksamhetSalongByggfirmaTeknik / SaaSAI-produktBil / fordonPortfolioE-handelFastigheterRestaurangCRMAnnat",
+          "width": 304,
+          "height": 45,
+          "disabled": false,
+          "href": null,
+          "fragmentMissing": false
+        },
+        {
+          "selector": "#design-form > label:nth-of-type(1) > input",
+          "tag": "INPUT",
+          "name": "Besökarens mål",
+          "width": 624,
+          "height": 43,
+          "disabled": false,
+          "href": null,
+          "fragmentMissing": false
+        },
+        {
+          "selector": "#design-form > label:nth-of-type(2) > input",
+          "tag": "INPUT",
+          "name": "Målgrupp",
+          "width": 624,
+          "height": 43,
+          "disabled": false,
+          "href": null,
+          "fragmentMissing": false
+        },
+        {
+          "selector": "#design-form > label:nth-of-type(3) > textarea",
+          "tag": "TEXTAREA",
+          "name": "Verifierade fakta",
+          "width": 624,
+          "height": 58,
+          "disabled": false,
+          "href": null,
+          "fragmentMissing": false
+        },
+        {
+          "selector": "#design-form > label:nth-of-type(4) > textarea",
+          "tag": "TEXTAREA",
+          "name": "Din valda riktning",
+          "width": 624,
+          "height": 58,
+          "disabled": false,
+          "href": null,
+          "fragmentMissing": false
+        },
+        {
+          "selector": "#design-form > div:nth-of-type(2) > label:nth-of-type(1) > select",
+          "tag": "SELECT",
+          "name": "ArbetslägeDesigna och byggAvgränsad ändringAvancerad interaktion",
+          "width": 304,
+          "height": 45,
+          "disabled": false,
+          "href": null,
+          "fragmentMissing": false
+        },
+        {
+          "selector": "#design-form > div:nth-of-type(2) > label:nth-of-type(2) > select",
+          "tag": "SELECT",
+          "name": "RörelseLugnUttrycksfullOmslutande",
+          "width": 304,
+          "height": 45,
+          "disabled": false,
+          "href": null,
+          "fragmentMissing": false
+        },
+        {
+          "selector": "#design-form > label:nth-of-type(5) > input",
+          "tag": "INPUT",
+          "name": "Avgränsad uppgift",
+          "width": 624,
+          "height": 43,
+          "disabled": false,
+          "href": null,
+          "fragmentMissing": false
+        },
+        {
+          "selector": "#design-form > div:nth-of-type(3) > label:nth-of-type(1) > select",
+          "tag": "SELECT",
+          "name": "TemaUtifrån verksamhetenLjustMörkt",
+          "width": 304,
+          "height": 45,
+          "disabled": false,
+          "href": null,
+          "fragmentMissing": false
+        },
+        {
+          "selector": "#design-form > div:nth-of-type(3) > label:nth-of-type(2) > input",
+          "tag": "INPUT",
+          "name": "Accentfärg",
+          "width": 304,
+          "height": 43,
+          "disabled": false,
+          "href": null,
+          "fragmentMissing": false
+        },
+        {
+          "selector": "#design-form > details > div > label:nth-of-type(1) > input",
+          "tag": "INPUT",
+          "name": "Kreativ frihet 5",
+          "width": 303,
+          "height": 30,
+          "disabled": false,
+          "href": null,
+          "fragmentMissing": false
+        },
+        {
+          "selector": "#design-form > details > div > label:nth-of-type(2) > input",
+          "tag": "INPUT",
+          "name": "Rörelseintensitet3",
+          "width": 303,
+          "height": 30,
+          "disabled": false,
+          "href": null,
+          "fragmentMissing": false
+        },
+        {
+          "selector": "#design-form > details > div > label:nth-of-type(3) > input",
+          "tag": "INPUT",
+          "name": "Visuell komplexitet4",
+          "width": 303,
+          "height": 30,
+          "disabled": false,
+          "href": null,
+          "fragmentMissing": false
+        },
+        {
+          "selector": "#design-form > details > div > label:nth-of-type(4) > input",
+          "tag": "INPUT",
+          "name": "Innehållstäthet4",
+          "width": 303,
+          "height": 30,
+          "disabled": false,
+          "href": null,
+          "fragmentMissing": false
+        },
+        {
+          "selector": "#design-form > details > div > label:nth-of-type(5) > input",
+          "tag": "INPUT",
+          "name": "Uttryck5",
+          "width": 303,
+          "height": 30,
+          "disabled": false,
+          "href": null,
+          "fragmentMissing": false
+        },
+        {
+          "selector": "#design-form > label:nth-of-type(6) > input",
+          "tag": "INPUT",
+          "name": "Sidor",
+          "width": 624,
+          "height": 43,
+          "disabled": false,
+          "href": null,
+          "fragmentMissing": false
+        },
+        {
+          "selector": "#design-form > label:nth-of-type(7) > textarea",
+          "tag": "TEXTAREA",
+          "name": "Sidundantag (JSON, valfritt)",
+          "width": 624,
+          "height": 73,
+          "disabled": false,
+          "href": null,
+          "fragmentMissing": false
+        },
+        {
+          "selector": "#design-form > button",
+          "tag": "BUTTON",
+          "name": "Skapa förslag",
+          "width": 624,
+          "height": 52,
+          "disabled": false,
+          "href": null,
+          "fragmentMissing": false
+        },
+        {
+          "selector": "#skill-search",
+          "tag": "INPUT",
+          "name": "Sök kapitel",
+          "width": 1296,
+          "height": 43,
+          "disabled": false,
+          "href": null,
+          "fragmentMissing": false
+        },
+        {
+          "selector": "#more-skills",
+          "tag": "BUTTON",
+          "name": "Visa fler kapitel",
+          "width": 140.203125,
+          "height": 44,
+          "disabled": false,
+          "href": null,
+          "fragmentMissing": false
+        },
+        {
+          "selector": "#explorer > a",
+          "tag": "A",
+          "name": "Öppna kandidatregistret",
+          "width": 170.78125,
+          "height": 44,
+          "disabled": false,
+          "href": "/examples/library/",
+          "fragmentMissing": false
+        },
+        {
+          "selector": "#explorer > p:nth-of-type(3) > a",
+          "tag": "A",
+          "name": "Prova en avgränsad CRM-ändring",
+          "width": 242.796875,
+          "height": 44,
+          "disabled": false,
+          "href": "/examples/crm-scope/",
+          "fragmentMissing": false
+        },
+        {
+          "selector": "#audit-file",
+          "tag": "INPUT",
+          "name": "Audit JSON",
+          "width": 850,
+          "height": 43,
+          "disabled": false,
+          "href": null,
+          "fragmentMissing": false
+        },
+        {
+          "selector": "#observations",
+          "tag": "TEXTAREA",
+          "name": "Kreativa observationer (JSON)",
+          "width": 850,
+          "height": 133,
+          "disabled": false,
+          "href": null,
+          "fragmentMissing": false
+        },
+        {
+          "selector": "#review-form > button",
+          "tag": "BUTTON",
+          "name": "Skapa granskningsplan",
+          "width": 850,
+          "height": 52,
+          "disabled": false,
+          "href": null,
+          "fragmentMissing": false
+        },
+        {
+          "selector": "#load-benchmarks",
+          "tag": "BUTTON",
+          "name": "Visa senaste resultat",
+          "width": 180.234375,
+          "height": 44,
+          "disabled": false,
+          "href": null,
+          "fragmentMissing": false
+        },
+        {
+          "selector": "html > body > footer > a:nth-of-type(1)",
+          "tag": "A",
+          "name": "Till Studio",
+          "width": 69.65625,
+          "height": 44,
+          "disabled": false,
+          "href": "/",
+          "fragmentMissing": false
+        },
+        {
+          "selector": "html > body > footer > a:nth-of-type(2)",
+          "tag": "A",
+          "name": "Mjuka pekarknappar",
+          "width": 144.96875,
+          "height": 44,
+          "disabled": false,
+          "href": "/examples/pointer-buttons/",
+          "fragmentMissing": false
+        }
+      ],
+      "texts": [
+        {
+          "selector": "html > body > a",
+          "text": "Till innehållet",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 16,
+          "weight": 400,
+          "foreground": "#24241f",
+          "background": "#ffffff"
+        },
+        {
+          "selector": "html > body > header > a:nth-of-type(1)",
+          "text": "✳ SuperBrain",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 22,
+          "weight": 700,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "html > body > header > a:nth-of-type(2)",
+          "text": "Prova scrollstudien",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 13,
+          "weight": 400,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#main > section:nth-of-type(1) > h1",
+          "text": "Från idétill beslut.",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 94,
+          "weight": 500,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#main > section:nth-of-type(1) > p",
+          "text": "Skapa en riktning och ett designsystem. Utforska relevant kunskap och granska det som faktiskt byggts.",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 16,
+          "weight": 400,
+          "foreground": "#55594e",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#main > nav > a:nth-of-type(1)",
+          "text": "Designsystem",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 16,
+          "weight": 400,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#main > nav > a:nth-of-type(2)",
+          "text": "Kunskap",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 16,
+          "weight": 400,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#main > nav > a:nth-of-type(3)",
+          "text": "Granskning",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 16,
+          "weight": 400,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#main > nav > a:nth-of-type(4)",
+          "text": "Testresultat",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 16,
+          "weight": 400,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#builder > h2",
+          "text": "Skapa ditt designsystem",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 42,
+          "weight": 500,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#builder > p",
+          "text": "Förslaget är en utgångspunkt för ditt projekt. Dina faktiska referenser och fungerande lösningar styr den färdiga design",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 16,
+          "weight": 400,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#design-form > div:nth-of-type(1) > label:nth-of-type(1)",
+          "text": "Projektnamn",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 13,
+          "weight": 400,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#design-form > label:nth-of-type(1)",
+          "text": "Besökarens mål",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 13,
+          "weight": 400,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#design-form > label:nth-of-type(2)",
+          "text": "Målgrupp",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 13,
+          "weight": 400,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#design-form > label:nth-of-type(3)",
+          "text": "Verifierade fakta",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 13,
+          "weight": 400,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#design-form > label:nth-of-type(4)",
+          "text": "Din valda riktning",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 13,
+          "weight": 400,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#design-form > label:nth-of-type(5)",
+          "text": "Avgränsad uppgift",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 13,
+          "weight": 400,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#design-form > div:nth-of-type(3) > label:nth-of-type(2)",
+          "text": "Accentfärg",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 13,
+          "weight": 400,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#design-form > label:nth-of-type(6)",
+          "text": "Sidor",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 13,
+          "weight": 400,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#design-form > label:nth-of-type(7)",
+          "text": "Sidundantag (JSON, valfritt)",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 13,
+          "weight": 400,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#design-form > button",
+          "text": "Skapa förslag",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 16,
+          "weight": 400,
+          "foreground": "#ffffff",
+          "background": "#24241f"
+        },
+        {
+          "selector": "#builder > div > div > h3",
+          "text": "Renderad komponentstudie",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 18.72,
+          "weight": 500,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#preview-note",
+          "text": "Skapa ett förslag för att se det här. Exempeltexten visar inga verkliga bokningar.",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 14,
+          "weight": 400,
+          "foreground": "#68685f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#explorer > h2",
+          "text": "Hitta relevant kunskap",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 42,
+          "weight": 500,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#explorer > label",
+          "text": "Sök kapitel",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 13,
+          "weight": 400,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#skill-status",
+          "text": "Visar 8 av 26 kapitel",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 16,
+          "weight": 400,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#skill-results > article:nth-of-type(1) > h3",
+          "text": "architecture",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 18.72,
+          "weight": 700,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#skill-results > article:nth-of-type(1) > p > small",
+          "text": "Kategori E · Vägledning · Beroenden: inga",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 13.3333,
+          "weight": 400,
+          "foreground": "#68685f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#skill-results > article:nth-of-type(2) > h3",
+          "text": "art-direction",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 18.72,
+          "weight": 700,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#skill-results > article:nth-of-type(2) > p > small",
+          "text": "Kategori A · Vägledning · Beroenden: inga",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 13.3333,
+          "weight": 400,
+          "foreground": "#68685f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#skill-results > article:nth-of-type(3) > h3",
+          "text": "typography-layout",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 18.72,
+          "weight": 700,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#skill-results > article:nth-of-type(3) > p > small",
+          "text": "Kategori A · Vägledning · Beroenden: inga",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 13.3333,
+          "weight": 400,
+          "foreground": "#68685f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#skill-results > article:nth-of-type(4) > h3",
+          "text": "continuity",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 18.72,
+          "weight": 700,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#skill-results > article:nth-of-type(4) > p > small",
+          "text": "Kategori A · Vägledning · Beroenden: inga",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 13.3333,
+          "weight": 400,
+          "foreground": "#68685f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#skill-results > article:nth-of-type(5) > h3",
+          "text": "local-business",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 18.72,
+          "weight": 700,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#skill-results > article:nth-of-type(5) > p > small",
+          "text": "Kategori F · Vägledning · Beroenden: inga",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 13.3333,
+          "weight": 400,
+          "foreground": "#68685f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#skill-results > article:nth-of-type(6) > h3",
+          "text": "technology",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 18.72,
+          "weight": 700,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#skill-results > article:nth-of-type(6) > p > small",
+          "text": "Kategori F · Vägledning · Beroenden: inga",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 13.3333,
+          "weight": 400,
+          "foreground": "#68685f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#skill-results > article:nth-of-type(7) > h3",
+          "text": "motion",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 18.72,
+          "weight": 700,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#skill-results > article:nth-of-type(7) > p > small",
+          "text": "Kategori C · Vägledning · Beroenden: accessibility",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 13.3333,
+          "weight": 400,
+          "foreground": "#68685f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#skill-results > article:nth-of-type(8) > h3",
+          "text": "interactive-effects",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 18.72,
+          "weight": 700,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#skill-results > article:nth-of-type(8) > p > small",
+          "text": "Kategori C · Vägledning · Beroenden: motion, motion-lifecycle",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 13.3333,
+          "weight": 400,
+          "foreground": "#68685f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#more-skills",
+          "text": "Visa fler kapitel",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 16,
+          "weight": 400,
+          "foreground": "#ffffff",
+          "background": "#24241f"
+        },
+        {
+          "selector": "#explorer > p:nth-of-type(2)",
+          "text": "Kapitel är vägledning. Kandidatregistret och de körbara demonstrationerna har egna kvalitetsstatusar.",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 16,
+          "weight": 400,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#explorer > a",
+          "text": "Öppna kandidatregistret",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 16,
+          "weight": 400,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#explorer > p:nth-of-type(3) > a",
+          "text": "Prova en avgränsad CRM-ändring",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 16,
+          "weight": 400,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#review > h2",
+          "text": "Granska med verkliga belägg",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 42,
+          "weight": 500,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#review > p",
+          "text": "Kör browsergranskningen i projektet och öppna audit.json här. Mekaniska fynd och kreativa observationer hålls åtskilda. ",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 16,
+          "weight": 400,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#review-form > label:nth-of-type(1)",
+          "text": "Audit JSON",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 13,
+          "weight": 400,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#review-form > label:nth-of-type(2)",
+          "text": "Kreativa observationer (JSON)",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 13,
+          "weight": 400,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#review-form > button",
+          "text": "Skapa granskningsplan",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 16,
+          "weight": 400,
+          "foreground": "#ffffff",
+          "background": "#24241f"
+        },
+        {
+          "selector": "#benchmarks > h2",
+          "text": "Tester och jämförelser",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 42,
+          "weight": 500,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#benchmarks > p",
+          "text": "Funktionella kontroller visar verifierat beteende. De bevisar inte estetisk överlägsenhet.",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 16,
+          "weight": 400,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#load-benchmarks",
+          "text": "Visa senaste resultat",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 16,
+          "weight": 400,
+          "foreground": "#ffffff",
+          "background": "#24241f"
+        },
+        {
+          "selector": "html > body > footer > a:nth-of-type(1)",
+          "text": "Till Studio",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 16,
+          "weight": 400,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "html > body > footer > a:nth-of-type(2)",
+          "text": "Mjuka pekarknappar",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 16,
+          "weight": 400,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        }
+      ],
+      "images": [],
+      "links": [
+        "http://127.0.0.1:64325/studio/engine/#main",
+        "http://127.0.0.1:64325/",
+        "http://127.0.0.1:64325/examples/cinematic/",
+        "http://127.0.0.1:64325/studio/engine/#builder",
+        "http://127.0.0.1:64325/studio/engine/#explorer",
+        "http://127.0.0.1:64325/studio/engine/#review",
+        "http://127.0.0.1:64325/studio/engine/#benchmarks",
+        "http://127.0.0.1:64325/examples/library/",
+        "http://127.0.0.1:64325/examples/crm-scope/",
+        "http://127.0.0.1:64325/",
+        "http://127.0.0.1:64325/examples/pointer-buttons/"
+      ],
+      "focused": {
+        "selector": "html > body",
+        "outline": "none",
+        "shadow": "none"
+      },
+      "artifact": "render-1440-no-preference.png"
+    },
+    {
+      "schema": 1,
+      "url": "http://127.0.0.1:64325/studio/engine/",
+      "title": "SuperBrain — Designverktyg",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "reducedMotion": true,
+      "overflow": false,
+      "main": true,
+      "headings": [
+        {
+          "level": 1,
+          "text": "Från idétill beslut."
+        },
+        {
+          "level": 2,
+          "text": "Skapa ditt designsystem"
+        },
+        {
+          "level": 3,
+          "text": "Renderad komponentstudie"
+        },
+        {
+          "level": 2,
+          "text": "Hitta relevant kunskap"
+        },
+        {
+          "level": 3,
+          "text": "architecture"
+        },
+        {
+          "level": 3,
+          "text": "art-direction"
+        },
+        {
+          "level": 3,
+          "text": "typography-layout"
+        },
+        {
+          "level": 3,
+          "text": "continuity"
+        },
+        {
+          "level": 3,
+          "text": "local-business"
+        },
+        {
+          "level": 3,
+          "text": "technology"
+        },
+        {
+          "level": 3,
+          "text": "motion"
+        },
+        {
+          "level": 3,
+          "text": "interactive-effects"
+        },
+        {
+          "level": 2,
+          "text": "Granska med verkliga belägg"
+        },
+        {
+          "level": 2,
+          "text": "Tester och jämförelser"
+        }
+      ],
+      "controls": [
+        {
+          "selector": "html > body > a",
+          "tag": "A",
+          "name": "Till innehållet",
+          "width": 124.796875,
+          "height": 50,
+          "disabled": false,
+          "href": "#main",
+          "fragmentMissing": false
+        },
+        {
+          "selector": "html > body > header > a:nth-of-type(1)",
+          "tag": "A",
+          "name": "✳ SuperBrain",
+          "width": 132.25,
+          "height": 44,
+          "disabled": false,
+          "href": "/",
+          "fragmentMissing": false
+        },
+        {
+          "selector": "html > body > header > a:nth-of-type(2)",
+          "tag": "A",
+          "name": "Prova scrollstudien",
+          "width": 109.828125,
+          "height": 44,
+          "disabled": false,
+          "href": "/examples/cinematic/",
+          "fragmentMissing": false
+        },
+        {
+          "selector": "#main > nav > a:nth-of-type(1)",
+          "tag": "A",
+          "name": "Designsystem",
+          "width": 100.484375,
+          "height": 44,
+          "disabled": false,
+          "href": "#builder",
+          "fragmentMissing": false
+        },
+        {
+          "selector": "#main > nav > a:nth-of-type(2)",
+          "tag": "A",
+          "name": "Kunskap",
+          "width": 62.265625,
+          "height": 44,
+          "disabled": false,
+          "href": "#explorer",
+          "fragmentMissing": false
+        },
+        {
+          "selector": "#main > nav > a:nth-of-type(3)",
+          "tag": "A",
+          "name": "Granskning",
+          "width": 81.828125,
+          "height": 44,
+          "disabled": false,
+          "href": "#review",
+          "fragmentMissing": false
+        },
+        {
+          "selector": "#main > nav > a:nth-of-type(4)",
+          "tag": "A",
+          "name": "Testresultat",
+          "width": 81.8125,
+          "height": 44,
+          "disabled": false,
+          "href": "#benchmarks",
+          "fragmentMissing": false
+        },
+        {
+          "selector": "#design-form > div:nth-of-type(1) > label:nth-of-type(1) > input",
+          "tag": "INPUT",
+          "name": "Projektnamn",
+          "width": 304,
+          "height": 43,
+          "disabled": false,
+          "href": null,
+          "fragmentMissing": false
+        },
+        {
+          "selector": "#design-form > div:nth-of-type(1) > label:nth-of-type(2) > select",
+          "tag": "SELECT",
+          "name": "VerksamhetSalongByggfirmaTeknik / SaaSAI-produktBil / fordonPortfolioE-handelFastigheterRestaurangCRMAnnat",
+          "width": 304,
+          "height": 45,
+          "disabled": false,
+          "href": null,
+          "fragmentMissing": false
+        },
+        {
+          "selector": "#design-form > label:nth-of-type(1) > input",
+          "tag": "INPUT",
+          "name": "Besökarens mål",
+          "width": 624,
+          "height": 43,
+          "disabled": false,
+          "href": null,
+          "fragmentMissing": false
+        },
+        {
+          "selector": "#design-form > label:nth-of-type(2) > input",
+          "tag": "INPUT",
+          "name": "Målgrupp",
+          "width": 624,
+          "height": 43,
+          "disabled": false,
+          "href": null,
+          "fragmentMissing": false
+        },
+        {
+          "selector": "#design-form > label:nth-of-type(3) > textarea",
+          "tag": "TEXTAREA",
+          "name": "Verifierade fakta",
+          "width": 624,
+          "height": 58,
+          "disabled": false,
+          "href": null,
+          "fragmentMissing": false
+        },
+        {
+          "selector": "#design-form > label:nth-of-type(4) > textarea",
+          "tag": "TEXTAREA",
+          "name": "Din valda riktning",
+          "width": 624,
+          "height": 58,
+          "disabled": false,
+          "href": null,
+          "fragmentMissing": false
+        },
+        {
+          "selector": "#design-form > div:nth-of-type(2) > label:nth-of-type(1) > select",
+          "tag": "SELECT",
+          "name": "ArbetslägeDesigna och byggAvgränsad ändringAvancerad interaktion",
+          "width": 304,
+          "height": 45,
+          "disabled": false,
+          "href": null,
+          "fragmentMissing": false
+        },
+        {
+          "selector": "#design-form > div:nth-of-type(2) > label:nth-of-type(2) > select",
+          "tag": "SELECT",
+          "name": "RörelseLugnUttrycksfullOmslutande",
+          "width": 304,
+          "height": 45,
+          "disabled": false,
+          "href": null,
+          "fragmentMissing": false
+        },
+        {
+          "selector": "#design-form > label:nth-of-type(5) > input",
+          "tag": "INPUT",
+          "name": "Avgränsad uppgift",
+          "width": 624,
+          "height": 43,
+          "disabled": false,
+          "href": null,
+          "fragmentMissing": false
+        },
+        {
+          "selector": "#design-form > div:nth-of-type(3) > label:nth-of-type(1) > select",
+          "tag": "SELECT",
+          "name": "TemaUtifrån verksamhetenLjustMörkt",
+          "width": 304,
+          "height": 45,
+          "disabled": false,
+          "href": null,
+          "fragmentMissing": false
+        },
+        {
+          "selector": "#design-form > div:nth-of-type(3) > label:nth-of-type(2) > input",
+          "tag": "INPUT",
+          "name": "Accentfärg",
+          "width": 304,
+          "height": 43,
+          "disabled": false,
+          "href": null,
+          "fragmentMissing": false
+        },
+        {
+          "selector": "#design-form > details > div > label:nth-of-type(1) > input",
+          "tag": "INPUT",
+          "name": "Kreativ frihet 5",
+          "width": 303,
+          "height": 30,
+          "disabled": false,
+          "href": null,
+          "fragmentMissing": false
+        },
+        {
+          "selector": "#design-form > details > div > label:nth-of-type(2) > input",
+          "tag": "INPUT",
+          "name": "Rörelseintensitet3",
+          "width": 303,
+          "height": 30,
+          "disabled": false,
+          "href": null,
+          "fragmentMissing": false
+        },
+        {
+          "selector": "#design-form > details > div > label:nth-of-type(3) > input",
+          "tag": "INPUT",
+          "name": "Visuell komplexitet4",
+          "width": 303,
+          "height": 30,
+          "disabled": false,
+          "href": null,
+          "fragmentMissing": false
+        },
+        {
+          "selector": "#design-form > details > div > label:nth-of-type(4) > input",
+          "tag": "INPUT",
+          "name": "Innehållstäthet4",
+          "width": 303,
+          "height": 30,
+          "disabled": false,
+          "href": null,
+          "fragmentMissing": false
+        },
+        {
+          "selector": "#design-form > details > div > label:nth-of-type(5) > input",
+          "tag": "INPUT",
+          "name": "Uttryck5",
+          "width": 303,
+          "height": 30,
+          "disabled": false,
+          "href": null,
+          "fragmentMissing": false
+        },
+        {
+          "selector": "#design-form > label:nth-of-type(6) > input",
+          "tag": "INPUT",
+          "name": "Sidor",
+          "width": 624,
+          "height": 43,
+          "disabled": false,
+          "href": null,
+          "fragmentMissing": false
+        },
+        {
+          "selector": "#design-form > label:nth-of-type(7) > textarea",
+          "tag": "TEXTAREA",
+          "name": "Sidundantag (JSON, valfritt)",
+          "width": 624,
+          "height": 73,
+          "disabled": false,
+          "href": null,
+          "fragmentMissing": false
+        },
+        {
+          "selector": "#design-form > button",
+          "tag": "BUTTON",
+          "name": "Skapa förslag",
+          "width": 624,
+          "height": 52,
+          "disabled": false,
+          "href": null,
+          "fragmentMissing": false
+        },
+        {
+          "selector": "#skill-search",
+          "tag": "INPUT",
+          "name": "Sök kapitel",
+          "width": 1296,
+          "height": 43,
+          "disabled": false,
+          "href": null,
+          "fragmentMissing": false
+        },
+        {
+          "selector": "#more-skills",
+          "tag": "BUTTON",
+          "name": "Visa fler kapitel",
+          "width": 140.203125,
+          "height": 44,
+          "disabled": false,
+          "href": null,
+          "fragmentMissing": false
+        },
+        {
+          "selector": "#explorer > a",
+          "tag": "A",
+          "name": "Öppna kandidatregistret",
+          "width": 170.78125,
+          "height": 44,
+          "disabled": false,
+          "href": "/examples/library/",
+          "fragmentMissing": false
+        },
+        {
+          "selector": "#explorer > p:nth-of-type(3) > a",
+          "tag": "A",
+          "name": "Prova en avgränsad CRM-ändring",
+          "width": 242.796875,
+          "height": 44,
+          "disabled": false,
+          "href": "/examples/crm-scope/",
+          "fragmentMissing": false
+        },
+        {
+          "selector": "#audit-file",
+          "tag": "INPUT",
+          "name": "Audit JSON",
+          "width": 850,
+          "height": 43,
+          "disabled": false,
+          "href": null,
+          "fragmentMissing": false
+        },
+        {
+          "selector": "#observations",
+          "tag": "TEXTAREA",
+          "name": "Kreativa observationer (JSON)",
+          "width": 850,
+          "height": 133,
+          "disabled": false,
+          "href": null,
+          "fragmentMissing": false
+        },
+        {
+          "selector": "#review-form > button",
+          "tag": "BUTTON",
+          "name": "Skapa granskningsplan",
+          "width": 850,
+          "height": 52,
+          "disabled": false,
+          "href": null,
+          "fragmentMissing": false
+        },
+        {
+          "selector": "#load-benchmarks",
+          "tag": "BUTTON",
+          "name": "Visa senaste resultat",
+          "width": 180.234375,
+          "height": 44,
+          "disabled": false,
+          "href": null,
+          "fragmentMissing": false
+        },
+        {
+          "selector": "html > body > footer > a:nth-of-type(1)",
+          "tag": "A",
+          "name": "Till Studio",
+          "width": 69.65625,
+          "height": 44,
+          "disabled": false,
+          "href": "/",
+          "fragmentMissing": false
+        },
+        {
+          "selector": "html > body > footer > a:nth-of-type(2)",
+          "tag": "A",
+          "name": "Mjuka pekarknappar",
+          "width": 144.96875,
+          "height": 44,
+          "disabled": false,
+          "href": "/examples/pointer-buttons/",
+          "fragmentMissing": false
+        }
+      ],
+      "texts": [
+        {
+          "selector": "html > body > a",
+          "text": "Till innehållet",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 16,
+          "weight": 400,
+          "foreground": "#24241f",
+          "background": "#ffffff"
+        },
+        {
+          "selector": "html > body > header > a:nth-of-type(1)",
+          "text": "✳ SuperBrain",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 22,
+          "weight": 700,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "html > body > header > a:nth-of-type(2)",
+          "text": "Prova scrollstudien",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 13,
+          "weight": 400,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#main > section:nth-of-type(1) > h1",
+          "text": "Från idétill beslut.",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 94,
+          "weight": 500,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#main > section:nth-of-type(1) > p",
+          "text": "Skapa en riktning och ett designsystem. Utforska relevant kunskap och granska det som faktiskt byggts.",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 16,
+          "weight": 400,
+          "foreground": "#55594e",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#main > nav > a:nth-of-type(1)",
+          "text": "Designsystem",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 16,
+          "weight": 400,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#main > nav > a:nth-of-type(2)",
+          "text": "Kunskap",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 16,
+          "weight": 400,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#main > nav > a:nth-of-type(3)",
+          "text": "Granskning",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 16,
+          "weight": 400,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#main > nav > a:nth-of-type(4)",
+          "text": "Testresultat",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 16,
+          "weight": 400,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#builder > h2",
+          "text": "Skapa ditt designsystem",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 42,
+          "weight": 500,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#builder > p",
+          "text": "Förslaget är en utgångspunkt för ditt projekt. Dina faktiska referenser och fungerande lösningar styr den färdiga design",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 16,
+          "weight": 400,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#design-form > div:nth-of-type(1) > label:nth-of-type(1)",
+          "text": "Projektnamn",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 13,
+          "weight": 400,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#design-form > label:nth-of-type(1)",
+          "text": "Besökarens mål",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 13,
+          "weight": 400,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#design-form > label:nth-of-type(2)",
+          "text": "Målgrupp",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 13,
+          "weight": 400,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#design-form > label:nth-of-type(3)",
+          "text": "Verifierade fakta",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 13,
+          "weight": 400,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#design-form > label:nth-of-type(4)",
+          "text": "Din valda riktning",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 13,
+          "weight": 400,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#design-form > label:nth-of-type(5)",
+          "text": "Avgränsad uppgift",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 13,
+          "weight": 400,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#design-form > div:nth-of-type(3) > label:nth-of-type(2)",
+          "text": "Accentfärg",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 13,
+          "weight": 400,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#design-form > label:nth-of-type(6)",
+          "text": "Sidor",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 13,
+          "weight": 400,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#design-form > label:nth-of-type(7)",
+          "text": "Sidundantag (JSON, valfritt)",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 13,
+          "weight": 400,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#design-form > button",
+          "text": "Skapa förslag",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 16,
+          "weight": 400,
+          "foreground": "#ffffff",
+          "background": "#24241f"
+        },
+        {
+          "selector": "#builder > div > div > h3",
+          "text": "Renderad komponentstudie",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 18.72,
+          "weight": 500,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#preview-note",
+          "text": "Skapa ett förslag för att se det här. Exempeltexten visar inga verkliga bokningar.",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 14,
+          "weight": 400,
+          "foreground": "#68685f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#explorer > h2",
+          "text": "Hitta relevant kunskap",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 42,
+          "weight": 500,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#explorer > label",
+          "text": "Sök kapitel",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 13,
+          "weight": 400,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#skill-status",
+          "text": "Visar 8 av 26 kapitel",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 16,
+          "weight": 400,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#skill-results > article:nth-of-type(1) > h3",
+          "text": "architecture",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 18.72,
+          "weight": 700,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#skill-results > article:nth-of-type(1) > p > small",
+          "text": "Kategori E · Vägledning · Beroenden: inga",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 13.3333,
+          "weight": 400,
+          "foreground": "#68685f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#skill-results > article:nth-of-type(2) > h3",
+          "text": "art-direction",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 18.72,
+          "weight": 700,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#skill-results > article:nth-of-type(2) > p > small",
+          "text": "Kategori A · Vägledning · Beroenden: inga",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 13.3333,
+          "weight": 400,
+          "foreground": "#68685f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#skill-results > article:nth-of-type(3) > h3",
+          "text": "typography-layout",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 18.72,
+          "weight": 700,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#skill-results > article:nth-of-type(3) > p > small",
+          "text": "Kategori A · Vägledning · Beroenden: inga",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 13.3333,
+          "weight": 400,
+          "foreground": "#68685f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#skill-results > article:nth-of-type(4) > h3",
+          "text": "continuity",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 18.72,
+          "weight": 700,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#skill-results > article:nth-of-type(4) > p > small",
+          "text": "Kategori A · Vägledning · Beroenden: inga",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 13.3333,
+          "weight": 400,
+          "foreground": "#68685f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#skill-results > article:nth-of-type(5) > h3",
+          "text": "local-business",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 18.72,
+          "weight": 700,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#skill-results > article:nth-of-type(5) > p > small",
+          "text": "Kategori F · Vägledning · Beroenden: inga",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 13.3333,
+          "weight": 400,
+          "foreground": "#68685f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#skill-results > article:nth-of-type(6) > h3",
+          "text": "technology",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 18.72,
+          "weight": 700,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#skill-results > article:nth-of-type(6) > p > small",
+          "text": "Kategori F · Vägledning · Beroenden: inga",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 13.3333,
+          "weight": 400,
+          "foreground": "#68685f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#skill-results > article:nth-of-type(7) > h3",
+          "text": "motion",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 18.72,
+          "weight": 700,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#skill-results > article:nth-of-type(7) > p > small",
+          "text": "Kategori C · Vägledning · Beroenden: accessibility",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 13.3333,
+          "weight": 400,
+          "foreground": "#68685f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#skill-results > article:nth-of-type(8) > h3",
+          "text": "interactive-effects",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 18.72,
+          "weight": 700,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#skill-results > article:nth-of-type(8) > p > small",
+          "text": "Kategori C · Vägledning · Beroenden: motion, motion-lifecycle",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 13.3333,
+          "weight": 400,
+          "foreground": "#68685f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#more-skills",
+          "text": "Visa fler kapitel",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 16,
+          "weight": 400,
+          "foreground": "#ffffff",
+          "background": "#24241f"
+        },
+        {
+          "selector": "#explorer > p:nth-of-type(2)",
+          "text": "Kapitel är vägledning. Kandidatregistret och de körbara demonstrationerna har egna kvalitetsstatusar.",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 16,
+          "weight": 400,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#explorer > a",
+          "text": "Öppna kandidatregistret",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 16,
+          "weight": 400,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#explorer > p:nth-of-type(3) > a",
+          "text": "Prova en avgränsad CRM-ändring",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 16,
+          "weight": 400,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#review > h2",
+          "text": "Granska med verkliga belägg",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 42,
+          "weight": 500,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#review > p",
+          "text": "Kör browsergranskningen i projektet och öppna audit.json här. Mekaniska fynd och kreativa observationer hålls åtskilda. ",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 16,
+          "weight": 400,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#review-form > label:nth-of-type(1)",
+          "text": "Audit JSON",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 13,
+          "weight": 400,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#review-form > label:nth-of-type(2)",
+          "text": "Kreativa observationer (JSON)",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 13,
+          "weight": 400,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#review-form > button",
+          "text": "Skapa granskningsplan",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 16,
+          "weight": 400,
+          "foreground": "#ffffff",
+          "background": "#24241f"
+        },
+        {
+          "selector": "#benchmarks > h2",
+          "text": "Tester och jämförelser",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 42,
+          "weight": 500,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#benchmarks > p",
+          "text": "Funktionella kontroller visar verifierat beteende. De bevisar inte estetisk överlägsenhet.",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 16,
+          "weight": 400,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#load-benchmarks",
+          "text": "Visa senaste resultat",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 16,
+          "weight": 400,
+          "foreground": "#ffffff",
+          "background": "#24241f"
+        },
+        {
+          "selector": "html > body > footer > a:nth-of-type(1)",
+          "text": "Till Studio",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 16,
+          "weight": 400,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "html > body > footer > a:nth-of-type(2)",
+          "text": "Mjuka pekarknappar",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 16,
+          "weight": 400,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        }
+      ],
+      "images": [],
+      "links": [
+        "http://127.0.0.1:64325/studio/engine/#main",
+        "http://127.0.0.1:64325/",
+        "http://127.0.0.1:64325/examples/cinematic/",
+        "http://127.0.0.1:64325/studio/engine/#builder",
+        "http://127.0.0.1:64325/studio/engine/#explorer",
+        "http://127.0.0.1:64325/studio/engine/#review",
+        "http://127.0.0.1:64325/studio/engine/#benchmarks",
+        "http://127.0.0.1:64325/examples/library/",
+        "http://127.0.0.1:64325/examples/crm-scope/",
+        "http://127.0.0.1:64325/",
+        "http://127.0.0.1:64325/examples/pointer-buttons/"
+      ],
+      "focused": {
+        "selector": "html > body",
+        "outline": "none",
+        "shadow": "none"
+      },
+      "artifact": "render-1440-reduce.png"
+    },
+    {
+      "schema": 1,
+      "url": "http://127.0.0.1:64325/studio/engine/",
+      "title": "SuperBrain — Designverktyg",
+      "viewport": {
+        "width": 390,
+        "height": 900
+      },
+      "reducedMotion": false,
+      "overflow": false,
+      "main": true,
+      "headings": [
+        {
+          "level": 1,
+          "text": "Från idétill beslut."
+        },
+        {
+          "level": 2,
+          "text": "Skapa ditt designsystem"
+        },
+        {
+          "level": 3,
+          "text": "Renderad komponentstudie"
+        },
+        {
+          "level": 2,
+          "text": "Hitta relevant kunskap"
+        },
+        {
+          "level": 3,
+          "text": "architecture"
+        },
+        {
+          "level": 3,
+          "text": "art-direction"
+        },
+        {
+          "level": 3,
+          "text": "typography-layout"
+        },
+        {
+          "level": 3,
+          "text": "continuity"
+        },
+        {
+          "level": 3,
+          "text": "local-business"
+        },
+        {
+          "level": 3,
+          "text": "technology"
+        },
+        {
+          "level": 3,
+          "text": "motion"
+        },
+        {
+          "level": 3,
+          "text": "interactive-effects"
+        },
+        {
+          "level": 2,
+          "text": "Granska med verkliga belägg"
+        },
+        {
+          "level": 2,
+          "text": "Tester och jämförelser"
+        }
+      ],
+      "controls": [
+        {
+          "selector": "html > body > a",
+          "tag": "A",
+          "name": "Till innehållet",
+          "width": 124.796875,
+          "height": 50,
+          "disabled": false,
+          "href": "#main",
+          "fragmentMissing": false
+        },
+        {
+          "selector": "html > body > header > a:nth-of-type(1)",
+          "tag": "A",
+          "name": "✳ SuperBrain",
+          "width": 106.015625,
+          "height": 44,
+          "disabled": false,
+          "href": "/",
+          "fragmentMissing": false
+        },
+        {
+          "selector": "html > body > header > a:nth-of-type(2)",
+          "tag": "A",
+          "name": "Prova scrollstudien",
+          "width": 101.390625,
+          "height": 44,
+          "disabled": false,
+          "href": "/examples/cinematic/",
+          "fragmentMissing": false
+        },
+        {
+          "selector": "#main > nav > a:nth-of-type(1)",
+          "tag": "A",
+          "name": "Designsystem",
+          "width": 100.484375,
+          "height": 44,
+          "disabled": false,
+          "href": "#builder",
+          "fragmentMissing": false
+        },
+        {
+          "selector": "#main > nav > a:nth-of-type(2)",
+          "tag": "A",
+          "name": "Kunskap",
+          "width": 62.265625,
+          "height": 44,
+          "disabled": false,
+          "href": "#explorer",
+          "fragmentMissing": false
+        },
+        {
+          "selector": "#main > nav > a:nth-of-type(3)",
+          "tag": "A",
+          "name": "Granskning",
+          "width": 81.828125,
+          "height": 44,
+          "disabled": false,
+          "href": "#review",
+          "fragmentMissing": false
+        },
+        {
+          "selector": "#main > nav > a:nth-of-type(4)",
+          "tag": "A",
+          "name": "Testresultat",
+          "width": 81.8125,
+          "height": 44,
+          "disabled": false,
+          "href": "#benchmarks",
+          "fragmentMissing": false
+        },
+        {
+          "selector": "#design-form > div:nth-of-type(1) > label:nth-of-type(1) > input",
+          "tag": "INPUT",
+          "name": "Projektnamn",
+          "width": 351,
+          "height": 43,
+          "disabled": false,
+          "href": null,
+          "fragmentMissing": false
+        },
+        {
+          "selector": "#design-form > div:nth-of-type(1) > label:nth-of-type(2) > select",
+          "tag": "SELECT",
+          "name": "VerksamhetSalongByggfirmaTeknik / SaaSAI-produktBil / fordonPortfolioE-handelFastigheterRestaurangCRMAnnat",
+          "width": 351,
+          "height": 45,
+          "disabled": false,
+          "href": null,
+          "fragmentMissing": false
+        },
+        {
+          "selector": "#design-form > label:nth-of-type(1) > input",
+          "tag": "INPUT",
+          "name": "Besökarens mål",
+          "width": 351,
+          "height": 43,
+          "disabled": false,
+          "href": null,
+          "fragmentMissing": false
+        },
+        {
+          "selector": "#design-form > label:nth-of-type(2) > input",
+          "tag": "INPUT",
+          "name": "Målgrupp",
+          "width": 351,
+          "height": 43,
+          "disabled": false,
+          "href": null,
+          "fragmentMissing": false
+        },
+        {
+          "selector": "#design-form > label:nth-of-type(3) > textarea",
+          "tag": "TEXTAREA",
+          "name": "Verifierade fakta",
+          "width": 351,
+          "height": 58,
+          "disabled": false,
+          "href": null,
+          "fragmentMissing": false
+        },
+        {
+          "selector": "#design-form > label:nth-of-type(4) > textarea",
+          "tag": "TEXTAREA",
+          "name": "Din valda riktning",
+          "width": 351,
+          "height": 58,
+          "disabled": false,
+          "href": null,
+          "fragmentMissing": false
+        },
+        {
+          "selector": "#design-form > div:nth-of-type(2) > label:nth-of-type(1) > select",
+          "tag": "SELECT",
+          "name": "ArbetslägeDesigna och byggAvgränsad ändringAvancerad interaktion",
+          "width": 351,
+          "height": 45,
+          "disabled": false,
+          "href": null,
+          "fragmentMissing": false
+        },
+        {
+          "selector": "#design-form > div:nth-of-type(2) > label:nth-of-type(2) > select",
+          "tag": "SELECT",
+          "name": "RörelseLugnUttrycksfullOmslutande",
+          "width": 351,
+          "height": 45,
+          "disabled": false,
+          "href": null,
+          "fragmentMissing": false
+        },
+        {
+          "selector": "#design-form > label:nth-of-type(5) > input",
+          "tag": "INPUT",
+          "name": "Avgränsad uppgift",
+          "width": 351,
+          "height": 43,
+          "disabled": false,
+          "href": null,
+          "fragmentMissing": false
+        },
+        {
+          "selector": "#design-form > div:nth-of-type(3) > label:nth-of-type(1) > select",
+          "tag": "SELECT",
+          "name": "TemaUtifrån verksamhetenLjustMörkt",
+          "width": 351,
+          "height": 45,
+          "disabled": false,
+          "href": null,
+          "fragmentMissing": false
+        },
+        {
+          "selector": "#design-form > div:nth-of-type(3) > label:nth-of-type(2) > input",
+          "tag": "INPUT",
+          "name": "Accentfärg",
+          "width": 351,
+          "height": 43,
+          "disabled": false,
+          "href": null,
+          "fragmentMissing": false
+        },
+        {
+          "selector": "#design-form > details > div > label:nth-of-type(1) > input",
+          "tag": "INPUT",
+          "name": "Kreativ frihet 5",
+          "width": 351,
+          "height": 30,
+          "disabled": false,
+          "href": null,
+          "fragmentMissing": false
+        },
+        {
+          "selector": "#design-form > details > div > label:nth-of-type(2) > input",
+          "tag": "INPUT",
+          "name": "Rörelseintensitet3",
+          "width": 351,
+          "height": 30,
+          "disabled": false,
+          "href": null,
+          "fragmentMissing": false
+        },
+        {
+          "selector": "#design-form > details > div > label:nth-of-type(3) > input",
+          "tag": "INPUT",
+          "name": "Visuell komplexitet4",
+          "width": 351,
+          "height": 30,
+          "disabled": false,
+          "href": null,
+          "fragmentMissing": false
+        },
+        {
+          "selector": "#design-form > details > div > label:nth-of-type(4) > input",
+          "tag": "INPUT",
+          "name": "Innehållstäthet4",
+          "width": 351,
+          "height": 30,
+          "disabled": false,
+          "href": null,
+          "fragmentMissing": false
+        },
+        {
+          "selector": "#design-form > details > div > label:nth-of-type(5) > input",
+          "tag": "INPUT",
+          "name": "Uttryck5",
+          "width": 351,
+          "height": 30,
+          "disabled": false,
+          "href": null,
+          "fragmentMissing": false
+        },
+        {
+          "selector": "#design-form > label:nth-of-type(6) > input",
+          "tag": "INPUT",
+          "name": "Sidor",
+          "width": 351,
+          "height": 43,
+          "disabled": false,
+          "href": null,
+          "fragmentMissing": false
+        },
+        {
+          "selector": "#design-form > label:nth-of-type(7) > textarea",
+          "tag": "TEXTAREA",
+          "name": "Sidundantag (JSON, valfritt)",
+          "width": 351,
+          "height": 73,
+          "disabled": false,
+          "href": null,
+          "fragmentMissing": false
+        },
+        {
+          "selector": "#design-form > button",
+          "tag": "BUTTON",
+          "name": "Skapa förslag",
+          "width": 351,
+          "height": 52,
+          "disabled": false,
+          "href": null,
+          "fragmentMissing": false
+        },
+        {
+          "selector": "#skill-search",
+          "tag": "INPUT",
+          "name": "Sök kapitel",
+          "width": 351,
+          "height": 43,
+          "disabled": false,
+          "href": null,
+          "fragmentMissing": false
+        },
+        {
+          "selector": "#more-skills",
+          "tag": "BUTTON",
+          "name": "Visa fler kapitel",
+          "width": 140.203125,
+          "height": 44,
+          "disabled": false,
+          "href": null,
+          "fragmentMissing": false
+        },
+        {
+          "selector": "#explorer > a",
+          "tag": "A",
+          "name": "Öppna kandidatregistret",
+          "width": 170.78125,
+          "height": 44,
+          "disabled": false,
+          "href": "/examples/library/",
+          "fragmentMissing": false
+        },
+        {
+          "selector": "#explorer > p:nth-of-type(3) > a",
+          "tag": "A",
+          "name": "Prova en avgränsad CRM-ändring",
+          "width": 242.796875,
+          "height": 44,
+          "disabled": false,
+          "href": "/examples/crm-scope/",
+          "fragmentMissing": false
+        },
+        {
+          "selector": "#audit-file",
+          "tag": "INPUT",
+          "name": "Audit JSON",
+          "width": 351,
+          "height": 43,
+          "disabled": false,
+          "href": null,
+          "fragmentMissing": false
+        },
+        {
+          "selector": "#observations",
+          "tag": "TEXTAREA",
+          "name": "Kreativa observationer (JSON)",
+          "width": 351,
+          "height": 133,
+          "disabled": false,
+          "href": null,
+          "fragmentMissing": false
+        },
+        {
+          "selector": "#review-form > button",
+          "tag": "BUTTON",
+          "name": "Skapa granskningsplan",
+          "width": 351,
+          "height": 52,
+          "disabled": false,
+          "href": null,
+          "fragmentMissing": false
+        },
+        {
+          "selector": "#load-benchmarks",
+          "tag": "BUTTON",
+          "name": "Visa senaste resultat",
+          "width": 180.234375,
+          "height": 44,
+          "disabled": false,
+          "href": null,
+          "fragmentMissing": false
+        },
+        {
+          "selector": "html > body > footer > a:nth-of-type(1)",
+          "tag": "A",
+          "name": "Till Studio",
+          "width": 69.65625,
+          "height": 44,
+          "disabled": false,
+          "href": "/",
+          "fragmentMissing": false
+        },
+        {
+          "selector": "html > body > footer > a:nth-of-type(2)",
+          "tag": "A",
+          "name": "Mjuka pekarknappar",
+          "width": 144.96875,
+          "height": 44,
+          "disabled": false,
+          "href": "/examples/pointer-buttons/",
+          "fragmentMissing": false
+        }
+      ],
+      "texts": [
+        {
+          "selector": "html > body > a",
+          "text": "Till innehållet",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 16,
+          "weight": 400,
+          "foreground": "#24241f",
+          "background": "#ffffff"
+        },
+        {
+          "selector": "html > body > header > a:nth-of-type(1)",
+          "text": "✳ SuperBrain",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 18,
+          "weight": 700,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "html > body > header > a:nth-of-type(2)",
+          "text": "Prova scrollstudien",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 12,
+          "weight": 400,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#main > section:nth-of-type(1) > h1",
+          "text": "Från idétill beslut.",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 48,
+          "weight": 500,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#main > section:nth-of-type(1) > p",
+          "text": "Skapa en riktning och ett designsystem. Utforska relevant kunskap och granska det som faktiskt byggts.",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 16,
+          "weight": 400,
+          "foreground": "#55594e",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#main > nav > a:nth-of-type(1)",
+          "text": "Designsystem",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 16,
+          "weight": 400,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#main > nav > a:nth-of-type(2)",
+          "text": "Kunskap",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 16,
+          "weight": 400,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#main > nav > a:nth-of-type(3)",
+          "text": "Granskning",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 16,
+          "weight": 400,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#main > nav > a:nth-of-type(4)",
+          "text": "Testresultat",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 16,
+          "weight": 400,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#builder > h2",
+          "text": "Skapa ditt designsystem",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 26,
+          "weight": 500,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#builder > p",
+          "text": "Förslaget är en utgångspunkt för ditt projekt. Dina faktiska referenser och fungerande lösningar styr den färdiga design",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 16,
+          "weight": 400,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#design-form > div:nth-of-type(1) > label:nth-of-type(1)",
+          "text": "Projektnamn",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 13,
+          "weight": 400,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#design-form > label:nth-of-type(1)",
+          "text": "Besökarens mål",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 13,
+          "weight": 400,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#design-form > label:nth-of-type(2)",
+          "text": "Målgrupp",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 13,
+          "weight": 400,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#design-form > label:nth-of-type(3)",
+          "text": "Verifierade fakta",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 13,
+          "weight": 400,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#design-form > label:nth-of-type(4)",
+          "text": "Din valda riktning",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 13,
+          "weight": 400,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#design-form > label:nth-of-type(5)",
+          "text": "Avgränsad uppgift",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 13,
+          "weight": 400,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#design-form > div:nth-of-type(3) > label:nth-of-type(2)",
+          "text": "Accentfärg",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 13,
+          "weight": 400,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#design-form > label:nth-of-type(6)",
+          "text": "Sidor",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 13,
+          "weight": 400,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#design-form > label:nth-of-type(7)",
+          "text": "Sidundantag (JSON, valfritt)",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 13,
+          "weight": 400,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#design-form > button",
+          "text": "Skapa förslag",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 16,
+          "weight": 400,
+          "foreground": "#ffffff",
+          "background": "#24241f"
+        },
+        {
+          "selector": "#builder > div > div > h3",
+          "text": "Renderad komponentstudie",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 18.72,
+          "weight": 500,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#preview-note",
+          "text": "Skapa ett förslag för att se det här. Exempeltexten visar inga verkliga bokningar.",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 14,
+          "weight": 400,
+          "foreground": "#68685f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#explorer > h2",
+          "text": "Hitta relevant kunskap",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 26,
+          "weight": 500,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#explorer > label",
+          "text": "Sök kapitel",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 13,
+          "weight": 400,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#skill-status",
+          "text": "Visar 8 av 26 kapitel",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 16,
+          "weight": 400,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#skill-results > article:nth-of-type(1) > h3",
+          "text": "architecture",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 18.72,
+          "weight": 700,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#skill-results > article:nth-of-type(1) > p > small",
+          "text": "Kategori E · Vägledning · Beroenden: inga",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 13.3333,
+          "weight": 400,
+          "foreground": "#68685f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#skill-results > article:nth-of-type(2) > h3",
+          "text": "art-direction",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 18.72,
+          "weight": 700,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#skill-results > article:nth-of-type(2) > p > small",
+          "text": "Kategori A · Vägledning · Beroenden: inga",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 13.3333,
+          "weight": 400,
+          "foreground": "#68685f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#skill-results > article:nth-of-type(3) > h3",
+          "text": "typography-layout",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 18.72,
+          "weight": 700,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#skill-results > article:nth-of-type(3) > p > small",
+          "text": "Kategori A · Vägledning · Beroenden: inga",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 13.3333,
+          "weight": 400,
+          "foreground": "#68685f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#skill-results > article:nth-of-type(4) > h3",
+          "text": "continuity",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 18.72,
+          "weight": 700,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#skill-results > article:nth-of-type(4) > p > small",
+          "text": "Kategori A · Vägledning · Beroenden: inga",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 13.3333,
+          "weight": 400,
+          "foreground": "#68685f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#skill-results > article:nth-of-type(5) > h3",
+          "text": "local-business",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 18.72,
+          "weight": 700,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#skill-results > article:nth-of-type(5) > p > small",
+          "text": "Kategori F · Vägledning · Beroenden: inga",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 13.3333,
+          "weight": 400,
+          "foreground": "#68685f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#skill-results > article:nth-of-type(6) > h3",
+          "text": "technology",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 18.72,
+          "weight": 700,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#skill-results > article:nth-of-type(6) > p > small",
+          "text": "Kategori F · Vägledning · Beroenden: inga",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 13.3333,
+          "weight": 400,
+          "foreground": "#68685f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#skill-results > article:nth-of-type(7) > h3",
+          "text": "motion",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 18.72,
+          "weight": 700,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#skill-results > article:nth-of-type(7) > p > small",
+          "text": "Kategori C · Vägledning · Beroenden: accessibility",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 13.3333,
+          "weight": 400,
+          "foreground": "#68685f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#skill-results > article:nth-of-type(8) > h3",
+          "text": "interactive-effects",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 18.72,
+          "weight": 700,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#skill-results > article:nth-of-type(8) > p > small",
+          "text": "Kategori C · Vägledning · Beroenden: motion, motion-lifecycle",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 13.3333,
+          "weight": 400,
+          "foreground": "#68685f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#more-skills",
+          "text": "Visa fler kapitel",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 16,
+          "weight": 400,
+          "foreground": "#ffffff",
+          "background": "#24241f"
+        },
+        {
+          "selector": "#explorer > p:nth-of-type(2)",
+          "text": "Kapitel är vägledning. Kandidatregistret och de körbara demonstrationerna har egna kvalitetsstatusar.",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 16,
+          "weight": 400,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#explorer > a",
+          "text": "Öppna kandidatregistret",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 16,
+          "weight": 400,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#explorer > p:nth-of-type(3) > a",
+          "text": "Prova en avgränsad CRM-ändring",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 16,
+          "weight": 400,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#review > h2",
+          "text": "Granska med verkliga belägg",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 26,
+          "weight": 500,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#review > p",
+          "text": "Kör browsergranskningen i projektet och öppna audit.json här. Mekaniska fynd och kreativa observationer hålls åtskilda. ",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 16,
+          "weight": 400,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#review-form > label:nth-of-type(1)",
+          "text": "Audit JSON",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 13,
+          "weight": 400,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#review-form > label:nth-of-type(2)",
+          "text": "Kreativa observationer (JSON)",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 13,
+          "weight": 400,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#review-form > button",
+          "text": "Skapa granskningsplan",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 16,
+          "weight": 400,
+          "foreground": "#ffffff",
+          "background": "#24241f"
+        },
+        {
+          "selector": "#benchmarks > h2",
+          "text": "Tester och jämförelser",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 26,
+          "weight": 500,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#benchmarks > p",
+          "text": "Funktionella kontroller visar verifierat beteende. De bevisar inte estetisk överlägsenhet.",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 16,
+          "weight": 400,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#load-benchmarks",
+          "text": "Visa senaste resultat",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 16,
+          "weight": 400,
+          "foreground": "#ffffff",
+          "background": "#24241f"
+        },
+        {
+          "selector": "html > body > footer > a:nth-of-type(1)",
+          "text": "Till Studio",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 16,
+          "weight": 400,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "html > body > footer > a:nth-of-type(2)",
+          "text": "Mjuka pekarknappar",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 16,
+          "weight": 400,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        }
+      ],
+      "images": [],
+      "links": [
+        "http://127.0.0.1:64325/studio/engine/#main",
+        "http://127.0.0.1:64325/",
+        "http://127.0.0.1:64325/examples/cinematic/",
+        "http://127.0.0.1:64325/studio/engine/#builder",
+        "http://127.0.0.1:64325/studio/engine/#explorer",
+        "http://127.0.0.1:64325/studio/engine/#review",
+        "http://127.0.0.1:64325/studio/engine/#benchmarks",
+        "http://127.0.0.1:64325/examples/library/",
+        "http://127.0.0.1:64325/examples/crm-scope/",
+        "http://127.0.0.1:64325/",
+        "http://127.0.0.1:64325/examples/pointer-buttons/"
+      ],
+      "focused": {
+        "selector": "html > body",
+        "outline": "none",
+        "shadow": "none"
+      },
+      "artifact": "render-390-no-preference.png"
+    },
+    {
+      "schema": 1,
+      "url": "http://127.0.0.1:64325/studio/engine/",
+      "title": "SuperBrain — Designverktyg",
+      "viewport": {
+        "width": 390,
+        "height": 900
+      },
+      "reducedMotion": true,
+      "overflow": false,
+      "main": true,
+      "headings": [
+        {
+          "level": 1,
+          "text": "Från idétill beslut."
+        },
+        {
+          "level": 2,
+          "text": "Skapa ditt designsystem"
+        },
+        {
+          "level": 3,
+          "text": "Renderad komponentstudie"
+        },
+        {
+          "level": 2,
+          "text": "Hitta relevant kunskap"
+        },
+        {
+          "level": 3,
+          "text": "architecture"
+        },
+        {
+          "level": 3,
+          "text": "art-direction"
+        },
+        {
+          "level": 3,
+          "text": "typography-layout"
+        },
+        {
+          "level": 3,
+          "text": "continuity"
+        },
+        {
+          "level": 3,
+          "text": "local-business"
+        },
+        {
+          "level": 3,
+          "text": "technology"
+        },
+        {
+          "level": 3,
+          "text": "motion"
+        },
+        {
+          "level": 3,
+          "text": "interactive-effects"
+        },
+        {
+          "level": 2,
+          "text": "Granska med verkliga belägg"
+        },
+        {
+          "level": 2,
+          "text": "Tester och jämförelser"
+        }
+      ],
+      "controls": [
+        {
+          "selector": "html > body > a",
+          "tag": "A",
+          "name": "Till innehållet",
+          "width": 124.796875,
+          "height": 50,
+          "disabled": false,
+          "href": "#main",
+          "fragmentMissing": false
+        },
+        {
+          "selector": "html > body > header > a:nth-of-type(1)",
+          "tag": "A",
+          "name": "✳ SuperBrain",
+          "width": 106.015625,
+          "height": 44,
+          "disabled": false,
+          "href": "/",
+          "fragmentMissing": false
+        },
+        {
+          "selector": "html > body > header > a:nth-of-type(2)",
+          "tag": "A",
+          "name": "Prova scrollstudien",
+          "width": 101.390625,
+          "height": 44,
+          "disabled": false,
+          "href": "/examples/cinematic/",
+          "fragmentMissing": false
+        },
+        {
+          "selector": "#main > nav > a:nth-of-type(1)",
+          "tag": "A",
+          "name": "Designsystem",
+          "width": 100.484375,
+          "height": 44,
+          "disabled": false,
+          "href": "#builder",
+          "fragmentMissing": false
+        },
+        {
+          "selector": "#main > nav > a:nth-of-type(2)",
+          "tag": "A",
+          "name": "Kunskap",
+          "width": 62.265625,
+          "height": 44,
+          "disabled": false,
+          "href": "#explorer",
+          "fragmentMissing": false
+        },
+        {
+          "selector": "#main > nav > a:nth-of-type(3)",
+          "tag": "A",
+          "name": "Granskning",
+          "width": 81.828125,
+          "height": 44,
+          "disabled": false,
+          "href": "#review",
+          "fragmentMissing": false
+        },
+        {
+          "selector": "#main > nav > a:nth-of-type(4)",
+          "tag": "A",
+          "name": "Testresultat",
+          "width": 81.8125,
+          "height": 44,
+          "disabled": false,
+          "href": "#benchmarks",
+          "fragmentMissing": false
+        },
+        {
+          "selector": "#design-form > div:nth-of-type(1) > label:nth-of-type(1) > input",
+          "tag": "INPUT",
+          "name": "Projektnamn",
+          "width": 351,
+          "height": 43,
+          "disabled": false,
+          "href": null,
+          "fragmentMissing": false
+        },
+        {
+          "selector": "#design-form > div:nth-of-type(1) > label:nth-of-type(2) > select",
+          "tag": "SELECT",
+          "name": "VerksamhetSalongByggfirmaTeknik / SaaSAI-produktBil / fordonPortfolioE-handelFastigheterRestaurangCRMAnnat",
+          "width": 351,
+          "height": 45,
+          "disabled": false,
+          "href": null,
+          "fragmentMissing": false
+        },
+        {
+          "selector": "#design-form > label:nth-of-type(1) > input",
+          "tag": "INPUT",
+          "name": "Besökarens mål",
+          "width": 351,
+          "height": 43,
+          "disabled": false,
+          "href": null,
+          "fragmentMissing": false
+        },
+        {
+          "selector": "#design-form > label:nth-of-type(2) > input",
+          "tag": "INPUT",
+          "name": "Målgrupp",
+          "width": 351,
+          "height": 43,
+          "disabled": false,
+          "href": null,
+          "fragmentMissing": false
+        },
+        {
+          "selector": "#design-form > label:nth-of-type(3) > textarea",
+          "tag": "TEXTAREA",
+          "name": "Verifierade fakta",
+          "width": 351,
+          "height": 58,
+          "disabled": false,
+          "href": null,
+          "fragmentMissing": false
+        },
+        {
+          "selector": "#design-form > label:nth-of-type(4) > textarea",
+          "tag": "TEXTAREA",
+          "name": "Din valda riktning",
+          "width": 351,
+          "height": 58,
+          "disabled": false,
+          "href": null,
+          "fragmentMissing": false
+        },
+        {
+          "selector": "#design-form > div:nth-of-type(2) > label:nth-of-type(1) > select",
+          "tag": "SELECT",
+          "name": "ArbetslägeDesigna och byggAvgränsad ändringAvancerad interaktion",
+          "width": 351,
+          "height": 45,
+          "disabled": false,
+          "href": null,
+          "fragmentMissing": false
+        },
+        {
+          "selector": "#design-form > div:nth-of-type(2) > label:nth-of-type(2) > select",
+          "tag": "SELECT",
+          "name": "RörelseLugnUttrycksfullOmslutande",
+          "width": 351,
+          "height": 45,
+          "disabled": false,
+          "href": null,
+          "fragmentMissing": false
+        },
+        {
+          "selector": "#design-form > label:nth-of-type(5) > input",
+          "tag": "INPUT",
+          "name": "Avgränsad uppgift",
+          "width": 351,
+          "height": 43,
+          "disabled": false,
+          "href": null,
+          "fragmentMissing": false
+        },
+        {
+          "selector": "#design-form > div:nth-of-type(3) > label:nth-of-type(1) > select",
+          "tag": "SELECT",
+          "name": "TemaUtifrån verksamhetenLjustMörkt",
+          "width": 351,
+          "height": 45,
+          "disabled": false,
+          "href": null,
+          "fragmentMissing": false
+        },
+        {
+          "selector": "#design-form > div:nth-of-type(3) > label:nth-of-type(2) > input",
+          "tag": "INPUT",
+          "name": "Accentfärg",
+          "width": 351,
+          "height": 43,
+          "disabled": false,
+          "href": null,
+          "fragmentMissing": false
+        },
+        {
+          "selector": "#design-form > details > div > label:nth-of-type(1) > input",
+          "tag": "INPUT",
+          "name": "Kreativ frihet 5",
+          "width": 351,
+          "height": 30,
+          "disabled": false,
+          "href": null,
+          "fragmentMissing": false
+        },
+        {
+          "selector": "#design-form > details > div > label:nth-of-type(2) > input",
+          "tag": "INPUT",
+          "name": "Rörelseintensitet3",
+          "width": 351,
+          "height": 30,
+          "disabled": false,
+          "href": null,
+          "fragmentMissing": false
+        },
+        {
+          "selector": "#design-form > details > div > label:nth-of-type(3) > input",
+          "tag": "INPUT",
+          "name": "Visuell komplexitet4",
+          "width": 351,
+          "height": 30,
+          "disabled": false,
+          "href": null,
+          "fragmentMissing": false
+        },
+        {
+          "selector": "#design-form > details > div > label:nth-of-type(4) > input",
+          "tag": "INPUT",
+          "name": "Innehållstäthet4",
+          "width": 351,
+          "height": 30,
+          "disabled": false,
+          "href": null,
+          "fragmentMissing": false
+        },
+        {
+          "selector": "#design-form > details > div > label:nth-of-type(5) > input",
+          "tag": "INPUT",
+          "name": "Uttryck5",
+          "width": 351,
+          "height": 30,
+          "disabled": false,
+          "href": null,
+          "fragmentMissing": false
+        },
+        {
+          "selector": "#design-form > label:nth-of-type(6) > input",
+          "tag": "INPUT",
+          "name": "Sidor",
+          "width": 351,
+          "height": 43,
+          "disabled": false,
+          "href": null,
+          "fragmentMissing": false
+        },
+        {
+          "selector": "#design-form > label:nth-of-type(7) > textarea",
+          "tag": "TEXTAREA",
+          "name": "Sidundantag (JSON, valfritt)",
+          "width": 351,
+          "height": 73,
+          "disabled": false,
+          "href": null,
+          "fragmentMissing": false
+        },
+        {
+          "selector": "#design-form > button",
+          "tag": "BUTTON",
+          "name": "Skapa förslag",
+          "width": 351,
+          "height": 52,
+          "disabled": false,
+          "href": null,
+          "fragmentMissing": false
+        },
+        {
+          "selector": "#skill-search",
+          "tag": "INPUT",
+          "name": "Sök kapitel",
+          "width": 351,
+          "height": 43,
+          "disabled": false,
+          "href": null,
+          "fragmentMissing": false
+        },
+        {
+          "selector": "#more-skills",
+          "tag": "BUTTON",
+          "name": "Visa fler kapitel",
+          "width": 140.203125,
+          "height": 44,
+          "disabled": false,
+          "href": null,
+          "fragmentMissing": false
+        },
+        {
+          "selector": "#explorer > a",
+          "tag": "A",
+          "name": "Öppna kandidatregistret",
+          "width": 170.78125,
+          "height": 44,
+          "disabled": false,
+          "href": "/examples/library/",
+          "fragmentMissing": false
+        },
+        {
+          "selector": "#explorer > p:nth-of-type(3) > a",
+          "tag": "A",
+          "name": "Prova en avgränsad CRM-ändring",
+          "width": 242.796875,
+          "height": 44,
+          "disabled": false,
+          "href": "/examples/crm-scope/",
+          "fragmentMissing": false
+        },
+        {
+          "selector": "#audit-file",
+          "tag": "INPUT",
+          "name": "Audit JSON",
+          "width": 351,
+          "height": 43,
+          "disabled": false,
+          "href": null,
+          "fragmentMissing": false
+        },
+        {
+          "selector": "#observations",
+          "tag": "TEXTAREA",
+          "name": "Kreativa observationer (JSON)",
+          "width": 351,
+          "height": 133,
+          "disabled": false,
+          "href": null,
+          "fragmentMissing": false
+        },
+        {
+          "selector": "#review-form > button",
+          "tag": "BUTTON",
+          "name": "Skapa granskningsplan",
+          "width": 351,
+          "height": 52,
+          "disabled": false,
+          "href": null,
+          "fragmentMissing": false
+        },
+        {
+          "selector": "#load-benchmarks",
+          "tag": "BUTTON",
+          "name": "Visa senaste resultat",
+          "width": 180.234375,
+          "height": 44,
+          "disabled": false,
+          "href": null,
+          "fragmentMissing": false
+        },
+        {
+          "selector": "html > body > footer > a:nth-of-type(1)",
+          "tag": "A",
+          "name": "Till Studio",
+          "width": 69.65625,
+          "height": 44,
+          "disabled": false,
+          "href": "/",
+          "fragmentMissing": false
+        },
+        {
+          "selector": "html > body > footer > a:nth-of-type(2)",
+          "tag": "A",
+          "name": "Mjuka pekarknappar",
+          "width": 144.96875,
+          "height": 44,
+          "disabled": false,
+          "href": "/examples/pointer-buttons/",
+          "fragmentMissing": false
+        }
+      ],
+      "texts": [
+        {
+          "selector": "html > body > a",
+          "text": "Till innehållet",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 16,
+          "weight": 400,
+          "foreground": "#24241f",
+          "background": "#ffffff"
+        },
+        {
+          "selector": "html > body > header > a:nth-of-type(1)",
+          "text": "✳ SuperBrain",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 18,
+          "weight": 700,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "html > body > header > a:nth-of-type(2)",
+          "text": "Prova scrollstudien",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 12,
+          "weight": 400,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#main > section:nth-of-type(1) > h1",
+          "text": "Från idétill beslut.",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 48,
+          "weight": 500,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#main > section:nth-of-type(1) > p",
+          "text": "Skapa en riktning och ett designsystem. Utforska relevant kunskap och granska det som faktiskt byggts.",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 16,
+          "weight": 400,
+          "foreground": "#55594e",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#main > nav > a:nth-of-type(1)",
+          "text": "Designsystem",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 16,
+          "weight": 400,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#main > nav > a:nth-of-type(2)",
+          "text": "Kunskap",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 16,
+          "weight": 400,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#main > nav > a:nth-of-type(3)",
+          "text": "Granskning",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 16,
+          "weight": 400,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#main > nav > a:nth-of-type(4)",
+          "text": "Testresultat",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 16,
+          "weight": 400,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#builder > h2",
+          "text": "Skapa ditt designsystem",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 26,
+          "weight": 500,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#builder > p",
+          "text": "Förslaget är en utgångspunkt för ditt projekt. Dina faktiska referenser och fungerande lösningar styr den färdiga design",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 16,
+          "weight": 400,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#design-form > div:nth-of-type(1) > label:nth-of-type(1)",
+          "text": "Projektnamn",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 13,
+          "weight": 400,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#design-form > label:nth-of-type(1)",
+          "text": "Besökarens mål",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 13,
+          "weight": 400,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#design-form > label:nth-of-type(2)",
+          "text": "Målgrupp",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 13,
+          "weight": 400,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#design-form > label:nth-of-type(3)",
+          "text": "Verifierade fakta",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 13,
+          "weight": 400,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#design-form > label:nth-of-type(4)",
+          "text": "Din valda riktning",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 13,
+          "weight": 400,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#design-form > label:nth-of-type(5)",
+          "text": "Avgränsad uppgift",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 13,
+          "weight": 400,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#design-form > div:nth-of-type(3) > label:nth-of-type(2)",
+          "text": "Accentfärg",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 13,
+          "weight": 400,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#design-form > label:nth-of-type(6)",
+          "text": "Sidor",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 13,
+          "weight": 400,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#design-form > label:nth-of-type(7)",
+          "text": "Sidundantag (JSON, valfritt)",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 13,
+          "weight": 400,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#design-form > button",
+          "text": "Skapa förslag",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 16,
+          "weight": 400,
+          "foreground": "#ffffff",
+          "background": "#24241f"
+        },
+        {
+          "selector": "#builder > div > div > h3",
+          "text": "Renderad komponentstudie",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 18.72,
+          "weight": 500,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#preview-note",
+          "text": "Skapa ett förslag för att se det här. Exempeltexten visar inga verkliga bokningar.",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 14,
+          "weight": 400,
+          "foreground": "#68685f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#explorer > h2",
+          "text": "Hitta relevant kunskap",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 26,
+          "weight": 500,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#explorer > label",
+          "text": "Sök kapitel",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 13,
+          "weight": 400,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#skill-status",
+          "text": "Visar 8 av 26 kapitel",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 16,
+          "weight": 400,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#skill-results > article:nth-of-type(1) > h3",
+          "text": "architecture",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 18.72,
+          "weight": 700,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#skill-results > article:nth-of-type(1) > p > small",
+          "text": "Kategori E · Vägledning · Beroenden: inga",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 13.3333,
+          "weight": 400,
+          "foreground": "#68685f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#skill-results > article:nth-of-type(2) > h3",
+          "text": "art-direction",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 18.72,
+          "weight": 700,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#skill-results > article:nth-of-type(2) > p > small",
+          "text": "Kategori A · Vägledning · Beroenden: inga",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 13.3333,
+          "weight": 400,
+          "foreground": "#68685f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#skill-results > article:nth-of-type(3) > h3",
+          "text": "typography-layout",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 18.72,
+          "weight": 700,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#skill-results > article:nth-of-type(3) > p > small",
+          "text": "Kategori A · Vägledning · Beroenden: inga",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 13.3333,
+          "weight": 400,
+          "foreground": "#68685f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#skill-results > article:nth-of-type(4) > h3",
+          "text": "continuity",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 18.72,
+          "weight": 700,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#skill-results > article:nth-of-type(4) > p > small",
+          "text": "Kategori A · Vägledning · Beroenden: inga",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 13.3333,
+          "weight": 400,
+          "foreground": "#68685f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#skill-results > article:nth-of-type(5) > h3",
+          "text": "local-business",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 18.72,
+          "weight": 700,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#skill-results > article:nth-of-type(5) > p > small",
+          "text": "Kategori F · Vägledning · Beroenden: inga",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 13.3333,
+          "weight": 400,
+          "foreground": "#68685f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#skill-results > article:nth-of-type(6) > h3",
+          "text": "technology",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 18.72,
+          "weight": 700,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#skill-results > article:nth-of-type(6) > p > small",
+          "text": "Kategori F · Vägledning · Beroenden: inga",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 13.3333,
+          "weight": 400,
+          "foreground": "#68685f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#skill-results > article:nth-of-type(7) > h3",
+          "text": "motion",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 18.72,
+          "weight": 700,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#skill-results > article:nth-of-type(7) > p > small",
+          "text": "Kategori C · Vägledning · Beroenden: accessibility",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 13.3333,
+          "weight": 400,
+          "foreground": "#68685f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#skill-results > article:nth-of-type(8) > h3",
+          "text": "interactive-effects",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 18.72,
+          "weight": 700,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#skill-results > article:nth-of-type(8) > p > small",
+          "text": "Kategori C · Vägledning · Beroenden: motion, motion-lifecycle",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 13.3333,
+          "weight": 400,
+          "foreground": "#68685f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#more-skills",
+          "text": "Visa fler kapitel",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 16,
+          "weight": 400,
+          "foreground": "#ffffff",
+          "background": "#24241f"
+        },
+        {
+          "selector": "#explorer > p:nth-of-type(2)",
+          "text": "Kapitel är vägledning. Kandidatregistret och de körbara demonstrationerna har egna kvalitetsstatusar.",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 16,
+          "weight": 400,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#explorer > a",
+          "text": "Öppna kandidatregistret",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 16,
+          "weight": 400,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#explorer > p:nth-of-type(3) > a",
+          "text": "Prova en avgränsad CRM-ändring",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 16,
+          "weight": 400,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#review > h2",
+          "text": "Granska med verkliga belägg",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 26,
+          "weight": 500,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#review > p",
+          "text": "Kör browsergranskningen i projektet och öppna audit.json här. Mekaniska fynd och kreativa observationer hålls åtskilda. ",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 16,
+          "weight": 400,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#review-form > label:nth-of-type(1)",
+          "text": "Audit JSON",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 13,
+          "weight": 400,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#review-form > label:nth-of-type(2)",
+          "text": "Kreativa observationer (JSON)",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 13,
+          "weight": 400,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#review-form > button",
+          "text": "Skapa granskningsplan",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 16,
+          "weight": 400,
+          "foreground": "#ffffff",
+          "background": "#24241f"
+        },
+        {
+          "selector": "#benchmarks > h2",
+          "text": "Tester och jämförelser",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 26,
+          "weight": 500,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#benchmarks > p",
+          "text": "Funktionella kontroller visar verifierat beteende. De bevisar inte estetisk överlägsenhet.",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 16,
+          "weight": 400,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#load-benchmarks",
+          "text": "Visa senaste resultat",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 16,
+          "weight": 400,
+          "foreground": "#ffffff",
+          "background": "#24241f"
+        },
+        {
+          "selector": "html > body > footer > a:nth-of-type(1)",
+          "text": "Till Studio",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 16,
+          "weight": 400,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "html > body > footer > a:nth-of-type(2)",
+          "text": "Mjuka pekarknappar",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 16,
+          "weight": 400,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        }
+      ],
+      "images": [],
+      "links": [
+        "http://127.0.0.1:64325/studio/engine/#main",
+        "http://127.0.0.1:64325/",
+        "http://127.0.0.1:64325/examples/cinematic/",
+        "http://127.0.0.1:64325/studio/engine/#builder",
+        "http://127.0.0.1:64325/studio/engine/#explorer",
+        "http://127.0.0.1:64325/studio/engine/#review",
+        "http://127.0.0.1:64325/studio/engine/#benchmarks",
+        "http://127.0.0.1:64325/examples/library/",
+        "http://127.0.0.1:64325/examples/crm-scope/",
+        "http://127.0.0.1:64325/",
+        "http://127.0.0.1:64325/examples/pointer-buttons/"
+      ],
+      "focused": {
+        "selector": "html > body",
+        "outline": "none",
+        "shadow": "none"
+      },
+      "artifact": "render-390-reduce.png"
+    }
+  ],
+  "audits": [
+    {
+      "schema": 1,
+      "kind": "deterministic",
+      "url": "http://127.0.0.1:64325/studio/engine/",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "findings": [],
+      "unverified": [],
+      "limits": [
+        "Sampled visible text and controls only; no full WCAG or screen-reader certification.",
+        "Focus, touch gestures, state changes and backend outcomes require recorded interaction tests.",
+        "Solid ancestor backgrounds only; effects and image-backed text remain unverified."
+      ]
+    },
+    {
+      "schema": 1,
+      "kind": "deterministic",
+      "url": "http://127.0.0.1:64325/studio/engine/",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "findings": [],
+      "unverified": [],
+      "limits": [
+        "Sampled visible text and controls only; no full WCAG or screen-reader certification.",
+        "Focus, touch gestures, state changes and backend outcomes require recorded interaction tests.",
+        "Solid ancestor backgrounds only; effects and image-backed text remain unverified."
+      ]
+    },
+    {
+      "schema": 1,
+      "kind": "deterministic",
+      "url": "http://127.0.0.1:64325/studio/engine/",
+      "viewport": {
+        "width": 390,
+        "height": 900
+      },
+      "findings": [],
+      "unverified": [],
+      "limits": [
+        "Sampled visible text and controls only; no full WCAG or screen-reader certification.",
+        "Focus, touch gestures, state changes and backend outcomes require recorded interaction tests.",
+        "Solid ancestor backgrounds only; effects and image-backed text remain unverified."
+      ]
+    },
+    {
+      "schema": 1,
+      "kind": "deterministic",
+      "url": "http://127.0.0.1:64325/studio/engine/",
+      "viewport": {
+        "width": 390,
+        "height": 900
+      },
+      "findings": [],
+      "unverified": [],
+      "limits": [
+        "Sampled visible text and controls only; no full WCAG or screen-reader certification.",
+        "Focus, touch gestures, state changes and backend outcomes require recorded interaction tests.",
+        "Solid ancestor backgrounds only; effects and image-backed text remain unverified."
+      ]
+    }
+  ],
+  "states": [
+    {
+      "width": 1440,
+      "motion": "no-preference",
+      "kind": "keyboard-focus",
+      "focus": [
+        {
+          "tag": "A",
+          "name": "Till innehållet",
+          "outline": "solid",
+          "shadow": "none"
+        },
+        {
+          "tag": "A",
+          "name": "✳ SuperBrain",
+          "outline": "solid",
+          "shadow": "none"
+        },
+        {
+          "tag": "A",
+          "name": "Prova scrollstudien",
+          "outline": "solid",
+          "shadow": "none"
+        },
+        {
+          "tag": "A",
+          "name": "Designsystem",
+          "outline": "solid",
+          "shadow": "none"
+        },
+        {
+          "tag": "A",
+          "name": "Kunskap",
+          "outline": "solid",
+          "shadow": "none"
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "motion": "reduce",
+      "kind": "keyboard-focus",
+      "focus": [
+        {
+          "tag": "A",
+          "name": "Till innehållet",
+          "outline": "solid",
+          "shadow": "none"
+        },
+        {
+          "tag": "A",
+          "name": "✳ SuperBrain",
+          "outline": "solid",
+          "shadow": "none"
+        },
+        {
+          "tag": "A",
+          "name": "Prova scrollstudien",
+          "outline": "solid",
+          "shadow": "none"
+        },
+        {
+          "tag": "A",
+          "name": "Designsystem",
+          "outline": "solid",
+          "shadow": "none"
+        },
+        {
+          "tag": "A",
+          "name": "Kunskap",
+          "outline": "solid",
+          "shadow": "none"
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "motion": "no-preference",
+      "kind": "keyboard-focus",
+      "focus": [
+        {
+          "tag": "A",
+          "name": "Till innehållet",
+          "outline": "solid",
+          "shadow": "none"
+        },
+        {
+          "tag": "A",
+          "name": "✳ SuperBrain",
+          "outline": "solid",
+          "shadow": "none"
+        },
+        {
+          "tag": "A",
+          "name": "Prova scrollstudien",
+          "outline": "solid",
+          "shadow": "none"
+        },
+        {
+          "tag": "A",
+          "name": "Designsystem",
+          "outline": "solid",
+          "shadow": "none"
+        },
+        {
+          "tag": "A",
+          "name": "Kunskap",
+          "outline": "solid",
+          "shadow": "none"
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "motion": "reduce",
+      "kind": "keyboard-focus",
+      "focus": [
+        {
+          "tag": "A",
+          "name": "Till innehållet",
+          "outline": "solid",
+          "shadow": "none"
+        },
+        {
+          "tag": "A",
+          "name": "✳ SuperBrain",
+          "outline": "solid",
+          "shadow": "none"
+        },
+        {
+          "tag": "A",
+          "name": "Prova scrollstudien",
+          "outline": "solid",
+          "shadow": "none"
+        },
+        {
+          "tag": "A",
+          "name": "Designsystem",
+          "outline": "solid",
+          "shadow": "none"
+        },
+        {
+          "tag": "A",
+          "name": "Kunskap",
+          "outline": "solid",
+          "shadow": "none"
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "linkChecks": [
+    {
+      "url": "http://127.0.0.1:64325/studio/engine/",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:64325/",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:64325/examples/cinematic/",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:64325/examples/library/",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:64325/examples/crm-scope/",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:64325/examples/pointer-buttons/",
+      "status": 200
+    }
+  ],
+  "creative": {
+    "schema": 1,
+    "kind": "creative",
+    "status": "needs-review",
+    "identity": "Content-led clarity",
+    "goal": "Create and inspect project decisions",
+    "objectiveScore": null,
+    "observations": [],
+    "remaining": [
+      {
+        "criterion": "typography",
+        "prompt": "Inspect actual screenshots and interaction against Content-led clarity and the goal: Create and inspect project decisions. Record a concrete observation and its reason."
+      },
+      {
+        "criterion": "composition",
+        "prompt": "Inspect actual screenshots and interaction against Content-led clarity and the goal: Create and inspect project decisions. Record a concrete observation and its reason."
+      },
+      {
+        "criterion": "originality",
+        "prompt": "Inspect actual screenshots and interaction against Content-led clarity and the goal: Create and inspect project decisions. Record a concrete observation and its reason."
+      },
+      {
+        "criterion": "consistency",
+        "prompt": "Inspect actual screenshots and interaction against Content-led clarity and the goal: Create and inspect project decisions. Record a concrete observation and its reason."
+      },
+      {
+        "criterion": "brand-fit",
+        "prompt": "Inspect actual screenshots and interaction against Content-led clarity and the goal: Create and inspect project decisions. Record a concrete observation and its reason."
+      },
+      {
+        "criterion": "motion",
+        "prompt": "Inspect actual screenshots and interaction against Content-led clarity and the goal: Create and inspect project decisions. Record a concrete observation and its reason."
+      },
+      {
+        "criterion": "ux",
+        "prompt": "Inspect actual screenshots and interaction against Content-led clarity and the goal: Create and inspect project decisions. Record a concrete observation and its reason."
+      },
+      {
+        "criterion": "responsive",
+        "prompt": "Inspect actual screenshots and interaction against Content-led clarity and the goal: Create and inspect project decisions. Record a concrete observation and its reason."
+      },
+      {
+        "criterion": "accessibility",
+        "prompt": "Inspect actual screenshots and interaction against Content-led clarity and the goal: Create and inspect project decisions. Record a concrete observation and its reason."
+      },
+      {
+        "criterion": "functionality",
+        "prompt": "Inspect actual screenshots and interaction against Content-led clarity and the goal: Create and inspect project decisions. Record a concrete observation and its reason."
+      }
+    ],
+    "artifacts": [
+      "render-1440-no-preference.png",
+      "render-1440-reduce.png",
+      "render-390-no-preference.png",
+      "render-390-reduce.png"
+    ],
+    "limits": [
+      "Creative judgments are attributed observations, never an objective design score.",
+      "Screenshot inspection alone cannot establish motion or backend behavior."
+    ]
+  },
+  "refinement": {
+    "round": 1,
+    "reason": "One focused refinement followed by verification",
+    "fixes": [],
+    "verify": [
+      "Re-render the same routes, viewport, input and motion preference.",
+      "Compare before/after findings without presenting fewer defects as aesthetic superiority.",
+      "Preserve working navigation, content, tokens and unrelated components."
+    ]
+  },
+  "limitations": [
+    "Optional Playwright and a compatible browser are required.",
+    "Real submission/booking actions run only when explicitly supplied as authorized interaction fixtures.",
+    "Other engines and physical devices are not certified."
+  ]
+}

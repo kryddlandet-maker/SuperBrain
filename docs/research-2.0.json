@@ -1,0 +1,64 @@
+{
+  "schema": 1,
+  "reviewed": "2026-10-09",
+  "sources": [
+    {
+      "name": "impeccable",
+      "commit": "d631a8827f99414d2b6daba4ef08b7f8701751d7",
+      "files": [
+        {
+          "path": "skill/reference/critique.md",
+          "sha256": "7d9daab5e5c25ea8c2f36140659a0043ce95278683c41a80212c33e0897accaa"
+        },
+        {
+          "path": "skill/reference/audit.md",
+          "sha256": "9d47294fd6ba7bd03c8b430f35d24d00c98e781c8cdba0d4af7a278502ac7d8d"
+        },
+        {
+          "path": "skill/reference/polish.md",
+          "sha256": "40afe65d3efe399937a799d1ebfac81f6aa215a11587ff9e82c1cac099750636"
+        },
+        {
+          "path": "crates/detect/src/design_system.rs",
+          "sha256": "61d11249a87a6d6e8bb4f6adf325e69ae1203e8bfd2738942677a838a6880a9d"
+        },
+        {
+          "path": "LICENSE",
+          "sha256": "fc0673369dae07c045c46869d3d4c9113678c77fcc7d3b4e3a39ac074cfa68b6"
+        }
+      ]
+    },
+    {
+      "name": "ui-ux-pro-max",
+      "commit": "50d8a7de0900119855614541f15a1a616691eb33",
+      "files": [
+        {
+          "path": "src/ui-ux-pro-max/scripts/search.py",
+          "sha256": "0e106775eed61e2954c0af41e9ed73b816c3bfbb2de936e07957907db846b7d6"
+        },
+        {
+          "path": "src/ui-ux-pro-max/scripts/design_system.py",
+          "sha256": "64457f35d085208d5075f9a519cfc502089a7630ca43976df07652b97566cc41"
+        },
+        {
+          "path": "LICENSE",
+          "sha256": "1b8bd455510cc1f6f9bd510ffe2ec372d1c51fe0e082ddfee8b41825fb7aa055"
+        }
+      ]
+    },
+    {
+      "name": "anthropic-skills",
+      "commit": "9d630808e4add0a7146de4af9384155d5dee350a",
+      "files": [
+        {
+          "path": "skills/frontend-design/SKILL.md",
+          "sha256": "b8009ae690dfa69edc7f08bb8715f32db8817112cfa4388741dbaf876c237df8"
+        },
+        {
+          "path": "skills/frontend-design/LICENSE.txt",
+          "sha256": "eb3d7b5485466acbd81f2b496f595ab637d2792e268206b27d99e793bdb67549"
+        }
+      ]
+    }
+  ]
+}
