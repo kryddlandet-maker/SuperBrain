@@ -4,7 +4,7 @@
   "checks": [
     {
       "name": "Enhets-/verktygstester",
-      "result": "38/38 passerade"
+      "result": "39/39 passerade"
     },
     {
       "name": "Validering",

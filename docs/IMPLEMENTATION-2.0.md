@@ -19,7 +19,7 @@
 
 | Check | Result | Scope |
 | --- | --- | --- |
-| Unit/tool suite | 38/38 pass | Router, facts/overrides, token sync, project ownership, reference scope, audit/critique contract, installed engine, API limits, preserved motion |
+| Unit/tool suite | 39/39 pass | Router, facts/overrides, token sync, project ownership, reference scope, audit/critique contract, installed engine, API limits, preserved motion |
 | Validation | 510 pass | Real chapters, skill frontmatter/size, briefs, example structure and local links |
 | New engine browser suite | 22 groups pass, no runtime errors | Headless Edge; real exports, eleven profiles, four widths 320/390/768/1440, reduced preference changes, keyboard, emulated touch, no-JS, reference scope, audit import |
 | Original pointer suite | 20 pass | Existing four soft pointer variants and old-runtime preservation |
@@ -82,3 +82,5 @@ In a consuming Codex project, use $superbrain and read project memory first. The
 - Source publication SHA and consumer installation hashes belong in the consuming project delivery record, since this committed report cannot contain its own commit hash. The dedicated branch is codex/superbrain-2-engine.
 
 Installation from a clean pinned clone: node scripts/install.mjs /absolute/path/to/existing-project. It refuses locally changed managed files and unmanaged collisions before writing. Consumer update needs a backup and manifest verification. This release candidate remains distinct from the stable main branch; neither main merge nor production deployment is automatic.
+
+The first actual consumer export exposed secondary-text contrast below 4.5:1 for a supplied palette. The final generator now adapts secondary/status colors and uses a full black/white fallback; a regression covers midtone palettes and 96 additional deterministic colors. Existing interaction runtime is unaffected.

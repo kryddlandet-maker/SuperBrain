@@ -7,7 +7,7 @@
       "id": "salon",
       "status": "pass",
       "mode": "design-build",
-      "milliseconds": 15.661500000000004,
+      "milliseconds": 10.80510000000001,
       "contextBytes": 30874,
       "references": [
         "accessibility",
@@ -48,7 +48,7 @@
       "id": "saas",
       "status": "pass",
       "mode": "creative-engineering",
-      "milliseconds": 8.433999999999997,
+      "milliseconds": 9.162299999999988,
       "contextBytes": 51772,
       "references": [
         "accessibility",
@@ -71,7 +71,7 @@
       "generatedFiles": 15,
       "solidColorContrast": {
         "body": 15.893074405848578,
-        "action": 11.432374084451352,
+        "action": 13.147008876240335,
         "muted": 9.607058253380302
       },
       "baseline": {
@@ -99,7 +99,7 @@
       "id": "crm",
       "status": "pass",
       "mode": "design-build",
-      "milliseconds": 6.197900000000004,
+      "milliseconds": 7.174099999999996,
       "contextBytes": 31444,
       "references": [
         "accessibility",
@@ -129,7 +129,7 @@
       "id": "portfolio",
       "status": "pass",
       "mode": "design-build",
-      "milliseconds": 8.132499999999993,
+      "milliseconds": 8.915800000000004,
       "contextBytes": 41409,
       "references": [
         "accessibility",
@@ -176,7 +176,7 @@
       "id": "construction",
       "status": "pass",
       "mode": "design-build",
-      "milliseconds": 7.338699999999989,
+      "milliseconds": 8.7954,
       "contextBytes": 30855,
       "references": [
         "accessibility",
@@ -217,7 +217,7 @@
       "id": "exclusive-product",
       "status": "pass",
       "mode": "creative-engineering",
-      "milliseconds": 7.53619999999998,
+      "milliseconds": 7.792000000000002,
       "contextBytes": 42300,
       "references": [
         "accessibility",
@@ -238,7 +238,7 @@
       "generatedFiles": 15,
       "solidColorContrast": {
         "body": 16.443678150509527,
-        "action": 9.719731444362457,
+        "action": 11.177502995419,
         "muted": 9.84073488095806
       },
       "baseline": {
@@ -250,7 +250,7 @@
       "id": "scroll-product",
       "status": "pass",
       "mode": "creative-engineering",
-      "milliseconds": 6.899000000000001,
+      "milliseconds": 6.463600000000014,
       "contextBytes": 40990,
       "references": [
         "accessibility",
@@ -271,7 +271,7 @@
       "generatedFiles": 15,
       "solidColorContrast": {
         "body": 15.893074405848578,
-        "action": 11.432374084451352,
+        "action": 13.147008876240335,
         "muted": 9.607058253380302
       },
       "baseline": {
@@ -297,7 +297,7 @@
       "id": "mobile-content",
       "status": "pass",
       "mode": "design-build",
-      "milliseconds": 5.657900000000012,
+      "milliseconds": 5.524900000000002,
       "contextBytes": 31453,
       "references": [
         "accessibility",
@@ -337,7 +337,7 @@
       "id": "bounded-change",
       "status": "pass",
       "mode": "quick-edit",
-      "milliseconds": 3.589000000000027,
+      "milliseconds": 3.2364000000000033,
       "contextBytes": 19860,
       "references": [
         "accessibility",
@@ -365,7 +365,7 @@
       "id": "reduced-input",
       "status": "pass",
       "mode": "design-build",
-      "milliseconds": 7.275200000000012,
+      "milliseconds": 7.579800000000006,
       "contextBytes": 37373,
       "references": [
         "accessibility",
@@ -384,7 +384,7 @@
       "generatedFiles": 15,
       "solidColorContrast": {
         "body": 15.893074405848578,
-        "action": 11.432374084451352,
+        "action": 13.147008876240335,
         "muted": 9.607058253380302
       },
       "baseline": {
