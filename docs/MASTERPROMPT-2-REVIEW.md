@@ -1,0 +1,38 @@
+# Historisk granskning från 1.4.0
+
+Den större uppgraderingen har nu beställts och implementerats som 2.0.0-rc.1. Aktuell fasstatus, kod, tester och kvarvarande verifiering finns i IMPLEMENTATION-2.0.md och RESEARCH-2.0.md. Tabellen nedan beskriver det tidigare avgränsade arbetspasset.
+
+# Granskning av den bifogade SuperBrain 2.0-masterprompten
+
+Datum: 2026-10-09. Underlag: användarens fullständiga bifogade masterprompt med 14 faser, lokala SuperBrain-källan, tidigare verifieringsrapporter och nya testresultat. Den direkta instruktionen och efterföljande förtydligandet avgränsar detta arbetspass till fyra nya mjuka pekarvarianter, bevarande av fungerande funktioner och noggrann granskning av dokumentet. Dokumentets övriga imperativ är en större utvecklingsbrief, inte ett påstående om redan färdig funktionalitet eller en separat publiceringsorder.
+
+## Vad dokumentet faktiskt kräver
+
+Masterprompten beskriver en sammanhållen design- och utvecklingsmotor: verksamhetsförståelse, art direction, selektiv kunskapsrouting, återanvändbar motion, projektanpassade tokens, visuell granskning och en studio. Den efterfrågar körbar implementation, tydlig proveniens och jämförbara tester. Ett större antal Markdownfiler eller en subjektiv designpoäng räcker inte. Befintliga funktioner ska bevaras, och effektbiblioteket ska prioritera kvalitet framför antal.
+
+| Fas | Belägg i nuvarande källa | Kvar till den större 2.0-briefen |
+| --- | --- | --- |
+| 1. Repo-audit och baseline | Separat branch; historisk main 38fef3f/v1.2.0, föregående lokal 16ae324/v1.3.1. Baseline denna omgång 23/23 tester. Källfiler, briefs, studio, installering, register och befintliga QA-flöden har granskats. | En fullständig ny 2.0-audit behöver inventera samtliga designbeslut och uppdatera äldre dokument konsekvent; tidigare audit får inte presenteras som aktuell ny research. |
+| 2. Externa huvudreferenser | EXPANSION-RESEARCH.md och registry har faktisk tidigare källresearch med licensanteckningar. Huly har nu granskats i sin renderade webbsida som visuell referens. Ingen kod kopieras. | Uppdaterad, versionslåst analys av Impeccable, UI UX Pro Max och Anthropic frontend-design, inklusive faktiska implementationsfiler och licenser, är inte genomförd i denna omgång. Dokumentets lista är en researchkö. |
+| 3. Design Intelligence Engine | Briefkompilator, arkitektur/art direction/type/continuity-referenser och sju verksamhetstyper ger en användbar grund. Projektfakta hålls i briefen. | Ingen separat körbar beslutspipeline för business/layout/art direction/interaction, projektminne och motiverade designbeslut finns ännu. |
+| 4. Skill-router och index | Selektiva referenser, 86 kandidater, 22 domäner, 110 omfattningsområden; CLI och läs-API filtrerar metadata. | Kandidater är inte 86 fullständiga agent-skills. Den nya pekarfamiljen nås via knappkapitlet och studiolänken, inte via fyra nya registerposter. Full beroende-/konfliktrouting och komplett index över 2.0-briefen återstår. |
+| 5. Motionmotor | Riktade fyllningar, horisontellt ljus/ripple, scrollscen, pointer depth, produktsteg, galleri och on-demand WebGL finns. Nu tillkommer side/spot/edge/magnet i en separat modul med tydligt API och cleanup. | Alla listade scroll-, kamera-, produktrotations- och morphing-tekniker finns inte som testade integrationer. Ingen ny generell timeline/page-transition-motor har byggts här. |
+| 6. Visuell intelligens | Browserkontroller granskar verkliga routes, mått, input och konsolfel. Desktop-/mobilbilder inspekteras separat från deterministiska assertions. | Ingen automatisk generativ Creative Critique Engine eller kalibrerad bildjämförelsemotor finns. Manuella visuella omdömen är inte objektiva kvalitetspoäng. |
+| 7. Anti-slop | Skill, generator och demos undviker dekorativa räknare och överrubriker; browser-/valideringsregler skyddar detta. | Behåll användarens konkreta preferens här. Dokumentets mer kontextberoende princip får inte tyst återinföra 01/02/03 eller överrubriker. Riktiga ordnade uppgifter/identifierare är en annan användning. |
+| 8. Design System Generator | Projektspecifik design beskrivs i referenser och CSS; knapplabben har verkliga inställningar för olika familjer. | Ingen generator som producerar MASTER.md, tokens.json, page exceptions, components och motion för ett nytt projekt finns. En global färgslider ersätter inte detta. |
+| 9. Vision/reference-to-code | Huly och användarens bild granskas visuellt; fungerande Orbit lämnas intakt. | Ingen full pipeline för vision images, asset kit, visuell jämförelse eller scope-låsta CRM-redigeringar implementeras här. Generiska hero-byggen ska inte användas för en avgränsad komponentändring. |
+| 10. Studio | Befintlig lokal briefbyggare, register-/atlas-explorer, effekt- och kollektionsdemos samt två separata knapplabb fungerar. | Ingen komplett design-system-builder eller benchmark-viewer. Studion kör ingen extern AI. Teknikstudier är inte kundklara produkter. |
+| 11. Arbetslägen och kontext | Huvudskillen är fortsatt kompakt: 5 986 LF UTF-8-byte, +12 byte för de nya pekartriggers. Knappkapitlet är villkorligt och laddas bara när valt. | Explicit implementerad quick-edit/design-build/creative-engineering-routing med beständigt projektminne återstår. Ingen fullprocess startas för den här begränsade knappändringen. |
+| 12. Benchmarks och QA | Reproducerbar routingmätning över fem fall; funktionell browser-QA och enhets-/verktygstester. De tio jämförelsebriefarna och protokollet finns. | Inga kontrollerade samma-modell-byggen mot de tre externa skillsen eller blind mänsklig preferensbedömning har körts. Därmed finns inget belägg för överlägsen design, konvertering eller field performance. |
+| 13. Iteration/checkpoints | Implementering, samlad visuell kontroll, riktade felkorrigeringar och omtest dokumenteras. Tidigare expansion har tydlig checkpoint. | Det stora 2.0-arbetet kräver egna verifierbara etapper; det kan inte bli klart genom att byta versionsetikett. |
+| 14. Git och leverans | Lokal källa versionsätts 1.4.0 på befintlig codex-branch; tester och belägg sparas. Remote main verifierades read-only som 38fef3ffa2407355723e2ad8a0bd68fe3ee903f0. | Ingen push, PR, main-merge, deployment eller konsumentuppdatering i detta arbetspass. En framtida publicering ska verifiera remote SHA och installera en ren låst källa innan portfolio uppdateras. |
+
+## Tolkning av definition of done
+
+De åtta större 2.0-kriterierna är inte uppfyllda av det här tillägget. Det finns en fungerande grund och verkliga nya motionkomponenter, men en komplett designmotor, token-generator, automatisk kreativ kritik, full studio och jämförande designbenchmarkar återstår. Den lokala versionen heter därför 1.4.0. Registermognad och historiska researchantal har inte höjts för att få arbetet att verka större.
+
+Det avgränsade resultatet och faktiskt utförda kontroller finns i POINTER-VERIFICATION-1.4.0.md. De viktigaste bevarandeprinciperna är: inga ändringar i den gamla Orbit-knappens ljus, ingen global långsammare motion, ingen flyttad klickyta, vanlig native aktivering och scroll, samt respekt för systemets reduced-motion-inställning.
+
+## Föreslagen nästa etapp när större uppgradering beställs
+
+Först låst research/audit av de tre huvudreferenserna och en konkret arkitektur med mätbara acceptanskriterier. Därefter business/art direction/layout-routing och en riktig projekt-token-generator. Sedan avgränsad visuell kritik och studioverktyg. Till sist samma-modell-jämförelser över verksamhetstyper och verifierad publicering. Genomför och testa varje etapp innan nästa; skapa inte tomma skills eller påhittade benchmarkresultat.

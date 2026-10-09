@@ -1,11 +1,13 @@
 import {readFile,readdir,stat} from 'node:fs/promises';
 import path from 'node:path';
 import {root,referenceNames,compileBrief} from '../lib/brief.mjs';
+import {validateSkill} from '../lib/skill-format.mjs';
+import {loadLibrary,validateLibraryFiles,summarizeLibrary} from '../lib/library.mjs';
 let checks=0;
 function check(value,message){if(!value)throw new Error(message);checks++;}
 const skill=await readFile(path.join(root,'skills/superbrain/SKILL.md'),'utf8');
-check(/^---\nname: superbrain\ndescription: .+\n---\n/.test(skill),'Invalid skill frontmatter');
-check(skill.length<6500,'Entrypoint too large; move conditional detail to references');
+validateSkill(skill);checks+=2;
+const library=await loadLibrary();await validateLibraryFiles(library);checks++;
 const atlas=JSON.parse(await readFile(path.join(root,'data/techniques.json'),'utf8'));
 check(atlas.schema===1,'Unknown technique atlas schema');
 check(new Set(atlas.techniques.map(t=>t.id)).size===atlas.techniques.length,'Duplicate technique IDs');
@@ -18,6 +20,7 @@ async function walk(directory){const result=[];for(const item of await readdir(d
 for(const file of [...await walk(path.join(root,'examples')),...await walk(path.join(root,'studio'))]){
  if(!file.endsWith('.html'))continue;
  const html=await readFile(file,'utf8');check(html.includes('name="viewport"'),`Viewport missing ${file}`);check(html.includes('<main'),`Main missing ${file}`);
+ check(!/<(?:p|span)[^>]*class="[^\"]*\b(?:eyebrow|kicker|row-number|index)\b/.test(html),`Decorative heading/counter reintroduced ${file}`);
  for(const [,url] of html.matchAll(/(?:href|src)="([^"#]+)(?:#[^"]*)?"/g)){
   if(!url.startsWith('/'))continue;
   let target=url==='/'?path.join(root,'studio/index.html'):path.join(root,url);
@@ -25,3 +28,4 @@ for(const file of [...await walk(path.join(root,'examples')),...await walk(path.
  }
 }
 console.log(`Validated ${checks} skill, brief, page and local-link invariants. Runtime and visual quality require browser review.`);
+console.log(JSON.stringify(summarizeLibrary(library)));

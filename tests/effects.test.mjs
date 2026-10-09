@@ -58,7 +58,7 @@ test('button activation is centered for keyboards and respects reduced motion an
  }finally{Object.assign(globalThis,old);}
 });
 
-test('scroll scene is reversible, static on narrow/reduced views, idle offscreen and disposable',()=>{
+test('scroll scene is reversible, dynamic on narrow views, static with reduced motion, idle offscreen and disposable',()=>{
  const old={window:globalThis.window,document:globalThis.document,matchMedia:globalThis.matchMedia,requestAnimationFrame:globalThis.requestAnimationFrame,cancelAnimationFrame:globalThis.cancelAnimationFrame,IntersectionObserver:globalThis.IntersectionObserver};
  const win=new Target(),doc=new Target(),scene=new Target(),wide=new Target(),reduced=new Target();win.innerHeight=1000;wide.matches=true;reduced.matches=false;
  let top=150,observerCallback,disconnected=false,id=0;const frames=new Map();scene.getBoundingClientRect=()=>({top,height:3000});
@@ -71,7 +71,9 @@ test('scroll scene is reversible, static on narrow/reduced views, idle offscreen
   top=-2000;win.fire('scroll');tick();assert.equal(scene.styleValues.get('--scene-progress'),'1');assert.equal(scene.getAttribute('data-scene-state'),'resolve');
   top=150;win.fire('scroll');tick();assert.equal(scene.styleValues.get('--scene-progress'),'0');
   reduced.matches=true;reduced.fire('change');tick();assert.equal(scene.styleValues.get('--scene-progress'),'0.5');
-  reduced.matches=false;wide.matches=false;wide.fire('change');tick();assert.equal(scene.styleValues.get('--scene-progress'),'0.5');
+  reduced.matches=false;wide.matches=false;win.fire('resize');tick();assert.equal(scene.styleValues.get('--scene-progress'),'0');
+  dispose();const previewDispose=initScrollScenes({querySelectorAll:()=>[scene]},{motionPreview:true});reduced.matches=true;observerCallback([{target:scene,isIntersecting:true}]);tick();assert.equal(scene.styleValues.get('--scene-progress'),'0');previewDispose();
+  const stillDispose=initScrollScenes({querySelectorAll:()=>[scene]},{motionPreview:true,reducedMotion:true});observerCallback([{target:scene,isIntersecting:true}]);tick();assert.equal(scene.styleValues.get('--scene-progress'),'0.5');stillDispose();
   observerCallback([{target:scene,isIntersecting:false}]);win.fire('scroll');assert.equal(frames.size,0);
   dispose();assert(disconnected);assert.equal(scene.styleValues.size,0);assert.equal(sceneProgress(150,3000,1000),0);assert.equal(sceneProgress(-2000,3000,1000),1);
  }finally{Object.assign(globalThis,old);}

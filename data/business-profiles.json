@@ -1,0 +1,236 @@
+{
+  "schema": 1,
+  "profiles": {
+    "salon": {
+      "identity": "Tactile salon editorial",
+      "palette": [
+        "#f7f2e7",
+        "#242c25",
+        "#41614b"
+      ],
+      "display": "Georgia, serif",
+      "body": "system-ui, sans-serif",
+      "composition": "Portrait-led editorial opening; service detail and booking stay close to the work.",
+      "imagery": "Owner-supplied portraits and real hair work, deliberately cropped.",
+      "density": 3,
+      "motion": 2,
+      "pages": [
+        "/",
+        "/services",
+        "/team",
+        "/booking"
+      ],
+      "trust": "Verified services, prices, team and booking destination."
+    },
+    "construction": {
+      "identity": "Material and craft",
+      "palette": [
+        "#ecefe9",
+        "#24312b",
+        "#89502f"
+      ],
+      "display": "'Arial Narrow', Impact, sans-serif",
+      "body": "system-ui, sans-serif",
+      "composition": "Wide project evidence followed by measured service and process layouts.",
+      "imagery": "Real projects, material detail and site context.",
+      "density": 5,
+      "motion": 2,
+      "pages": [
+        "/",
+        "/services",
+        "/projects",
+        "/contact"
+      ],
+      "trust": "Actual service area, completed project evidence and contact method."
+    },
+    "technology": {
+      "identity": "Precise connected product",
+      "palette": [
+        "#101c27",
+        "#f3f6f8",
+        "#91d7ed"
+      ],
+      "display": "Arial, sans-serif",
+      "body": "system-ui, sans-serif",
+      "composition": "A product-led opening, purposeful feature sequences and concise evaluation paths.",
+      "imagery": "Actual product interfaces, with one bounded interactive demonstration.",
+      "density": 5,
+      "motion": 5,
+      "pages": [
+        "/",
+        "/product",
+        "/pricing",
+        "/contact"
+      ],
+      "trust": "Real capabilities, limitations, pricing and support."
+    },
+    "ai": {
+      "identity": "Transparent intelligence",
+      "palette": [
+        "#f0f3fa",
+        "#20284a",
+        "#4258ab"
+      ],
+      "display": "system-ui, sans-serif",
+      "body": "system-ui, sans-serif",
+      "composition": "Show an understandable real input/output example before claims; explain constraints near the action.",
+      "imagery": "Authentic interface and explainable process diagrams.",
+      "density": 5,
+      "motion": 4,
+      "pages": [
+        "/",
+        "/product",
+        "/use-cases",
+        "/contact"
+      ],
+      "trust": "Verified model capabilities, data handling and actual limitations."
+    },
+    "automotive": {
+      "identity": "Sculptural automotive",
+      "palette": [
+        "#151719",
+        "#f6f5ee",
+        "#d6b98c"
+      ],
+      "display": "Arial, sans-serif",
+      "body": "system-ui, sans-serif",
+      "composition": "A large product silhouette with persistent specifications and a native detail path.",
+      "imagery": "Licensed vehicle photography or a supplied 3D model; never fictional specifications.",
+      "density": 3,
+      "motion": 7,
+      "pages": [
+        "/",
+        "/models",
+        "/specifications",
+        "/contact"
+      ],
+      "trust": "Verified model availability, specifications and enquiry process."
+    },
+    "portfolio": {
+      "identity": "Work-led composition",
+      "palette": [
+        "#f8f7f2",
+        "#202e39",
+        "#255c75"
+      ],
+      "display": "Arial, sans-serif",
+      "body": "system-ui, sans-serif",
+      "composition": "Work first, variable image scale and concise case-study narratives; direct contact.",
+      "imagery": "Real supplied work with honest demo/concept disclosures.",
+      "density": 4,
+      "motion": 4,
+      "pages": [
+        "/",
+        "/work",
+        "/about",
+        "/contact"
+      ],
+      "trust": "Actual work, owner role and real contact information."
+    },
+    "ecommerce": {
+      "identity": "Object and decision",
+      "palette": [
+        "#fbf8f4",
+        "#3a2823",
+        "#82502f"
+      ],
+      "display": "Georgia, serif",
+      "body": "system-ui, sans-serif",
+      "composition": "Product imagery, comparable facts and purchase state remain adjacent.",
+      "imagery": "Real product photos with alternate views and useful detail.",
+      "density": 6,
+      "motion": 3,
+      "pages": [
+        "/",
+        "/products",
+        "/shipping",
+        "/contact"
+      ],
+      "trust": "Verified price, stock, shipping, return policy and checkout integration."
+    },
+    "real-estate": {
+      "identity": "Place and perspective",
+      "palette": [
+        "#eff3f1",
+        "#263b38",
+        "#35665e"
+      ],
+      "display": "Georgia, serif",
+      "body": "system-ui, sans-serif",
+      "composition": "Location-led listing discovery with clear filters, legible property facts and detail pages.",
+      "imagery": "Real property imagery, plans and location context.",
+      "density": 6,
+      "motion": 3,
+      "pages": [
+        "/",
+        "/properties",
+        "/about",
+        "/contact"
+      ],
+      "trust": "Verified listings, property facts, agent identity and enquiry route."
+    },
+    "restaurant": {
+      "identity": "Atmosphere and appetite",
+      "palette": [
+        "#2c1720",
+        "#fff4e6",
+        "#ecc590"
+      ],
+      "display": "Georgia, serif",
+      "body": "system-ui, sans-serif",
+      "composition": "One atmospheric food scene, readable menu and accessible reservation details.",
+      "imagery": "Actual dishes, interior and people with permission.",
+      "density": 4,
+      "motion": 2,
+      "pages": [
+        "/",
+        "/menu",
+        "/visit",
+        "/booking"
+      ],
+      "trust": "Actual menu, dietary information, hours, address and reservation integration."
+    },
+    "crm": {
+      "identity": "Calm operational workspace",
+      "palette": [
+        "#f3f6fb",
+        "#20324b",
+        "#315eab"
+      ],
+      "display": "system-ui, sans-serif",
+      "body": "system-ui, sans-serif",
+      "composition": "Stable sidebar and task-first data views; table/list density adapts without hiding actions.",
+      "imagery": "Authentic workspace states; data examples explicitly labelled.",
+      "density": 8,
+      "motion": 1,
+      "pages": [
+        "/",
+        "/contacts",
+        "/pipeline",
+        "/settings"
+      ],
+      "trust": "Real state transitions, permissions and save/error feedback."
+    },
+    "other": {
+      "identity": "Content-led clarity",
+      "palette": [
+        "#f7f8fa",
+        "#273345",
+        "#3b5d82"
+      ],
+      "display": "system-ui, sans-serif",
+      "body": "system-ui, sans-serif",
+      "composition": "Prioritize the visitor task and available content; resolve the identity through actual references.",
+      "imagery": "Owned assets that explain the business.",
+      "density": 5,
+      "motion": 2,
+      "pages": [
+        "/",
+        "/services",
+        "/about",
+        "/contact"
+      ],
+      "trust": "Ask for verified business evidence and actual action destinations."
+    }
+  }
+}

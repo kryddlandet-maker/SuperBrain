@@ -1,0 +1,331 @@
+{
+  "date": "2026-10-09T14:39:16.419Z",
+  "browser": "155.0.4283.45",
+  "scope": "Local Edge via Remote Desktop Commander; simulated viewports and touch. Not physical-device, full WCAG or cross-browser certification.",
+  "checks": [
+    {
+      "name": "side-trajectory",
+      "result": "pass",
+      "details": {
+        "scope": "Rest, smooth intermediate, target convergence, reversal, leave fade, zero settled frames and fixed target",
+        "left": {
+          "x": 10.0000027119203,
+          "y": 50,
+          "opacity": 0.75,
+          "dx": 0,
+          "dy": 0,
+          "tracking": true,
+          "transition": "0.42s",
+          "box": {
+            "x": 172,
+            "y": 964.09375,
+            "width": 225.0625,
+            "height": 64
+          }
+        },
+        "intermediate": {
+          "x": 49.87391448326396,
+          "y": 50,
+          "opacity": 0.75,
+          "dx": 0,
+          "dy": 0,
+          "tracking": true,
+          "transition": "0.42s",
+          "box": {
+            "x": 172,
+            "y": 964.09375,
+            "width": 225.0625,
+            "height": 64
+          }
+        },
+        "right": {
+          "x": 89.9999972880797,
+          "y": 50,
+          "opacity": 0.75,
+          "dx": 0,
+          "dy": 0,
+          "tracking": true,
+          "transition": "0.42s",
+          "box": {
+            "x": 172,
+            "y": 964.09375,
+            "width": 225.0625,
+            "height": 64
+          }
+        }
+      }
+    },
+    {
+      "name": "spot-trajectory",
+      "result": "pass",
+      "details": {
+        "scope": "Rest, smooth intermediate, target convergence, reversal, leave fade, zero settled frames and fixed target",
+        "left": {
+          "x": 9.999988949006294,
+          "y": 14.999961853027344,
+          "opacity": 0.35,
+          "dx": 0,
+          "dy": 0,
+          "tracking": true,
+          "transition": "0.42s",
+          "box": {
+            "x": 742.5,
+            "y": 964.09375,
+            "width": 220.921875,
+            "height": 64
+          }
+        },
+        "intermediate": {
+          "x": 49.84046208949522,
+          "y": 49.86040421472791,
+          "opacity": 0.35,
+          "dx": 0,
+          "dy": 0,
+          "tracking": true,
+          "transition": "0.42s",
+          "box": {
+            "x": 742.5,
+            "y": 964.09375,
+            "width": 220.921875,
+            "height": 64
+          }
+        },
+        "right": {
+          "x": 90.0000110509937,
+          "y": 85.00003814697266,
+          "opacity": 0.35,
+          "dx": 0,
+          "dy": 0,
+          "tracking": true,
+          "transition": "0.42s",
+          "box": {
+            "x": 742.5,
+            "y": 964.09375,
+            "width": 220.921875,
+            "height": 64
+          }
+        }
+      }
+    },
+    {
+      "name": "edge-trajectory",
+      "result": "pass",
+      "details": {
+        "scope": "Rest, smooth intermediate, target convergence, reversal, leave fade, zero settled frames and fixed target",
+        "left": {
+          "x": 10.000002685815456,
+          "y": 14.999961853027344,
+          "opacity": 1,
+          "dx": 0,
+          "dy": 0,
+          "tracking": true,
+          "transition": "0.42s",
+          "box": {
+            "x": 172,
+            "y": 658.984375,
+            "width": 227.25,
+            "height": 64
+          }
+        },
+        "intermediate": {
+          "x": 43.85709125858924,
+          "y": 44.6249486320214,
+          "opacity": 1,
+          "dx": 0,
+          "dy": 0,
+          "tracking": true,
+          "transition": "0.42s",
+          "box": {
+            "x": 172,
+            "y": 658.984375,
+            "width": 227.25,
+            "height": 64
+          }
+        },
+        "right": {
+          "x": 89.99999731418454,
+          "y": 85.00003814697266,
+          "opacity": 1,
+          "dx": 0,
+          "dy": 0,
+          "tracking": true,
+          "transition": "0.42s",
+          "box": {
+            "x": 172,
+            "y": 658.984375,
+            "width": 227.25,
+            "height": 64
+          }
+        }
+      }
+    },
+    {
+      "name": "magnet-trajectory",
+      "result": "pass",
+      "details": {
+        "scope": "Rest, smooth intermediate, target convergence, reversal, leave fade, zero settled frames and fixed target",
+        "left": {
+          "x": 10.06701845749349,
+          "y": 15.05860306724793,
+          "opacity": 0.35,
+          "dx": -2.39598,
+          "dy": -1.39766,
+          "tracking": true,
+          "transition": "0.42s",
+          "box": {
+            "x": 742.5,
+            "y": 658.984375,
+            "width": 265.3125,
+            "height": 64
+          }
+        },
+        "intermediate": {
+          "x": 44.15091603593454,
+          "y": 44.88204595332158,
+          "opacity": 0.35,
+          "dx": -0.350945,
+          "dy": -0.204718,
+          "tracking": true,
+          "transition": "0.42s",
+          "box": {
+            "x": 742.5,
+            "y": 658.984375,
+            "width": 265.3125,
+            "height": 64
+          }
+        },
+        "right": {
+          "x": 90,
+          "y": 85.00003814697266,
+          "opacity": 0.35,
+          "dx": 2.4,
+          "dy": 1.4,
+          "tracking": true,
+          "transition": "0.42s",
+          "box": {
+            "x": 742.5,
+            "y": 658.984375,
+            "width": 265.3125,
+            "height": 64
+          }
+        }
+      }
+    },
+    {
+      "name": "edge-surface",
+      "result": "pass",
+      "details": "Opaque inner face covers the moving light; only the contour receives it"
+    },
+    {
+      "name": "controls",
+      "result": "pass",
+      "details": "Lag, size and strength update actual new buttons without modifying old effect globals"
+    },
+    {
+      "name": "stationary",
+      "result": "pass",
+      "details": "Stationary mode suppresses pointer tracking"
+    },
+    {
+      "name": "live-reduced-preview",
+      "result": "pass",
+      "details": "Live reduced motion defaults to static; explicit local preview enables movement; stationary mode takes precedence"
+    },
+    {
+      "name": "keyboard",
+      "result": "pass",
+      "details": "Visible stationary centered focus, Enter and Space each activate exactly once"
+    },
+    {
+      "name": "disabled",
+      "result": "pass",
+      "details": "Native disabled remains inactive; aria-disabled blocks activation while module is installed"
+    },
+    {
+      "name": "resize",
+      "result": "pass",
+      "details": "Resize cancels frames and invalidates bounds"
+    },
+    {
+      "name": "responsive",
+      "result": "pass",
+      "details": "No page overflow at 1440/768/390/320; desktop and mobile screenshots captured"
+    },
+    {
+      "name": "forced-colors",
+      "result": "pass",
+      "details": "Decorative layers hidden; native control and focus retained"
+    },
+    {
+      "name": "touch",
+      "result": "pass",
+      "details": "All four give native press feedback and single activation; cancel clears feedback; no hover tracking"
+    },
+    {
+      "name": "no-js",
+      "result": "pass",
+      "details": "Four native controls, keyboard focus, working navigation; unavailable tuning form stays hidden"
+    },
+    {
+      "name": "lifecycle",
+      "result": "pass",
+      "details": "Pointer cancellation and disposal cancel tracking and clear styles/listeners; disposed module does not react to new events"
+    },
+    {
+      "name": "back-navigation",
+      "result": "pass",
+      "details": "Return from Orbit reinitializes motion after pagehide/pageshow without duplicating native activation"
+    },
+    {
+      "name": "palette-contrast",
+      "result": "pass",
+      "details": {
+        "ratios": [
+          {
+            "kind": "side",
+            "ratio": 14.713498545800038
+          },
+          {
+            "kind": "spot",
+            "ratio": 4.839349484099098
+          },
+          {
+            "kind": "edge",
+            "ratio": 15.87664451043789
+          },
+          {
+            "kind": "magnet",
+            "ratio": 5.465615791339022
+          }
+        ],
+        "scope": "Calculated sRGB text contrast at maximum central-light opacity in supplied palette. Does not replace rendered/accessibility audit."
+      }
+    },
+    {
+      "name": "preservation",
+      "result": "pass",
+      "details": {
+        "baseline": "16ae324",
+        "unchanged": [
+          "examples/shared/effects.js",
+          "examples/shared/effects.css",
+          "examples/shared/buttons.css",
+          "examples/shared/scroll-scenes.js",
+          "examples/shared/scene.css",
+          "examples/shared/creative.js",
+          "examples/shared/site.js",
+          "examples/shared/motion-preview.js",
+          "examples/buttons/index.html",
+          "examples/buttons/lab.js",
+          "examples/buttons/lab.css"
+        ],
+        "navigationOnly": "Documents with native view transitions load a small early promise-lifecycle guard. Existing CSS and effect/control logic are unchanged."
+      }
+    },
+    {
+      "name": "runtime-errors",
+      "result": "pass",
+      "details": "No uncaught exceptions, console errors or missing resources"
+    }
+  ]
+}

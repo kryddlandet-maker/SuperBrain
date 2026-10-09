@@ -1,0 +1,250 @@
+{
+  "date": "2026-10-09T14:41:14.635Z",
+  "browser": "155.0.4283.45",
+  "engine": "Chromium",
+  "channel": "msedge",
+  "platform": "win32",
+  "scope": "Local button study, library search and legacy route smoke tests. Emulated viewports/input/media; no physical-device, Firefox/WebKit, screen-reader, production or controlled model benchmark certification.",
+  "checks": [
+    {
+      "name": "fill-left",
+      "result": "pass",
+      "details": {
+        "scope": "Translated layer: direction, idle, intermediate, stable target, interrupted reversal and resolved fill",
+        "idle": {
+          "x": -212.668,
+          "y": 0,
+          "left": 0,
+          "top": 0,
+          "opacity": 1,
+          "transition": "0.6s"
+        },
+        "mid": {
+          "x": -171.301,
+          "y": 0,
+          "left": 0,
+          "top": 0,
+          "opacity": 1,
+          "transition": "0.6s"
+        },
+        "reverse": {
+          "x": -177.172,
+          "y": 0,
+          "left": 0,
+          "top": 0,
+          "opacity": 1,
+          "transition": "0.6s"
+        },
+        "resolved": {
+          "x": 0,
+          "y": 0,
+          "left": 0,
+          "top": 0,
+          "opacity": 1,
+          "transition": "0.6s"
+        }
+      }
+    },
+    {
+      "name": "fill-bottom",
+      "result": "pass",
+      "details": {
+        "scope": "Translated layer: direction, idle, intermediate, stable target, interrupted reversal and resolved fill",
+        "idle": {
+          "x": 0,
+          "y": 53.53,
+          "left": 0,
+          "top": 0,
+          "opacity": 1,
+          "transition": "0.6s"
+        },
+        "mid": {
+          "x": 0,
+          "y": 43.1049,
+          "left": 0,
+          "top": 0,
+          "opacity": 1,
+          "transition": "0.6s"
+        },
+        "reverse": {
+          "x": 0,
+          "y": 44.5741,
+          "left": 0,
+          "top": 0,
+          "opacity": 1,
+          "transition": "0.6s"
+        },
+        "resolved": {
+          "x": 0,
+          "y": 0,
+          "left": 0,
+          "top": 0,
+          "opacity": 1,
+          "transition": "0.6s"
+        }
+      }
+    },
+    {
+      "name": "fill-top",
+      "result": "pass",
+      "details": {
+        "scope": "Translated layer: direction, idle, intermediate, stable target, interrupted reversal and resolved fill",
+        "idle": {
+          "x": 0,
+          "y": -53.53,
+          "left": 0,
+          "top": 0,
+          "opacity": 1,
+          "transition": "0.6s"
+        },
+        "mid": {
+          "x": 0,
+          "y": -43.1405,
+          "left": 0,
+          "top": 0,
+          "opacity": 1,
+          "transition": "0.6s"
+        },
+        "reverse": {
+          "x": 0,
+          "y": -43.1285,
+          "left": 0,
+          "top": 0,
+          "opacity": 1,
+          "transition": "0.6s"
+        },
+        "resolved": {
+          "x": 0,
+          "y": 0,
+          "left": 0,
+          "top": 0,
+          "opacity": 1,
+          "transition": "0.6s"
+        }
+      }
+    },
+    {
+      "name": "horizontal-glow",
+      "result": "pass",
+      "details": {
+        "scope": "Hidden at rest; appears on hover, x changes with invariant y, settles without pending RAF, cancel/leave reset",
+        "first": {
+          "x": -75,
+          "y": -75,
+          "left": 20,
+          "top": 26.5,
+          "opacity": 0.24,
+          "transition": "0.6s"
+        },
+        "second": {
+          "x": -75,
+          "y": -75,
+          "left": 169.609,
+          "top": 26.5,
+          "opacity": 0.24,
+          "transition": "0.6s"
+        },
+        "pendingRAF": 0
+      }
+    },
+    {
+      "name": "keyboard",
+      "result": "pass",
+      "details": "Visible outline and centered light; native Enter/Space activate exactly once each; Tab exits"
+    },
+    {
+      "name": "palette-text-contrast",
+      "result": "pass",
+      "details": {
+        "scope": "WCAG contrast formula for supplied text/fill colors and brightest glow center at max .35 opacity; not whole-site certification",
+        "palettes": [
+          {
+            "color": "pine",
+            "fillRatio": 7.893088783676024,
+            "maxGlowRatio": 5.342769902479441
+          },
+          {
+            "color": "wine",
+            "fillRatio": 9.062868416681471,
+            "maxGlowRatio": 5.917026983438152
+          },
+          {
+            "color": "indigo",
+            "fillRatio": 8.254226673381662,
+            "maxGlowRatio": 5.8533195763168395
+          }
+        ]
+      }
+    },
+    {
+      "name": "configuration",
+      "result": "pass",
+      "details": "Color, size, intensity, timing/easing and stationary preview apply to each button"
+    },
+    {
+      "name": "explicit-preview",
+      "result": "pass",
+      "details": "Reduced motion honored by default; explicit page preview restores movement; stationary preview takes precedence; system setting unchanged"
+    },
+    {
+      "name": "live-preferences",
+      "result": "pass",
+      "details": "Reduced motion cancels tracking without reload; restoring allows it; resize resets geometry"
+    },
+    {
+      "name": "forced-colors",
+      "result": "pass",
+      "details": "Decoration removed, focus outline retained"
+    },
+    {
+      "name": "disabled",
+      "result": "pass",
+      "details": "Disabled native button does not begin pointer tracking"
+    },
+    {
+      "name": "reflow-768",
+      "result": "pass",
+      "details": "No horizontal page overflow; target height >=44 CSS px"
+    },
+    {
+      "name": "reflow-390",
+      "result": "pass",
+      "details": "No horizontal page overflow; target height >=44 CSS px"
+    },
+    {
+      "name": "reflow-320",
+      "result": "pass",
+      "details": "No horizontal page overflow; target height >=44 CSS px"
+    },
+    {
+      "name": "library",
+      "result": "pass",
+      "details": "Combined query/domain finds exact new glow candidate with source details"
+    },
+    {
+      "name": "legacy-routes",
+      "result": "pass",
+      "details": "Studio and five representative older routes load; this is a smoke test, not visual recertification"
+    },
+    {
+      "name": "no-javascript",
+      "result": "pass",
+      "details": "Controls hidden; content/native buttons and all three CSS focus fills remain usable"
+    },
+    {
+      "name": "touch",
+      "result": "pass",
+      "details": "All four emulated coarse-touch buttons show press feedback, activate exactly once and clear press/tracking"
+    },
+    {
+      "name": "browser-errors",
+      "result": "pass",
+      "details": "No page errors or console errors during checked routes"
+    }
+  ],
+  "errors": [],
+  "screenshots": [
+    "docs/evidence/buttons-desktop.png",
+    "docs/evidence/buttons-mobile.png"
+  ]
+}

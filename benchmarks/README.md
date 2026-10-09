@@ -1,5 +1,7 @@
 # Does the brain actually improve design?
 
+The 1.3 batch adds `node benchmarks/check-routing.mjs`: a reproducible packaging measurement across tech, salon, construction, portfolio and CRM. Results are in docs/evidence/routing-benchmark.json. CRM uses the existing `other` type; this is not an implemented CRM. It checks selective chapter activation and UTF-8 context bytes (normalized LF), not visual improvement. Controlled model trials below remain outstanding.
+
 No document validator or passing unit test proves design quality. Use this suite to test outcomes under controlled conditions. This release includes the protocol and briefs; it does not claim completed comparative model trials.
 
 ## Baselines

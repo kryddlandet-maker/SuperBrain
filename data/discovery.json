@@ -1,0 +1,2742 @@
+{
+  "schema": 1,
+  "reviewed": "2026-10-09",
+  "baseline": "38fef3f",
+  "domains": [
+    {
+      "id": "A",
+      "name": "Research & strategy",
+      "capabilities": [
+        {
+          "id": "A1",
+          "name": "Reference analysis",
+          "coverage": "scope-map",
+          "origin": "User brief; not a count of researched techniques"
+        },
+        {
+          "id": "A2",
+          "name": "Brand discovery",
+          "coverage": "scope-map",
+          "origin": "User brief; not a count of researched techniques"
+        },
+        {
+          "id": "A3",
+          "name": "Visitor journey",
+          "coverage": "scope-map",
+          "origin": "User brief; not a count of researched techniques"
+        },
+        {
+          "id": "A4",
+          "name": "Information architecture",
+          "coverage": "scope-map",
+          "origin": "User brief; not a count of researched techniques"
+        },
+        {
+          "id": "A5",
+          "name": "Usability review",
+          "coverage": "scope-map",
+          "origin": "User brief; not a count of researched techniques"
+        }
+      ]
+    },
+    {
+      "id": "B",
+      "name": "Visual direction",
+      "capabilities": [
+        {
+          "id": "B1",
+          "name": "Type roles",
+          "coverage": "scope-map",
+          "origin": "User brief; not a count of researched techniques"
+        },
+        {
+          "id": "B2",
+          "name": "Color systems",
+          "coverage": "scope-map",
+          "origin": "User brief; not a count of researched techniques"
+        },
+        {
+          "id": "B3",
+          "name": "Material language",
+          "coverage": "scope-map",
+          "origin": "User brief; not a count of researched techniques"
+        },
+        {
+          "id": "B4",
+          "name": "Image art direction",
+          "coverage": "scope-map",
+          "origin": "User brief; not a count of researched techniques"
+        },
+        {
+          "id": "B5",
+          "name": "Design tokens",
+          "coverage": "scope-map",
+          "origin": "User brief; not a count of researched techniques"
+        }
+      ]
+    },
+    {
+      "id": "C",
+      "name": "Responsive composition",
+      "capabilities": [
+        {
+          "id": "C1",
+          "name": "Grid alignment",
+          "coverage": "scope-map",
+          "origin": "User brief; not a count of researched techniques"
+        },
+        {
+          "id": "C2",
+          "name": "Intrinsic sizing",
+          "coverage": "scope-map",
+          "origin": "User brief; not a count of researched techniques"
+        },
+        {
+          "id": "C3",
+          "name": "Component breakpoints",
+          "coverage": "scope-map",
+          "origin": "User brief; not a count of researched techniques"
+        },
+        {
+          "id": "C4",
+          "name": "Mobile composition",
+          "coverage": "scope-map",
+          "origin": "User brief; not a count of researched techniques"
+        },
+        {
+          "id": "C5",
+          "name": "International reflow",
+          "coverage": "scope-map",
+          "origin": "User brief; not a count of researched techniques"
+        }
+      ]
+    },
+    {
+      "id": "D",
+      "name": "Buttons",
+      "capabilities": [
+        {
+          "id": "D1",
+          "name": "Directional fills",
+          "coverage": "scope-map",
+          "origin": "User brief; not a count of researched techniques"
+        },
+        {
+          "id": "D2",
+          "name": "Pointer lighting",
+          "coverage": "scope-map",
+          "origin": "User brief; not a count of researched techniques"
+        },
+        {
+          "id": "D3",
+          "name": "Press feedback",
+          "coverage": "scope-map",
+          "origin": "User brief; not a count of researched techniques"
+        },
+        {
+          "id": "D4",
+          "name": "Async action states",
+          "coverage": "scope-map",
+          "origin": "User brief; not a count of researched techniques"
+        },
+        {
+          "id": "D5",
+          "name": "Confirmation controls",
+          "coverage": "scope-map",
+          "origin": "User brief; not a count of researched techniques"
+        }
+      ]
+    },
+    {
+      "id": "E",
+      "name": "Navigation",
+      "capabilities": [
+        {
+          "id": "E1",
+          "name": "Disclosure navigation",
+          "coverage": "scope-map",
+          "origin": "User brief; not a count of researched techniques"
+        },
+        {
+          "id": "E2",
+          "name": "Mobile drawers",
+          "coverage": "scope-map",
+          "origin": "User brief; not a count of researched techniques"
+        },
+        {
+          "id": "E3",
+          "name": "Active route indicators",
+          "coverage": "scope-map",
+          "origin": "User brief; not a count of researched techniques"
+        },
+        {
+          "id": "E4",
+          "name": "Command navigation",
+          "coverage": "scope-map",
+          "origin": "User brief; not a count of researched techniques"
+        },
+        {
+          "id": "E5",
+          "name": "Scroll-aware headers",
+          "coverage": "scope-map",
+          "origin": "User brief; not a count of researched techniques"
+        }
+      ]
+    },
+    {
+      "id": "F",
+      "name": "Components",
+      "capabilities": [
+        {
+          "id": "F1",
+          "name": "Content disclosure",
+          "coverage": "scope-map",
+          "origin": "User brief; not a count of researched techniques"
+        },
+        {
+          "id": "F2",
+          "name": "Overlays",
+          "coverage": "scope-map",
+          "origin": "User brief; not a count of researched techniques"
+        },
+        {
+          "id": "F3",
+          "name": "Collection browsing",
+          "coverage": "scope-map",
+          "origin": "User brief; not a count of researched techniques"
+        },
+        {
+          "id": "F4",
+          "name": "Data tables",
+          "coverage": "scope-map",
+          "origin": "User brief; not a count of researched techniques"
+        },
+        {
+          "id": "F5",
+          "name": "System feedback",
+          "coverage": "scope-map",
+          "origin": "User brief; not a count of researched techniques"
+        }
+      ]
+    },
+    {
+      "id": "G",
+      "name": "Forms",
+      "capabilities": [
+        {
+          "id": "G1",
+          "name": "Labeling and guidance",
+          "coverage": "scope-map",
+          "origin": "User brief; not a count of researched techniques"
+        },
+        {
+          "id": "G2",
+          "name": "Validation recovery",
+          "coverage": "scope-map",
+          "origin": "User brief; not a count of researched techniques"
+        },
+        {
+          "id": "G3",
+          "name": "Multi-step input",
+          "coverage": "scope-map",
+          "origin": "User brief; not a count of researched techniques"
+        },
+        {
+          "id": "G4",
+          "name": "Upload controls",
+          "coverage": "scope-map",
+          "origin": "User brief; not a count of researched techniques"
+        },
+        {
+          "id": "G5",
+          "name": "Submission lifecycle",
+          "coverage": "scope-map",
+          "origin": "User brief; not a count of researched techniques"
+        }
+      ]
+    },
+    {
+      "id": "H",
+      "name": "Motion foundations",
+      "capabilities": [
+        {
+          "id": "H1",
+          "name": "Timing and easing",
+          "coverage": "scope-map",
+          "origin": "User brief; not a count of researched techniques"
+        },
+        {
+          "id": "H2",
+          "name": "Spring and inertia",
+          "coverage": "scope-map",
+          "origin": "User brief; not a count of researched techniques"
+        },
+        {
+          "id": "H3",
+          "name": "Timeline ownership",
+          "coverage": "scope-map",
+          "origin": "User brief; not a count of researched techniques"
+        },
+        {
+          "id": "H4",
+          "name": "Interruption and cancellation",
+          "coverage": "scope-map",
+          "origin": "User brief; not a count of researched techniques"
+        },
+        {
+          "id": "H5",
+          "name": "Motion preferences",
+          "coverage": "scope-map",
+          "origin": "User brief; not a count of researched techniques"
+        }
+      ]
+    },
+    {
+      "id": "I",
+      "name": "Scroll storytelling",
+      "capabilities": [
+        {
+          "id": "I1",
+          "name": "Trigger entrances",
+          "coverage": "scope-map",
+          "origin": "User brief; not a count of researched techniques"
+        },
+        {
+          "id": "I2",
+          "name": "Progress linkage",
+          "coverage": "scope-map",
+          "origin": "User brief; not a count of researched techniques"
+        },
+        {
+          "id": "I3",
+          "name": "Pinning choreography",
+          "coverage": "scope-map",
+          "origin": "User brief; not a count of researched techniques"
+        },
+        {
+          "id": "I4",
+          "name": "Frame scrubbing",
+          "coverage": "scope-map",
+          "origin": "User brief; not a count of researched techniques"
+        },
+        {
+          "id": "I5",
+          "name": "Scroll restoration",
+          "coverage": "scope-map",
+          "origin": "User brief; not a count of researched techniques"
+        }
+      ]
+    },
+    {
+      "id": "J",
+      "name": "Transitions",
+      "capabilities": [
+        {
+          "id": "J1",
+          "name": "Document continuity",
+          "coverage": "scope-map",
+          "origin": "User brief; not a count of researched techniques"
+        },
+        {
+          "id": "J2",
+          "name": "Shared app layout",
+          "coverage": "scope-map",
+          "origin": "User brief; not a count of researched techniques"
+        },
+        {
+          "id": "J3",
+          "name": "Grid-to-detail",
+          "coverage": "scope-map",
+          "origin": "User brief; not a count of researched techniques"
+        },
+        {
+          "id": "J4",
+          "name": "Route interruption",
+          "coverage": "scope-map",
+          "origin": "User brief; not a count of researched techniques"
+        },
+        {
+          "id": "J5",
+          "name": "History semantics",
+          "coverage": "scope-map",
+          "origin": "User brief; not a count of researched techniques"
+        }
+      ]
+    },
+    {
+      "id": "K",
+      "name": "Pointer effects",
+      "capabilities": [
+        {
+          "id": "K1",
+          "name": "Proximity response",
+          "coverage": "scope-map",
+          "origin": "User brief; not a count of researched techniques"
+        },
+        {
+          "id": "K2",
+          "name": "Directional hover",
+          "coverage": "scope-map",
+          "origin": "User brief; not a count of researched techniques"
+        },
+        {
+          "id": "K3",
+          "name": "Light fields",
+          "coverage": "scope-map",
+          "origin": "User brief; not a count of researched techniques"
+        },
+        {
+          "id": "K4",
+          "name": "Cursor trails",
+          "coverage": "scope-map",
+          "origin": "User brief; not a count of researched techniques"
+        },
+        {
+          "id": "K5",
+          "name": "Pointer masks",
+          "coverage": "scope-map",
+          "origin": "User brief; not a count of researched techniques"
+        }
+      ]
+    },
+    {
+      "id": "L",
+      "name": "Typography motion",
+      "capabilities": [
+        {
+          "id": "L1",
+          "name": "Responsive splitting",
+          "coverage": "scope-map",
+          "origin": "User brief; not a count of researched techniques"
+        },
+        {
+          "id": "L2",
+          "name": "Line choreography",
+          "coverage": "scope-map",
+          "origin": "User brief; not a count of researched techniques"
+        },
+        {
+          "id": "L3",
+          "name": "Word emphasis",
+          "coverage": "scope-map",
+          "origin": "User brief; not a count of researched techniques"
+        },
+        {
+          "id": "L4",
+          "name": "Variable axes",
+          "coverage": "scope-map",
+          "origin": "User brief; not a count of researched techniques"
+        },
+        {
+          "id": "L5",
+          "name": "Scramble and marquee",
+          "coverage": "scope-map",
+          "origin": "User brief; not a count of researched techniques"
+        }
+      ]
+    },
+    {
+      "id": "M",
+      "name": "Media",
+      "capabilities": [
+        {
+          "id": "M1",
+          "name": "Art-directed images",
+          "coverage": "scope-map",
+          "origin": "User brief; not a count of researched techniques"
+        },
+        {
+          "id": "M2",
+          "name": "Comparisons",
+          "coverage": "scope-map",
+          "origin": "User brief; not a count of researched techniques"
+        },
+        {
+          "id": "M3",
+          "name": "Lightboxes",
+          "coverage": "scope-map",
+          "origin": "User brief; not a count of researched techniques"
+        },
+        {
+          "id": "M4",
+          "name": "Image sequences",
+          "coverage": "scope-map",
+          "origin": "User brief; not a count of researched techniques"
+        },
+        {
+          "id": "M5",
+          "name": "Video delivery",
+          "coverage": "scope-map",
+          "origin": "User brief; not a count of researched techniques"
+        }
+      ]
+    },
+    {
+      "id": "N",
+      "name": "Graphics & 3D",
+      "capabilities": [
+        {
+          "id": "N1",
+          "name": "GPU lifecycle",
+          "coverage": "scope-map",
+          "origin": "User brief; not a count of researched techniques"
+        },
+        {
+          "id": "N2",
+          "name": "Product inspection",
+          "coverage": "scope-map",
+          "origin": "User brief; not a count of researched techniques"
+        },
+        {
+          "id": "N3",
+          "name": "Camera choreography",
+          "coverage": "scope-map",
+          "origin": "User brief; not a count of researched techniques"
+        },
+        {
+          "id": "N4",
+          "name": "Shader sampling",
+          "coverage": "scope-map",
+          "origin": "User brief; not a count of researched techniques"
+        },
+        {
+          "id": "N5",
+          "name": "Adaptive quality",
+          "coverage": "scope-map",
+          "origin": "User brief; not a count of researched techniques"
+        }
+      ]
+    },
+    {
+      "id": "O",
+      "name": "Authored motion",
+      "capabilities": [
+        {
+          "id": "O1",
+          "name": "SVG drawing",
+          "coverage": "scope-map",
+          "origin": "User brief; not a count of researched techniques"
+        },
+        {
+          "id": "O2",
+          "name": "Path morphing",
+          "coverage": "scope-map",
+          "origin": "User brief; not a count of researched techniques"
+        },
+        {
+          "id": "O3",
+          "name": "Rive state machines",
+          "coverage": "scope-map",
+          "origin": "User brief; not a count of researched techniques"
+        },
+        {
+          "id": "O4",
+          "name": "Lottie exports",
+          "coverage": "scope-map",
+          "origin": "User brief; not a count of researched techniques"
+        },
+        {
+          "id": "O5",
+          "name": "Data diagrams",
+          "coverage": "scope-map",
+          "origin": "User brief; not a count of researched techniques"
+        }
+      ]
+    },
+    {
+      "id": "P",
+      "name": "Site archetypes",
+      "capabilities": [
+        {
+          "id": "P1",
+          "name": "Service conversion",
+          "coverage": "scope-map",
+          "origin": "User brief; not a count of researched techniques"
+        },
+        {
+          "id": "P2",
+          "name": "Portfolio evidence",
+          "coverage": "scope-map",
+          "origin": "User brief; not a count of researched techniques"
+        },
+        {
+          "id": "P3",
+          "name": "Commerce decisions",
+          "coverage": "scope-map",
+          "origin": "User brief; not a count of researched techniques"
+        },
+        {
+          "id": "P4",
+          "name": "Hospitality tasks",
+          "coverage": "scope-map",
+          "origin": "User brief; not a count of researched techniques"
+        },
+        {
+          "id": "P5",
+          "name": "Product launch stories",
+          "coverage": "scope-map",
+          "origin": "User brief; not a count of researched techniques"
+        }
+      ]
+    },
+    {
+      "id": "Q",
+      "name": "Applications",
+      "capabilities": [
+        {
+          "id": "Q1",
+          "name": "Dashboard hierarchy",
+          "coverage": "scope-map",
+          "origin": "User brief; not a count of researched techniques"
+        },
+        {
+          "id": "Q2",
+          "name": "CRM pipelines",
+          "coverage": "scope-map",
+          "origin": "User brief; not a count of researched techniques"
+        },
+        {
+          "id": "Q3",
+          "name": "Workspace navigation",
+          "coverage": "scope-map",
+          "origin": "User brief; not a count of researched techniques"
+        },
+        {
+          "id": "Q4",
+          "name": "Permission-aware actions",
+          "coverage": "scope-map",
+          "origin": "User brief; not a count of researched techniques"
+        },
+        {
+          "id": "Q5",
+          "name": "Realtime feedback",
+          "coverage": "scope-map",
+          "origin": "User brief; not a count of researched techniques"
+        }
+      ]
+    },
+    {
+      "id": "R",
+      "name": "Frontend",
+      "capabilities": [
+        {
+          "id": "R1",
+          "name": "Semantic components",
+          "coverage": "scope-map",
+          "origin": "User brief; not a count of researched techniques"
+        },
+        {
+          "id": "R2",
+          "name": "State ownership",
+          "coverage": "scope-map",
+          "origin": "User brief; not a count of researched techniques"
+        },
+        {
+          "id": "R3",
+          "name": "Server and client boundaries",
+          "coverage": "scope-map",
+          "origin": "User brief; not a count of researched techniques"
+        },
+        {
+          "id": "R4",
+          "name": "Progressive enhancement",
+          "coverage": "scope-map",
+          "origin": "User brief; not a count of researched techniques"
+        },
+        {
+          "id": "R5",
+          "name": "Dependency stewardship",
+          "coverage": "scope-map",
+          "origin": "User brief; not a count of researched techniques"
+        }
+      ]
+    },
+    {
+      "id": "S",
+      "name": "Backend & integrations",
+      "capabilities": [
+        {
+          "id": "S1",
+          "name": "API contracts",
+          "coverage": "scope-map",
+          "origin": "User brief; not a count of researched techniques"
+        },
+        {
+          "id": "S2",
+          "name": "Data authorization",
+          "coverage": "scope-map",
+          "origin": "User brief; not a count of researched techniques"
+        },
+        {
+          "id": "S3",
+          "name": "Webhook reliability",
+          "coverage": "scope-map",
+          "origin": "User brief; not a count of researched techniques"
+        },
+        {
+          "id": "S4",
+          "name": "Private storage",
+          "coverage": "scope-map",
+          "origin": "User brief; not a count of researched techniques"
+        },
+        {
+          "id": "S5",
+          "name": "External transaction states",
+          "coverage": "scope-map",
+          "origin": "User brief; not a count of researched techniques"
+        }
+      ]
+    },
+    {
+      "id": "T",
+      "name": "Web quality",
+      "capabilities": [
+        {
+          "id": "T1",
+          "name": "Rendering performance",
+          "coverage": "scope-map",
+          "origin": "User brief; not a count of researched techniques"
+        },
+        {
+          "id": "T2",
+          "name": "Field vitals",
+          "coverage": "scope-map",
+          "origin": "User brief; not a count of researched techniques"
+        },
+        {
+          "id": "T3",
+          "name": "Keyboard and focus",
+          "coverage": "scope-map",
+          "origin": "User brief; not a count of researched techniques"
+        },
+        {
+          "id": "T4",
+          "name": "Contrast and reflow",
+          "coverage": "scope-map",
+          "origin": "User brief; not a count of researched techniques"
+        },
+        {
+          "id": "T5",
+          "name": "Search metadata",
+          "coverage": "scope-map",
+          "origin": "User brief; not a count of researched techniques"
+        }
+      ]
+    },
+    {
+      "id": "U",
+      "name": "Engineering workflows",
+      "capabilities": [
+        {
+          "id": "U1",
+          "name": "Behavior tests",
+          "coverage": "scope-map",
+          "origin": "User brief; not a count of researched techniques"
+        },
+        {
+          "id": "U2",
+          "name": "Browser matrices",
+          "coverage": "scope-map",
+          "origin": "User brief; not a count of researched techniques"
+        },
+        {
+          "id": "U3",
+          "name": "Visual regression",
+          "coverage": "scope-map",
+          "origin": "User brief; not a count of researched techniques"
+        },
+        {
+          "id": "U4",
+          "name": "Release checks",
+          "coverage": "scope-map",
+          "origin": "User brief; not a count of researched techniques"
+        },
+        {
+          "id": "U5",
+          "name": "Monitoring and rollback",
+          "coverage": "scope-map",
+          "origin": "User brief; not a count of researched techniques"
+        }
+      ]
+    },
+    {
+      "id": "V",
+      "name": "Agent skills",
+      "capabilities": [
+        {
+          "id": "V1",
+          "name": "Discovery routing",
+          "coverage": "scope-map",
+          "origin": "User brief; not a count of researched techniques"
+        },
+        {
+          "id": "V2",
+          "name": "Context disclosure",
+          "coverage": "scope-map",
+          "origin": "User brief; not a count of researched techniques"
+        },
+        {
+          "id": "V3",
+          "name": "Source provenance",
+          "coverage": "scope-map",
+          "origin": "User brief; not a count of researched techniques"
+        },
+        {
+          "id": "V4",
+          "name": "Skill packaging",
+          "coverage": "scope-map",
+          "origin": "User brief; not a count of researched techniques"
+        },
+        {
+          "id": "V5",
+          "name": "Controlled evaluations",
+          "coverage": "scope-map",
+          "origin": "User brief; not a count of researched techniques"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "spec",
+      "author": "Agent Skills",
+      "url": "https://agentskills.io/specification",
+      "finding": "Specification defines metadata and progressive disclosure; references load only on demand.",
+      "kind": "documentation",
+      "license": "review-before-copy",
+      "access": "read",
+      "reviewed": "2026-10-09",
+      "maintenance": "Content inspected on review date; no ongoing maintenance guarantee",
+      "security": "Research data only; no remote code executed or imported",
+      "runtimeValidation": "not performed"
+    },
+    {
+      "id": "directory",
+      "author": "Vercel Labs",
+      "url": "https://skills.sh/",
+      "finding": "Directory useful for discovery; install counts are not quality evidence.",
+      "kind": "discovery",
+      "license": "not-a-code-license",
+      "access": "read",
+      "reviewed": "2026-10-09",
+      "maintenance": "Content inspected on review date; no ongoing maintenance guarantee",
+      "security": "Research data only; no remote code executed or imported",
+      "runtimeValidation": "not performed"
+    },
+    {
+      "id": "anthropic-design",
+      "author": "Anthropic",
+      "url": "https://github.com/anthropics/skills/blob/main/skills/frontend-design/SKILL.md",
+      "finding": "Read actual skill. Ground identity in subject, typography and functional language; keep client brief above style defaults.",
+      "kind": "skill",
+      "license": "Apache-2.0 (per-skill license inspected)",
+      "access": "read",
+      "reviewed": "2026-10-09",
+      "maintenance": "Content inspected on review date; no ongoing maintenance guarantee",
+      "security": "Research data only; no remote code executed or imported",
+      "runtimeValidation": "not performed"
+    },
+    {
+      "id": "openai-creator",
+      "author": "OpenAI",
+      "url": "https://github.com/openai/skills/blob/main/skills/.system/skill-creator/SKILL.md",
+      "finding": "Skill authoring reviewed through installed current skill and upstream entry; keep instructions scoped and validate behavior.",
+      "kind": "skill",
+      "license": "review-before-copy",
+      "access": "read",
+      "reviewed": "2026-10-09",
+      "maintenance": "Content inspected on review date; no ongoing maintenance guarantee",
+      "security": "Research data only; no remote code executed or imported",
+      "runtimeValidation": "not performed"
+    },
+    {
+      "id": "vercel-review",
+      "author": "Vercel Labs",
+      "url": "https://github.com/vercel-labs/agent-skills/blob/main/skills/web-design-guidelines/SKILL.md",
+      "finding": "Read actual loader. Narrow audit activation and refreshing authoritative guidelines; no automatic adoption of remote instructions.",
+      "kind": "skill",
+      "license": "unverified; no content imported",
+      "access": "read",
+      "reviewed": "2026-10-09",
+      "maintenance": "Content inspected on review date; no ongoing maintenance guarantee",
+      "security": "Research data only; no remote code executed or imported",
+      "runtimeValidation": "not performed"
+    },
+    {
+      "id": "skills-cli",
+      "author": "Vercel Labs",
+      "url": "https://github.com/vercel-labs/skills",
+      "finding": "Read CLI installation behavior, copy/symlink modes and private repository auth reuse. Preserve existing local installer.",
+      "kind": "documentation",
+      "license": "MIT reported in README; review before copying",
+      "access": "read",
+      "reviewed": "2026-10-09",
+      "maintenance": "Content inspected on review date; no ongoing maintenance guarantee",
+      "security": "Research data only; no remote code executed or imported",
+      "runtimeValidation": "not performed"
+    },
+    {
+      "id": "web-quality",
+      "author": "Addy Osmani",
+      "url": "https://github.com/addyosmani/web-quality-skills/blob/main/skills/accessibility/SKILL.md",
+      "finding": "Read accessibility skill and live/static evidence distinction; native controls avoid duplicate keyboard activation.",
+      "kind": "skill",
+      "license": "unverified; original synthesis only",
+      "access": "read",
+      "reviewed": "2026-10-09",
+      "maintenance": "Content inspected on review date; no ongoing maintenance guarantee",
+      "security": "Research data only; no remote code executed or imported",
+      "runtimeValidation": "not performed"
+    },
+    {
+      "id": "frontend-engineering",
+      "author": "Addy Osmani",
+      "url": "https://github.com/addyosmani/agent-skills/blob/main/skills/frontend-ui-engineering/SKILL.md",
+      "finding": "Read component and state ownership. Some global style bans conflict with SuperBrain; do not import those bans.",
+      "kind": "skill",
+      "license": "unverified; original synthesis only",
+      "access": "read",
+      "reviewed": "2026-10-09",
+      "maintenance": "Content inspected on review date; no ongoing maintenance guarantee",
+      "security": "Research data only; no remote code executed or imported",
+      "runtimeValidation": "not performed"
+    },
+    {
+      "id": "meng-css",
+      "author": "Meng To",
+      "url": "https://github.com/MengTo/skills/blob/main/agent-skills/web-design/css-border-gradient/SKILL.md",
+      "finding": "Read actual CSS gradient skill; border effects need radius-aware layers and readable foreground.",
+      "kind": "skill",
+      "license": "MIT; LICENSE inspected",
+      "access": "read",
+      "reviewed": "2026-10-09",
+      "maintenance": "Content inspected on review date; no ongoing maintenance guarantee",
+      "security": "Research data only; no remote code executed or imported",
+      "runtimeValidation": "not performed"
+    },
+    {
+      "id": "b4-motion",
+      "author": "b4Help / Meng To attribution",
+      "url": "https://github.com/b4Help/WebDesignSkills/blob/main/agent-skills/web-design/animation-systems/SKILL.md",
+      "finding": "Read actual animation system. Treat timing as tunable starts; do not adopt compulsory reveal sequences or approval rules.",
+      "kind": "skill",
+      "license": "MIT; LICENSE attributes Meng To",
+      "access": "read",
+      "reviewed": "2026-10-09",
+      "maintenance": "Content inspected on review date; no ongoing maintenance guarantee",
+      "security": "Research data only; no remote code executed or imported",
+      "runtimeValidation": "not performed",
+      "blobSha": "bfba54e968cc09d063e8d60765b24022d998cf31"
+    },
+    {
+      "id": "emmraan-micro",
+      "author": "Emmraan; skill credits wondelai / Dan Saffer",
+      "url": "https://github.com/Emmraan/agent-skills/blob/main/skills/animation-webgl/microinteractions/SKILL.md",
+      "finding": "Read triggers, rules and honest feedback; diagnostic score is heuristic, not measured UI quality.",
+      "kind": "skill",
+      "license": "MIT; repo LICENSE inspected",
+      "access": "read",
+      "reviewed": "2026-10-09",
+      "maintenance": "Content inspected on review date; no ongoing maintenance guarantee",
+      "security": "Research data only; no remote code executed or imported",
+      "runtimeValidation": "not performed",
+      "blobSha": "38ea3e5ae315d464bd8b21b6c27b5354a2ad6c16"
+    },
+    {
+      "id": "seva-router",
+      "author": "Seva Gulian",
+      "url": "https://github.com/sevq1993-cyber/web-design-motion-skill-family/blob/main/skills/frontend-motion-style-system/SKILL.md",
+      "finding": "Read runtime routing: CSS state, Motion layout, GSAP scenes, authored assets, real 3D. High overlap: extend existing references.",
+      "kind": "skill",
+      "license": "MIT; LICENSE inspected",
+      "access": "read",
+      "reviewed": "2026-10-09",
+      "maintenance": "Content inspected on review date; no ongoing maintenance guarantee",
+      "security": "Research data only; no remote code executed or imported",
+      "runtimeValidation": "not performed",
+      "blobSha": "c7a8efe32a317ea32952f2f89376cc024df82f8e"
+    },
+    {
+      "id": "mdn-origin",
+      "author": "MDN contributors",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/transform-origin",
+      "finding": "Scale a decorative layer around selected origin without moving the button hit area.",
+      "kind": "documentation",
+      "license": "documentation terms; original code",
+      "access": "read",
+      "reviewed": "2026-10-09",
+      "maintenance": "Content inspected on review date; no ongoing maintenance guarantee",
+      "security": "Research data only; no remote code executed or imported",
+      "runtimeValidation": "not performed"
+    },
+    {
+      "id": "mdn-focus",
+      "author": "MDN contributors",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Selectors/:focus-visible",
+      "finding": "Browser heuristics identify visible focus; preserve a clear independent focus indicator.",
+      "kind": "documentation",
+      "license": "documentation terms; original code",
+      "access": "read",
+      "reviewed": "2026-10-09",
+      "maintenance": "Content inspected on review date; no ongoing maintenance guarantee",
+      "security": "Research data only; no remote code executed or imported",
+      "runtimeValidation": "not performed"
+    },
+    {
+      "id": "mdn-leave",
+      "author": "MDN contributors",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/pointerleave_event",
+      "finding": "Pointer leave follows hit boundaries; reset tracking on leave and cancellation.",
+      "kind": "documentation",
+      "license": "documentation terms; original code",
+      "access": "read",
+      "reviewed": "2026-10-09",
+      "maintenance": "Content inspected on review date; no ongoing maintenance guarantee",
+      "security": "Research data only; no remote code executed or imported",
+      "runtimeValidation": "not performed"
+    },
+    {
+      "id": "mdn-media",
+      "author": "MDN contributors",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/matchMedia",
+      "finding": "MediaQueryList changes let open pages respond to new input capabilities and motion preference.",
+      "kind": "documentation",
+      "license": "documentation terms; original code",
+      "access": "read",
+      "reviewed": "2026-10-09",
+      "maintenance": "Content inspected on review date; no ongoing maintenance guarantee",
+      "security": "Research data only; no remote code executed or imported",
+      "runtimeValidation": "not performed"
+    },
+    {
+      "id": "mdn-raf",
+      "author": "MDN contributors",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/requestAnimationFrame",
+      "finding": "One-shot callbacks and elapsed-time interpolation prevent continuous idle work and refresh-rate dependent smoothing.",
+      "kind": "documentation",
+      "license": "documentation terms; original code",
+      "access": "read",
+      "reviewed": "2026-10-09",
+      "maintenance": "Content inspected on review date; no ongoing maintenance guarantee",
+      "security": "Research data only; no remote code executed or imported",
+      "runtimeValidation": "not performed"
+    },
+    {
+      "id": "gsap-media",
+      "author": "GSAP",
+      "url": "https://gsap.com/docs/v3/GSAP/gsap.matchMedia()/",
+      "finding": "Responsive conditions revert owned animations; explicit event listeners still need cleanup.",
+      "kind": "documentation",
+      "license": "GSAP terms must be checked at integration",
+      "access": "read",
+      "reviewed": "2026-10-09",
+      "maintenance": "Content inspected on review date; no ongoing maintenance guarantee",
+      "security": "Research data only; no remote code executed or imported",
+      "runtimeValidation": "not performed"
+    },
+    {
+      "id": "motion-layout",
+      "author": "Motion",
+      "url": "https://motion.dev/docs/react-layout-animations",
+      "finding": "Shared layout uses layoutId; scroll/fixed roots require layoutScroll/layoutRoot; transforms can distort children.",
+      "kind": "documentation",
+      "license": "runtime license review required; no dependency added",
+      "access": "read",
+      "reviewed": "2026-10-09",
+      "maintenance": "Content inspected on review date; no ongoing maintenance guarantee",
+      "security": "Research data only; no remote code executed or imported",
+      "runtimeValidation": "not performed"
+    },
+    {
+      "id": "lenis-docs",
+      "author": "Darkroom Engineering",
+      "url": "https://github.com/darkroomengineering/lenis",
+      "finding": "Read lifecycle, reduced-motion indicator, nested scroll limitations and destroy method. Native scroll remains default.",
+      "kind": "documentation",
+      "license": "runtime license review required; no dependency added",
+      "access": "read",
+      "reviewed": "2026-10-09",
+      "maintenance": "Content inspected on review date; no ongoing maintenance guarantee",
+      "security": "Research data only; no remote code executed or imported",
+      "runtimeValidation": "not performed"
+    },
+    {
+      "id": "animation-performance",
+      "author": "Kayce Basques / Rachel Andrew, web.dev",
+      "url": "https://web.dev/articles/animations-guide",
+      "finding": "Transform/opacity avoid many layout/paint costs; profile actual effects and add will-change only when justified.",
+      "kind": "documentation",
+      "license": "CC-BY-4.0 prose / Apache-2.0 samples; original synthesis",
+      "access": "read",
+      "reviewed": "2026-10-09",
+      "maintenance": "Content inspected on review date; no ongoing maintenance guarantee",
+      "security": "Research data only; no remote code executed or imported",
+      "runtimeValidation": "not performed"
+    },
+    {
+      "id": "apg-button",
+      "author": "W3C WAI",
+      "url": "https://www.w3.org/WAI/ARIA/apg/patterns/button/",
+      "finding": "Native buttons support Enter and Space; focus follows action and toggle labels remain stable.",
+      "kind": "documentation",
+      "license": "W3C document terms; original code",
+      "access": "read",
+      "reviewed": "2026-10-09",
+      "maintenance": "Content inspected on review date; no ongoing maintenance guarantee",
+      "security": "Research data only; no remote code executed or imported",
+      "runtimeValidation": "not performed"
+    },
+    {
+      "id": "radix-access",
+      "author": "Radix / WorkOS",
+      "url": "https://www.radix-ui.com/primitives/docs/overview/accessibility",
+      "finding": "Primitives manage semantics, focus and keyboard behavior; consumer still supplies meaningful labels and composition.",
+      "kind": "documentation",
+      "license": "review component license before integration",
+      "access": "read",
+      "reviewed": "2026-10-09",
+      "maintenance": "Content inspected on review date; no ongoing maintenance guarantee",
+      "security": "Research data only; no remote code executed or imported",
+      "runtimeValidation": "not performed"
+    },
+    {
+      "id": "shadcn-button",
+      "author": "shadcn/ui",
+      "url": "https://ui.shadcn.com/docs/components/base/button",
+      "finding": "Read variants and semantic-link advice; button styling must not replace anchor semantics.",
+      "kind": "documentation",
+      "license": "review chosen implementation license",
+      "access": "read",
+      "reviewed": "2026-10-09",
+      "maintenance": "Content inspected on review date; no ongoing maintenance guarantee",
+      "security": "Research data only; no remote code executed or imported",
+      "runtimeValidation": "not performed"
+    },
+    {
+      "id": "apg-nav",
+      "author": "W3C WAI",
+      "url": "https://www.w3.org/WAI/ARIA/apg/patterns/disclosure/examples/disclosure-navigation/",
+      "finding": "Ordinary site navigation uses disclosure and links, not application menu roles; Escape closes and returns focus.",
+      "kind": "documentation",
+      "license": "W3C document terms; original synthesis",
+      "access": "read",
+      "reviewed": "2026-10-09",
+      "maintenance": "Content inspected on review date; no ongoing maintenance guarantee",
+      "security": "Research data only; no remote code executed or imported",
+      "runtimeValidation": "not performed"
+    },
+    {
+      "id": "playwright-emulation",
+      "author": "Microsoft / Playwright",
+      "url": "https://playwright.dev/docs/emulation",
+      "finding": "Read viewport/media/input and JavaScript-disabled emulation; simulated devices do not prove physical-device behavior.",
+      "kind": "documentation",
+      "license": "review runtime license; optional host-provided test tool",
+      "access": "read",
+      "reviewed": "2026-10-09",
+      "maintenance": "Content inspected on review date; no ongoing maintenance guarantee",
+      "security": "Research data only; no remote code executed or imported",
+      "runtimeValidation": "not performed"
+    },
+    {
+      "id": "model-materials",
+      "author": "Google model-viewer",
+      "url": "https://modelviewer.dev/examples/scenegraph/",
+      "finding": "Material and variant APIs differ across AR modes; assets have distinct licenses. Historical Safari claim requires rechecking.",
+      "kind": "documentation",
+      "license": "Apache-2.0 runtime; models separately licensed",
+      "access": "read",
+      "reviewed": "2026-10-09",
+      "maintenance": "Content inspected on review date; no ongoing maintenance guarantee",
+      "security": "Research data only; no remote code executed or imported",
+      "runtimeValidation": "not performed"
+    },
+    {
+      "id": "lottie-runtime",
+      "author": "Airbnb / Hernan Torrisi",
+      "url": "https://github.com/airbnb/lottie-web",
+      "finding": "Read loading, renderer, segment/pause/destroy APIs and export limitations; bound playback and handle asset failures.",
+      "kind": "documentation",
+      "license": "review runtime and asset licenses separately",
+      "access": "read",
+      "reviewed": "2026-10-09",
+      "maintenance": "Content inspected on review date; no ongoing maintenance guarantee",
+      "security": "Research data only; no remote code executed or imported",
+      "runtimeValidation": "not performed"
+    },
+    {
+      "id": "codrops-gooey",
+      "author": "Arno Di Nunzio / Codrops",
+      "url": "https://tympanus.net/codrops/2019/10/23/making-gooey-image-hover-effects-with-three-js/",
+      "finding": "Read DOM geometry and shader sampling tutorial; 2019 render loop/uncapped DPR need lifecycle and performance adaptation.",
+      "kind": "tutorial",
+      "license": "review linked implementation license; no copy",
+      "access": "read",
+      "reviewed": "2026-10-09",
+      "maintenance": "Content inspected on review date; no ongoing maintenance guarantee",
+      "security": "Research data only; no remote code executed or imported",
+      "runtimeValidation": "not performed"
+    },
+    {
+      "id": "r3f-performance",
+      "author": "Poimandres",
+      "url": "https://r3f.docs.pmnd.rs/advanced/scaling-performance",
+      "finding": "Read demand rendering, instancing and adaptive quality; invalidate requests frames, it does not force immediate render.",
+      "kind": "documentation",
+      "license": "review runtime license at integration",
+      "access": "read",
+      "reviewed": "2026-10-09",
+      "maintenance": "Content inspected on review date; no ongoing maintenance guarantee",
+      "security": "Research data only; no remote code executed or imported",
+      "runtimeValidation": "not performed"
+    },
+    {
+      "id": "wcag-animation",
+      "author": "W3C WAI",
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/animation-from-interactions.html",
+      "finding": "Read SC 2.3.3 (AAA): allow disabling nonessential interaction motion. Native scrolling is distinct; this is not an AA conformance claim.",
+      "kind": "documentation",
+      "license": "W3C document terms; original synthesis",
+      "access": "read",
+      "reviewed": "2026-10-09",
+      "maintenance": "Reviewed snapshot; recheck at integration",
+      "security": "No remote code executed or copied",
+      "runtimeValidation": "not performed"
+    },
+    {
+      "id": "wcag-pause",
+      "author": "W3C WAI",
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/pause-stop-hide.html",
+      "finding": "Read SC 2.2.2 (A): automatic moving content over five seconds alongside other content needs pause/stop/hide; auto-updating content has no five-second exemption.",
+      "kind": "documentation",
+      "license": "W3C document terms; original synthesis",
+      "access": "read",
+      "reviewed": "2026-10-09",
+      "maintenance": "Reviewed snapshot; recheck at integration",
+      "security": "No remote code executed or copied",
+      "runtimeValidation": "not performed"
+    }
+  ],
+  "candidates": [
+    {
+      "id": "C001",
+      "name": "Fill from left",
+      "kind": "component",
+      "domain": "D",
+      "capability": "D1",
+      "description": "Scale a separate fill layer from the left; preserve target and text geometry.",
+      "triggers": [
+        "Button motion requested; directional emphasis"
+      ],
+      "keywords": [
+        "fill",
+        "from",
+        "left",
+        "D1"
+      ],
+      "implementation": "Scale a separate fill layer from the left; preserve target and text geometry.",
+      "dependencies": [
+        "CSS transform"
+      ],
+      "frameworks": [
+        "stack-dependent"
+      ],
+      "sourceIds": [
+        "mdn-origin",
+        "mdn-focus",
+        "apg-button"
+      ],
+      "license": "Original synthesis; consult linked source license before importing third-party code/assets",
+      "performance": "Low; transform only, profile real composition",
+      "mobile": "Keyboard focus and touch press show fill; reduce motion removes transitions",
+      "accessibility": "Keyboard focus and touch press show fill; reduce motion removes transitions",
+      "complexity": "low",
+      "visualImpact": "subtle",
+      "fit": "Button motion requested; directional emphasis",
+      "alternatives": "Plain native control with static state",
+      "conflicts": "Do not let another animation own the same pseudo-element/property",
+      "maturity": "TESTED",
+      "validation": {
+        "scope": "Local Edge/Chromium behavior checks: directional/intermediate/interrupted states or horizontal hover tracking; keyboard, emulated touch, live reduced motion, forced colors, disabled state, 1440/768/390/320 widths and no-JavaScript fallback. No physical devices, other engines, screen-reader or production certification.",
+        "evidence": [
+          "docs/evidence/buttons-browser.json"
+        ]
+      },
+      "reference": "skills/superbrain/references/button-interactions.md",
+      "demo": "/examples/buttons/#fill-left",
+      "reviewed": "2026-10-09",
+      "priority": 1
+    },
+    {
+      "id": "C002",
+      "name": "Fill from bottom",
+      "kind": "component",
+      "domain": "D",
+      "capability": "D1",
+      "description": "Scale a separate fill layer upward around bottom center.",
+      "triggers": [
+        "Upward fill requested"
+      ],
+      "keywords": [
+        "fill",
+        "from",
+        "bottom",
+        "D1"
+      ],
+      "implementation": "Scale a separate fill layer upward around bottom center.",
+      "dependencies": [
+        "CSS transform"
+      ],
+      "frameworks": [
+        "stack-dependent"
+      ],
+      "sourceIds": [
+        "mdn-origin",
+        "animation-performance",
+        "apg-button"
+      ],
+      "license": "Original synthesis; consult linked source license before importing third-party code/assets",
+      "performance": "Low; no animated dimensions",
+      "mobile": "Same focus and press response; no moving text",
+      "accessibility": "Same focus and press response; no moving text",
+      "complexity": "low",
+      "visualImpact": "subtle",
+      "fit": "Upward fill requested",
+      "alternatives": "Plain native control with static state",
+      "conflicts": "Do not let another animation own the same pseudo-element/property",
+      "maturity": "TESTED",
+      "validation": {
+        "scope": "Local Edge/Chromium behavior checks: directional/intermediate/interrupted states or horizontal hover tracking; keyboard, emulated touch, live reduced motion, forced colors, disabled state, 1440/768/390/320 widths and no-JavaScript fallback. No physical devices, other engines, screen-reader or production certification.",
+        "evidence": [
+          "docs/evidence/buttons-browser.json"
+        ]
+      },
+      "reference": "skills/superbrain/references/button-interactions.md",
+      "demo": "/examples/buttons/#fill-bottom",
+      "reviewed": "2026-10-09",
+      "priority": 1
+    },
+    {
+      "id": "C003",
+      "name": "Fill from top",
+      "kind": "component",
+      "domain": "D",
+      "capability": "D1",
+      "description": "Scale a separate fill layer down around top center.",
+      "triggers": [
+        "Downward fill requested"
+      ],
+      "keywords": [
+        "fill",
+        "from",
+        "top",
+        "D1"
+      ],
+      "implementation": "Scale a separate fill layer down around top center.",
+      "dependencies": [
+        "CSS transform"
+      ],
+      "frameworks": [
+        "stack-dependent"
+      ],
+      "sourceIds": [
+        "mdn-origin",
+        "animation-performance",
+        "apg-button"
+      ],
+      "license": "Original synthesis; consult linked source license before importing third-party code/assets",
+      "performance": "Low; stable layout",
+      "mobile": "Instant fill in reduced motion; clear independent focus ring",
+      "accessibility": "Instant fill in reduced motion; clear independent focus ring",
+      "complexity": "low",
+      "visualImpact": "subtle",
+      "fit": "Downward fill requested",
+      "alternatives": "Plain native control with static state",
+      "conflicts": "Do not let another animation own the same pseudo-element/property",
+      "maturity": "TESTED",
+      "validation": {
+        "scope": "Local Edge/Chromium behavior checks: directional/intermediate/interrupted states or horizontal hover tracking; keyboard, emulated touch, live reduced motion, forced colors, disabled state, 1440/768/390/320 widths and no-JavaScript fallback. No physical devices, other engines, screen-reader or production certification.",
+        "evidence": [
+          "docs/evidence/buttons-browser.json"
+        ]
+      },
+      "reference": "skills/superbrain/references/button-interactions.md",
+      "demo": "/examples/buttons/#fill-top",
+      "reviewed": "2026-10-09",
+      "priority": 1
+    },
+    {
+      "id": "C004",
+      "name": "Horizontal hover light",
+      "kind": "component",
+      "domain": "D",
+      "capability": "D2",
+      "description": "Reveal a clipped radial light only during fine-pointer tracking. Follow x while y remains at 50%; reset on leave/cancel.",
+      "triggers": [
+        "Horizontal glow requested"
+      ],
+      "keywords": [
+        "horizontal",
+        "hover",
+        "light",
+        "D2"
+      ],
+      "implementation": "Reveal a clipped radial light only during fine-pointer tracking. Follow x while y remains at 50%; reset on leave/cancel.",
+      "dependencies": [
+        "CSS + existing pointer lifecycle"
+      ],
+      "frameworks": [
+        "stack-dependent"
+      ],
+      "sourceIds": [
+        "mdn-leave",
+        "mdn-media",
+        "mdn-raf"
+      ],
+      "license": "Original synthesis; consult linked source license before importing third-party code/assets",
+      "performance": "Small painted area; one demand RAF, no idle loop",
+      "mobile": "Centered keyboard light; press feedback on touch; no tracking when reduced",
+      "accessibility": "Centered keyboard light; press feedback on touch; no tracking when reduced",
+      "complexity": "low",
+      "visualImpact": "subtle",
+      "fit": "Horizontal glow requested",
+      "alternatives": "Plain native control with static state",
+      "conflicts": "Do not let another animation own the same pseudo-element/property",
+      "maturity": "TESTED",
+      "validation": {
+        "scope": "Local Edge/Chromium behavior checks: directional/intermediate/interrupted states or horizontal hover tracking; keyboard, emulated touch, live reduced motion, forced colors, disabled state, 1440/768/390/320 widths and no-JavaScript fallback. No physical devices, other engines, screen-reader or production certification.",
+        "evidence": [
+          "docs/evidence/buttons-browser.json"
+        ]
+      },
+      "reference": "skills/superbrain/references/button-interactions.md",
+      "demo": "/examples/buttons/#horizontal-glow",
+      "reviewed": "2026-10-09",
+      "priority": 1
+    },
+    {
+      "id": "C005",
+      "name": "Semantic action or navigation",
+      "kind": "pattern",
+      "domain": "R",
+      "capability": "R1",
+      "description": "Choose native button for an action, anchor for navigation; styling never determines semantics.",
+      "triggers": [
+        "CTA behavior is ambiguous"
+      ],
+      "keywords": [
+        "semantic",
+        "action",
+        "or",
+        "navigation",
+        "R1"
+      ],
+      "implementation": "Choose native button for an action, anchor for navigation; styling never determines semantics.",
+      "dependencies": [
+        "HTML"
+      ],
+      "frameworks": [
+        "stack-dependent"
+      ],
+      "sourceIds": [
+        "apg-button",
+        "shadcn-button"
+      ],
+      "license": "Original synthesis; consult linked source license before importing third-party code/assets",
+      "performance": "No runtime dependency",
+      "mobile": "Enter/Space native button activation; anchor remains addressable",
+      "accessibility": "Enter/Space native button activation; anchor remains addressable",
+      "complexity": "context-dependent",
+      "visualImpact": "depends on use",
+      "fit": "CTA behavior is ambiguous",
+      "alternatives": "Preserve the existing simplest working behavior",
+      "conflicts": "Review overlap with existing reference before adding another runtime",
+      "maturity": "RESEARCHED",
+      "validation": {
+        "scope": "Source review only; no local integration or runtime test",
+        "evidence": []
+      },
+      "reference": "skills/superbrain/references/accessible-actions.md",
+      "reviewed": "2026-10-09",
+      "priority": 2
+    },
+    {
+      "id": "C006",
+      "name": "Stable toggle labels",
+      "kind": "pattern",
+      "domain": "D",
+      "capability": "D5",
+      "description": "Use aria-pressed for a persistent toggle and keep its accessible label stable; action-dependent labels describe a different pattern.",
+      "triggers": [
+        "Mute, favourite or persistent on/off action"
+      ],
+      "keywords": [
+        "stable",
+        "toggle",
+        "labels",
+        "D5"
+      ],
+      "implementation": "Use aria-pressed for a persistent toggle and keep its accessible label stable; action-dependent labels describe a different pattern.",
+      "dependencies": [
+        "HTML + application state"
+      ],
+      "frameworks": [
+        "stack-dependent"
+      ],
+      "sourceIds": [
+        "apg-button"
+      ],
+      "license": "Original synthesis; consult linked source license before importing third-party code/assets",
+      "performance": "Negligible",
+      "mobile": "Expose pressed state; avoid duplicated key handlers",
+      "accessibility": "Expose pressed state; avoid duplicated key handlers",
+      "complexity": "context-dependent",
+      "visualImpact": "depends on use",
+      "fit": "Mute, favourite or persistent on/off action",
+      "alternatives": "Preserve the existing simplest working behavior",
+      "conflicts": "Review overlap with existing reference before adding another runtime",
+      "maturity": "RESEARCHED",
+      "validation": {
+        "scope": "Source review only; no local integration or runtime test",
+        "evidence": []
+      },
+      "reference": "skills/superbrain/references/accessible-actions.md",
+      "reviewed": "2026-10-09",
+      "priority": 2
+    },
+    {
+      "id": "C007",
+      "name": "Honest asynchronous button",
+      "kind": "pattern",
+      "domain": "D",
+      "capability": "D4",
+      "description": "Model idle, pending, success, error and retry from actual operation outcomes. Keep status text independent from decoration.",
+      "triggers": [
+        "Network-backed submit action"
+      ],
+      "keywords": [
+        "honest",
+        "asynchronous",
+        "button",
+        "D4"
+      ],
+      "implementation": "Model idle, pending, success, error and retry from actual operation outcomes. Keep status text independent from decoration.",
+      "dependencies": [
+        "Application state"
+      ],
+      "frameworks": [
+        "stack-dependent"
+      ],
+      "sourceIds": [
+        "emmraan-micro",
+        "web-quality"
+      ],
+      "license": "Original synthesis; consult linked source license before importing third-party code/assets",
+      "performance": "Bound event ownership and duplicate requests",
+      "mobile": "Announce meaningful outcome and retain recoverable input",
+      "accessibility": "Announce meaningful outcome and retain recoverable input",
+      "complexity": "context-dependent",
+      "visualImpact": "depends on use",
+      "fit": "Network-backed submit action",
+      "alternatives": "Preserve the existing simplest working behavior",
+      "conflicts": "Review overlap with existing reference before adding another runtime",
+      "maturity": "RESEARCHED",
+      "validation": {
+        "scope": "Source review only; no local integration or runtime test",
+        "evidence": []
+      },
+      "reference": "skills/superbrain/references/accessible-actions.md",
+      "reviewed": "2026-10-09",
+      "priority": 2
+    },
+    {
+      "id": "C008",
+      "name": "Disclosure site navigation",
+      "kind": "pattern",
+      "domain": "E",
+      "capability": "E1",
+      "description": "Use ordinary links and disclosure buttons with aria-expanded; Escape closes and returns focus. Do not impose application menu roles.",
+      "triggers": [
+        "Service website navigation"
+      ],
+      "keywords": [
+        "disclosure",
+        "site",
+        "navigation",
+        "E1"
+      ],
+      "implementation": "Use ordinary links and disclosure buttons with aria-expanded; Escape closes and returns focus. Do not impose application menu roles.",
+      "dependencies": [
+        "HTML + local state"
+      ],
+      "frameworks": [
+        "stack-dependent"
+      ],
+      "sourceIds": [
+        "apg-nav"
+      ],
+      "license": "Original synthesis; consult linked source license before importing third-party code/assets",
+      "performance": "Local listeners with disposal",
+      "mobile": "Predictable keyboard tab order; touch toggle; no hover-only routes",
+      "accessibility": "Predictable keyboard tab order; touch toggle; no hover-only routes",
+      "complexity": "context-dependent",
+      "visualImpact": "depends on use",
+      "fit": "Service website navigation",
+      "alternatives": "Preserve the existing simplest working behavior",
+      "conflicts": "Review overlap with existing reference before adding another runtime",
+      "maturity": "RESEARCHED",
+      "validation": {
+        "scope": "Source review only; no local integration or runtime test",
+        "evidence": []
+      },
+      "reference": "skills/superbrain/references/accessible-actions.md",
+      "reviewed": "2026-10-09",
+      "priority": 2
+    },
+    {
+      "id": "C009",
+      "name": "Visible focus independent of glow",
+      "kind": "technique",
+      "domain": "T",
+      "capability": "T3",
+      "description": "Use :focus-visible for an outline that remains distinct even if decorative layers disappear.",
+      "triggers": [
+        "Decorative hover obscures focus"
+      ],
+      "keywords": [
+        "visible",
+        "focus",
+        "independent",
+        "of",
+        "glow",
+        "T3"
+      ],
+      "implementation": "Use :focus-visible for an outline that remains distinct even if decorative layers disappear.",
+      "dependencies": [
+        "CSS"
+      ],
+      "frameworks": [
+        "stack-dependent"
+      ],
+      "sourceIds": [
+        "mdn-focus",
+        "web-quality"
+      ],
+      "license": "Original synthesis; consult linked source license before importing third-party code/assets",
+      "performance": "No animation needed",
+      "mobile": "Check forced colors, contrast, clipping and custom backgrounds",
+      "accessibility": "Check forced colors, contrast, clipping and custom backgrounds",
+      "complexity": "context-dependent",
+      "visualImpact": "depends on use",
+      "fit": "Decorative hover obscures focus",
+      "alternatives": "Preserve the existing simplest working behavior",
+      "conflicts": "Review overlap with existing reference before adding another runtime",
+      "maturity": "RESEARCHED",
+      "validation": {
+        "scope": "Source review only; no local integration or runtime test",
+        "evidence": []
+      },
+      "reference": "skills/superbrain/references/accessible-actions.md",
+      "reviewed": "2026-10-09",
+      "priority": 2
+    },
+    {
+      "id": "C010",
+      "name": "Runtime media preference changes",
+      "kind": "technique",
+      "domain": "H",
+      "capability": "H5",
+      "description": "Subscribe to media changes and revert owned animations immediately, including an already-open page.",
+      "triggers": [
+        "Viewport/input/motion capability changes"
+      ],
+      "keywords": [
+        "runtime",
+        "media",
+        "preference",
+        "changes",
+        "H5"
+      ],
+      "implementation": "Subscribe to media changes and revert owned animations immediately, including an already-open page.",
+      "dependencies": [
+        "matchMedia"
+      ],
+      "frameworks": [
+        "stack-dependent"
+      ],
+      "sourceIds": [
+        "mdn-media",
+        "gsap-media"
+      ],
+      "license": "Original synthesis; consult linked source license before importing third-party code/assets",
+      "performance": "Remove listeners on unmount",
+      "mobile": "Reduce motion without needing reload",
+      "accessibility": "Reduce motion without needing reload",
+      "complexity": "context-dependent",
+      "visualImpact": "depends on use",
+      "fit": "Viewport/input/motion capability changes",
+      "alternatives": "Preserve the existing simplest working behavior",
+      "conflicts": "Review overlap with existing reference before adding another runtime",
+      "maturity": "RESEARCHED",
+      "validation": {
+        "scope": "Source review only; no local integration or runtime test",
+        "evidence": []
+      },
+      "reference": "skills/superbrain/references/motion-lifecycle.md",
+      "reviewed": "2026-10-09",
+      "priority": 2
+    },
+    {
+      "id": "C011",
+      "name": "Single owner of animation lifetime",
+      "kind": "pattern",
+      "domain": "H",
+      "capability": "H3",
+      "description": "One component owns events, timelines and cleanup; responsive reinitialization first disposes previous work.",
+      "triggers": [
+        "Route changes or breakpoint reinitialization"
+      ],
+      "keywords": [
+        "single",
+        "owner",
+        "of",
+        "animation",
+        "lifetime",
+        "H3"
+      ],
+      "implementation": "One component owns events, timelines and cleanup; responsive reinitialization first disposes previous work.",
+      "dependencies": [
+        "Lifecycle cleanup"
+      ],
+      "frameworks": [
+        "stack-dependent"
+      ],
+      "sourceIds": [
+        "gsap-media",
+        "b4-motion",
+        "seva-router"
+      ],
+      "license": "Original synthesis; consult linked source license before importing third-party code/assets",
+      "performance": "Avoid duplicate listeners and clocks",
+      "mobile": "Never leave stale hidden motion active",
+      "accessibility": "Never leave stale hidden motion active",
+      "complexity": "context-dependent",
+      "visualImpact": "depends on use",
+      "fit": "Route changes or breakpoint reinitialization",
+      "alternatives": "Preserve the existing simplest working behavior",
+      "conflicts": "Review overlap with existing reference before adding another runtime",
+      "maturity": "RESEARCHED",
+      "validation": {
+        "scope": "Source review only; no local integration or runtime test",
+        "evidence": []
+      },
+      "reference": "skills/superbrain/references/motion-lifecycle.md",
+      "reviewed": "2026-10-09",
+      "priority": 2
+    },
+    {
+      "id": "C012",
+      "name": "Elapsed-time pointer settling",
+      "kind": "technique",
+      "domain": "H",
+      "capability": "H2",
+      "description": "Interpolate using elapsed time and stop when near target; clamp large frame gaps.",
+      "triggers": [
+        "Soft pointer light or reveal"
+      ],
+      "keywords": [
+        "elapsed-time",
+        "pointer",
+        "settling",
+        "H2"
+      ],
+      "implementation": "Interpolate using elapsed time and stop when near target; clamp large frame gaps.",
+      "dependencies": [
+        "requestAnimationFrame"
+      ],
+      "frameworks": [
+        "stack-dependent"
+      ],
+      "sourceIds": [
+        "mdn-raf"
+      ],
+      "license": "Original synthesis; consult linked source license before importing third-party code/assets",
+      "performance": "Demand frames only, cancel on exit",
+      "mobile": "Decorative tracking disabled for coarse/reduced input",
+      "accessibility": "Decorative tracking disabled for coarse/reduced input",
+      "complexity": "context-dependent",
+      "visualImpact": "depends on use",
+      "fit": "Soft pointer light or reveal",
+      "alternatives": "Preserve the existing simplest working behavior",
+      "conflicts": "Review overlap with existing reference before adding another runtime",
+      "maturity": "RESEARCHED",
+      "validation": {
+        "scope": "Source review only; no local integration or runtime test",
+        "evidence": []
+      },
+      "reference": "skills/superbrain/references/motion-lifecycle.md",
+      "reviewed": "2026-10-09",
+      "priority": 2
+    },
+    {
+      "id": "C013",
+      "name": "Reversible state transitions",
+      "kind": "pattern",
+      "domain": "H",
+      "capability": "H4",
+      "description": "New state owns the result; reverse or cancel in-flight work on rapid input rather than queueing full sequences.",
+      "triggers": [
+        "Hover leave during enter; repeated action"
+      ],
+      "keywords": [
+        "reversible",
+        "state",
+        "transitions",
+        "H4"
+      ],
+      "implementation": "New state owns the result; reverse or cancel in-flight work on rapid input rather than queueing full sequences.",
+      "dependencies": [
+        "CSS transitions or cancellable timeline"
+      ],
+      "frameworks": [
+        "stack-dependent"
+      ],
+      "sourceIds": [
+        "emmraan-micro",
+        "b4-motion"
+      ],
+      "license": "Original synthesis; consult linked source license before importing third-party code/assets",
+      "performance": "Bound duration and outstanding work",
+      "mobile": "Final state and focus remain deterministic",
+      "accessibility": "Final state and focus remain deterministic",
+      "complexity": "context-dependent",
+      "visualImpact": "depends on use",
+      "fit": "Hover leave during enter; repeated action",
+      "alternatives": "Preserve the existing simplest working behavior",
+      "conflicts": "Review overlap with existing reference before adding another runtime",
+      "maturity": "RESEARCHED",
+      "validation": {
+        "scope": "Source review only; no local integration or runtime test",
+        "evidence": []
+      },
+      "reference": "skills/superbrain/references/motion-lifecycle.md",
+      "reviewed": "2026-10-09",
+      "priority": 2
+    },
+    {
+      "id": "C014",
+      "name": "Pause control for ambient motion",
+      "kind": "pattern",
+      "domain": "H",
+      "capability": "H5",
+      "description": "Provide pause/stop/hide for qualifying automatically moving content and auto-updating information; assess the trigger and duration separately.",
+      "triggers": [
+        "Continuous decorative or informational animation"
+      ],
+      "keywords": [
+        "pause",
+        "control",
+        "for",
+        "ambient",
+        "motion",
+        "H5"
+      ],
+      "implementation": "Provide pause/stop/hide for qualifying automatically moving content and auto-updating information; assess the trigger and duration separately.",
+      "dependencies": [
+        "Native button + playback state"
+      ],
+      "frameworks": [
+        "stack-dependent"
+      ],
+      "sourceIds": [
+        "wcag-pause"
+      ],
+      "license": "Original synthesis; consult linked source license before importing third-party code/assets",
+      "performance": "Stop rendering while paused",
+      "mobile": "Visible control; test 2.2.2 conditions, not only reduced motion",
+      "accessibility": "Visible control; test 2.2.2 conditions, not only reduced motion",
+      "complexity": "context-dependent",
+      "visualImpact": "depends on use",
+      "fit": "Continuous decorative or informational animation",
+      "alternatives": "Preserve the existing simplest working behavior",
+      "conflicts": "Review overlap with existing reference before adding another runtime",
+      "maturity": "RESEARCHED",
+      "validation": {
+        "scope": "Source review only; no local integration or runtime test",
+        "evidence": []
+      },
+      "reference": "skills/superbrain/references/motion-lifecycle.md",
+      "reviewed": "2026-10-09",
+      "priority": 2
+    },
+    {
+      "id": "C015",
+      "name": "Disable nonessential interaction motion",
+      "kind": "pattern",
+      "domain": "H",
+      "capability": "H5",
+      "description": "Offer a stationary response for nonessential animation triggered by interaction; preserve the task and state.",
+      "triggers": [
+        "Immersive pointer or scroll effect"
+      ],
+      "keywords": [
+        "disable",
+        "nonessential",
+        "interaction",
+        "motion",
+        "H5"
+      ],
+      "implementation": "Offer a stationary response for nonessential animation triggered by interaction; preserve the task and state.",
+      "dependencies": [
+        "CSS media + runtime conditions"
+      ],
+      "frameworks": [
+        "stack-dependent"
+      ],
+      "sourceIds": [
+        "wcag-animation"
+      ],
+      "license": "Original synthesis; consult linked source license before importing third-party code/assets",
+      "performance": "Less work in static mode",
+      "mobile": "SC 2.3.3 is AAA; do not infer whole-site conformance",
+      "accessibility": "SC 2.3.3 is AAA; do not infer whole-site conformance",
+      "complexity": "context-dependent",
+      "visualImpact": "depends on use",
+      "fit": "Immersive pointer or scroll effect",
+      "alternatives": "Preserve the existing simplest working behavior",
+      "conflicts": "Review overlap with existing reference before adding another runtime",
+      "maturity": "RESEARCHED",
+      "validation": {
+        "scope": "Source review only; no local integration or runtime test",
+        "evidence": []
+      },
+      "reference": "skills/superbrain/references/motion-lifecycle.md",
+      "reviewed": "2026-10-09",
+      "priority": 2
+    },
+    {
+      "id": "C016",
+      "name": "Choose a motion engine by behavior",
+      "kind": "pattern",
+      "domain": "R",
+      "capability": "R5",
+      "description": "Use CSS for state transitions, Motion for app layout, GSAP for scene ownership and authored runtimes for their assets; select one owner per property.",
+      "triggers": [
+        "Unnecessary library overlap"
+      ],
+      "keywords": [
+        "choose",
+        "a",
+        "motion",
+        "engine",
+        "by",
+        "behavior",
+        "R5"
+      ],
+      "implementation": "Use CSS for state transitions, Motion for app layout, GSAP for scene ownership and authored runtimes for their assets; select one owner per property.",
+      "dependencies": [
+        "Runtime decision"
+      ],
+      "frameworks": [
+        "stack-dependent"
+      ],
+      "sourceIds": [
+        "seva-router",
+        "b4-motion"
+      ],
+      "license": "Original synthesis; consult linked source license before importing third-party code/assets",
+      "performance": "Avoid multiple tickers and duplicate runtimes",
+      "mobile": "Every engine needs static/failure fallback",
+      "accessibility": "Every engine needs static/failure fallback",
+      "complexity": "context-dependent",
+      "visualImpact": "depends on use",
+      "fit": "Unnecessary library overlap",
+      "alternatives": "Preserve the existing simplest working behavior",
+      "conflicts": "Review overlap with existing reference before adding another runtime",
+      "maturity": "RESEARCHED",
+      "validation": {
+        "scope": "Source review only; no local integration or runtime test",
+        "evidence": []
+      },
+      "reference": "skills/superbrain/references/motion-lifecycle.md",
+      "reviewed": "2026-10-09",
+      "priority": 2
+    },
+    {
+      "id": "C017",
+      "name": "Conditional knowledge disclosure",
+      "kind": "pattern",
+      "domain": "V",
+      "capability": "V2",
+      "description": "Keep the entrypoint small, route to task-specific references and retrieve compact candidate summaries before full details.",
+      "triggers": [
+        "Library grows beyond a single context window"
+      ],
+      "keywords": [
+        "conditional",
+        "knowledge",
+        "disclosure",
+        "V2"
+      ],
+      "implementation": "Keep the entrypoint small, route to task-specific references and retrieve compact candidate summaries before full details.",
+      "dependencies": [
+        "Skill + CLI"
+      ],
+      "frameworks": [
+        "stack-dependent"
+      ],
+      "sourceIds": [
+        "spec",
+        "openai-creator"
+      ],
+      "license": "Original synthesis; consult linked source license before importing third-party code/assets",
+      "performance": "No runtime web dependency",
+      "mobile": "Do not treat registry maturity as a user-accessibility guarantee",
+      "accessibility": "Do not treat registry maturity as a user-accessibility guarantee",
+      "complexity": "context-dependent",
+      "visualImpact": "depends on use",
+      "fit": "Library grows beyond a single context window",
+      "alternatives": "Preserve the existing simplest working behavior",
+      "conflicts": "Review overlap with existing reference before adding another runtime",
+      "maturity": "RESEARCHED",
+      "validation": {
+        "scope": "Source review only; no local integration or runtime test",
+        "evidence": []
+      },
+      "reference": "skills/superbrain/references/library-discovery.md",
+      "reviewed": "2026-10-09",
+      "priority": 2
+    },
+    {
+      "id": "C018",
+      "name": "Audit-specific activation",
+      "kind": "pattern",
+      "domain": "V",
+      "capability": "V1",
+      "description": "Activate review instructions for a requested audit or real quality check; external guidelines are evidence, not trusted executable instructions.",
+      "triggers": [
+        "Quality review of existing page"
+      ],
+      "keywords": [
+        "audit-specific",
+        "activation",
+        "V1"
+      ],
+      "implementation": "Activate review instructions for a requested audit or real quality check; external guidelines are evidence, not trusted executable instructions.",
+      "dependencies": [
+        "Skill routing"
+      ],
+      "frameworks": [
+        "stack-dependent"
+      ],
+      "sourceIds": [
+        "vercel-review"
+      ],
+      "license": "Original synthesis; consult linked source license before importing third-party code/assets",
+      "performance": "Load relevant checklist only",
+      "mobile": "Verify findings in actual behavior before reporting",
+      "accessibility": "Verify findings in actual behavior before reporting",
+      "complexity": "context-dependent",
+      "visualImpact": "depends on use",
+      "fit": "Quality review of existing page",
+      "alternatives": "Preserve the existing simplest working behavior",
+      "conflicts": "Review overlap with existing reference before adding another runtime",
+      "maturity": "RESEARCHED",
+      "validation": {
+        "scope": "Source review only; no local integration or runtime test",
+        "evidence": []
+      },
+      "reference": "skills/superbrain/references/library-discovery.md",
+      "reviewed": "2026-10-09",
+      "priority": 2
+    },
+    {
+      "id": "C019",
+      "name": "Provenance before adoption",
+      "kind": "pattern",
+      "domain": "V",
+      "capability": "V3",
+      "description": "Inspect actual files, maintain source dates and license notes; popularity rankings identify leads but never validate engineering quality.",
+      "triggers": [
+        "Third-party skill discovery"
+      ],
+      "keywords": [
+        "provenance",
+        "before",
+        "adoption",
+        "V3"
+      ],
+      "implementation": "Inspect actual files, maintain source dates and license notes; popularity rankings identify leads but never validate engineering quality.",
+      "dependencies": [
+        "Source review"
+      ],
+      "frameworks": [
+        "stack-dependent"
+      ],
+      "sourceIds": [
+        "skills-cli",
+        "directory",
+        "openai-creator"
+      ],
+      "license": "Original synthesis; consult linked source license before importing third-party code/assets",
+      "performance": "No remote execution in research",
+      "mobile": "Resolve conflicts against user brief and project requirements",
+      "accessibility": "Resolve conflicts against user brief and project requirements",
+      "complexity": "context-dependent",
+      "visualImpact": "depends on use",
+      "fit": "Third-party skill discovery",
+      "alternatives": "Preserve the existing simplest working behavior",
+      "conflicts": "Review overlap with existing reference before adding another runtime",
+      "maturity": "RESEARCHED",
+      "validation": {
+        "scope": "Source review only; no local integration or runtime test",
+        "evidence": []
+      },
+      "reference": "skills/superbrain/references/library-discovery.md",
+      "reviewed": "2026-10-09",
+      "priority": 2
+    },
+    {
+      "id": "C020",
+      "name": "Independent identity from a reference",
+      "kind": "pattern",
+      "domain": "B",
+      "capability": "B1",
+      "description": "Extract hierarchy, type roles and mood, then build an identity from the subject and real content; avoid copying blanket style bans.",
+      "triggers": [
+        "Reference-led website composition"
+      ],
+      "keywords": [
+        "independent",
+        "identity",
+        "from",
+        "a",
+        "reference",
+        "B1"
+      ],
+      "implementation": "Extract hierarchy, type roles and mood, then build an identity from the subject and real content; avoid copying blanket style bans.",
+      "dependencies": [
+        "Design judgment"
+      ],
+      "frameworks": [
+        "stack-dependent"
+      ],
+      "sourceIds": [
+        "anthropic-design",
+        "frontend-engineering"
+      ],
+      "license": "Original synthesis; consult linked source license before importing third-party code/assets",
+      "performance": "Native layout before decorative complexity",
+      "mobile": "Readability and client needs outrank a fashionable style",
+      "accessibility": "Readability and client needs outrank a fashionable style",
+      "complexity": "context-dependent",
+      "visualImpact": "depends on use",
+      "fit": "Reference-led website composition",
+      "alternatives": "Preserve the existing simplest working behavior",
+      "conflicts": "Review overlap with existing reference before adding another runtime",
+      "maturity": "RESEARCHED",
+      "validation": {
+        "scope": "Source review only; no local integration or runtime test",
+        "evidence": []
+      },
+      "reference": "skills/superbrain/references/art-direction.md",
+      "reviewed": "2026-10-09",
+      "priority": 2
+    },
+    {
+      "id": "C021",
+      "name": "Radius-aware gradient border",
+      "kind": "technique",
+      "domain": "B",
+      "capability": "B3",
+      "description": "Use separately bounded decorative border layers so corners and foreground remain readable; keep visual state independent from the target.",
+      "triggers": [
+        "Gradient border accent"
+      ],
+      "keywords": [
+        "radius-aware",
+        "gradient",
+        "border",
+        "B3"
+      ],
+      "implementation": "Use separately bounded decorative border layers so corners and foreground remain readable; keep visual state independent from the target.",
+      "dependencies": [
+        "Layered CSS"
+      ],
+      "frameworks": [
+        "stack-dependent"
+      ],
+      "sourceIds": [
+        "meng-css"
+      ],
+      "license": "Original synthesis; consult linked source license before importing third-party code/assets",
+      "performance": "Painted decoration; profile animated variants",
+      "mobile": "Plain border in forced colors; maintain contrast",
+      "accessibility": "Plain border in forced colors; maintain contrast",
+      "complexity": "context-dependent",
+      "visualImpact": "depends on use",
+      "fit": "Gradient border accent",
+      "alternatives": "Preserve the existing simplest working behavior",
+      "conflicts": "Review overlap with existing reference before adding another runtime",
+      "maturity": "RESEARCHED",
+      "validation": {
+        "scope": "Source review only; no local integration or runtime test",
+        "evidence": []
+      },
+      "reference": "skills/superbrain/references/visual-materials.md",
+      "reviewed": "2026-10-09",
+      "priority": 2
+    },
+    {
+      "id": "C022",
+      "name": "Primitive consumer responsibilities",
+      "kind": "pattern",
+      "domain": "F",
+      "capability": "F2",
+      "description": "Accessible primitives provide keyboard/focus behavior but consumers still own labels, description, composition and task semantics.",
+      "triggers": [
+        "Dialog or overlay composition"
+      ],
+      "keywords": [
+        "primitive",
+        "consumer",
+        "responsibilities",
+        "F2"
+      ],
+      "implementation": "Accessible primitives provide keyboard/focus behavior but consumers still own labels, description, composition and task semantics.",
+      "dependencies": [
+        "Radix optional"
+      ],
+      "frameworks": [
+        "stack-dependent"
+      ],
+      "sourceIds": [
+        "radix-access"
+      ],
+      "license": "Original synthesis; consult linked source license before importing third-party code/assets",
+      "performance": "Select primitive actually needed",
+      "mobile": "Test focus return, escape and labels in the integrated flow",
+      "accessibility": "Test focus return, escape and labels in the integrated flow",
+      "complexity": "context-dependent",
+      "visualImpact": "depends on use",
+      "fit": "Dialog or overlay composition",
+      "alternatives": "Preserve the existing simplest working behavior",
+      "conflicts": "Review overlap with existing reference before adding another runtime",
+      "maturity": "RESEARCHED",
+      "validation": {
+        "scope": "Source review only; no local integration or runtime test",
+        "evidence": []
+      },
+      "reference": "skills/superbrain/references/accessible-actions.md",
+      "reviewed": "2026-10-09",
+      "priority": 2
+    },
+    {
+      "id": "C023",
+      "name": "Scrolled app layout root",
+      "kind": "technique",
+      "domain": "J",
+      "capability": "J2",
+      "description": "Measure layout in the correct scrolled or fixed ancestor using layoutScroll/layoutRoot; keep child transform distortion under review.",
+      "triggers": [
+        "Shared layout inside scrolling application"
+      ],
+      "keywords": [
+        "scrolled",
+        "app",
+        "layout",
+        "root",
+        "J2"
+      ],
+      "implementation": "Measure layout in the correct scrolled or fixed ancestor using layoutScroll/layoutRoot; keep child transform distortion under review.",
+      "dependencies": [
+        "Motion optional"
+      ],
+      "frameworks": [
+        "stack-dependent"
+      ],
+      "sourceIds": [
+        "motion-layout"
+      ],
+      "license": "Original synthesis; consult linked source license before importing third-party code/assets",
+      "performance": "Measure on actual state changes",
+      "mobile": "Static state and focus survive interrupted transitions",
+      "accessibility": "Static state and focus survive interrupted transitions",
+      "complexity": "context-dependent",
+      "visualImpact": "depends on use",
+      "fit": "Shared layout inside scrolling application",
+      "alternatives": "Preserve the existing simplest working behavior",
+      "conflicts": "Review overlap with existing reference before adding another runtime",
+      "maturity": "RESEARCHED",
+      "validation": {
+        "scope": "Source review only; no local integration or runtime test",
+        "evidence": []
+      },
+      "reference": "skills/superbrain/references/continuity.md",
+      "reviewed": "2026-10-09",
+      "priority": 2
+    },
+    {
+      "id": "C024",
+      "name": "Opt-in smooth scroll ownership",
+      "kind": "pattern",
+      "domain": "I",
+      "capability": "I5",
+      "description": "Retain native scroll by default. If justified, give Lenis one clock, correct nested-scroll exceptions and explicit destroy ownership.",
+      "triggers": [
+        "A researched scene genuinely benefits from smoothing"
+      ],
+      "keywords": [
+        "opt-in",
+        "smooth",
+        "scroll",
+        "ownership",
+        "I5"
+      ],
+      "implementation": "Retain native scroll by default. If justified, give Lenis one clock, correct nested-scroll exceptions and explicit destroy ownership.",
+      "dependencies": [
+        "Lenis optional"
+      ],
+      "frameworks": [
+        "stack-dependent"
+      ],
+      "sourceIds": [
+        "lenis-docs"
+      ],
+      "license": "Original synthesis; consult linked source license before importing third-party code/assets",
+      "performance": "One clock; stop hidden work",
+      "mobile": "Verify anchors, history, keyboard and reduced preference",
+      "accessibility": "Verify anchors, history, keyboard and reduced preference",
+      "complexity": "context-dependent",
+      "visualImpact": "depends on use",
+      "fit": "A researched scene genuinely benefits from smoothing",
+      "alternatives": "Preserve the existing simplest working behavior",
+      "conflicts": "Review overlap with existing reference before adding another runtime",
+      "maturity": "RESEARCHED",
+      "validation": {
+        "scope": "Source review only; no local integration or runtime test",
+        "evidence": []
+      },
+      "reference": "skills/superbrain/references/motion-lifecycle.md",
+      "reviewed": "2026-10-09",
+      "priority": 2
+    },
+    {
+      "id": "C025",
+      "name": "Targeted compositing review",
+      "kind": "technique",
+      "domain": "T",
+      "capability": "T1",
+      "description": "Prefer transform/opacity for motion when suitable; use DevTools to identify layout, paint and layer costs before adding will-change.",
+      "triggers": [
+        "Animation drops frames or repaints broadly"
+      ],
+      "keywords": [
+        "targeted",
+        "compositing",
+        "review",
+        "T1"
+      ],
+      "implementation": "Prefer transform/opacity for motion when suitable; use DevTools to identify layout, paint and layer costs before adding will-change.",
+      "dependencies": [
+        "Browser profiler"
+      ],
+      "frameworks": [
+        "stack-dependent"
+      ],
+      "sourceIds": [
+        "animation-performance"
+      ],
+      "license": "Original synthesis; consult linked source license before importing third-party code/assets",
+      "performance": "Measure effect in context; no universal FPS claim",
+      "mobile": "Evaluate low-end device and reduced variant separately",
+      "accessibility": "Evaluate low-end device and reduced variant separately",
+      "complexity": "context-dependent",
+      "visualImpact": "depends on use",
+      "fit": "Animation drops frames or repaints broadly",
+      "alternatives": "Preserve the existing simplest working behavior",
+      "conflicts": "Review overlap with existing reference before adding another runtime",
+      "maturity": "RESEARCHED",
+      "validation": {
+        "scope": "Source review only; no local integration or runtime test",
+        "evidence": []
+      },
+      "reference": "skills/superbrain/references/assets-performance.md",
+      "reviewed": "2026-10-09",
+      "priority": 2
+    },
+    {
+      "id": "C026",
+      "name": "Explicit browser emulation matrix",
+      "kind": "pattern",
+      "domain": "U",
+      "capability": "U2",
+      "description": "Separate viewport, pointer, touch, media and JavaScript capability cases; report emulation limitations and actual browser engine.",
+      "triggers": [
+        "Regression testing of reusable effect"
+      ],
+      "keywords": [
+        "explicit",
+        "browser",
+        "emulation",
+        "matrix",
+        "U2"
+      ],
+      "implementation": "Separate viewport, pointer, touch, media and JavaScript capability cases; report emulation limitations and actual browser engine.",
+      "dependencies": [
+        "Playwright optional"
+      ],
+      "frameworks": [
+        "stack-dependent"
+      ],
+      "sourceIds": [
+        "playwright-emulation"
+      ],
+      "license": "Original synthesis; consult linked source license before importing third-party code/assets",
+      "performance": "Host-provided optional test runtime",
+      "mobile": "Include keyboard, no JS, reduced motion and forced colors",
+      "accessibility": "Include keyboard, no JS, reduced motion and forced colors",
+      "complexity": "context-dependent",
+      "visualImpact": "depends on use",
+      "fit": "Regression testing of reusable effect",
+      "alternatives": "Preserve the existing simplest working behavior",
+      "conflicts": "Review overlap with existing reference before adding another runtime",
+      "maturity": "RESEARCHED",
+      "validation": {
+        "scope": "Source review only; no local integration or runtime test",
+        "evidence": []
+      },
+      "reference": "skills/superbrain/references/review.md",
+      "reviewed": "2026-10-09",
+      "priority": 2
+    },
+    {
+      "id": "C027",
+      "name": "Demand-rendered 3D ownership",
+      "kind": "pattern",
+      "domain": "N",
+      "capability": "N1",
+      "description": "Use demand rendering and invalidate when inputs change; dispose resources and avoid claiming invalidate renders synchronously.",
+      "triggers": [
+        "Idle product viewer uses continuous GPU work"
+      ],
+      "keywords": [
+        "demand-rendered",
+        "3d",
+        "ownership",
+        "N1"
+      ],
+      "implementation": "Use demand rendering and invalidate when inputs change; dispose resources and avoid claiming invalidate renders synchronously.",
+      "dependencies": [
+        "React Three Fiber optional"
+      ],
+      "frameworks": [
+        "stack-dependent"
+      ],
+      "sourceIds": [
+        "r3f-performance"
+      ],
+      "license": "Original synthesis; consult linked source license before importing third-party code/assets",
+      "performance": "Demand frames, reuse/instance geometry where suitable",
+      "mobile": "Poster and text retain product information",
+      "accessibility": "Poster and text retain product information",
+      "complexity": "context-dependent",
+      "visualImpact": "depends on use",
+      "fit": "Idle product viewer uses continuous GPU work",
+      "alternatives": "Preserve the existing simplest working behavior",
+      "conflicts": "Review overlap with existing reference before adding another runtime",
+      "maturity": "RESEARCHED",
+      "validation": {
+        "scope": "Source review only; no local integration or runtime test",
+        "evidence": []
+      },
+      "reference": "skills/superbrain/references/advanced-graphics.md",
+      "reviewed": "2026-10-09",
+      "priority": 2
+    },
+    {
+      "id": "C028",
+      "name": "Adaptive graphics quality",
+      "kind": "technique",
+      "domain": "N",
+      "capability": "N5",
+      "description": "Adapt resolution/quality to measured load with stable bounds; prevent feedback oscillation and preserve readable DOM content.",
+      "triggers": [
+        "Heavy interactive graphics on varied hardware"
+      ],
+      "keywords": [
+        "adaptive",
+        "graphics",
+        "quality",
+        "N5"
+      ],
+      "implementation": "Adapt resolution/quality to measured load with stable bounds; prevent feedback oscillation and preserve readable DOM content.",
+      "dependencies": [
+        "R3F optional"
+      ],
+      "frameworks": [
+        "stack-dependent"
+      ],
+      "sourceIds": [
+        "r3f-performance"
+      ],
+      "license": "Original synthesis; consult linked source license before importing third-party code/assets",
+      "performance": "Measure load and bound DPR",
+      "mobile": "No GPU effect required for primary action",
+      "accessibility": "No GPU effect required for primary action",
+      "complexity": "context-dependent",
+      "visualImpact": "depends on use",
+      "fit": "Heavy interactive graphics on varied hardware",
+      "alternatives": "Preserve the existing simplest working behavior",
+      "conflicts": "Review overlap with existing reference before adding another runtime",
+      "maturity": "RESEARCHED",
+      "validation": {
+        "scope": "Source review only; no local integration or runtime test",
+        "evidence": []
+      },
+      "reference": "skills/superbrain/references/advanced-graphics.md",
+      "reviewed": "2026-10-09",
+      "priority": 2
+    },
+    {
+      "id": "C029",
+      "name": "Product material parity review",
+      "kind": "pattern",
+      "domain": "N",
+      "capability": "N2",
+      "description": "Treat browser material variants and each AR viewer as separate rendering paths; verify exported appearance and asset license.",
+      "triggers": [
+        "Product color/material selection"
+      ],
+      "keywords": [
+        "product",
+        "material",
+        "parity",
+        "review",
+        "N2"
+      ],
+      "implementation": "Treat browser material variants and each AR viewer as separate rendering paths; verify exported appearance and asset license.",
+      "dependencies": [
+        "model-viewer optional"
+      ],
+      "frameworks": [
+        "stack-dependent"
+      ],
+      "sourceIds": [
+        "model-materials"
+      ],
+      "license": "Original synthesis; consult linked source license before importing third-party code/assets",
+      "performance": "Load on demand and bound assets",
+      "mobile": "DOM variant controls and text before optional AR",
+      "accessibility": "DOM variant controls and text before optional AR",
+      "complexity": "context-dependent",
+      "visualImpact": "depends on use",
+      "fit": "Product color/material selection",
+      "alternatives": "Preserve the existing simplest working behavior",
+      "conflicts": "Review overlap with existing reference before adding another runtime",
+      "maturity": "RESEARCHED",
+      "validation": {
+        "scope": "Source review only; no local integration or runtime test",
+        "evidence": []
+      },
+      "reference": "skills/superbrain/references/advanced-graphics.md",
+      "reviewed": "2026-10-09",
+      "priority": 2
+    },
+    {
+      "id": "C030",
+      "name": "Authored animation lifecycle",
+      "kind": "pattern",
+      "domain": "O",
+      "capability": "O4",
+      "description": "Define load/error/pause/segments/destroy behavior, renderer choice and export limits; keep static poster when asset fails.",
+      "triggers": [
+        "Designer-authored vector motion"
+      ],
+      "keywords": [
+        "authored",
+        "animation",
+        "lifecycle",
+        "O4"
+      ],
+      "implementation": "Define load/error/pause/segments/destroy behavior, renderer choice and export limits; keep static poster when asset fails.",
+      "dependencies": [
+        "Lottie optional"
+      ],
+      "frameworks": [
+        "stack-dependent"
+      ],
+      "sourceIds": [
+        "lottie-runtime"
+      ],
+      "license": "Original synthesis; consult linked source license before importing third-party code/assets",
+      "performance": "Bound playback and asset budget",
+      "mobile": "Separate runtime license from animation license; retain control",
+      "accessibility": "Separate runtime license from animation license; retain control",
+      "complexity": "context-dependent",
+      "visualImpact": "depends on use",
+      "fit": "Designer-authored vector motion",
+      "alternatives": "Preserve the existing simplest working behavior",
+      "conflicts": "Review overlap with existing reference before adding another runtime",
+      "maturity": "RESEARCHED",
+      "validation": {
+        "scope": "Source review only; no local integration or runtime test",
+        "evidence": []
+      },
+      "reference": "skills/superbrain/references/advanced-graphics.md",
+      "reviewed": "2026-10-09",
+      "priority": 2
+    },
+    {
+      "id": "C031",
+      "name": "Legacy shader tutorial adaptation",
+      "kind": "reference",
+      "domain": "N",
+      "capability": "N4",
+      "description": "Read the 2019 tutorial as geometry/sampling inspiration; replace perpetual render loop and unbounded pixel density before integration.",
+      "triggers": [
+        "Gooey image-hover exploration"
+      ],
+      "keywords": [
+        "legacy",
+        "shader",
+        "tutorial",
+        "adaptation",
+        "N4"
+      ],
+      "implementation": "Read the 2019 tutorial as geometry/sampling inspiration; replace perpetual render loop and unbounded pixel density before integration.",
+      "dependencies": [
+        "Three.js optional"
+      ],
+      "frameworks": [
+        "stack-dependent"
+      ],
+      "sourceIds": [
+        "codrops-gooey"
+      ],
+      "license": "Original synthesis; consult linked source license before importing third-party code/assets",
+      "performance": "DPR cap, demand rendering, visibility stop and disposal",
+      "mobile": "Static DOM image; license review before copying implementation",
+      "accessibility": "Static DOM image; license review before copying implementation",
+      "complexity": "context-dependent",
+      "visualImpact": "depends on use",
+      "fit": "Gooey image-hover exploration",
+      "alternatives": "Preserve the existing simplest working behavior",
+      "conflicts": "Review overlap with existing reference before adding another runtime",
+      "maturity": "RESEARCHED",
+      "validation": {
+        "scope": "Source review only; no local integration or runtime test",
+        "evidence": []
+      },
+      "reference": "skills/superbrain/references/advanced-graphics.md",
+      "reviewed": "2026-10-09",
+      "priority": 2
+    },
+    {
+      "id": "C032",
+      "name": "Microinteraction trigger audit",
+      "kind": "pattern",
+      "domain": "A",
+      "capability": "A5",
+      "description": "Describe trigger, rules, feedback, loops and exceptional states, then test rapid inputs; heuristic scores are not measured user outcomes.",
+      "triggers": [
+        "Button looks polished but state is unclear"
+      ],
+      "keywords": [
+        "microinteraction",
+        "trigger",
+        "audit",
+        "A5"
+      ],
+      "implementation": "Describe trigger, rules, feedback, loops and exceptional states, then test rapid inputs; heuristic scores are not measured user outcomes.",
+      "dependencies": [
+        "Behavior review"
+      ],
+      "frameworks": [
+        "stack-dependent"
+      ],
+      "sourceIds": [
+        "emmraan-micro"
+      ],
+      "license": "Original synthesis; consult linked source license before importing third-party code/assets",
+      "performance": "Avoid redundant feedback loops",
+      "mobile": "Honest success/error and keyboard equivalent",
+      "accessibility": "Honest success/error and keyboard equivalent",
+      "complexity": "context-dependent",
+      "visualImpact": "depends on use",
+      "fit": "Button looks polished but state is unclear",
+      "alternatives": "Preserve the existing simplest working behavior",
+      "conflicts": "Review overlap with existing reference before adding another runtime",
+      "maturity": "RESEARCHED",
+      "validation": {
+        "scope": "Source review only; no local integration or runtime test",
+        "evidence": []
+      },
+      "reference": "skills/superbrain/references/accessible-actions.md",
+      "reviewed": "2026-10-09",
+      "priority": 2
+    }
+  ],
+  "deferredSources": [
+    {
+      "url": "https://composio.dev/content/best-chatgpt-skills",
+      "status": "discovery-only",
+      "note": "Opened article; third-party ranking not engineering evidence."
+    },
+    {
+      "url": "https://threejs.org/manual/en/cleanup.html",
+      "status": "unavailable",
+      "note": "404; locate current manual before adopting lifecycle code."
+    },
+    {
+      "url": "https://rive.app/docs/runtimes/state-machines",
+      "status": "unavailable-content",
+      "note": "Page shell returned; runtime instructions not obtained."
+    },
+    {
+      "url": "https://www.figma.com/",
+      "status": "queued",
+      "note": "Mandatory discovery starting point; implementation/license review still pending."
+    },
+    {
+      "url": "https://www.framer.com/motion/",
+      "status": "queued",
+      "note": "Mandatory discovery starting point; implementation/license review still pending."
+    },
+    {
+      "url": "https://www.awwwards.com/",
+      "status": "queued",
+      "note": "Mandatory discovery starting point; implementation/license review still pending."
+    },
+    {
+      "url": "https://www.siteinspire.com/",
+      "status": "queued",
+      "note": "Mandatory discovery starting point; implementation/license review still pending."
+    },
+    {
+      "url": "https://www.hover.dev/",
+      "status": "queued",
+      "note": "Mandatory discovery starting point; implementation/license review still pending."
+    },
+    {
+      "url": "https://www.aceternity.com/",
+      "status": "queued",
+      "note": "Mandatory discovery starting point; implementation/license review still pending."
+    },
+    {
+      "url": "https://reactbits.dev/",
+      "status": "queued",
+      "note": "Mandatory discovery starting point; implementation/license review still pending."
+    },
+    {
+      "url": "https://magicui.design/",
+      "status": "queued",
+      "note": "Mandatory discovery starting point; implementation/license review still pending."
+    },
+    {
+      "url": "https://lottiefiles.com/",
+      "status": "queued",
+      "note": "Mandatory discovery starting point; implementation/license review still pending."
+    }
+  ]
+}

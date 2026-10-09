@@ -1,0 +1,108 @@
+{
+  "schema": 1,
+  "browser": "155.0.4283.45",
+  "checks": [
+    {
+      "name": "activate-1440-reduce",
+      "result": "pass",
+      "details": "Native keyboard activation; real product animation, desktop pointer depth and changing GPU frame; light playback ends automatically."
+    },
+    {
+      "name": "pause-1440-reduce",
+      "result": "pass",
+      "details": "Pause clears active effects; product, filtering, comparison and color still work; no page overflow."
+    },
+    {
+      "name": "preferences-history-1440-reduce",
+      "result": "pass",
+      "details": "Stationary precedence, live system preference and native back navigation remain consistent."
+    },
+    {
+      "name": "activate-1440-no-preference",
+      "result": "pass",
+      "details": "Native keyboard activation; real product animation, desktop pointer depth and changing GPU frame; light playback ends automatically."
+    },
+    {
+      "name": "pause-1440-no-preference",
+      "result": "pass",
+      "details": "Pause clears active effects; product, filtering, comparison and color still work; no page overflow."
+    },
+    {
+      "name": "preferences-history-1440-no-preference",
+      "result": "pass",
+      "details": "Stationary precedence, live system preference and native back navigation remain consistent."
+    },
+    {
+      "name": "activate-390-reduce",
+      "result": "pass",
+      "details": "Native keyboard activation; real product animation, desktop pointer depth and changing GPU frame; light playback ends automatically."
+    },
+    {
+      "name": "pause-390-reduce",
+      "result": "pass",
+      "details": "Pause clears active effects; product, filtering, comparison and color still work; no page overflow."
+    },
+    {
+      "name": "preferences-history-390-reduce",
+      "result": "pass",
+      "details": "Stationary precedence, live system preference and native back navigation remain consistent."
+    },
+    {
+      "name": "activate-390-no-preference",
+      "result": "pass",
+      "details": "Native keyboard activation; real product animation, desktop pointer depth and changing GPU frame; light playback ends automatically."
+    },
+    {
+      "name": "pause-390-no-preference",
+      "result": "pass",
+      "details": "Pause clears active effects; product, filtering, comparison and color still work; no page overflow."
+    },
+    {
+      "name": "preferences-history-390-no-preference",
+      "result": "pass",
+      "details": "Stationary precedence, live system preference and native back navigation remain consistent."
+    },
+    {
+      "name": "activate-320-reduce",
+      "result": "pass",
+      "details": "Native keyboard activation; real product animation, desktop pointer depth and changing GPU frame; light playback ends automatically."
+    },
+    {
+      "name": "pause-320-reduce",
+      "result": "pass",
+      "details": "Pause clears active effects; product, filtering, comparison and color still work; no page overflow."
+    },
+    {
+      "name": "preferences-history-320-reduce",
+      "result": "pass",
+      "details": "Stationary precedence, live system preference and native back navigation remain consistent."
+    },
+    {
+      "name": "activate-320-no-preference",
+      "result": "pass",
+      "details": "Native keyboard activation; real product animation, desktop pointer depth and changing GPU frame; light playback ends automatically."
+    },
+    {
+      "name": "pause-320-no-preference",
+      "result": "pass",
+      "details": "Pause clears active effects; product, filtering, comparison and color still work; no page overflow."
+    },
+    {
+      "name": "preferences-history-320-no-preference",
+      "result": "pass",
+      "details": "Stationary precedence, live system preference and native back navigation remain consistent."
+    },
+    {
+      "name": "touch",
+      "result": "pass",
+      "details": "Emulated touch activates and pauses the page control."
+    },
+    {
+      "name": "no-js",
+      "result": "pass",
+      "details": "Static content remains available and inactive controls remain hidden."
+    }
+  ],
+  "errors": [],
+  "scope": "Local Windows headless Edge. Live in-app browser review is recorded separately; no physical-device or cross-engine certification."
+}

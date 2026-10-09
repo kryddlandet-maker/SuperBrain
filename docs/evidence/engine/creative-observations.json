@@ -1,0 +1,93 @@
+{
+  "schema": 1,
+  "kind": "creative",
+  "objectiveScore": null,
+  "observations": [
+    {
+      "criterion": "typography",
+      "kind": "strength",
+      "artifact": "engine/profile-salon-390.png",
+      "reviewer": "Codex visual inspection",
+      "observation": "Salon uses a serif display while CRM uses a sans display; both mobile headings fit the component width.",
+      "reason": "Type roles vary with the proposed identity while preserving legibility."
+    },
+    {
+      "criterion": "composition",
+      "kind": "issue",
+      "artifact": "engine-before/render-390-reduce.png",
+      "reviewer": "Codex visual inspection",
+      "observation": "All 26 knowledge entries create an overly long default exploration list.",
+      "reason": "The list pushes review and results far below the builder on mobile.",
+      "priority": "P2",
+      "correction": "Show eight entries initially and provide explicit expansion and search.",
+      "target": "#skill-results"
+    },
+    {
+      "criterion": "originality",
+      "kind": "strength",
+      "artifact": "engine/profile-technology-1440.png",
+      "reviewer": "Codex visual inspection",
+      "observation": "The technology component uses a different palette/material from the salon study.",
+      "reason": "These are distinguishable starting hypotheses; this is not proof of an original full website."
+    },
+    {
+      "criterion": "consistency",
+      "kind": "strength",
+      "artifact": "engine/crm-after-390.png",
+      "reviewer": "Codex visual inspection",
+      "observation": "The selected-tab light stays in the existing row; neighboring typography and content align as before.",
+      "reason": "The decoration does not create a competing layout system."
+    },
+    {
+      "criterion": "brand-fit",
+      "kind": "strength",
+      "artifact": "engine/profile-crm-390.png",
+      "reviewer": "Codex visual inspection",
+      "observation": "CRM uses a restrained blue operational palette and compact spacing instead of salon editorial type.",
+      "reason": "The profile supports the operational task; actual brand fit still needs customer content."
+    },
+    {
+      "criterion": "motion",
+      "kind": "strength",
+      "artifact": "engine/cinematic-390.png",
+      "reviewer": "Codex visual inspection + browser.json interaction record",
+      "observation": "Reduced-motion capture shows a stationary visible object; native scroll and preference changes were exercised separately.",
+      "reason": "Static image alone is not motion evidence; the linked tests establish response and reversal."
+    },
+    {
+      "criterion": "ux",
+      "kind": "strength",
+      "artifact": "engine/builder-320.png",
+      "reviewer": "Codex visual inspection + browser.json",
+      "observation": "Quick-edit output explicitly preserves the incumbent system and offers real file/brief exports.",
+      "reason": "The mode no longer instructs a new brand identity for a bounded change."
+    },
+    {
+      "criterion": "responsive",
+      "kind": "strength",
+      "artifact": "engine/builder-320.png",
+      "reviewer": "Codex visual inspection + browser.json",
+      "observation": "Long generated text wraps inside the narrow column; export controls remain usable.",
+      "reason": "The interface was rendered and exercised at 320px rather than inferred from a desktop screenshot."
+    },
+    {
+      "criterion": "accessibility",
+      "kind": "issue",
+      "artifact": "engine-before/render-390-reduce.png",
+      "reviewer": "Codex browser audit + visual inspection",
+      "observation": "Four link targets per snapshot were below the audit size threshold.",
+      "reason": "Touch use benefits from a deliberate target height; this is not a full accessibility certification.",
+      "priority": "P2",
+      "correction": "Give the local Studio header/footer/explorer links 44px minimum heights and re-run identical snapshots."
+    },
+    {
+      "criterion": "functionality",
+      "kind": "strength",
+      "artifact": "engine/crm-after-390.png",
+      "reviewer": "Codex browser.json interaction record",
+      "observation": "Actual keyboard activation, state change and native contact destination remain working in the scoped fixture.",
+      "reason": "The visual change preserves the existing task paths."
+    }
+  ],
+  "refinement": "The two recorded issues were corrected and re-captured in engine/audit/audit.json. Images were inspected as file artifacts; Remote Desktop Commander review was interrupted."
+}

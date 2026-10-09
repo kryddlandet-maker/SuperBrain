@@ -1,6 +1,26 @@
 {
-  "name": "superbrain-design", "version": "1.2.0", "private": true, "type": "module",
+  "name": "superbrain-design",
+  "version": "2.0.0-rc.2",
+  "private": true,
+  "type": "module",
   "description": "A modular design skill, project brief compiler and interactive multi-page motion laboratory.",
-  "engines": {"node": ">=22"},
-  "scripts": {"test": "node tests/run.mjs", "validate": "node scripts/validate.mjs", "studio": "node scripts/serve.mjs", "brief": "node scripts/brief.mjs", "install:brain": "node scripts/install.mjs"}
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node tests/run.mjs",
+    "validate": "node scripts/validate.mjs",
+    "studio": "node scripts/serve.mjs",
+    "brief": "node scripts/brief.mjs",
+    "install:brain": "node scripts/install.mjs",
+    "discover": "node scripts/discover.mjs",
+    "test:browser": "node scripts/check-buttons.mjs",
+    "test:product": "node scripts/check-product.mjs",
+    "test:pointer": "node scripts/check-pointer-buttons.mjs",
+    "test:navigation": "node scripts/check-navigation.mjs",
+    "design": "node scripts/design.mjs",
+    "audit": "node scripts/audit.mjs",
+    "test:engine": "node scripts/check-engine.mjs",
+    "test:collection": "node scripts/check-collection.mjs"
+  }
 }

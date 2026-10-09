@@ -1,6 +1,6 @@
 import { initScrollScenes } from './scroll-scenes.js';
 // One owner per surface. Framework adapters call cleanup on unmount.
-export function initEffects(root = document) {
+export function initEffects(root = document, options = {}) {
   const fine = matchMedia('(hover: hover) and (pointer: fine)');
   const reduced = matchMedia('(prefers-reduced-motion: reduce)');
   const cleanups = [];
@@ -8,10 +8,23 @@ export function initEffects(root = document) {
     target.addEventListener(name, fn, options);
     cleanups.push(() => target.removeEventListener(name, fn, options));
   };
+  // Touch :active timing varies across browsers. Explicit decorative press state
+  // follows native pointer events without cancelling scrolling or activation.
+  for(const el of root.querySelectorAll('[data-fill], [data-horizontal-glow]')) {
+    const clear=()=>el.removeAttribute('data-pressed');
+    listen(el,'pointerdown',event=>{
+      if(event.pointerType==='touch' && !el.disabled && el.getAttribute('aria-disabled')!=='true')el.setAttribute('data-pressed','');
+    });
+    listen(window,'pointerup',clear,{capture:true});
+    listen(window,'pointercancel',clear,{capture:true});
+    listen(el,'pointerleave',clear);
+    listen(document,'visibilitychange',()=>{if(document.hidden)clear();});
+    cleanups.push(clear);
+  }
   for (const el of root.querySelectorAll('[data-pointer]')) {
     let rect, point, current, lastTime = 0, frame = 0;
     const soft = el.getAttribute?.('data-follow') === 'soft';
-    const allowed = () => fine.matches && !reduced.matches;
+    const allowed = () => fine.matches && (!reduced.matches || options.motionPreview) && !options.reducedMotion && !el.disabled && el.getAttribute?.('aria-disabled') !== 'true';
     const flush = (time = 0) => {
       frame = 0;
       if (!point || !rect || !allowed()) return;
@@ -60,7 +73,7 @@ export function initEffects(root = document) {
     let animation;
     listen(el, 'click', event => {
       animation?.cancel();
-      if (reduced.matches || typeof ripple.animate !== 'function') return;
+      if (options.reducedMotion || (reduced.matches && !options.motionPreview) || typeof ripple.animate !== 'function') return;
       const box = el.getBoundingClientRect();
       const x = event.detail === 0 ? box.width / 2 : event.clientX - box.left;
       const y = event.detail === 0 ? box.height / 2 : event.clientY - box.top;
@@ -68,11 +81,11 @@ export function initEffects(root = document) {
       ripple.style.top = `${Math.max(0, Math.min(box.height, y))}px`;
       animation = ripple.animate([{transform:'translate(-50%, -50%) scale(.1)',opacity:.5},{transform:'translate(-50%, -50%) scale(3)',opacity:0}], {duration:460,easing:'cubic-bezier(.16,1,.3,1)'});
     });
-    listen(reduced, 'change', () => {if (reduced.matches) animation?.cancel();});
+    listen(reduced, 'change', () => {if (reduced.matches && !options.motionPreview) animation?.cancel();});
     listen(document, 'visibilitychange', () => {if(document.hidden) animation?.cancel();});
     cleanups.push(() => animation?.cancel());
   }
-  cleanups.push(initScrollScenes(root));
+  cleanups.push(initScrollScenes(root, options));
   for (const menu of root.querySelectorAll('[data-menu]')) {
     const button = menu.querySelector('button');
     const close = () => button.setAttribute('aria-expanded', 'false');

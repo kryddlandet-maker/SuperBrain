@@ -1,0 +1,143 @@
+{
+  "schema": 1,
+  "date": "2026-10-09",
+  "browser": "155.0.4283.45",
+  "checks": [
+    {
+      "name": "builder-1440",
+      "result": "pass",
+      "details": {
+        "profiles": 11,
+        "motion": "no-preference",
+        "preview": "actual iframe rendering",
+        "overflow": true
+      }
+    },
+    {
+      "name": "export-1440",
+      "result": "pass",
+      "details": "Downloaded real token JSON, brief and file bundle; literal markup remains text inside sandboxed preview."
+    },
+    {
+      "name": "scope-errors-keyboard-1440",
+      "result": "pass",
+      "details": "Invalid JSON produces honest error; prior outputs stay paired; quick edit does not replace the design system; focus is visible; comparative trials are labelled unavailable."
+    },
+    {
+      "name": "timeline-1440",
+      "result": "pass",
+      "details": "Native scroll updates and reverses owned transforms; reduced motion is static until explicit page-local preview; state morph keeps native keyboard activation."
+    },
+    {
+      "name": "builder-768",
+      "result": "pass",
+      "details": {
+        "profiles": 11,
+        "motion": "no-preference",
+        "preview": "actual iframe rendering",
+        "overflow": true
+      }
+    },
+    {
+      "name": "export-768",
+      "result": "pass",
+      "details": "Downloaded real token JSON, brief and file bundle; literal markup remains text inside sandboxed preview."
+    },
+    {
+      "name": "scope-errors-keyboard-768",
+      "result": "pass",
+      "details": "Invalid JSON produces honest error; prior outputs stay paired; quick edit does not replace the design system; focus is visible; comparative trials are labelled unavailable."
+    },
+    {
+      "name": "timeline-768",
+      "result": "pass",
+      "details": "Native scroll updates and reverses owned transforms; reduced motion is static until explicit page-local preview; state morph keeps native keyboard activation."
+    },
+    {
+      "name": "builder-390",
+      "result": "pass",
+      "details": {
+        "profiles": 11,
+        "motion": "reduce",
+        "preview": "actual iframe rendering",
+        "overflow": true
+      }
+    },
+    {
+      "name": "export-390",
+      "result": "pass",
+      "details": "Downloaded real token JSON, brief and file bundle; literal markup remains text inside sandboxed preview."
+    },
+    {
+      "name": "scope-errors-keyboard-390",
+      "result": "pass",
+      "details": "Invalid JSON produces honest error; prior outputs stay paired; quick edit does not replace the design system; focus is visible; comparative trials are labelled unavailable."
+    },
+    {
+      "name": "timeline-390",
+      "result": "pass",
+      "details": "Native scroll updates and reverses owned transforms; reduced motion is static until explicit page-local preview; state morph keeps native keyboard activation."
+    },
+    {
+      "name": "builder-320",
+      "result": "pass",
+      "details": {
+        "profiles": 11,
+        "motion": "no-preference",
+        "preview": "actual iframe rendering",
+        "overflow": true
+      }
+    },
+    {
+      "name": "export-320",
+      "result": "pass",
+      "details": "Downloaded real token JSON, brief and file bundle; literal markup remains text inside sandboxed preview."
+    },
+    {
+      "name": "scope-errors-keyboard-320",
+      "result": "pass",
+      "details": "Invalid JSON produces honest error; prior outputs stay paired; quick edit does not replace the design system; focus is visible; comparative trials are labelled unavailable."
+    },
+    {
+      "name": "timeline-320",
+      "result": "pass",
+      "details": "Native scroll updates and reverses owned transforms; reduced motion is static until explicit page-local preview; state morph keeps native keyboard activation."
+    },
+    {
+      "name": "crm-scope-1440",
+      "result": "pass",
+      "details": "Only current-tab decoration changes; exact tab bounds, type, icon/text placement and native destinations are preserved."
+    },
+    {
+      "name": "crm-scope-390",
+      "result": "pass",
+      "details": "Only current-tab decoration changes; exact tab bounds, type, icon/text placement and native destinations are preserved."
+    },
+    {
+      "name": "crm-scope-320",
+      "result": "pass",
+      "details": "Only current-tab decoration changes; exact tab bounds, type, icon/text placement and native destinations are preserved."
+    },
+    {
+      "name": "touch",
+      "result": "pass",
+      "details": "Emulated touch activates native builder controls; physical device is not certified."
+    },
+    {
+      "name": "no-javascript",
+      "result": "pass",
+      "details": "Cinematic content and direct native navigation remain usable without the module."
+    },
+    {
+      "name": "review-import",
+      "result": "pass",
+      "details": "Real browser audit imports locally and exports separated deterministic/creative refinement data; unresolved judgment remains needs-review."
+    }
+  ],
+  "errors": [],
+  "scope": "Headless Edge on local Windows; independent from the interrupted Remote Desktop Commander session.",
+  "limits": [
+    "Remote Desktop Commander stopped because it could not reliably identify the current browser URL; no further desktop input was performed.",
+    "Physical mobile, additional engines, live backend flows, full WCAG and controlled design superiority are not certified."
+  ]
+}

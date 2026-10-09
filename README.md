@@ -1,4 +1,43 @@
-# SuperBrain
+# SuperBrain 2.0.0-rc.2
+
+## Collection motion correction — 2.0.0-rc.2
+
+The collection now has a visible Activate/Pause motion button, including explicit preview under reduced motion. Twenty focused browser groups, 39 unit/tool tests, 510 validation checks and the full product regression pass. The open Codex in-app browser was checked directly. [Evidence and behavior](docs/COLLECTION-MOTION-2.0-rc.2.md).
+
+## Implemented 2.0 release candidate
+
+Run npm run studio and open /studio/engine/ for the design-system builder, chapter explorer, local visual-review intake and honest benchmark viewer. Run node scripts/design.mjs brief.json --out existing-project to save tokens and project memory. Use scripts/audit.mjs with optional host-provided Playwright and an installed browser for actual captures.
+
+The 1.4.0 interactions are preserved. The 2.0 pipeline now has explicit work modes, scoped reference analysis and safe standalone installation. See docs/IMPLEMENTATION-2.0.md for the complete phase/evidence table and docs/RESEARCH-2.0.md for pinned research. Remote Desktop review stopped and remains outstanding; this is a release candidate. Controlled comparative design trials and blind human judgments have not run.
+
+Current evidence: 39 tool tests, 510 validation checks and 22 new browser groups pass. [Phase acceptance and remaining verification](docs/IMPLEMENTATION-2.0.md).
+
+The version notes below describe historical releases.
+
+
+## Tillägg 1.4.0 — fyra mjuka pekarvarianter
+
+På `/examples/pointer-buttons/` finns varmt sidoljus, mjuk spotlight, kantljus och lätt magnetisk respons. De använder en separat modul och egna inställningar för följsamhet, storlek och styrka. Befintliga knapp-, kontroll- och scrollmoduler samt CSS är oförändrade. En liten tidig livscykelhanterare sköter webbläsarens förväntade avbrutna sidövergångar; vanlig navigation och animationens beteende bevaras.
+
+Verifierat lokalt via Remote Desktop Commander: 20 nya pekarkontroller, 19 befintliga knappkontroller, 17 produktkontroller över 20 routes och 12 navigationskontroller i tre rörelselägen. Enhets-/verktygstester: 24/24. [Verifieringsrapport](docs/POINTER-VERIFICATION-1.4.0.md), [API och exempel](examples/pointer-buttons/recipe.md), [granskning av hela 2.0-masterprompten](docs/MASTERPROMPT-2-REVIEW.md).
+
+`npm run test:pointer` och `npm run test:navigation` använder separat tillgänglig Playwright/webbläsare. Det här är en lokal källversion; full SuperBrain 2.0, publicering och konsumentuppdatering ingår inte. Tidigare versionsrapporter nedan är historiska.
+
+## Korrigering 1.3.1 — faktisk browserkontroll
+
+Riktiga svep i knappstudierna, ljus som är dolt i viloläge även i Orbit och en scrollscen som fungerar i smala browserpaneler. Minskad rörelse respekteras som standard; labben visar aktivt läge och erbjuder ett uttryckligt val för rörelse på den aktuella sidan. Dekorativa 01/02/03 och små överrubriker har tagits bort från skillens standard, generatorn och demona.
+
+Alla 19 dokumentroutes har kontrollerats vid 1440, 768, 632, 390 och 320 px. Separata funktionella förlopp täcker knappar, scroll, reglage, sökning, produktval, export och navigation. Läs [reparationsrapporten](docs/REPAIR-VERIFICATION-1.3.1.md) för belägg och avgränsningar. `npm run test:product` kör den breda kontrollen med separat tillgänglig Playwright/Edge.
+
+## Utbyggnad 1.3 — lokal första våg
+
+Fyra justerbara knappstudier finns på `/examples/buttons/`: fyllning från vänster, botten och toppen samt en ljusbubbla som visas vid hover och följer enbart horisontellt. Tangentbord, touch, minskad rörelse och stilla förhandsvisning har egna beteenden.
+
+`/examples/library/` och `npm run discover -- --query "horizontal light" --domain D --limit 5` söker det sammansatta registret: 54 bevarade poster plus 32 nya kandidater. De 110 kapacitetsområdena är en omfattningskarta. Totalt 4 TESTED, 17 PROTOTYPED, 63 RESEARCHED och 2 EXPERIMENTAL; inga produktionsklara anspråk. Fyra nya fördjupningar laddas bara vid behov. I en installation används `node .superbrain/scripts/discover.mjs`.
+
+Läs [research](docs/EXPANSION-RESEARCH.md), [lokal verifiering](docs/EXPANSION-VERIFICATION.md) och [checkpoint med nästa batcher](docs/EXPANSION-CHECKPOINT.md). Målet om 300 kandidater och full research över alla domäner är ännu inte uppnått. Tidigare rapporter nedan är historiska.
+
+Kör `node benchmarks/check-routing.mjs` för en deterministisk mätning av selektiv briefstorlek. `npm run test:browser` kräver separat tillgänglig Playwright och webbläsare, se verifieringsrapporten. Grundverktyg och demos har fortsatt inga paketberoenden eller API-nycklar. Ingen publicering eller konsumentuppdatering ingår i denna lokala batch.
 
 En gemensam designhjärna för kodande AI: avancerade techsidor, frisörsalonger, byggfirmor och andra verksamheter. Den kombinerar design, informationsarkitektur, innehåll och motion utan att låsa alla projekt till samma mall.
 

@@ -1,0 +1,202 @@
+{
+  "date": "2026-10-09T15:16:48.921Z",
+  "browser": "155.0.4283.45",
+  "host": "5CD513936W",
+  "scope": "Local Windows Edge automation. All document routes at five viewport/preference combinations plus functional journeys. Emulation does not certify physical devices, Firefox/WebKit, screen readers or production.",
+  "routes": [
+    "/",
+    "/examples/atlas/",
+    "/examples/buttons/",
+    "/examples/cinematic/",
+    "/examples/collection/",
+    "/examples/construction/contact/",
+    "/examples/construction/",
+    "/examples/construction/projects/",
+    "/examples/construction/services/",
+    "/examples/crm-scope/",
+    "/examples/effects/",
+    "/examples/effects/project/",
+    "/examples/library/",
+    "/examples/pointer-buttons/",
+    "/examples/salon/booking/",
+    "/examples/salon/",
+    "/examples/salon/services/",
+    "/examples/salon/team/",
+    "/examples/technology/approach/",
+    "/examples/technology/contact/",
+    "/examples/technology/",
+    "/examples/technology/product/"
+  ],
+  "checks": [
+    {
+      "name": "all-routes-1440-no-preference",
+      "result": "pass",
+      "details": {
+        "routes": 22,
+        "scope": "Direct loading, primary heading, no horizontal page overflow, no decorative numbered/eyebrow headings"
+      }
+    },
+    {
+      "name": "all-routes-768-no-preference",
+      "result": "pass",
+      "details": {
+        "routes": 22,
+        "scope": "Direct loading, primary heading, no horizontal page overflow, no decorative numbered/eyebrow headings"
+      }
+    },
+    {
+      "name": "all-routes-390-reduce",
+      "result": "pass",
+      "details": {
+        "routes": 22,
+        "scope": "Direct loading, primary heading, no horizontal page overflow, no decorative numbered/eyebrow headings"
+      }
+    },
+    {
+      "name": "all-routes-632-reduce",
+      "result": "pass",
+      "details": {
+        "routes": 22,
+        "scope": "Direct loading, primary heading, no horizontal page overflow, no decorative numbered/eyebrow headings"
+      }
+    },
+    {
+      "name": "all-routes-320-no-preference",
+      "result": "pass",
+      "details": {
+        "routes": 22,
+        "scope": "Direct loading, primary heading, no horizontal page overflow, no decorative numbered/eyebrow headings"
+      }
+    },
+    {
+      "name": "brief-export",
+      "result": "pass",
+      "details": "Actual local form submission compiles selected knowledge; downloaded Markdown matches output with normalized line endings; no external submission"
+    },
+    {
+      "name": "atlas-search",
+      "result": "pass",
+      "details": "Search, zero-results and clearing restore the correct cards"
+    },
+    {
+      "name": "library-maturity",
+      "result": "pass",
+      "details": "Four scoped TESTED records; no fabricated production-ready results"
+    },
+    {
+      "name": "collection-actions",
+      "result": "pass",
+      "details": "Product steps, comparison slider, rapid reversible gallery filters, lamp color and horizontal keyboard scroll change real state"
+    },
+    {
+      "name": "light-renderer",
+      "result": "pass",
+      "details": {
+        "renderer": "webgl",
+        "scope": "GPU frame drawn; play/pause works"
+      }
+    },
+    {
+      "name": "collection-reduced",
+      "result": "pass",
+      "details": "Product actions and filters remain available with reduced motion and stationary preview"
+    },
+    {
+      "name": "scroll-1440",
+      "result": "pass",
+      "details": {
+        "scope": "Real scroll events: start/middle/end/reverse; reduced-motion static default, explicit page preview, stationary precedence",
+        "start": {
+          "p": 0,
+          "state": "gather",
+          "transform": "matrix(1, 0, 0, 1, 0, 0)"
+        },
+        "middle": {
+          "p": 0.5003409976617303,
+          "state": "connect",
+          "transform": "matrix(0.706728, 0.707485, -0.707485, 0.706728, 0, 0)"
+        },
+        "end": {
+          "p": 0.9999512860483243,
+          "state": "resolve",
+          "transform": "matrix(7.65197e-05, 1, -1, 7.65197e-05, 0, 0)"
+        },
+        "reverse": {
+          "p": 0.15037996882307092,
+          "state": "gather",
+          "transform": "matrix(0.97223, 0.234026, -0.234026, 0.97223, 0, 0)"
+        }
+      }
+    },
+    {
+      "name": "scroll-632",
+      "result": "pass",
+      "details": {
+        "scope": "Real scroll events: start/middle/end/reverse; reduced-motion static default, explicit page preview, stationary precedence",
+        "start": {
+          "p": 0.0002717391304347826,
+          "state": "gather",
+          "transform": "matrix(1, 0.000426847, -0.000426847, 1, 0, 0)"
+        },
+        "middle": {
+          "p": 0.5002717391304348,
+          "state": "connect",
+          "transform": "matrix(0.706805, 0.707409, -0.707409, 0.706805, 0, 0)"
+        },
+        "end": {
+          "p": 1,
+          "state": "resolve",
+          "transform": "matrix(0, 1, -1, 0, 0, 0)"
+        },
+        "reverse": {
+          "p": 0.1502717391304348,
+          "state": "gather",
+          "transform": "matrix(0.97227, 0.23386, -0.23386, 0.97227, 0, 0)"
+        }
+      }
+    },
+    {
+      "name": "scroll-390",
+      "result": "pass",
+      "details": {
+        "scope": "Real scroll events: start/middle/end/reverse; reduced-motion static default, explicit page preview, stationary precedence",
+        "start": {
+          "p": 0.000016983695652173913,
+          "state": "gather",
+          "transform": "matrix(1, 2.66779e-05, -2.66779e-05, 1, 0, 0)"
+        },
+        "middle": {
+          "p": 0.5000169836956522,
+          "state": "connect",
+          "transform": "matrix(0.707088, 0.707126, -0.707126, 0.707088, 0, 0)"
+        },
+        "end": {
+          "p": 1,
+          "state": "resolve",
+          "transform": "matrix(0, 1, -1, 0, 0, 0)"
+        },
+        "reverse": {
+          "p": 0.15001698369565217,
+          "state": "gather",
+          "transform": "matrix(0.972364, 0.233471, -0.233471, 0.972364, 0, 0)"
+        }
+      }
+    },
+    {
+      "name": "orbit",
+      "result": "pass",
+      "details": "No rest light; horizontal following with fixed y; fades after leave; cleaned headings; actual product navigation and back/forward"
+    },
+    {
+      "name": "effects-actions",
+      "result": "pass",
+      "details": "Tone controls, exactly one activation, image detail route and back navigation without duplicated listeners"
+    },
+    {
+      "name": "runtime-errors",
+      "result": "pass",
+      "details": "No missing resources, uncaught page exceptions or browser console errors"
+    }
+  ],
+  "errors": []
+}

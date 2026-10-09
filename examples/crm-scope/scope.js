@@ -1,0 +1,2 @@
+const toggle=document.querySelector('#dot-toggle'),root=document.documentElement;toggle.hidden=false;
+toggle.addEventListener('click',()=>{const enabled=toggle.getAttribute('aria-pressed')!=='true';toggle.setAttribute('aria-pressed',String(enabled));root.dataset.dotPreview=String(enabled);toggle.textContent=enabled?'Visa grundversionen':'Visa prickljuset';document.querySelector('#dot-state').textContent=enabled?'Prickljuset visas bara på den markerade fliken.':'Grundversionen visas. Illustrativt gränssnitt, ingen verklig kunddata.';});

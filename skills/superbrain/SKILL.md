@@ -17,11 +17,15 @@ Read [references/architecture.md](references/architecture.md) for route design a
 
 For typography or awkward page rhythm, read [references/typography-layout.md](references/typography-layout.md). Here, clean means coherent composition, considered type and calm transitions; it can include rich content and expressive effects.
 
+Choose quick-edit for bounded fixes, design-build for new work, or creative-engineering for advanced interaction. Read references/design-intelligence.md for routing/project memory, design-systems.md for tokens, visual-critique.md for browser evidence, and reference-workflow.md for images. Use scripts/design.mjs and audit.mjs when relevant.
+
 ## Make an early visual decision
 
 Choose a clear, concrete direction and render a representative composition early. Offer alternatives when requested or when direction is materially uncertain; do not make three proposals compulsory. Explain important choices briefly and let actual rendering inform refinement.
 
 Use shared type, grid, material and lighting to unite the site. Semantic sections can flow through the same background; they do not need alternating color slabs, borders or identical card rows. Vary density, crop and scale while keeping a readable hierarchy. Read [references/continuity.md](references/continuity.md) when clean transitions and blended sections matter.
+
+Lead with substantive headings. Do not add decorative 01/02/03 counters or small eyebrow/kicker headings above them. Numbering is reserved for actual ordered tasks when needed. Keep useful content, prices, identifiers and demo disclosures.
 
 Keep expressive interaction in the design from the start. Static content should remain useful while the motion prototype is built alongside it. Do not postpone all movement behind a subjective static-masterpiece gate. A quiet salon and a luminous product scene can both be excellent.
 
@@ -36,6 +40,8 @@ Preserve native scrolling by default. Keep primary actions available. Give touch
 For choosing compatible techniques, read [references/effect-selection.md](references/effect-selection.md), which routes to materials, type motion, product stories, galleries/commerce and advanced graphics. For portfolios, restaurants or shops read [references/site-archetypes.md](references/site-archetypes.md). Use detailed families selectively; a larger library should expand options without inflating every brief.
 
 ## Judge what was built
+
+For button fills, soft pointer lighting or bounded magnetic response, read [references/button-interactions.md](references/button-interactions.md). For honest action/toggle/submission states read [references/accessible-actions.md](references/accessible-actions.md). For interruption, disposal or engine choice read [references/motion-lifecycle.md](references/motion-lifecycle.md). For library expansion or specialized discovery read [references/library-discovery.md](references/library-discovery.md) and use scripts/discover.mjs; start with compact summaries. Research, prototype and tested evidence are separate states. These chapters are conditional, not required in every brief.
 
 Run it. Inspect representative desktop and mobile routes, interactions, focus, reduced motion and navigation. Review against the brief and chosen direction, not against a single universal style. Fix the highest-impact defects first. Read [references/review.md](references/review.md).
 
