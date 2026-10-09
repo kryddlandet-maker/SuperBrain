@@ -1,4 +1,8 @@
-# SuperBrain 2.0.0-rc.1
+# SuperBrain 2.0.0-rc.2
+
+## Collection motion correction — 2.0.0-rc.2
+
+The collection now has a visible Activate/Pause motion button, including explicit preview under reduced motion. Twenty focused browser groups, 39 unit/tool tests, 510 validation checks and the full product regression pass. The open Codex in-app browser was checked directly. [Evidence and behavior](docs/COLLECTION-MOTION-2.0-rc.2.md).
 
 ## Implemented 2.0 release candidate
 

@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "scope": "Lokala kod- och headless-browserkontroller av SuperBrain 2.0.0-rc.1. Desktopgranskningen avbröts och återstår.",
+  "scope": "Local checks of the 2.0 candidates; rc.2 adds focused collection motion verification. Full-product desktop review remains outstanding.",
   "checks": [
     {
       "name": "Enhets-/verktygstester",
@@ -37,6 +37,10 @@
     {
       "name": "Remote Desktop Commander",
       "result": "Avbruten: browseradressen kunde inte verifieras"
+    },
+    {
+      "name": "Collection motion 2.0.0-rc.2",
+      "result": "20 browser groups passed; live in-app activate/pause verified"
     }
   ],
   "comparativeTrials": {
