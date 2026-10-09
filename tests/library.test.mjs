@@ -51,6 +51,8 @@ test('standalone installation can discover expanded registry and shared button c
   const result=JSON.parse(execFileSync(process.execPath,[path.join(target,'.superbrain/scripts/discover.mjs'),'--query','horizontal light','--limit','1'],{encoding:'utf8'}));
   assert.equal(result.matches[0].id,'C004');assert.equal(result.summary.candidates,86);
   assert.match(await readFile(path.join(target,'.superbrain/examples/shared/buttons.css'),'utf8'),/data-horizontal-glow/);
+  assert.deepEqual(await readFile(path.join(target,'.superbrain/examples/shared/pointer-buttons.js')),await readFile(path.join(root,'examples/shared/pointer-buttons.js')));
+  assert.deepEqual(await readFile(path.join(target,'.superbrain/examples/shared/pointer-buttons.css')),await readFile(path.join(root,'examples/shared/pointer-buttons.css')));
   assert.deepEqual(await readFile(path.join(target,'.superbrain/docs/evidence/buttons-desktop.png')),await readFile(path.join(root,'docs/evidence/buttons-desktop.png')));
   await install(target);
  }finally{await rm(target,{recursive:true,force:true});}

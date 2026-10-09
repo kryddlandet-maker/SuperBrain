@@ -23,7 +23,7 @@ const pseudo=async locator=>locator.evaluate(el=>{
  return {x:m.e,y:m.f,left:parseFloat(s.left),top:parseFloat(s.top),opacity:Number(s.opacity),transition:s.transitionDuration};
 });
 try{
- browser=await chromium.launch({headless:true,...(process.env.SUPERBRAIN_BROWSER_CHANNEL?{channel:process.env.SUPERBRAIN_BROWSER_CHANNEL}:{})});
+ browser=await chromium.launch({headless:true,...(process.env.SUPERBRAIN_BROWSER_EXECUTABLE?{executablePath:process.env.SUPERBRAIN_BROWSER_EXECUTABLE}:process.env.SUPERBRAIN_BROWSER_CHANNEL?{channel:process.env.SUPERBRAIN_BROWSER_CHANNEL}:{})});
  const context=await browser.newContext({viewport:{width:1440,height:1000},reducedMotion:'no-preference'});
  await context.addInitScript(()=>{
   const raf=window.requestAnimationFrame.bind(window),cancel=window.cancelAnimationFrame.bind(window),pending=new Set();
@@ -153,7 +153,7 @@ try{
  }
  check('touch','All four emulated coarse-touch buttons show press feedback, activate exactly once and clear press/tracking');await touch.close();
  assert.deepEqual(errors,[]);check('browser-errors','No page errors or console errors during checked routes');
- const report={date:new Date().toISOString(),browser:await browser.version(),engine:'Chromium',channel:process.env.SUPERBRAIN_BROWSER_CHANNEL||'bundled',platform:process.platform,
+ const report={date:new Date().toISOString(),browser:await browser.version(),engine:'Chromium',channel:process.env.SUPERBRAIN_BROWSER_CHANNEL||(process.env.SUPERBRAIN_BROWSER_EXECUTABLE?'host-provided-executable':'bundled'),platform:process.platform,
   scope:'Local button study, library search and legacy route smoke tests. Emulated viewports/input/media; no physical-device, Firefox/WebKit, screen-reader, production or controlled model benchmark certification.',
   checks,errors,screenshots:['docs/evidence/buttons-desktop.png','docs/evidence/buttons-mobile.png']};
  await writeFile(path.join(evidence,'buttons-browser.json'),JSON.stringify(report,null,2)+'\n');

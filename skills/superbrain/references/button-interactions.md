@@ -1,6 +1,6 @@
-# Four bounded button interactions
+# Bounded button interactions
 
-Activate when directional fill or horizontal hover light is requested. Demo: examples/buttons/index.html. Original implementations live in examples/shared/buttons.css and effects.js. The historical .light-button family now uses the same horizontal-only, hidden-at-rest light behavior. It remains a separate palette and ripple recipe.
+Activate when button fills, horizontal light, soft pointer lighting, contour light or bounded magnetic response are requested. Demo: examples/buttons/index.html. Original implementations live in examples/shared/buttons.css and effects.js. The historical .light-button family now uses the same horizontal-only, hidden-at-rest light behavior. It remains a separate palette and ripple recipe.
 
 ## Integration
 
@@ -37,3 +37,13 @@ If light never appears, check fine-pointer capability, live reduced-motion prefe
 Validate desktop, narrow reflow, keyboard Enter/Space, touch, disabled state, no JavaScript, live reduced motion, forced colors and rapid enter/leave. Observe intermediate frames and resolved frames, not only screenshots. Scope evidence is recorded in docs/evidence/buttons-browser.json after the browser check; no real production integration is claimed.
 
 Sources: [MDN transform-origin](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/transform-origin), [focus-visible](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Selectors/:focus-visible), [pointerleave](https://developer.mozilla.org/en-US/docs/Web/API/Element/pointerleave_event), [W3C buttons](https://www.w3.org/WAI/ARIA/apg/patterns/button/).
+
+## Four additional soft pointer variants
+
+Do not replace working integrations to adopt a different feel. The opt-in family in examples/shared/pointer-buttons.css and pointer-buttons.js is independent of both original button families. Try examples/pointer-buttons/; the full integration recipe is examples/pointer-buttons/recipe.md.
+
+Use a semantic button or anchor with class pb-button, data-pointer-effect="side|spot|edge|magnet", an inner pb-face and pb-label. Initialize once with initPointerButtons(scopedRoot, {lag:120}) and call the returned disposal function before reinitialization/unmount. Set --pb-size and --pb-strength on the actual button. Lag is a bounded 70–220ms elapsed-time smoothing constant; higher values follow more softly. It is not the CSS fade duration. No other button timing changes.
+
+Side uses a diffuse warm horizontal light, spot follows both axes, edge masks the middle to light only the contour, and magnet moves only its decorative inner face by at most 3px x/2px y. The outer hit target stays fixed. All lights hide at rest. Keyboard focus has stationary centered light and a separate outline. Touch has press feedback and no hover loop. Reduced motion and no JavaScript preserve native actions; explicit local motion preview is opt-in and stationary mode takes precedence. Disabled controls hide decoration immediately. Resize, scroll, visibility, cancellation, preference changes and disposal reset the follower, which schedules no frames once settled.
+
+Huly was visually inspected as a warm-light reference on 2026-10-09; the implementation is original, not a code or asset copy. Do not promise an exact reproduction from a screenshot. Local browser evidence is docs/evidence/pointer-buttons-browser.json; verify paint cost and project-specific contrast before production reuse.

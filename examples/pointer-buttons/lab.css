@@ -1,0 +1,6 @@
+.intro em { font-family: Georgia,serif; font-weight: 400; letter-spacing: -.055em; }
+@media(prefers-reduced-motion: no-preference) { @view-transition { navigation: auto; } }
+.controls .note { margin: 0; font-size: .78rem; line-height: 1.4; }
+.samples article { padding: 30px 0 22px; }
+.samples article p { min-height: 3.2em; }
+@media(max-width: 520px) { .pb-face { padding: 18px 22px; } .pb-label { gap: 18px; } .samples article p { min-height: 0; } }

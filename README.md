@@ -1,5 +1,13 @@
 # SuperBrain
 
+## Tillägg 1.4.0 — fyra mjuka pekarvarianter
+
+På `/examples/pointer-buttons/` finns varmt sidoljus, mjuk spotlight, kantljus och lätt magnetisk respons. De använder en separat modul och egna inställningar för följsamhet, storlek och styrka. Befintliga knapp-, kontroll- och scrollmoduler samt CSS är oförändrade. En liten tidig livscykelhanterare sköter webbläsarens förväntade avbrutna sidövergångar; vanlig navigation och animationens beteende bevaras.
+
+Verifierat lokalt via Remote Desktop Commander: 20 nya pekarkontroller, 19 befintliga knappkontroller, 17 produktkontroller över 20 routes och 12 navigationskontroller i tre rörelselägen. Enhets-/verktygstester: 24/24. [Verifieringsrapport](docs/POINTER-VERIFICATION-1.4.0.md), [API och exempel](examples/pointer-buttons/recipe.md), [granskning av hela 2.0-masterprompten](docs/MASTERPROMPT-2-REVIEW.md).
+
+`npm run test:pointer` och `npm run test:navigation` använder separat tillgänglig Playwright/webbläsare. Det här är en lokal källversion; full SuperBrain 2.0, publicering och konsumentuppdatering ingår inte. Tidigare versionsrapporter nedan är historiska.
+
 ## Korrigering 1.3.1 — faktisk browserkontroll
 
 Riktiga svep i knappstudierna, ljus som är dolt i viloläge även i Orbit och en scrollscen som fungerar i smala browserpaneler. Minskad rörelse respekteras som standard; labben visar aktivt läge och erbjuder ett uttryckligt val för rörelse på den aktuella sidan. Dekorativa 01/02/03 och små överrubriker har tagits bort från skillens standard, generatorn och demona.

@@ -74,9 +74,12 @@ try{
  }
  await page.goto(base+'/examples/technology/');const light=page.locator('.hero .light-button');await page.mouse.move(2,2);assert.equal((await sample(light)).opacity,0);
  await page.locator('[data-preview-motion]').check();await light.scrollIntoViewIfNeeded();const box=await light.boundingBox();
- await page.mouse.move(box.x+20,box.y+10);await page.waitForTimeout(100);const left=await sample(light);
+ await page.mouse.move(box.x+20,box.y+10);
+ // The existing opacity fade lasts 180ms. Observe its resolved state rather than
+ // relying on the timing overhead of a fixed 100ms wait on the connected host.
+ await page.waitForFunction(()=>+getComputedStyle(document.querySelector('.hero .light-button'),'::before').opacity>.99,null,{timeout:2500});const left=await sample(light);
  await page.mouse.move(box.x+box.width-20,box.y+box.height-5);await page.waitForTimeout(100);const right=await sample(light);
- assert(left.opacity>.9&&right.left>left.left+box.width/3&&right.top===left.top);
+ assert(left.opacity>.9&&right.left>left.left+box.width/3&&right.top===left.top,JSON.stringify({left,right,box}));
  await page.mouse.move(2,2);await page.waitForTimeout(250);assert.equal((await sample(light)).opacity,0);
  assert.equal(await page.locator('.hero .kicker').count(),0);assert.equal(await page.locator('.row-number').count(),0);
  await light.click();assert.match(page.url(),/technology\/product\/$/);await page.goBack();await page.locator('[data-motion-controls]').waitFor({state:'visible'});await page.goForward();assert.match(page.url(),/technology\/product\/$/);

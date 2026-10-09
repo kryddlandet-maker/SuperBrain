@@ -1,0 +1,80 @@
+{
+  "date": "2026-10-09T13:16:52.838Z",
+  "browser": "155.0.4283.45",
+  "scope": "Local Edge native document navigation in default, explicit no-preference and reduce modes. Does not certify other browser engines or production.",
+  "checks": [
+    {
+      "mode": "default",
+      "family": "technology",
+      "result": "pass",
+      "detail": "All three native undersides and back navigation, primary heading and no runtime errors"
+    },
+    {
+      "mode": "default",
+      "family": "salon",
+      "result": "pass",
+      "detail": "All three native undersides and back navigation, primary heading and no runtime errors"
+    },
+    {
+      "mode": "default",
+      "family": "construction",
+      "result": "pass",
+      "detail": "All three native undersides and back navigation, primary heading and no runtime errors"
+    },
+    {
+      "mode": "default",
+      "family": "pointer-lab-and-project",
+      "result": "pass",
+      "detail": "Actual native cross-document and image-detail links, back navigation; skipped transitions do not become unhandled rejections"
+    },
+    {
+      "mode": "no-preference",
+      "family": "technology",
+      "result": "pass",
+      "detail": "All three native undersides and back navigation, primary heading and no runtime errors"
+    },
+    {
+      "mode": "no-preference",
+      "family": "salon",
+      "result": "pass",
+      "detail": "All three native undersides and back navigation, primary heading and no runtime errors"
+    },
+    {
+      "mode": "no-preference",
+      "family": "construction",
+      "result": "pass",
+      "detail": "All three native undersides and back navigation, primary heading and no runtime errors"
+    },
+    {
+      "mode": "no-preference",
+      "family": "pointer-lab-and-project",
+      "result": "pass",
+      "detail": "Actual native cross-document and image-detail links, back navigation; skipped transitions do not become unhandled rejections"
+    },
+    {
+      "mode": "reduce",
+      "family": "technology",
+      "result": "pass",
+      "detail": "All three native undersides and back navigation, primary heading and no runtime errors"
+    },
+    {
+      "mode": "reduce",
+      "family": "salon",
+      "result": "pass",
+      "detail": "All three native undersides and back navigation, primary heading and no runtime errors"
+    },
+    {
+      "mode": "reduce",
+      "family": "construction",
+      "result": "pass",
+      "detail": "All three native undersides and back navigation, primary heading and no runtime errors"
+    },
+    {
+      "mode": "reduce",
+      "family": "pointer-lab-and-project",
+      "result": "pass",
+      "detail": "Actual native cross-document and image-detail links, back navigation; skipped transitions do not become unhandled rejections"
+    }
+  ],
+  "errors": []
+}
