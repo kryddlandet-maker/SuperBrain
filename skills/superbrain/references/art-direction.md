@@ -18,3 +18,5 @@ When the user wants options, present genuinely different visual hypotheses and r
 ## Color belongs to this project
 
 Choose the full palette from actual brand assets, references and the brief. Do not inherit green/olive backgrounds, dark ink or buttons from these demos by habit. Green remains available when it fits. Inspect surfaces and footers as well as the accent; changing only the accent can leave the entire site green-tinted. Read design-systems.md for the executable family/custom-color controls.
+
+For new sites, vary the whole identity from project evidence: composition, typography, image treatment, material and interaction as well as hue. Do not recycle the previous project hero/footer by habit. The design-systems reference documents selectable expressions and reproducible variations; they are editable studies, not full-site templates.

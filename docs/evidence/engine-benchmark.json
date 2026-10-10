@@ -1,10 +1,10 @@
 {
   "schema": 1,
-  "scope": "Local 2.0 candidate checks. rc.3 adds color selection/exports and reruns engine checks. Historical interaction results retain their earlier scope; full-product desktop review remains outstanding.",
+  "scope": "Local rc.4 tests extend color/visual expressions and rerun engine flows. Earlier interaction/product rows retain their historical scope; whole-product desktop review remains incomplete.",
   "checks": [
     {
       "name": "Enhets-/verktygstester",
-      "result": "42/42 passerade"
+      "result": "44/44 passerade"
     },
     {
       "name": "Validering",
@@ -45,6 +45,10 @@
     {
       "name": "Färgriktning 2.0.0-rc.3",
       "result": "9 browsergrupper; 198 profil/familj/tema-konfigurationer; blå Studio-förhandsvisning granskad direkt"
+    },
+    {
+      "name": "Designuttryck 2.0.0-rc.4",
+      "result": "12 uttryck, 528 färgkonfigurationer, 864 reproducerbara kombinationer; 10 browsergrupper"
     }
   ],
   "comparativeTrials": {

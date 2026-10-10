@@ -114,6 +114,216 @@
       ]
     },
     {
+      "id": "cyan",
+      "label": "Cyan / isblå",
+      "light": [
+        "#eefbfc",
+        "#17393f",
+        "#087e92"
+      ],
+      "dark": [
+        "#102c35",
+        "#effcff",
+        "#66d7ee"
+      ]
+    },
+    {
+      "id": "navy",
+      "label": "Marin / bläck",
+      "light": [
+        "#f3f5fa",
+        "#17243d",
+        "#314d8b"
+      ],
+      "dark": [
+        "#101928",
+        "#f4f6ff",
+        "#a2b6e8"
+      ]
+    },
+    {
+      "id": "violet",
+      "label": "Violett / elektrisk",
+      "light": [
+        "#f9f3ff",
+        "#352144",
+        "#893ac0"
+      ],
+      "dark": [
+        "#251530",
+        "#fcf0ff",
+        "#d2a1f4"
+      ]
+    },
+    {
+      "id": "lavender",
+      "label": "Lavendel / dimma",
+      "light": [
+        "#f7f5fc",
+        "#36314b",
+        "#746299"
+      ],
+      "dark": [
+        "#24212f",
+        "#f5f1ff",
+        "#c3b4e3"
+      ]
+    },
+    {
+      "id": "coral",
+      "label": "Korall / varm",
+      "light": [
+        "#fff5f0",
+        "#442821",
+        "#b64232"
+      ],
+      "dark": [
+        "#321e1b",
+        "#fff5eb",
+        "#ffad91"
+      ]
+    },
+    {
+      "id": "red",
+      "label": "Röd / signal",
+      "light": [
+        "#fff5f4",
+        "#3d2023",
+        "#c52635"
+      ],
+      "dark": [
+        "#2e141b",
+        "#fff4f3",
+        "#ff98a4"
+      ]
+    },
+    {
+      "id": "orange",
+      "label": "Orange / energi",
+      "light": [
+        "#fff7ef",
+        "#40291a",
+        "#b14e12"
+      ],
+      "dark": [
+        "#302018",
+        "#fff7ed",
+        "#ffb06b"
+      ]
+    },
+    {
+      "id": "yellow",
+      "label": "Gul / sol",
+      "light": [
+        "#fffbea",
+        "#39321d",
+        "#98710a"
+      ],
+      "dark": [
+        "#2a2516",
+        "#fff9db",
+        "#f4d34e"
+      ]
+    },
+    {
+      "id": "peach",
+      "label": "Persika / aprikos",
+      "light": [
+        "#fff2e9",
+        "#473025",
+        "#a15f38"
+      ],
+      "dark": [
+        "#30251f",
+        "#fff0e3",
+        "#f4be98"
+      ]
+    },
+    {
+      "id": "sand",
+      "label": "Sand / kalksten",
+      "light": [
+        "#f5f1e8",
+        "#373029",
+        "#8c6841"
+      ],
+      "dark": [
+        "#28241e",
+        "#f7f2e7",
+        "#d9bb91"
+      ]
+    },
+    {
+      "id": "chocolate",
+      "label": "Choklad / espresso",
+      "light": [
+        "#f7f1ed",
+        "#36271f",
+        "#815338"
+      ],
+      "dark": [
+        "#231914",
+        "#fff3e7",
+        "#d8a781"
+      ]
+    },
+    {
+      "id": "slate",
+      "label": "Skiffer / stål",
+      "light": [
+        "#f2f5f7",
+        "#25313b",
+        "#536d82"
+      ],
+      "dark": [
+        "#1b252e",
+        "#f1f5f9",
+        "#afc5d7"
+      ]
+    },
+    {
+      "id": "plum",
+      "label": "Plommon / aubergine",
+      "light": [
+        "#fbf3fa",
+        "#41283e",
+        "#87437e"
+      ],
+      "dark": [
+        "#2d1a2a",
+        "#fff2fd",
+        "#dfa2d7"
+      ]
+    },
+    {
+      "id": "pink",
+      "label": "Rosa / pop",
+      "light": [
+        "#fff1f8",
+        "#45253b",
+        "#c22d84"
+      ],
+      "dark": [
+        "#301b2c",
+        "#fff2fc",
+        "#fa9fd4"
+      ]
+    },
+    {
+      "id": "azure",
+      "label": "Azur / hav",
+      "light": [
+        "#eff8ff",
+        "#19354b",
+        "#087caf"
+      ],
+      "dark": [
+        "#112838",
+        "#eefaff",
+        "#75caff"
+      ]
+    },
+    {
       "id": "green",
       "label": "Grön / botanisk",
       "light": [

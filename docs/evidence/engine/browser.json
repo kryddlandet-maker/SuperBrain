@@ -135,7 +135,7 @@
     }
   ],
   "errors": [],
-  "scope": "Headless Edge on local Windows; independent from the interrupted Remote Desktop Commander session. Engine rerun for rc.3 color controls.",
+  "scope": "Headless Edge on local Windows; independent from the interrupted Remote Desktop Commander session. Engine rerun for rc.4 expression/variation controls.",
   "limits": [
     "Remote Desktop Commander stopped because it could not reliably identify the current browser URL; no further desktop input was performed.",
     "Physical mobile, additional engines, live backend flows, full WCAG and controlled design superiority are not certified."

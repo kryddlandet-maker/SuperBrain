@@ -68,3 +68,35 @@ test('palette choices reject unknown families and CSS injection',()=>{
  for(const paletteFamily of ['unknown','green; background:red'])assert.throws(()=>validateBrief({...base,paletteFamily}));
  assert.throws(()=>validateBrief({...base,artDirection:{palette:['#fff','#000','red; color:red']}}));
 });
+
+test('design expressions change usable token contracts and retain explicit brand choices',async()=>{
+ const {designThemes}=await import('../lib/design-themes.mjs');
+ const signatures=new Set();
+ for(const theme of designThemes){
+  const result=generateDesignSystem({...base,designTheme:theme.id,paletteFamily:'coral',theme:'light'});
+  signatures.add(JSON.stringify([result.tokens.type.display,result.tokens.radius,result.tokens.grid.max,result.tokens.type.tracking]));
+  assert.equal(result.tokens.color.accent,'#b64232');
+  assert.equal(result.tokens.type.display,theme.displayFont);
+  assert.equal(result.tokens.radius.control,theme.controlRadius+'px');
+  assert.equal(result.tokens.appearance.layout,theme.layout);
+  assert.deepEqual(JSON.parse(result.files['design-system/tokens.json']).tokens,result.tokens);
+  for(const [key,value]of flattenTokens(result.tokens))assert(result.files['design-system/tokens.css'].includes('--sb-'+key+': '+value+';'));
+  const custom=generateDesignSystem({...base,designTheme:theme.id,theme:'dark',artDirection:{palette:['#fff5f8','#402030','#932345'],displayFont:'Courier New, monospace',composition:'Actual supplied layout'}});
+  assert.equal(custom.tokens.color.background,'#fff5f8');assert.equal(custom.tokens.type.display,'Courier New, monospace');assert.equal(custom.plan.direction.composition,'Actual supplied layout');assert.equal(custom.tokens.appearance.layout,'stack');
+ }
+ assert.equal(signatures.size,designThemes.length);
+});
+test('explicit variations are reproducible and explore distinct color/type/form/layout combinations',()=>{
+ const signatures=new Set();
+ for(let designVariation=0;designVariation<864;designVariation++){
+  const input={...base,designVariation},result=generateDesignSystem(input);
+  assert.deepEqual(result,generateDesignSystem(input));
+  signatures.add(JSON.stringify([result.plan.direction.designSelection.id,result.plan.direction.colorSelection.family,result.tokens.appearance.layout]));
+  assert(result.contrast.body>=4.5);assert(result.contrast.action>=4.5);assert(result.contrast.muted>=4.5);
+ }
+ assert.equal(signatures.size,864);
+ const a=generateDesignSystem({...base,designTheme:'editorial',designVariation:17,paletteFamily:'wine',artDirection:{palette:['#fff5f8','#402030','#932345']}});
+ assert.equal(a.plan.direction.designSelection.id,'editorial');assert.equal(a.tokens.color.accent,'#932345');
+ const quick=generateDesignSystem({...base,mode:'quick-edit',task:'Justera hover',designVariation:33,designTheme:'playful'});assert.equal(quick.tokens,null);assert.equal(quick.plan.direction.designSelection,undefined);
+ for(const change of [{designTheme:'unknown'},{designTheme:'red;}'},{designVariation:NaN},{designVariation:'2'},{designVariation:1.2},{designVariation:-1},{designVariation:10000}])assert.throws(()=>generateDesignSystem({...base,...change}));
+});

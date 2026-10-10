@@ -23,7 +23,7 @@ try{
    assert.equal(await page.frameLocator('#design-preview').locator('body').evaluate(el=>getComputedStyle(el).backgroundColor),rgb(family[theme][0]));
    const brief=await downloadJSON('#download-brief');assert.equal(brief.paletteFamily,family.id);assert.equal(brief.theme,theme);
   }
-  checks.push({name:'families-'+width,result:'pass',details:'Nine families in both themes: actual iframe colors and downloaded tokens/brief agree.'});
+  checks.push({name:'families-'+width,result:'pass',details:colorFamilies.length+' families in both themes: actual iframe colors and downloaded tokens/brief agree.'});
   await page.locator('select[name=paletteFamily]').selectOption('green');await page.locator('select[name=theme]').selectOption('dark');
   await page.locator('input[name=paletteBackground]').fill('#fff5f8');await page.locator('input[name=paletteInk]').fill('#402030');await page.locator('input[name=accent]').fill('#932345');await generate();
   const custom=await downloadJSON('#download-file');assert.equal(custom.tokens.color.background,'#fff5f8');assert.equal(custom.tokens.color.ink,'#402030');assert.equal(custom.tokens.color.accent,'#932345');
@@ -36,7 +36,7 @@ try{
   await page.locator('input[name=paletteInk]').fill('#402030');await page.locator('select[name=mode]').selectOption('quick-edit');await page.locator('input[name=task]').fill('Justera hover på knappen');await generate();
   assert.equal(await page.locator('#file-choice option').count(),1);assert.match(await page.locator('#decision-output').textContent(),/Preserve the existing system/);
   assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1));
-  await page.locator('select[name=paletteFamily]').focus();await page.keyboard.press('ArrowUp');assert.equal(await page.locator('select[name=paletteFamily]').inputValue(),'teal');
+  await page.locator('select[name=paletteFamily]').focus();await page.keyboard.press('ArrowUp');assert.equal(await page.locator('select[name=paletteFamily]').inputValue(),colorFamilies.at(-2).id);
   assert(await page.locator('select[name=paletteFamily]').evaluate(el=>getComputedStyle(el).outlineStyle!=='none'));
   checks.push({name:'errors-scope-keyboard-'+width,result:'pass',details:'Incomplete palette keeps prior paired export; quick edit creates no replacement tokens; native keyboard and no horizontal overflow.'});
   await page.locator('select[name=mode]').selectOption('design-build');await page.locator('input[name=paletteBackground]').fill('');await page.locator('input[name=paletteInk]').fill('');await page.locator('input[name=accent]').fill('');

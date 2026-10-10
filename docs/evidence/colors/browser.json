@@ -6,7 +6,7 @@
     {
       "name": "families-1440",
       "result": "pass",
-      "details": "Nine families in both themes: actual iframe colors and downloaded tokens/brief agree."
+      "details": "24 families in both themes: actual iframe colors and downloaded tokens/brief agree."
     },
     {
       "name": "brand-precedence-1440",
@@ -21,7 +21,7 @@
     {
       "name": "families-390",
       "result": "pass",
-      "details": "Nine families in both themes: actual iframe colors and downloaded tokens/brief agree."
+      "details": "24 families in both themes: actual iframe colors and downloaded tokens/brief agree."
     },
     {
       "name": "brand-precedence-390",
@@ -36,7 +36,7 @@
     {
       "name": "families-320",
       "result": "pass",
-      "details": "Nine families in both themes: actual iframe colors and downloaded tokens/brief agree."
+      "details": "24 families in both themes: actual iframe colors and downloaded tokens/brief agree."
     },
     {
       "name": "brand-precedence-320",

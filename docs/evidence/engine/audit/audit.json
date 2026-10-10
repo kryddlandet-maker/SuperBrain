@@ -1,10 +1,10 @@
 {
   "schema": 1,
-  "url": "http://127.0.0.1:60726/studio/engine/",
+  "url": "http://127.0.0.1:50733/studio/engine/",
   "snapshots": [
     {
       "schema": 1,
-      "url": "http://127.0.0.1:60726/studio/engine/",
+      "url": "http://127.0.0.1:50733/studio/engine/",
       "title": "SuperBrain — Designverktyg",
       "viewport": {
         "width": 1440,
@@ -233,19 +233,9 @@
           "fragmentMissing": false
         },
         {
-          "selector": "#design-form > label:nth-of-type(6) > select",
-          "tag": "SELECT",
-          "name": "FärgfamiljFörsta förslag utifrån projektetNeutral / grafitBlå / koboltIndigo / violettRosa / puderVinröd / burgundyKoppar / terrakottaBärnsten / guldPetrol / turkosGrön / botanisk",
-          "width": 624,
-          "height": 45,
-          "disabled": false,
-          "href": null,
-          "fragmentMissing": false
-        },
-        {
           "selector": "#design-form > div:nth-of-type(3) > label:nth-of-type(1) > select",
           "tag": "SELECT",
-          "name": "TemaUtifrån verksamhetenLjustMörkt",
+          "name": "DesignuttryckUtifrån projektet / variationenEditorial / magasinMinimal / lugnSchweizisk / typografiskBrutalist / råNoir / filmiskAteljé / taktilKust / luftigLekfull / färgstarkIndustriell / tekniskKlassisk / tidlösFramtid / digitalGalleri / bilddriven",
           "width": 304,
           "height": 45,
           "disabled": false,
@@ -255,6 +245,46 @@
         {
           "selector": "#design-form > div:nth-of-type(3) > label:nth-of-type(2) > input",
           "tag": "INPUT",
+          "name": "Variation",
+          "width": 304,
+          "height": 43,
+          "disabled": false,
+          "href": null,
+          "fragmentMissing": false
+        },
+        {
+          "selector": "#new-variation",
+          "tag": "BUTTON",
+          "name": "Prova ny variation",
+          "width": 624,
+          "height": 44,
+          "disabled": false,
+          "href": null,
+          "fragmentMissing": false
+        },
+        {
+          "selector": "#design-form > label:nth-of-type(6) > select",
+          "tag": "SELECT",
+          "name": "FärgfamiljFörsta förslag utifrån projektetNeutral / grafitBlå / koboltIndigo / violettRosa / puderVinröd / burgundyKoppar / terrakottaBärnsten / guldPetrol / turkosCyan / isblåMarin / bläckViolett / elektriskLavendel / dimmaKorall / varmRöd / signalOrange / energiGul / solPersika / aprikosSand / kalkstenChoklad / espressoSkiffer / stålPlommon / aubergineRosa / popAzur / havGrön / botanisk",
+          "width": 624,
+          "height": 45,
+          "disabled": false,
+          "href": null,
+          "fragmentMissing": false
+        },
+        {
+          "selector": "#design-form > div:nth-of-type(4) > label:nth-of-type(1) > select",
+          "tag": "SELECT",
+          "name": "TemaUtifrån verksamhetenLjustMörkt",
+          "width": 304,
+          "height": 45,
+          "disabled": false,
+          "href": null,
+          "fragmentMissing": false
+        },
+        {
+          "selector": "#design-form > div:nth-of-type(4) > label:nth-of-type(2) > input",
+          "tag": "INPUT",
           "name": "Accentfärg",
           "width": 304,
           "height": 43,
@@ -263,7 +293,7 @@
           "fragmentMissing": false
         },
         {
-          "selector": "#design-form > div:nth-of-type(4) > label:nth-of-type(1) > input",
+          "selector": "#design-form > div:nth-of-type(5) > label:nth-of-type(1) > input",
           "tag": "INPUT",
           "name": "Egen bakgrundsfärg",
           "width": 304,
@@ -273,7 +303,7 @@
           "fragmentMissing": false
         },
         {
-          "selector": "#design-form > div:nth-of-type(4) > label:nth-of-type(2) > input",
+          "selector": "#design-form > div:nth-of-type(5) > label:nth-of-type(2) > input",
           "tag": "INPUT",
           "name": "Egen textfärg",
           "width": 304,
@@ -353,7 +383,7 @@
           "fragmentMissing": false
         },
         {
-          "selector": "#design-form > button",
+          "selector": "#design-form > button:nth-of-type(2)",
           "tag": "BUTTON",
           "name": "Skapa förslag",
           "width": 624,
@@ -619,6 +649,33 @@
         },
         {
           "selector": "#design-form > div:nth-of-type(3) > label:nth-of-type(2)",
+          "text": "Variation",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 13,
+          "weight": 400,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#new-variation",
+          "text": "Prova ny variation",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 16,
+          "weight": 400,
+          "foreground": "#ffffff",
+          "background": "#24241f"
+        },
+        {
+          "selector": "#design-form > p:nth-of-type(1)",
+          "text": "Variationer ändrar fria färg-, typografi-, form- och kompositionsval. Dina valda färger och designuttryck behålls. För n",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 16,
+          "weight": 400,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#design-form > div:nth-of-type(4) > label:nth-of-type(2)",
           "text": "Accentfärg",
           "font": "Arial, Helvetica, sans-serif",
           "size": 13,
@@ -627,7 +684,7 @@
           "background": "#f4f2eb"
         },
         {
-          "selector": "#design-form > div:nth-of-type(4) > label:nth-of-type(1)",
+          "selector": "#design-form > div:nth-of-type(5) > label:nth-of-type(1)",
           "text": "Egen bakgrundsfärg",
           "font": "Arial, Helvetica, sans-serif",
           "size": 13,
@@ -636,7 +693,7 @@
           "background": "#f4f2eb"
         },
         {
-          "selector": "#design-form > div:nth-of-type(4) > label:nth-of-type(2)",
+          "selector": "#design-form > div:nth-of-type(5) > label:nth-of-type(2)",
           "text": "Egen textfärg",
           "font": "Arial, Helvetica, sans-serif",
           "size": 13,
@@ -645,7 +702,7 @@
           "background": "#f4f2eb"
         },
         {
-          "selector": "#design-form > p:nth-of-type(1)",
+          "selector": "#design-form > p:nth-of-type(2)",
           "text": "Välj en färgfamilj för ett första förslag. För egna varumärkesfärger: fyll i bakgrund, text och accent. En hel egen pale",
           "font": "Arial, Helvetica, sans-serif",
           "size": 16,
@@ -672,7 +729,7 @@
           "background": "#f4f2eb"
         },
         {
-          "selector": "#design-form > button",
+          "selector": "#design-form > button:nth-of-type(2)",
           "text": "Skapa förslag",
           "font": "Arial, Helvetica, sans-serif",
           "size": 16,
@@ -998,17 +1055,17 @@
       ],
       "images": [],
       "links": [
-        "http://127.0.0.1:60726/studio/engine/#main",
-        "http://127.0.0.1:60726/",
-        "http://127.0.0.1:60726/examples/cinematic/",
-        "http://127.0.0.1:60726/studio/engine/#builder",
-        "http://127.0.0.1:60726/studio/engine/#explorer",
-        "http://127.0.0.1:60726/studio/engine/#review",
-        "http://127.0.0.1:60726/studio/engine/#benchmarks",
-        "http://127.0.0.1:60726/examples/library/",
-        "http://127.0.0.1:60726/examples/crm-scope/",
-        "http://127.0.0.1:60726/",
-        "http://127.0.0.1:60726/examples/pointer-buttons/"
+        "http://127.0.0.1:50733/studio/engine/#main",
+        "http://127.0.0.1:50733/",
+        "http://127.0.0.1:50733/examples/cinematic/",
+        "http://127.0.0.1:50733/studio/engine/#builder",
+        "http://127.0.0.1:50733/studio/engine/#explorer",
+        "http://127.0.0.1:50733/studio/engine/#review",
+        "http://127.0.0.1:50733/studio/engine/#benchmarks",
+        "http://127.0.0.1:50733/examples/library/",
+        "http://127.0.0.1:50733/examples/crm-scope/",
+        "http://127.0.0.1:50733/",
+        "http://127.0.0.1:50733/examples/pointer-buttons/"
       ],
       "focused": {
         "selector": "html > body",
@@ -1019,7 +1076,7 @@
     },
     {
       "schema": 1,
-      "url": "http://127.0.0.1:60726/studio/engine/",
+      "url": "http://127.0.0.1:50733/studio/engine/",
       "title": "SuperBrain — Designverktyg",
       "viewport": {
         "width": 1440,
@@ -1248,19 +1305,9 @@
           "fragmentMissing": false
         },
         {
-          "selector": "#design-form > label:nth-of-type(6) > select",
-          "tag": "SELECT",
-          "name": "FärgfamiljFörsta förslag utifrån projektetNeutral / grafitBlå / koboltIndigo / violettRosa / puderVinröd / burgundyKoppar / terrakottaBärnsten / guldPetrol / turkosGrön / botanisk",
-          "width": 624,
-          "height": 45,
-          "disabled": false,
-          "href": null,
-          "fragmentMissing": false
-        },
-        {
           "selector": "#design-form > div:nth-of-type(3) > label:nth-of-type(1) > select",
           "tag": "SELECT",
-          "name": "TemaUtifrån verksamhetenLjustMörkt",
+          "name": "DesignuttryckUtifrån projektet / variationenEditorial / magasinMinimal / lugnSchweizisk / typografiskBrutalist / råNoir / filmiskAteljé / taktilKust / luftigLekfull / färgstarkIndustriell / tekniskKlassisk / tidlösFramtid / digitalGalleri / bilddriven",
           "width": 304,
           "height": 45,
           "disabled": false,
@@ -1270,6 +1317,46 @@
         {
           "selector": "#design-form > div:nth-of-type(3) > label:nth-of-type(2) > input",
           "tag": "INPUT",
+          "name": "Variation",
+          "width": 304,
+          "height": 43,
+          "disabled": false,
+          "href": null,
+          "fragmentMissing": false
+        },
+        {
+          "selector": "#new-variation",
+          "tag": "BUTTON",
+          "name": "Prova ny variation",
+          "width": 624,
+          "height": 44,
+          "disabled": false,
+          "href": null,
+          "fragmentMissing": false
+        },
+        {
+          "selector": "#design-form > label:nth-of-type(6) > select",
+          "tag": "SELECT",
+          "name": "FärgfamiljFörsta förslag utifrån projektetNeutral / grafitBlå / koboltIndigo / violettRosa / puderVinröd / burgundyKoppar / terrakottaBärnsten / guldPetrol / turkosCyan / isblåMarin / bläckViolett / elektriskLavendel / dimmaKorall / varmRöd / signalOrange / energiGul / solPersika / aprikosSand / kalkstenChoklad / espressoSkiffer / stålPlommon / aubergineRosa / popAzur / havGrön / botanisk",
+          "width": 624,
+          "height": 45,
+          "disabled": false,
+          "href": null,
+          "fragmentMissing": false
+        },
+        {
+          "selector": "#design-form > div:nth-of-type(4) > label:nth-of-type(1) > select",
+          "tag": "SELECT",
+          "name": "TemaUtifrån verksamhetenLjustMörkt",
+          "width": 304,
+          "height": 45,
+          "disabled": false,
+          "href": null,
+          "fragmentMissing": false
+        },
+        {
+          "selector": "#design-form > div:nth-of-type(4) > label:nth-of-type(2) > input",
+          "tag": "INPUT",
           "name": "Accentfärg",
           "width": 304,
           "height": 43,
@@ -1278,7 +1365,7 @@
           "fragmentMissing": false
         },
         {
-          "selector": "#design-form > div:nth-of-type(4) > label:nth-of-type(1) > input",
+          "selector": "#design-form > div:nth-of-type(5) > label:nth-of-type(1) > input",
           "tag": "INPUT",
           "name": "Egen bakgrundsfärg",
           "width": 304,
@@ -1288,7 +1375,7 @@
           "fragmentMissing": false
         },
         {
-          "selector": "#design-form > div:nth-of-type(4) > label:nth-of-type(2) > input",
+          "selector": "#design-form > div:nth-of-type(5) > label:nth-of-type(2) > input",
           "tag": "INPUT",
           "name": "Egen textfärg",
           "width": 304,
@@ -1368,7 +1455,7 @@
           "fragmentMissing": false
         },
         {
-          "selector": "#design-form > button",
+          "selector": "#design-form > button:nth-of-type(2)",
           "tag": "BUTTON",
           "name": "Skapa förslag",
           "width": 624,
@@ -1634,6 +1721,33 @@
         },
         {
           "selector": "#design-form > div:nth-of-type(3) > label:nth-of-type(2)",
+          "text": "Variation",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 13,
+          "weight": 400,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#new-variation",
+          "text": "Prova ny variation",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 16,
+          "weight": 400,
+          "foreground": "#ffffff",
+          "background": "#24241f"
+        },
+        {
+          "selector": "#design-form > p:nth-of-type(1)",
+          "text": "Variationer ändrar fria färg-, typografi-, form- och kompositionsval. Dina valda färger och designuttryck behålls. För n",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 16,
+          "weight": 400,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#design-form > div:nth-of-type(4) > label:nth-of-type(2)",
           "text": "Accentfärg",
           "font": "Arial, Helvetica, sans-serif",
           "size": 13,
@@ -1642,7 +1756,7 @@
           "background": "#f4f2eb"
         },
         {
-          "selector": "#design-form > div:nth-of-type(4) > label:nth-of-type(1)",
+          "selector": "#design-form > div:nth-of-type(5) > label:nth-of-type(1)",
           "text": "Egen bakgrundsfärg",
           "font": "Arial, Helvetica, sans-serif",
           "size": 13,
@@ -1651,7 +1765,7 @@
           "background": "#f4f2eb"
         },
         {
-          "selector": "#design-form > div:nth-of-type(4) > label:nth-of-type(2)",
+          "selector": "#design-form > div:nth-of-type(5) > label:nth-of-type(2)",
           "text": "Egen textfärg",
           "font": "Arial, Helvetica, sans-serif",
           "size": 13,
@@ -1660,7 +1774,7 @@
           "background": "#f4f2eb"
         },
         {
-          "selector": "#design-form > p:nth-of-type(1)",
+          "selector": "#design-form > p:nth-of-type(2)",
           "text": "Välj en färgfamilj för ett första förslag. För egna varumärkesfärger: fyll i bakgrund, text och accent. En hel egen pale",
           "font": "Arial, Helvetica, sans-serif",
           "size": 16,
@@ -1687,7 +1801,7 @@
           "background": "#f4f2eb"
         },
         {
-          "selector": "#design-form > button",
+          "selector": "#design-form > button:nth-of-type(2)",
           "text": "Skapa förslag",
           "font": "Arial, Helvetica, sans-serif",
           "size": 16,
@@ -2013,17 +2127,17 @@
       ],
       "images": [],
       "links": [
-        "http://127.0.0.1:60726/studio/engine/#main",
-        "http://127.0.0.1:60726/",
-        "http://127.0.0.1:60726/examples/cinematic/",
-        "http://127.0.0.1:60726/studio/engine/#builder",
-        "http://127.0.0.1:60726/studio/engine/#explorer",
-        "http://127.0.0.1:60726/studio/engine/#review",
-        "http://127.0.0.1:60726/studio/engine/#benchmarks",
-        "http://127.0.0.1:60726/examples/library/",
-        "http://127.0.0.1:60726/examples/crm-scope/",
-        "http://127.0.0.1:60726/",
-        "http://127.0.0.1:60726/examples/pointer-buttons/"
+        "http://127.0.0.1:50733/studio/engine/#main",
+        "http://127.0.0.1:50733/",
+        "http://127.0.0.1:50733/examples/cinematic/",
+        "http://127.0.0.1:50733/studio/engine/#builder",
+        "http://127.0.0.1:50733/studio/engine/#explorer",
+        "http://127.0.0.1:50733/studio/engine/#review",
+        "http://127.0.0.1:50733/studio/engine/#benchmarks",
+        "http://127.0.0.1:50733/examples/library/",
+        "http://127.0.0.1:50733/examples/crm-scope/",
+        "http://127.0.0.1:50733/",
+        "http://127.0.0.1:50733/examples/pointer-buttons/"
       ],
       "focused": {
         "selector": "html > body",
@@ -2034,7 +2148,7 @@
     },
     {
       "schema": 1,
-      "url": "http://127.0.0.1:60726/studio/engine/",
+      "url": "http://127.0.0.1:50733/studio/engine/",
       "title": "SuperBrain — Designverktyg",
       "viewport": {
         "width": 390,
@@ -2263,19 +2377,9 @@
           "fragmentMissing": false
         },
         {
-          "selector": "#design-form > label:nth-of-type(6) > select",
-          "tag": "SELECT",
-          "name": "FärgfamiljFörsta förslag utifrån projektetNeutral / grafitBlå / koboltIndigo / violettRosa / puderVinröd / burgundyKoppar / terrakottaBärnsten / guldPetrol / turkosGrön / botanisk",
-          "width": 351,
-          "height": 45,
-          "disabled": false,
-          "href": null,
-          "fragmentMissing": false
-        },
-        {
           "selector": "#design-form > div:nth-of-type(3) > label:nth-of-type(1) > select",
           "tag": "SELECT",
-          "name": "TemaUtifrån verksamhetenLjustMörkt",
+          "name": "DesignuttryckUtifrån projektet / variationenEditorial / magasinMinimal / lugnSchweizisk / typografiskBrutalist / råNoir / filmiskAteljé / taktilKust / luftigLekfull / färgstarkIndustriell / tekniskKlassisk / tidlösFramtid / digitalGalleri / bilddriven",
           "width": 351,
           "height": 45,
           "disabled": false,
@@ -2285,6 +2389,46 @@
         {
           "selector": "#design-form > div:nth-of-type(3) > label:nth-of-type(2) > input",
           "tag": "INPUT",
+          "name": "Variation",
+          "width": 351,
+          "height": 43,
+          "disabled": false,
+          "href": null,
+          "fragmentMissing": false
+        },
+        {
+          "selector": "#new-variation",
+          "tag": "BUTTON",
+          "name": "Prova ny variation",
+          "width": 351,
+          "height": 44,
+          "disabled": false,
+          "href": null,
+          "fragmentMissing": false
+        },
+        {
+          "selector": "#design-form > label:nth-of-type(6) > select",
+          "tag": "SELECT",
+          "name": "FärgfamiljFörsta förslag utifrån projektetNeutral / grafitBlå / koboltIndigo / violettRosa / puderVinröd / burgundyKoppar / terrakottaBärnsten / guldPetrol / turkosCyan / isblåMarin / bläckViolett / elektriskLavendel / dimmaKorall / varmRöd / signalOrange / energiGul / solPersika / aprikosSand / kalkstenChoklad / espressoSkiffer / stålPlommon / aubergineRosa / popAzur / havGrön / botanisk",
+          "width": 351,
+          "height": 45,
+          "disabled": false,
+          "href": null,
+          "fragmentMissing": false
+        },
+        {
+          "selector": "#design-form > div:nth-of-type(4) > label:nth-of-type(1) > select",
+          "tag": "SELECT",
+          "name": "TemaUtifrån verksamhetenLjustMörkt",
+          "width": 351,
+          "height": 45,
+          "disabled": false,
+          "href": null,
+          "fragmentMissing": false
+        },
+        {
+          "selector": "#design-form > div:nth-of-type(4) > label:nth-of-type(2) > input",
+          "tag": "INPUT",
           "name": "Accentfärg",
           "width": 351,
           "height": 43,
@@ -2293,7 +2437,7 @@
           "fragmentMissing": false
         },
         {
-          "selector": "#design-form > div:nth-of-type(4) > label:nth-of-type(1) > input",
+          "selector": "#design-form > div:nth-of-type(5) > label:nth-of-type(1) > input",
           "tag": "INPUT",
           "name": "Egen bakgrundsfärg",
           "width": 351,
@@ -2303,7 +2447,7 @@
           "fragmentMissing": false
         },
         {
-          "selector": "#design-form > div:nth-of-type(4) > label:nth-of-type(2) > input",
+          "selector": "#design-form > div:nth-of-type(5) > label:nth-of-type(2) > input",
           "tag": "INPUT",
           "name": "Egen textfärg",
           "width": 351,
@@ -2383,7 +2527,7 @@
           "fragmentMissing": false
         },
         {
-          "selector": "#design-form > button",
+          "selector": "#design-form > button:nth-of-type(2)",
           "tag": "BUTTON",
           "name": "Skapa förslag",
           "width": 351,
@@ -2649,6 +2793,33 @@
         },
         {
           "selector": "#design-form > div:nth-of-type(3) > label:nth-of-type(2)",
+          "text": "Variation",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 13,
+          "weight": 400,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#new-variation",
+          "text": "Prova ny variation",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 16,
+          "weight": 400,
+          "foreground": "#ffffff",
+          "background": "#24241f"
+        },
+        {
+          "selector": "#design-form > p:nth-of-type(1)",
+          "text": "Variationer ändrar fria färg-, typografi-, form- och kompositionsval. Dina valda färger och designuttryck behålls. För n",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 16,
+          "weight": 400,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#design-form > div:nth-of-type(4) > label:nth-of-type(2)",
           "text": "Accentfärg",
           "font": "Arial, Helvetica, sans-serif",
           "size": 13,
@@ -2657,7 +2828,7 @@
           "background": "#f4f2eb"
         },
         {
-          "selector": "#design-form > div:nth-of-type(4) > label:nth-of-type(1)",
+          "selector": "#design-form > div:nth-of-type(5) > label:nth-of-type(1)",
           "text": "Egen bakgrundsfärg",
           "font": "Arial, Helvetica, sans-serif",
           "size": 13,
@@ -2666,7 +2837,7 @@
           "background": "#f4f2eb"
         },
         {
-          "selector": "#design-form > div:nth-of-type(4) > label:nth-of-type(2)",
+          "selector": "#design-form > div:nth-of-type(5) > label:nth-of-type(2)",
           "text": "Egen textfärg",
           "font": "Arial, Helvetica, sans-serif",
           "size": 13,
@@ -2675,7 +2846,7 @@
           "background": "#f4f2eb"
         },
         {
-          "selector": "#design-form > p:nth-of-type(1)",
+          "selector": "#design-form > p:nth-of-type(2)",
           "text": "Välj en färgfamilj för ett första förslag. För egna varumärkesfärger: fyll i bakgrund, text och accent. En hel egen pale",
           "font": "Arial, Helvetica, sans-serif",
           "size": 16,
@@ -2702,7 +2873,7 @@
           "background": "#f4f2eb"
         },
         {
-          "selector": "#design-form > button",
+          "selector": "#design-form > button:nth-of-type(2)",
           "text": "Skapa förslag",
           "font": "Arial, Helvetica, sans-serif",
           "size": 16,
@@ -3028,17 +3199,17 @@
       ],
       "images": [],
       "links": [
-        "http://127.0.0.1:60726/studio/engine/#main",
-        "http://127.0.0.1:60726/",
-        "http://127.0.0.1:60726/examples/cinematic/",
-        "http://127.0.0.1:60726/studio/engine/#builder",
-        "http://127.0.0.1:60726/studio/engine/#explorer",
-        "http://127.0.0.1:60726/studio/engine/#review",
-        "http://127.0.0.1:60726/studio/engine/#benchmarks",
-        "http://127.0.0.1:60726/examples/library/",
-        "http://127.0.0.1:60726/examples/crm-scope/",
-        "http://127.0.0.1:60726/",
-        "http://127.0.0.1:60726/examples/pointer-buttons/"
+        "http://127.0.0.1:50733/studio/engine/#main",
+        "http://127.0.0.1:50733/",
+        "http://127.0.0.1:50733/examples/cinematic/",
+        "http://127.0.0.1:50733/studio/engine/#builder",
+        "http://127.0.0.1:50733/studio/engine/#explorer",
+        "http://127.0.0.1:50733/studio/engine/#review",
+        "http://127.0.0.1:50733/studio/engine/#benchmarks",
+        "http://127.0.0.1:50733/examples/library/",
+        "http://127.0.0.1:50733/examples/crm-scope/",
+        "http://127.0.0.1:50733/",
+        "http://127.0.0.1:50733/examples/pointer-buttons/"
       ],
       "focused": {
         "selector": "html > body",
@@ -3049,7 +3220,7 @@
     },
     {
       "schema": 1,
-      "url": "http://127.0.0.1:60726/studio/engine/",
+      "url": "http://127.0.0.1:50733/studio/engine/",
       "title": "SuperBrain — Designverktyg",
       "viewport": {
         "width": 390,
@@ -3278,19 +3449,9 @@
           "fragmentMissing": false
         },
         {
-          "selector": "#design-form > label:nth-of-type(6) > select",
-          "tag": "SELECT",
-          "name": "FärgfamiljFörsta förslag utifrån projektetNeutral / grafitBlå / koboltIndigo / violettRosa / puderVinröd / burgundyKoppar / terrakottaBärnsten / guldPetrol / turkosGrön / botanisk",
-          "width": 351,
-          "height": 45,
-          "disabled": false,
-          "href": null,
-          "fragmentMissing": false
-        },
-        {
           "selector": "#design-form > div:nth-of-type(3) > label:nth-of-type(1) > select",
           "tag": "SELECT",
-          "name": "TemaUtifrån verksamhetenLjustMörkt",
+          "name": "DesignuttryckUtifrån projektet / variationenEditorial / magasinMinimal / lugnSchweizisk / typografiskBrutalist / råNoir / filmiskAteljé / taktilKust / luftigLekfull / färgstarkIndustriell / tekniskKlassisk / tidlösFramtid / digitalGalleri / bilddriven",
           "width": 351,
           "height": 45,
           "disabled": false,
@@ -3300,6 +3461,46 @@
         {
           "selector": "#design-form > div:nth-of-type(3) > label:nth-of-type(2) > input",
           "tag": "INPUT",
+          "name": "Variation",
+          "width": 351,
+          "height": 43,
+          "disabled": false,
+          "href": null,
+          "fragmentMissing": false
+        },
+        {
+          "selector": "#new-variation",
+          "tag": "BUTTON",
+          "name": "Prova ny variation",
+          "width": 351,
+          "height": 44,
+          "disabled": false,
+          "href": null,
+          "fragmentMissing": false
+        },
+        {
+          "selector": "#design-form > label:nth-of-type(6) > select",
+          "tag": "SELECT",
+          "name": "FärgfamiljFörsta förslag utifrån projektetNeutral / grafitBlå / koboltIndigo / violettRosa / puderVinröd / burgundyKoppar / terrakottaBärnsten / guldPetrol / turkosCyan / isblåMarin / bläckViolett / elektriskLavendel / dimmaKorall / varmRöd / signalOrange / energiGul / solPersika / aprikosSand / kalkstenChoklad / espressoSkiffer / stålPlommon / aubergineRosa / popAzur / havGrön / botanisk",
+          "width": 351,
+          "height": 45,
+          "disabled": false,
+          "href": null,
+          "fragmentMissing": false
+        },
+        {
+          "selector": "#design-form > div:nth-of-type(4) > label:nth-of-type(1) > select",
+          "tag": "SELECT",
+          "name": "TemaUtifrån verksamhetenLjustMörkt",
+          "width": 351,
+          "height": 45,
+          "disabled": false,
+          "href": null,
+          "fragmentMissing": false
+        },
+        {
+          "selector": "#design-form > div:nth-of-type(4) > label:nth-of-type(2) > input",
+          "tag": "INPUT",
           "name": "Accentfärg",
           "width": 351,
           "height": 43,
@@ -3308,7 +3509,7 @@
           "fragmentMissing": false
         },
         {
-          "selector": "#design-form > div:nth-of-type(4) > label:nth-of-type(1) > input",
+          "selector": "#design-form > div:nth-of-type(5) > label:nth-of-type(1) > input",
           "tag": "INPUT",
           "name": "Egen bakgrundsfärg",
           "width": 351,
@@ -3318,7 +3519,7 @@
           "fragmentMissing": false
         },
         {
-          "selector": "#design-form > div:nth-of-type(4) > label:nth-of-type(2) > input",
+          "selector": "#design-form > div:nth-of-type(5) > label:nth-of-type(2) > input",
           "tag": "INPUT",
           "name": "Egen textfärg",
           "width": 351,
@@ -3398,7 +3599,7 @@
           "fragmentMissing": false
         },
         {
-          "selector": "#design-form > button",
+          "selector": "#design-form > button:nth-of-type(2)",
           "tag": "BUTTON",
           "name": "Skapa förslag",
           "width": 351,
@@ -3664,6 +3865,33 @@
         },
         {
           "selector": "#design-form > div:nth-of-type(3) > label:nth-of-type(2)",
+          "text": "Variation",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 13,
+          "weight": 400,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#new-variation",
+          "text": "Prova ny variation",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 16,
+          "weight": 400,
+          "foreground": "#ffffff",
+          "background": "#24241f"
+        },
+        {
+          "selector": "#design-form > p:nth-of-type(1)",
+          "text": "Variationer ändrar fria färg-, typografi-, form- och kompositionsval. Dina valda färger och designuttryck behålls. För n",
+          "font": "Arial, Helvetica, sans-serif",
+          "size": 16,
+          "weight": 400,
+          "foreground": "#24241f",
+          "background": "#f4f2eb"
+        },
+        {
+          "selector": "#design-form > div:nth-of-type(4) > label:nth-of-type(2)",
           "text": "Accentfärg",
           "font": "Arial, Helvetica, sans-serif",
           "size": 13,
@@ -3672,7 +3900,7 @@
           "background": "#f4f2eb"
         },
         {
-          "selector": "#design-form > div:nth-of-type(4) > label:nth-of-type(1)",
+          "selector": "#design-form > div:nth-of-type(5) > label:nth-of-type(1)",
           "text": "Egen bakgrundsfärg",
           "font": "Arial, Helvetica, sans-serif",
           "size": 13,
@@ -3681,7 +3909,7 @@
           "background": "#f4f2eb"
         },
         {
-          "selector": "#design-form > div:nth-of-type(4) > label:nth-of-type(2)",
+          "selector": "#design-form > div:nth-of-type(5) > label:nth-of-type(2)",
           "text": "Egen textfärg",
           "font": "Arial, Helvetica, sans-serif",
           "size": 13,
@@ -3690,7 +3918,7 @@
           "background": "#f4f2eb"
         },
         {
-          "selector": "#design-form > p:nth-of-type(1)",
+          "selector": "#design-form > p:nth-of-type(2)",
           "text": "Välj en färgfamilj för ett första förslag. För egna varumärkesfärger: fyll i bakgrund, text och accent. En hel egen pale",
           "font": "Arial, Helvetica, sans-serif",
           "size": 16,
@@ -3717,7 +3945,7 @@
           "background": "#f4f2eb"
         },
         {
-          "selector": "#design-form > button",
+          "selector": "#design-form > button:nth-of-type(2)",
           "text": "Skapa förslag",
           "font": "Arial, Helvetica, sans-serif",
           "size": 16,
@@ -4043,17 +4271,17 @@
       ],
       "images": [],
       "links": [
-        "http://127.0.0.1:60726/studio/engine/#main",
-        "http://127.0.0.1:60726/",
-        "http://127.0.0.1:60726/examples/cinematic/",
-        "http://127.0.0.1:60726/studio/engine/#builder",
-        "http://127.0.0.1:60726/studio/engine/#explorer",
-        "http://127.0.0.1:60726/studio/engine/#review",
-        "http://127.0.0.1:60726/studio/engine/#benchmarks",
-        "http://127.0.0.1:60726/examples/library/",
-        "http://127.0.0.1:60726/examples/crm-scope/",
-        "http://127.0.0.1:60726/",
-        "http://127.0.0.1:60726/examples/pointer-buttons/"
+        "http://127.0.0.1:50733/studio/engine/#main",
+        "http://127.0.0.1:50733/",
+        "http://127.0.0.1:50733/examples/cinematic/",
+        "http://127.0.0.1:50733/studio/engine/#builder",
+        "http://127.0.0.1:50733/studio/engine/#explorer",
+        "http://127.0.0.1:50733/studio/engine/#review",
+        "http://127.0.0.1:50733/studio/engine/#benchmarks",
+        "http://127.0.0.1:50733/examples/library/",
+        "http://127.0.0.1:50733/examples/crm-scope/",
+        "http://127.0.0.1:50733/",
+        "http://127.0.0.1:50733/examples/pointer-buttons/"
       ],
       "focused": {
         "selector": "html > body",
@@ -4067,7 +4295,7 @@
     {
       "schema": 1,
       "kind": "deterministic",
-      "url": "http://127.0.0.1:60726/studio/engine/",
+      "url": "http://127.0.0.1:50733/studio/engine/",
       "viewport": {
         "width": 1440,
         "height": 900
@@ -4083,7 +4311,7 @@
     {
       "schema": 1,
       "kind": "deterministic",
-      "url": "http://127.0.0.1:60726/studio/engine/",
+      "url": "http://127.0.0.1:50733/studio/engine/",
       "viewport": {
         "width": 1440,
         "height": 900
@@ -4099,7 +4327,7 @@
     {
       "schema": 1,
       "kind": "deterministic",
-      "url": "http://127.0.0.1:60726/studio/engine/",
+      "url": "http://127.0.0.1:50733/studio/engine/",
       "viewport": {
         "width": 390,
         "height": 900
@@ -4115,7 +4343,7 @@
     {
       "schema": 1,
       "kind": "deterministic",
-      "url": "http://127.0.0.1:60726/studio/engine/",
+      "url": "http://127.0.0.1:50733/studio/engine/",
       "viewport": {
         "width": 390,
         "height": 900
@@ -4282,27 +4510,27 @@
   "errors": [],
   "linkChecks": [
     {
-      "url": "http://127.0.0.1:60726/studio/engine/",
+      "url": "http://127.0.0.1:50733/studio/engine/",
       "status": 200
     },
     {
-      "url": "http://127.0.0.1:60726/",
+      "url": "http://127.0.0.1:50733/",
       "status": 200
     },
     {
-      "url": "http://127.0.0.1:60726/examples/cinematic/",
+      "url": "http://127.0.0.1:50733/examples/cinematic/",
       "status": 200
     },
     {
-      "url": "http://127.0.0.1:60726/examples/library/",
+      "url": "http://127.0.0.1:50733/examples/library/",
       "status": 200
     },
     {
-      "url": "http://127.0.0.1:60726/examples/crm-scope/",
+      "url": "http://127.0.0.1:50733/examples/crm-scope/",
       "status": 200
     },
     {
-      "url": "http://127.0.0.1:60726/examples/pointer-buttons/",
+      "url": "http://127.0.0.1:50733/examples/pointer-buttons/",
       "status": 200
     }
   ],
