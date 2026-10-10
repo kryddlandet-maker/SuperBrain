@@ -1,0 +1,58 @@
+{
+  "schema": 1,
+  "date": "2026-10-10",
+  "browser": "155.0.4283.45",
+  "checks": [
+    {
+      "name": "families-1440",
+      "result": "pass",
+      "details": "Nine families in both themes: actual iframe colors and downloaded tokens/brief agree."
+    },
+    {
+      "name": "brand-precedence-1440",
+      "result": "pass",
+      "details": "Full brand palette outranks conflicting dark/green choices in rendering and exports."
+    },
+    {
+      "name": "errors-scope-keyboard-1440",
+      "result": "pass",
+      "details": "Incomplete palette keeps prior paired export; quick edit creates no replacement tokens; native keyboard and no horizontal overflow."
+    },
+    {
+      "name": "families-390",
+      "result": "pass",
+      "details": "Nine families in both themes: actual iframe colors and downloaded tokens/brief agree."
+    },
+    {
+      "name": "brand-precedence-390",
+      "result": "pass",
+      "details": "Full brand palette outranks conflicting dark/green choices in rendering and exports."
+    },
+    {
+      "name": "errors-scope-keyboard-390",
+      "result": "pass",
+      "details": "Incomplete palette keeps prior paired export; quick edit creates no replacement tokens; native keyboard and no horizontal overflow."
+    },
+    {
+      "name": "families-320",
+      "result": "pass",
+      "details": "Nine families in both themes: actual iframe colors and downloaded tokens/brief agree."
+    },
+    {
+      "name": "brand-precedence-320",
+      "result": "pass",
+      "details": "Full brand palette outranks conflicting dark/green choices in rendering and exports."
+    },
+    {
+      "name": "errors-scope-keyboard-320",
+      "result": "pass",
+      "details": "Incomplete palette keeps prior paired export; quick edit creates no replacement tokens; native keyboard and no horizontal overflow."
+    }
+  ],
+  "errors": [],
+  "scope": "Local headless Edge; color controls and real exports at three widths.",
+  "limits": [
+    "Existing project/demo styles are intentionally unchanged.",
+    "Physical devices and whole-product desktop review are not certified."
+  ]
+}

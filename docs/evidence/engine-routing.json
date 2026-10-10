@@ -7,8 +7,8 @@
       "id": "salon",
       "status": "pass",
       "mode": "design-build",
-      "milliseconds": 10.80510000000001,
-      "contextBytes": 30874,
+      "milliseconds": 9.284099999999995,
+      "contextBytes": 33575,
       "references": [
         "accessibility",
         "architecture",
@@ -24,9 +24,9 @@
       ],
       "generatedFiles": 15,
       "solidColorContrast": {
-        "body": 12.865648681442066,
-        "action": 6.9164467337684075,
-        "muted": 6.138650086256499
+        "body": 12.449567440480257,
+        "action": 4.71237658735253,
+        "muted": 6.0215562477243285
       },
       "baseline": {
         "status": "measured",
@@ -48,8 +48,8 @@
       "id": "saas",
       "status": "pass",
       "mode": "creative-engineering",
-      "milliseconds": 9.162299999999988,
-      "contextBytes": 51772,
+      "milliseconds": 7.473200000000006,
+      "contextBytes": 54473,
       "references": [
         "accessibility",
         "architecture",
@@ -99,8 +99,8 @@
       "id": "crm",
       "status": "pass",
       "mode": "design-build",
-      "milliseconds": 7.174099999999996,
-      "contextBytes": 31444,
+      "milliseconds": 5.1721,
+      "contextBytes": 34145,
       "references": [
         "accessibility",
         "architecture",
@@ -129,8 +129,8 @@
       "id": "portfolio",
       "status": "pass",
       "mode": "design-build",
-      "milliseconds": 8.915800000000004,
-      "contextBytes": 41409,
+      "milliseconds": 4.826000000000008,
+      "contextBytes": 44110,
       "references": [
         "accessibility",
         "architecture",
@@ -176,8 +176,8 @@
       "id": "construction",
       "status": "pass",
       "mode": "design-build",
-      "milliseconds": 8.7954,
-      "contextBytes": 30855,
+      "milliseconds": 5.951999999999998,
+      "contextBytes": 33556,
       "references": [
         "accessibility",
         "architecture",
@@ -193,9 +193,9 @@
       ],
       "generatedFiles": 15,
       "solidColorContrast": {
-        "body": 11.676705468419994,
-        "action": 6.457198156467406,
-        "muted": 5.728066702451673
+        "body": 11.997781406602417,
+        "action": 5.753357033525853,
+        "muted": 5.864093974787856
       },
       "baseline": {
         "status": "measured",
@@ -217,8 +217,8 @@
       "id": "exclusive-product",
       "status": "pass",
       "mode": "creative-engineering",
-      "milliseconds": 7.792000000000002,
-      "contextBytes": 42300,
+      "milliseconds": 7.397199999999998,
+      "contextBytes": 45001,
       "references": [
         "accessibility",
         "architecture",
@@ -250,8 +250,8 @@
       "id": "scroll-product",
       "status": "pass",
       "mode": "creative-engineering",
-      "milliseconds": 6.463600000000014,
-      "contextBytes": 40990,
+      "milliseconds": 4.489599999999996,
+      "contextBytes": 43691,
       "references": [
         "accessibility",
         "architecture",
@@ -297,8 +297,8 @@
       "id": "mobile-content",
       "status": "pass",
       "mode": "design-build",
-      "milliseconds": 5.524900000000002,
-      "contextBytes": 31453,
+      "milliseconds": 4.851699999999994,
+      "contextBytes": 34154,
       "references": [
         "accessibility",
         "architecture",
@@ -314,9 +314,9 @@
       ],
       "generatedFiles": 15,
       "solidColorContrast": {
-        "body": 12.008164272748974,
-        "action": 6.831394743159498,
-        "muted": 5.802496690397389
+        "body": 14.354543363768412,
+        "action": 6.09972980752698,
+        "muted": 6.787197038147978
       },
       "baseline": {
         "status": "measured",
@@ -337,8 +337,8 @@
       "id": "bounded-change",
       "status": "pass",
       "mode": "quick-edit",
-      "milliseconds": 3.2364000000000033,
-      "contextBytes": 19860,
+      "milliseconds": 2.587100000000021,
+      "contextBytes": 19949,
       "references": [
         "accessibility",
         "button-interactions",
@@ -365,8 +365,8 @@
       "id": "reduced-input",
       "status": "pass",
       "mode": "design-build",
-      "milliseconds": 7.579800000000006,
-      "contextBytes": 37373,
+      "milliseconds": 3.8549999999999898,
+      "contextBytes": 40074,
       "references": [
         "accessibility",
         "architecture",

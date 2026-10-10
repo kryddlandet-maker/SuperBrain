@@ -1,10 +1,10 @@
 {
   "schema": 1,
-  "scope": "Local checks of the 2.0 candidates; rc.2 adds focused collection motion verification. Full-product desktop review remains outstanding.",
+  "scope": "Local 2.0 candidate checks. rc.3 adds color selection/exports and reruns engine checks. Historical interaction results retain their earlier scope; full-product desktop review remains outstanding.",
   "checks": [
     {
       "name": "Enhets-/verktygstester",
-      "result": "39/39 passerade"
+      "result": "42/42 passerade"
     },
     {
       "name": "Validering",
@@ -41,6 +41,10 @@
     {
       "name": "Collection motion 2.0.0-rc.2",
       "result": "20 browser groups passed; live in-app activate/pause verified"
+    },
+    {
+      "name": "Färgriktning 2.0.0-rc.3",
+      "result": "9 browsergrupper; 198 profil/familj/tema-konfigurationer; blå Studio-förhandsvisning granskad direkt"
     }
   ],
   "comparativeTrials": {

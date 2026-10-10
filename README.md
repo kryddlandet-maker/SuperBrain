@@ -1,4 +1,8 @@
-# SuperBrain 2.0.0-rc.2
+# SuperBrain 2.0.0-rc.3
+
+## Color direction — 2.0.0-rc.3
+
+Every business context can use nine color families in light or dark mode, or a complete brand palette. The Studio now exposes background/text/accent, and supplied brand colors outrank the theme. Guidance prevents demo greens from becoming defaults. Existing customer/demo project styles are preserved. 42 unit/tool tests, 510 validation checks, nine focused color browser groups and the existing 22 engine groups pass. [Behavior, use and evidence](docs/COLOR-DIRECTION-2.0-rc.3.md).
 
 ## Collection motion correction — 2.0.0-rc.2
 
@@ -10,7 +14,7 @@ Run npm run studio and open /studio/engine/ for the design-system builder, chapt
 
 The 1.4.0 interactions are preserved. The 2.0 pipeline now has explicit work modes, scoped reference analysis and safe standalone installation. See docs/IMPLEMENTATION-2.0.md for the complete phase/evidence table and docs/RESEARCH-2.0.md for pinned research. Remote Desktop review stopped and remains outstanding; this is a release candidate. Controlled comparative design trials and blind human judgments have not run.
 
-Current evidence: 39 tool tests, 510 validation checks and 22 new browser groups pass. [Phase acceptance and remaining verification](docs/IMPLEMENTATION-2.0.md).
+Current color-change evidence: 42 tool tests, 510 validation checks, nine focused color groups and 22 engine browser groups pass. [Phase acceptance and remaining verification](docs/IMPLEMENTATION-2.0.md).
 
 The version notes below describe historical releases.
 

@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "date": "2026-10-09",
+  "date": "2026-10-10",
   "browser": "155.0.4283.45",
   "checks": [
     {
@@ -135,7 +135,7 @@
     }
   ],
   "errors": [],
-  "scope": "Headless Edge on local Windows; independent from the interrupted Remote Desktop Commander session.",
+  "scope": "Headless Edge on local Windows; independent from the interrupted Remote Desktop Commander session. Engine rerun for rc.3 color controls.",
   "limits": [
     "Remote Desktop Commander stopped because it could not reliably identify the current browser URL; no further desktop input was performed.",
     "Physical mobile, additional engines, live backend flows, full WCAG and controlled design superiority are not certified."
