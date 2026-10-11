@@ -4,9 +4,9 @@
     "salon": {
       "identity": "Tactile salon editorial",
       "palette": [
-        "#f7f2e7",
-        "#242c25",
-        "#41614b"
+        "#f9f2f3",
+        "#382930",
+        "#b45473"
       ],
       "display": "Georgia, serif",
       "body": "system-ui, sans-serif",
@@ -20,14 +20,22 @@
         "/team",
         "/booking"
       ],
-      "trust": "Verified services, prices, team and booking destination."
+      "trust": "Verified services, prices, team and booking destination.",
+      "colorFamily": "rose",
+      "colorMode": "light",
+      "paletteOptions": [
+        "wine",
+        "neutral",
+        "amber",
+        "blue"
+      ]
     },
     "construction": {
       "identity": "Material and craft",
       "palette": [
-        "#ecefe9",
-        "#24312b",
-        "#89502f"
+        "#f1ede8",
+        "#302b28",
+        "#9d512e"
       ],
       "display": "'Arial Narrow', Impact, sans-serif",
       "body": "system-ui, sans-serif",
@@ -41,7 +49,14 @@
         "/projects",
         "/contact"
       ],
-      "trust": "Actual service area, completed project evidence and contact method."
+      "trust": "Actual service area, completed project evidence and contact method.",
+      "colorFamily": "copper",
+      "colorMode": "light",
+      "paletteOptions": [
+        "neutral",
+        "blue",
+        "amber"
+      ]
     },
     "technology": {
       "identity": "Precise connected product",
@@ -62,7 +77,14 @@
         "/pricing",
         "/contact"
       ],
-      "trust": "Real capabilities, limitations, pricing and support."
+      "trust": "Real capabilities, limitations, pricing and support.",
+      "colorFamily": "blue",
+      "colorMode": "dark",
+      "paletteOptions": [
+        "neutral",
+        "indigo",
+        "copper"
+      ]
     },
     "ai": {
       "identity": "Transparent intelligence",
@@ -83,7 +105,14 @@
         "/use-cases",
         "/contact"
       ],
-      "trust": "Verified model capabilities, data handling and actual limitations."
+      "trust": "Verified model capabilities, data handling and actual limitations.",
+      "colorFamily": "indigo",
+      "colorMode": "light",
+      "paletteOptions": [
+        "blue",
+        "neutral",
+        "rose"
+      ]
     },
     "automotive": {
       "identity": "Sculptural automotive",
@@ -104,7 +133,14 @@
         "/specifications",
         "/contact"
       ],
-      "trust": "Verified model availability, specifications and enquiry process."
+      "trust": "Verified model availability, specifications and enquiry process.",
+      "colorFamily": "amber",
+      "colorMode": "dark",
+      "paletteOptions": [
+        "neutral",
+        "blue",
+        "copper"
+      ]
     },
     "portfolio": {
       "identity": "Work-led composition",
@@ -125,7 +161,14 @@
         "/about",
         "/contact"
       ],
-      "trust": "Actual work, owner role and real contact information."
+      "trust": "Actual work, owner role and real contact information.",
+      "colorFamily": "blue",
+      "colorMode": "light",
+      "paletteOptions": [
+        "neutral",
+        "wine",
+        "indigo"
+      ]
     },
     "ecommerce": {
       "identity": "Object and decision",
@@ -146,14 +189,21 @@
         "/shipping",
         "/contact"
       ],
-      "trust": "Verified price, stock, shipping, return policy and checkout integration."
+      "trust": "Verified price, stock, shipping, return policy and checkout integration.",
+      "colorFamily": "copper",
+      "colorMode": "light",
+      "paletteOptions": [
+        "neutral",
+        "rose",
+        "blue"
+      ]
     },
     "real-estate": {
       "identity": "Place and perspective",
       "palette": [
-        "#eff3f1",
-        "#263b38",
-        "#35665e"
+        "#f1f3f7",
+        "#263248",
+        "#4566a4"
       ],
       "display": "Georgia, serif",
       "body": "system-ui, sans-serif",
@@ -167,7 +217,14 @@
         "/about",
         "/contact"
       ],
-      "trust": "Verified listings, property facts, agent identity and enquiry route."
+      "trust": "Verified listings, property facts, agent identity and enquiry route.",
+      "colorFamily": "blue",
+      "colorMode": "light",
+      "paletteOptions": [
+        "neutral",
+        "copper",
+        "teal"
+      ]
     },
     "restaurant": {
       "identity": "Atmosphere and appetite",
@@ -188,7 +245,14 @@
         "/visit",
         "/booking"
       ],
-      "trust": "Actual menu, dietary information, hours, address and reservation integration."
+      "trust": "Actual menu, dietary information, hours, address and reservation integration.",
+      "colorFamily": "wine",
+      "colorMode": "dark",
+      "paletteOptions": [
+        "amber",
+        "neutral",
+        "copper"
+      ]
     },
     "crm": {
       "identity": "Calm operational workspace",
@@ -209,14 +273,21 @@
         "/pipeline",
         "/settings"
       ],
-      "trust": "Real state transitions, permissions and save/error feedback."
+      "trust": "Real state transitions, permissions and save/error feedback.",
+      "colorFamily": "blue",
+      "colorMode": "light",
+      "paletteOptions": [
+        "neutral",
+        "indigo",
+        "teal"
+      ]
     },
     "other": {
       "identity": "Content-led clarity",
       "palette": [
-        "#f7f8fa",
-        "#273345",
-        "#3b5d82"
+        "#f6f6f5",
+        "#242424",
+        "#626262"
       ],
       "display": "system-ui, sans-serif",
       "body": "system-ui, sans-serif",
@@ -230,7 +301,15 @@
         "/about",
         "/contact"
       ],
-      "trust": "Ask for verified business evidence and actual action destinations."
+      "trust": "Ask for verified business evidence and actual action destinations.",
+      "colorFamily": "neutral",
+      "colorMode": "light",
+      "paletteOptions": [
+        "blue",
+        "wine",
+        "green",
+        "copper"
+      ]
     }
   }
 }

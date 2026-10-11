@@ -1,0 +1,64 @@
+{
+  "schema": 1,
+  "date": "2026-10-10",
+  "browser": "155.0.4283.45",
+  "checks": [
+    {
+      "name": "rendered-themes-1440",
+      "result": "pass",
+      "details": "All 12 expressions: computed type/radius/border and actual layout agree with export JSON; real token and bundle downloads agree; no iframe overflow."
+    },
+    {
+      "name": "variation-roundtrip-1440",
+      "result": "pass",
+      "details": "New variation advances and changes actual tokens; saved numeric variation reproduces identical output and downloads in brief."
+    },
+    {
+      "name": "brand-scope-boundaries-1440",
+      "result": "pass",
+      "details": "Explicit brand/theme survives variation; quick-edit refuses restyling; upper bound reports honestly; native theme keyboard and page overflow checked."
+    },
+    {
+      "name": "rendered-themes-390",
+      "result": "pass",
+      "details": "All 12 expressions: computed type/radius/border and actual layout agree with export JSON; real token and bundle downloads agree; no iframe overflow."
+    },
+    {
+      "name": "variation-roundtrip-390",
+      "result": "pass",
+      "details": "New variation advances and changes actual tokens; saved numeric variation reproduces identical output and downloads in brief."
+    },
+    {
+      "name": "brand-scope-boundaries-390",
+      "result": "pass",
+      "details": "Explicit brand/theme survives variation; quick-edit refuses restyling; upper bound reports honestly; native theme keyboard and page overflow checked."
+    },
+    {
+      "name": "rendered-themes-320",
+      "result": "pass",
+      "details": "All 12 expressions: computed type/radius/border and actual layout agree with export JSON; real token and bundle downloads agree; no iframe overflow."
+    },
+    {
+      "name": "variation-roundtrip-320",
+      "result": "pass",
+      "details": "New variation advances and changes actual tokens; saved numeric variation reproduces identical output and downloads in brief."
+    },
+    {
+      "name": "brand-scope-boundaries-320",
+      "result": "pass",
+      "details": "Explicit brand/theme survives variation; quick-edit refuses restyling; upper bound reports honestly; native theme keyboard and page overflow checked."
+    },
+    {
+      "name": "touch-variation",
+      "result": "pass",
+      "details": "Emulated touch activates new variation under reduced motion."
+    }
+  ],
+  "errors": [],
+  "scope": "Local headless Edge. Selectable themes, generated tokens and explicit variation controls.",
+  "limits": [
+    "Studies are not complete websites or uniqueness guarantees.",
+    "Initial headless theme-suite mouse dispatch did not produce the expected button click event. Final theme checks use native keyboard token/bundle/brief downloads; separate color and engine suites verify pointer downloads.",
+    "System font stacks are fallbacks; font licensing/loading, physical devices and whole-product desktop review are not certified."
+  ]
+}

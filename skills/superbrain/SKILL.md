@@ -23,7 +23,7 @@ Choose quick-edit for bounded fixes, design-build for new work, or creative-engi
 
 Choose a clear, concrete direction and render a representative composition early. Offer alternatives when requested or when direction is materially uncertain; do not make three proposals compulsory. Explain important choices briefly and let actual rendering inform refinement.
 
-Use shared type, grid, material and lighting to unite the site. Semantic sections can flow through the same background; they do not need alternating color slabs, borders or identical card rows. Vary density, crop and scale while keeping a readable hierarchy. Read [references/continuity.md](references/continuity.md) when clean transitions and blended sections matter.
+Choose colors from brand assets, references and the brief. Prior-site styles are not defaults. Use shared type, grid, material and lighting to unite the site. Semantic sections can flow through the same background; they do not need alternating color slabs, borders or identical card rows. Vary density, crop and scale while keeping a readable hierarchy. Read [references/continuity.md](references/continuity.md) when clean transitions and blended sections matter.
 
 Lead with substantive headings. Do not add decorative 01/02/03 counters or small eyebrow/kicker headings above them. Numbering is reserved for actual ordered tasks when needed. Keep useful content, prices, identifiers and demo disclosures.
 
