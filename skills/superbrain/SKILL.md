@@ -19,6 +19,10 @@ For typography or awkward page rhythm, read [references/typography-layout.md](re
 
 Choose quick-edit for bounded fixes, design-build for new work, or creative-engineering for advanced interaction. Read references/design-intelligence.md for routing/project memory, design-systems.md for tokens, visual-critique.md for browser evidence, and reference-workflow.md for images. Use scripts/design.mjs and audit.mjs when relevant.
 
+## When a vision image is the brief
+
+If the user provides or has just generated a vision image and asks to build it faithfully, enter **vision-to-build fidelity mode** automatically: the *actual image* is the primary visual specification, not loose inspiration. No long master prompt is required. Match observable layout, proportions, typography, color, spacing, imagery/crops and details closely before adding stylistic inventions. Keep user-required functionality, responsive behavior and accessibility intact. Read [references/reference-workflow.md](references/reference-workflow.md) for image handoff and [references/visual-critique.md](references/visual-critique.md) for screenshot-to-reference iteration. Do not claim to have inspected an image that is unavailable. If the user only requests inspiration, or no vision image exists, retain normal creative freedom.
+
 ## Make an early visual decision
 
 Choose a clear, concrete direction and render a representative composition early. Offer alternatives when requested or when direction is materially uncertain; do not make three proposals compulsory. Explain important choices briefly and let actual rendering inform refinement.
