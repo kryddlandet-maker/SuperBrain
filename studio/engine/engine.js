@@ -16,6 +16,7 @@ $('#design-form').addEventListener('submit',async e=>{
  e.preventDefault();const form=e.currentTarget,button=form.querySelector('button[type=submit]');button.disabled=true;$('#new-variation').disabled=true;$('#design-status').textContent='Skapar förslag…';
  try{
  const v=Object.fromEntries(new FormData(form));const nextBrief={name:v.name,type:v.type,goal:v.goal,mode:v.mode,motion:v.motion};for(const k of ['audience','facts','direction','task','theme','accent','paletteFamily','designTheme'])if(v[k]?.trim())nextBrief[k]=v[k].trim();if(v.pages.trim())nextBrief.pages=v.pages.split(',').map(p=>p.trim());if(v.pageExceptions.trim())nextBrief.pageExceptions=JSON.parse(v.pageExceptions);
+ if(v.productMotion==='on')nextBrief.techniques=['scenes'];
  if(v.designVariation.trim())nextBrief.designVariation=Number(v.designVariation);
  if(v.paletteBackground.trim()||v.paletteInk.trim()){const palette=[v.paletteBackground.trim(),v.paletteInk.trim(),v.accent.trim()];if(palette.some(c=>!/^#[0-9a-f]{6}$/i.test(c)))throw new Error('En egen hel palett behöver bakgrund, text och accent i formatet #RRGGBB.');nextBrief.artDirection={palette};}
  if(changed.size)nextBrief.preferences=Object.fromEntries([...changed].map(k=>[k,+v[k]]));

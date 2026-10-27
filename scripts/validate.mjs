@@ -3,10 +3,12 @@ import path from 'node:path';
 import {root,referenceNames,compileBrief} from '../lib/brief.mjs';
 import {validateSkill} from '../lib/skill-format.mjs';
 import {loadLibrary,validateLibraryFiles,summarizeLibrary} from '../lib/library.mjs';
+import {verifyAnthropicSkills} from '../lib/anthropic-skills.mjs';
 let checks=0;
 function check(value,message){if(!value)throw new Error(message);checks++;}
 const skill=await readFile(path.join(root,'skills/superbrain/SKILL.md'),'utf8');
 validateSkill(skill);checks+=2;
+await verifyAnthropicSkills(root);checks++;
 const library=await loadLibrary();await validateLibraryFiles(library);checks++;
 const atlas=JSON.parse(await readFile(path.join(root,'data/techniques.json'),'utf8'));
 check(atlas.schema===1,'Unknown technique atlas schema');

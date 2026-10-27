@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="sv">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Tre originalstudier av aktiva produktanimationer: arbetsflöden, ikoner och redigering.">
+  <title>Produkt i rörelse — SuperBrain</title>
+  <link rel="stylesheet" href="/examples/product-motion/motion.css">
+  <script type="module" src="/examples/product-motion/motion.js"></script>
+</head>
+<body>
+<a class="skip" href="#main">Till innehållet</a>
+<header><a class="brand" href="/">SuperBrain<svg aria-hidden="true" width="26" height="26" viewBox="0 0 26 26"><path d="M13 2v22M2 13h22M5 5l16 16M5 21L21 5" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg></a><nav aria-label="Studion"><a href="/studio/engine/">Skapa en brief</a><a href="/examples/library/">Biblioteket</a></nav></header>
+<main id="main">
+  <section class="intro"><p class="intro-note">Produktstudier / rörelse</p><h1>Visa hur<br>det fungerar.</h1><div class="intro-end"><p>En uppgift som flyttar sig. En idé som tar form.<br>Små scener som gör produkten lättare att förstå.</p><a href="#scenes">Se scenerna <span aria-hidden="true">↓</span></a></div></section>
+  <section class="scenes" id="scenes" aria-label="Tre animerade produktdemonstrationer">
+    <figure class="feature" id="workflow" data-product-scene>
+      <div class="visual workflow-visual" aria-hidden="true">
+        <div class="ambient"></div><div class="workflow-window">
+          <div class="window-top"><span class="window-symbol">◧</span><span>Arbetsyta</span><span class="window-dots">•••</span></div>
+          <div class="board-head"><strong>Veckans arbete</strong><span class="avatar">AL</span></div>
+          <div class="board-columns"><div><span class="column-name">Nästa steg <i>2</i></span><div class="task task-muted"><small>Webbplats</small><span>Uppdatera startsidan</span><div class="task-bottom"><b class="tag">Design</b><span>○</span></div></div></div><div><span class="column-name">Pågår <i>1</i></span><div class="target-slot"></div></div></div>
+          <div class="moving-task"><small>Lansering</small><strong>En tydligare produktdemo</strong><div class="task-bottom"><b class="tag blue">Granskning</b><span class="task-person">J</span></div></div>
+          <div class="workflow-cursor"><svg viewBox="0 0 24 28"><path d="M3 2v21l6-6 5 9 4-2-5-9h8Z" fill="white" stroke="#294ab6" stroke-width="1.5"/></svg><span>Julia</span></div>
+          <div class="workflow-result"><span>✓</span> Redo för nästa steg</div>
+        </div>
+      </div>
+      <figcaption><div class="feature-title"><h2>En uppgift. Nästa steg.</h2><span class="scene-dot" aria-hidden="true"></span></div><p>Följ hur ett kort flyttar till rätt plats och lämnar ett tydligt resultat.</p><div class="controls"><button type="button" data-play disabled>Spela rörelse</button><button type="button" data-restart disabled>Spela från början <span aria-hidden="true">↺</span></button></div></figcaption>
+    </figure>
+    <figure class="feature" id="orbit" data-product-scene>
+      <div class="visual orbit-visual" aria-hidden="true">
+        <div class="orbit-ring ring-one"></div><div class="orbit-ring ring-two"></div><div class="orbit-glow"></div>
+        <div class="capability camera"><svg viewBox="0 0 40 40"><path d="M8 13h7l3-5h8l3 5h4v20H8Z"/><circle cx="21" cy="23" r="6"/></svg><span>Kamera</span></div>
+        <div class="capability map"><svg viewBox="0 0 40 40"><path d="M6 10l9-4 10 5 9-4v25l-9 4-10-5-9 4Z"/><path d="M15 6v25m10-20v25"/></svg><span>Platser</span></div>
+        <div class="capability chat"><svg viewBox="0 0 40 40"><path d="M7 8h27v21H18l-8 7v-7H7Z"/><path d="M13 16h14m-14 6h10"/></svg><span>Meddelanden</span></div>
+        <div class="capability chart"><svg viewBox="0 0 40 40"><path d="M8 32V19m12 13V8m12 24V14"/></svg><span>Insikter</span></div>
+        <div class="capability calendar"><strong>28</strong><span>Kalender</span></div>
+        <div class="capability sound"><svg viewBox="0 0 40 40"><path d="M8 16v8m6-15v22m6-26v30m6-24v18m6-12v6"/></svg><span>Ljud</span></div>
+        <div class="orbit-core"><span></span><span></span><span></span></div>
+      </div>
+      <figcaption><div class="feature-title"><h2>Delar som hör ihop.</h2><span class="scene-dot" aria-hidden="true"></span></div><p>En samlad rörelse kopplar funktionerna till en gemensam produkt.</p><div class="controls"><button type="button" data-play disabled>Spela rörelse</button><button type="button" data-restart disabled>Spela från början <span aria-hidden="true">↺</span></button></div></figcaption>
+    </figure>
+    <figure class="feature" id="timeline" data-product-scene>
+      <div class="visual timeline-visual" aria-hidden="true">
+        <div class="editor-window"><div class="editor-top"><span class="editor-mark">▰</span><strong>Sommar, en kortfilm</strong><span>Utkast</span></div>
+          <div class="editor-preview"><div class="landscape"><span class="sun"></span><span class="hill hill-back"></span><span class="hill hill-front"></span><span class="landscape-grain"></span></div><div class="preview-caption">En stund att stanna i.</div><div class="preview-controls"><span>▶</span><span class="timecode">00:04 / 00:12</span><span>⤢</span></div></div>
+          <div class="editor-timeline"><div class="time-ruler"><span>00:00</span><span>00:04</span><span>00:08</span><span>00:12</span></div><div class="clip-track"><div class="clip clip-a">Morgonljus</div><div class="clip clip-b">I rörelse</div><div class="clip clip-c">Hemma</div></div><div class="caption-track"><span>En stund att stanna i.</span></div><div class="audio-track"><svg viewBox="0 0 300 25" preserveAspectRatio="none"><path d="M0 13h7l2-5 3 10 3-13 3 18 4-17 4 14 3-9h7l3-7 3 18 4-20 3 21 4-15 3 8h10l3-6 4 12 3-15 3 16 4-11 3 4h11l3-10 4 19 3-22 3 23 4-17 3 12h11l3-7 4 12 3-13 3 13 4-8h13l3-12 4 20 3-21 3 23 4-14 3 10h12l3-11 4 17 3-18 3 20 4-13 3 8h12l3-9 4 12 3-16 3 17 4-9h14l3-13 4 22 3-24 3 25 4-19 3 12h14l3-7 4 12 3-13 3 13 4-8h30"/></svg></div><div class="playhead"><span></span></div></div>
+          <div class="editor-result"><span>✓</span> Sekvensen är klar</div>
+        </div>
+      </div>
+      <figcaption><div class="feature-title"><h2>Från material till berättelse.</h2><span class="scene-dot" aria-hidden="true"></span></div><p>Klipp, ljud och text får samma rytm. Ett förlopp visar vad verktyget gör.</p><div class="controls"><button type="button" data-play disabled>Spela rörelse</button><button type="button" data-restart disabled>Spela från början <span aria-hidden="true">↺</span></button></div></figcaption>
+    </figure>
+  </section>
+  <section class="about"><h2>Rörelse med en uppgift.</h2><div><p>De här originalscenerna är fiktiva gränssnitt, byggda med HTML, SVG och synkroniserad animation. Ingen extern tjänst körs och inga riktiga uppgifter flyttas.</p><p>De spelar när de syns och stannar utanför vyn. Du kan pausa varje scen. Med minskad rörelse visas en stillbild tills du väljer att spela.</p><noscript><p>JavaScript är avstängt. Scenerna visas som stillbilder med samma innehåll.</p></noscript><a href="/studio/engine/">Använd i nästa projekt</a></div></section>
+</main><footer><a href="/">SuperBrain</a><span>Originalstudier, inte kundprodukter.</span><a href="/examples/collection/">Fler interaktioner</a></footer>
+</body>
+</html>

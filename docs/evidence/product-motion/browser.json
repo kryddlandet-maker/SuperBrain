@@ -1,0 +1,101 @@
+{
+  "schema": 1,
+  "date": "2026-10-27T18:15:04.567Z",
+  "browser": "154.0.8037.57",
+  "platform": "linux",
+  "checks": [
+    {
+      "name": "workflow-motion-1440",
+      "result": "pass",
+      "details": "Observed a complete autonomous cycle with intermediate pixel movement and reset, synchronized native tracks, pause freezing, and matching loop endpoints. Result screenshot is a separate deliberately sampled frame."
+    },
+    {
+      "name": "orbit-motion-1440",
+      "result": "pass",
+      "details": "Observed a complete autonomous cycle with intermediate pixel movement and reset, synchronized native tracks, pause freezing, and matching loop endpoints. Result screenshot is a separate deliberately sampled frame."
+    },
+    {
+      "name": "timeline-motion-1440",
+      "result": "pass",
+      "details": "Observed a complete autonomous cycle with intermediate pixel movement and reset, synchronized native tracks, pause freezing, and matching loop endpoints. Result screenshot is a separate deliberately sampled frame."
+    },
+    {
+      "name": "composition-1440",
+      "result": "pass",
+      "details": "All three scene frames, headings and playback controls render without horizontal page overflow."
+    },
+    {
+      "name": "workflow-motion-390",
+      "result": "pass",
+      "details": "Observed a complete autonomous cycle with intermediate pixel movement and reset, synchronized native tracks, pause freezing, and matching loop endpoints. Result screenshot is a separate deliberately sampled frame."
+    },
+    {
+      "name": "orbit-motion-390",
+      "result": "pass",
+      "details": "Observed a complete autonomous cycle with intermediate pixel movement and reset, synchronized native tracks, pause freezing, and matching loop endpoints. Result screenshot is a separate deliberately sampled frame."
+    },
+    {
+      "name": "timeline-motion-390",
+      "result": "pass",
+      "details": "Observed a complete autonomous cycle with intermediate pixel movement and reset, synchronized native tracks, pause freezing, and matching loop endpoints. Result screenshot is a separate deliberately sampled frame."
+    },
+    {
+      "name": "composition-390",
+      "result": "pass",
+      "details": "All three scene frames, headings and playback controls render without horizontal page overflow."
+    },
+    {
+      "name": "visibility-pause-and-keyboard",
+      "result": "pass",
+      "details": "Offscreen native animation times freeze; return resumes intended playback; manual pause survives return; Space activates the native control."
+    },
+    {
+      "name": "reflow-and-still-320",
+      "result": "pass",
+      "details": "Meaningful reduced-motion stills, no horizontal page overflow, enabled playback controls with >=44px height."
+    },
+    {
+      "name": "reflow-and-still-768",
+      "result": "pass",
+      "details": "Meaningful reduced-motion stills, no horizontal page overflow, enabled playback controls with >=44px height."
+    },
+    {
+      "name": "reflow-and-still-1024",
+      "result": "pass",
+      "details": "Meaningful reduced-motion stills, no horizontal page overflow, enabled playback controls with >=44px height."
+    },
+    {
+      "name": "live-preference-and-local-play",
+      "result": "pass",
+      "details": "Reduced motion starts stationary; explicit scene-local play works; a live preference change restores the still."
+    },
+    {
+      "name": "disposal-restoration-and-history",
+      "result": "pass",
+      "details": "Synthetic page transition events cancel all tracks and restore exactly one set; real link/back navigation also restores the page without duplicate tracks."
+    },
+    {
+      "name": "no-javascript",
+      "result": "pass",
+      "details": "Original still compositions and descriptions remain; playback is disabled honestly; native navigation works."
+    },
+    {
+      "name": "missing-waapi",
+      "result": "pass",
+      "details": "Missing animation support preserves the composed HTML/CSS still without runtime errors."
+    },
+    {
+      "name": "studio-and-brief-exports",
+      "result": "pass",
+      "details": "Both existing interfaces select the new family; the engine exports a real scene contract and the downloaded brief preserves the selection."
+    }
+  ],
+  "errors": [],
+  "scope": "Local Chromium and emulated viewports. Native WAAPI timing and rendered movement, controls, lifecycle, fallbacks and both brief forms.",
+  "limits": [
+    "This local suite does not inspect external reference sites.",
+    "Tab-hidden gating is unit-tested; native OS background-tab switching and physical devices are not certified.",
+    "Synthetic lifecycle dispatch is labelled separately from real link/back navigation.",
+    "No video/Rive/Lottie integration, whole-site WCAG certification or controlled model comparison was performed."
+  ]
+}

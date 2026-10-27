@@ -23,6 +23,8 @@
     "test:engine": "node scripts/check-engine.mjs",
     "test:collection": "node scripts/check-collection.mjs",
     "test:colors": "node scripts/check-colors.mjs",
-    "test:themes": "node scripts/check-themes.mjs"
+    "test:themes": "node scripts/check-themes.mjs",
+    "test:scenes": "node scripts/check-product-motion.mjs",
+    "skills:anthropic": "node scripts/anthropic.mjs"
   }
 }

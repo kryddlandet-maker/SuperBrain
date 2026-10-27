@@ -1,52 +1,50 @@
 ---
 name: superbrain
-description: Design and build distinctive multi-page websites for technology brands, salons, construction firms and other businesses, including coherent layouts and interactive motion. Use for new sites, substantial redesigns and reference-led web design.
+description: Design and build distinctive multi-page websites, coherent layouts and interactive motion. Use for new sites, substantial redesigns, reference-led web design, animated product demonstrations and living feature cards.
 ---
 
 # SuperBrain
 
-Build a website that fits this business and its visitors. You have creative freedom over composition, typography, imagery and interaction. Examples are starting points, not templates. The user's requirements and existing project decisions take priority.
+Build for this business and its visitors. Choose composition, typography, imagery and interaction deliberately. Examples are starting points, not templates. User requirements and existing project decisions take priority. Keep project-specific taste and facts in the project brief.
 
-## Start from the actual brief
+## Establish the actual brief
 
-Inspect the project, existing routes, content, assets and working flows. Establish audience, primary action, business facts and intended feeling. Ask a few useful questions at meaningful moments: scope/content first, direction when it matters, then interaction or refinement. Continue independent work while answers are pending. Never invent business proof, availability, reviews or submission success.
+Inspect routes, content, assets and working flows. Establish audience, primary action, verified business facts and intended feeling. Ask useful questions when their answers matter; keep building independent parts while replies are pending. Never invent proof, availability, reviews or submission success.
 
-Default to a multi-page website with real, directly addressable routes. Derive the sitemap from visitor tasks and available content. A salon might need services, team and booking; a builder might need services, projects and quote requests. These are examples, not page-count quotas. A one-page campaign is appropriate when the user requests it. A SPA may still have multiple routes; architecture and page count are separate decisions.
+Default to real, directly addressable pages derived from visitor tasks. A salon may need services, team and booking; a builder may need projects and quotes. These are examples, not quotas. A requested one-page campaign is appropriate. A SPA can have multiple routes.
 
-Read [references/architecture.md](references/architecture.md) for route design and [references/art-direction.md](references/art-direction.md) for new visual directions. Read [references/local-business.md](references/local-business.md) for service businesses or [references/technology.md](references/technology.md) for expressive tech sites.
+Read [architecture](references/architecture.md) for routes, [art direction](references/art-direction.md) for new visual directions, [local business](references/local-business.md) for services or [technology](references/technology.md) for expressive product sites. For type and page rhythm, read [typography/layout](references/typography-layout.md). Clean means coherent composition and considered type; rich content and expressive motion can belong.
 
-For typography or awkward page rhythm, read [references/typography-layout.md](references/typography-layout.md). Here, clean means coherent composition, considered type and calm transitions; it can include rich content and expressive effects.
+Choose quick-edit for bounded fixes, design-build for new work or creative-engineering for advanced interaction. Read [design intelligence](references/design-intelligence.md) for the short-brief workflow and project memory, [design systems](references/design-systems.md) for tokens, and [visual critique](references/visual-critique.md) for browser evidence. Use scripts/design.mjs and audit.mjs when relevant.
 
-Choose quick-edit for bounded fixes, design-build for new work, or creative-engineering for advanced interaction. Read references/design-intelligence.md for routing/project memory, design-systems.md for tokens, visual-critique.md for browser evidence, and reference-workflow.md for images. Use scripts/design.mjs and audit.mjs when relevant.
+For optional Anthropic originals, read [this guide](references/anthropic-skills.md).
 
-## When a vision image is the brief
+## Build faithfully from references
 
-If the user provides or has just generated a vision image and asks to build it faithfully, enter **vision-to-build fidelity mode** automatically: the *actual image* is the primary visual specification, not loose inspiration. No long master prompt is required. Match observable layout, proportions, typography, color, spacing, imagery/crops and details closely before adding stylistic inventions. Keep user-required functionality, responsive behavior and accessibility intact. Read [references/reference-workflow.md](references/reference-workflow.md) for image handoff and [references/visual-critique.md](references/visual-critique.md) for screenshot-to-reference iteration. Do not claim to have inspected an image that is unavailable. If the user only requests inspiration, or no vision image exists, retain normal creative freedom.
+When a supplied or just-generated vision image is the specification, automatically use vision-to-build fidelity mode: inspect the actual image and closely match observable layout, proportions, type, color, spacing, crops and detail before adding inventions. No long master prompt is required. Preserve required functionality, responsiveness and accessibility. Read [reference workflow](references/reference-workflow.md) for image handoff and scoped comparison. If the image is unavailable, say so. Inspiration-only requests retain creative freedom.
 
-## Make an early visual decision
+A screenshot records a frame, not timing or technology. For a motion reference, inspect its live behavior and distinguish observed media/DOM from your proposed implementation. Record blocked inspection honestly.
 
-Choose a clear, concrete direction and render a representative composition early. Offer alternatives when requested or when direction is materially uncertain; do not make three proposals compulsory. Explain important choices briefly and let actual rendering inform refinement.
+## Make a visual decision and render early
 
-Choose colors from brand assets, references and the brief. Prior-site styles are not defaults. Use shared type, grid, material and lighting to unite the site. Semantic sections can flow through the same background; they do not need alternating color slabs, borders or identical card rows. Vary density, crop and scale while keeping a readable hierarchy. Read [references/continuity.md](references/continuity.md) when clean transitions and blended sections matter.
+Choose a concrete direction and render a characteristic composition early. Offer alternatives when requested or when materially uncertain, not as a mandatory three-proposal step. Briefly explain important choices and refine from the actual render.
 
-Lead with substantive headings. Do not add decorative 01/02/03 counters or small eyebrow/kicker headings above them. Numbering is reserved for actual ordered tasks when needed. Keep useful content, prices, identifiers and demo disclosures.
+Choose colors from brand assets, references and the brief. Unite sections with shared type, grid, material and lighting. Avoid alternating slabs or repeated cards without a content reason. Vary density, crop and scale while preserving hierarchy. Read [continuity](references/continuity.md) when blended sections matter.
 
-Keep expressive interaction in the design from the start. Static content should remain useful while the motion prototype is built alongside it. Do not postpone all movement behind a subjective static-masterpiece gate. A quiet salon and a luminous product scene can both be excellent.
+Use substantive headings. Avoid decorative counters or eyebrow/kicker labels; numbering belongs to actual ordered tasks. Preserve useful prices, identifiers and demo disclosures. Put expressive interaction into the first prototype alongside useful content; do not delay all movement behind a subjective static-masterpiece gate.
 
 ## Implement the experience
 
-Respect the existing stack. Use semantic links/buttons and complete relevant states. Build actual undersides with intentional layouts, not copies of the homepage. Preserve direct loading, back/forward behavior, mobile navigation and keyboard access.
+Respect the existing stack. Use semantic links/buttons, complete states, intentional undersides, direct loading, back/forward behavior and working mobile navigation. Preserve native scrolling and available primary actions. Touch, keyboard, reduced motion and no-JS must retain useful content and the complete task.
 
-Read [references/motion.md](references/motion.md) for animation, [references/interactive-effects.md](references/interactive-effects.md) for cursor reveals, light-following buttons, bubbles and scroll choreography, and [references/assets-performance.md](references/assets-performance.md) for media or heavy graphics. Prefer the simplest technique that produces the intended effect, but use richer tools when they materially help. Libraries are choices, not forbidden categories.
+For animation read [motion](references/motion.md); for cursor reveals, light-following buttons and scroll choreography read [interactive effects](references/interactive-effects.md). For media/heavy graphics read [assets/performance](references/assets-performance.md), and for adaptations read [accessibility](references/accessibility.md). Choose the simplest adequate technique; richer libraries are welcome when they materially help.
 
-Preserve native scrolling by default. Keep primary actions available. Give touch, keyboard, reduced-motion and no-JavaScript users a complete usable experience; a hover reveal must never carry essential hidden information. Read [references/accessibility.md](references/accessibility.md) for those adaptations.
+For active product cards, “rörliga rutor”, icon choreography and miniature UI stories, read [product motion](references/product-motion.md). Build a coordinated input → action → consequence with readable holds. Play visible-auto scenes on arrival, not only on hover. Reuse examples/shared/product-motion.js and /examples/product-motion/ where appropriate. Verify whether references use live layers or video; rendered footage needs real authorized assets. A brief can select techniques: ["scenes"].
 
-For choosing compatible techniques, read [references/effect-selection.md](references/effect-selection.md), which routes to materials, type motion, product stories, galleries/commerce and advanced graphics. For portfolios, restaurants or shops read [references/site-archetypes.md](references/site-archetypes.md). Use detailed families selectively; a larger library should expand options without inflating every brief.
+Read [effect selection](references/effect-selection.md) to route to materials, type, product stories, galleries/commerce or graphics. Read [site archetypes](references/site-archetypes.md) for portfolio, restaurant or shop needs. Load these families selectively; the larger library should expand options without expanding every brief.
 
 ## Judge what was built
 
-For button fills, soft pointer lighting or bounded magnetic response, read [references/button-interactions.md](references/button-interactions.md). For honest action/toggle/submission states read [references/accessible-actions.md](references/accessible-actions.md). For interruption, disposal or engine choice read [references/motion-lifecycle.md](references/motion-lifecycle.md). For library expansion or specialized discovery read [references/library-discovery.md](references/library-discovery.md) and use scripts/discover.mjs; start with compact summaries. Research, prototype and tested evidence are separate states. These chapters are conditional, not required in every brief.
+Read [button interactions](references/button-interactions.md) for fills, pointer lighting and bounded magnetism; [accessible actions](references/accessible-actions.md) for honest state; [motion lifecycle](references/motion-lifecycle.md) for interruption/disposal. For specialized discovery use [library discovery](references/library-discovery.md) and scripts/discover.mjs, starting with compact summaries.
 
-Run it. Inspect representative desktop and mobile routes, interactions, focus, reduced motion and navigation. Review against the brief and chosen direction, not against a single universal style. Fix the highest-impact defects first. Read [references/review.md](references/review.md).
-
-Report actual changes and observations with unresolved limits. Screenshots show composition; they do not prove motion or booking behavior. Do not claim a skill guarantees premium results. Preserve improvements only when real use supports them, and keep client preferences in their project.
+Run the result. Inspect representative desktop/mobile routes, focus, touch, navigation, reduced motion and complete animation cycles. Compare against the brief and chosen direction; correct the highest-impact defects first. Read [review](references/review.md). Screenshots show composition; observe multiple frames and controls to verify motion. Separate source review, prototypes, functional tests, browser observations and comparative model evaluation. Do not claim guaranteed premium results or superiority without evidence.

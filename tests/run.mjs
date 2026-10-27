@@ -9,3 +9,5 @@ import './design-engine.test.mjs';
 import './critique.test.mjs';
 import './scroll-timeline.test.mjs';
 import './engine-api.test.mjs';
+import './product-motion.test.mjs';
+import './anthropic-skills.test.mjs';

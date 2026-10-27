@@ -27,3 +27,8 @@ Hard failures: broken navigation/direct load, invisible essential content, fake 
 | Interaction | Gimmicky/broken | Works across inputs | Refined and conceptually relevant |
 
 Do not let an average hide a hard failure. Capture reviewer reasons and actual observations, not just numbers. Report per-case and overall changes with failures and uncertainty. Only adopt new global guidance when repeated cases support it. A single impressive tech hero is insufficient.
+
+
+## Active product-motion cases
+
+`product-motion-cases.json` adds three short prompts covering autonomous feature scenes, footage/editor choreography and a bounded existing-scene edit. They specify common controls and observable outcomes. This is an unexecuted comparison protocol, not a model benchmark result. Local runtime/browser verification is documented separately in `docs/PRODUCT-MOTION-VERIFICATION.md`.

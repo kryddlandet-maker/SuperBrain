@@ -2,12 +2,15 @@ import { readFile, writeFile, mkdir, readdir, lstat, realpath } from 'node:fs/pr
 import path from 'node:path';
 import { createHash } from 'node:crypto';
 import { root } from '../lib/brief.mjs';
+import {anthropicSkillIds,verifyAnthropicSkills} from '../lib/anthropic-skills.mjs';
 const hash=text=>createHash('sha256').update(text).digest('hex');
-const safe=rel=>typeof rel==='string' && !!rel && !rel.includes('\\') && !path.isAbsolute(rel) && !rel.split('/').some(p=>!p || p==='..' || p==='.') && (rel.startsWith('.agents/skills/superbrain/') || rel.startsWith('.superbrain/'));
-export async function install(targetArg) {
+const safe=rel=>typeof rel==='string' && !!rel && !rel.includes('\\') && !path.isAbsolute(rel) && !rel.split('/').some(p=>!p || p==='..' || p==='.') && (rel.startsWith('.agents/skills/superbrain/') || rel.startsWith('.superbrain/') || anthropicSkillIds.some(id=>rel.startsWith('.agents/skills/'+id+'/')));
+export async function install(targetArg,{anthropic=false}={}) {
+  if(typeof anthropic!=='boolean')throw new Error('Anthropic activation must be a boolean');
   const target=await realpath(path.resolve(targetArg));
   const source=await realpath(root);
   if(target===source) throw new Error('Choose a consuming project, not the SuperBrain source');
+  await verifyAnthropicSkills(root);
   async function assertSafe(rel) {
     let cursor=target;
     for(const part of rel.split('/')) {
@@ -26,18 +29,19 @@ export async function install(targetArg) {
     }
     return files.sort();
   }
-  const mapping=[['skills/superbrain','.agents/skills/superbrain'],['examples/shared','.superbrain/examples/shared'],['lib','.superbrain/lib'],['docs','.superbrain/docs'],['data','.superbrain/data']];
+  const mapping=[['skills/superbrain','.agents/skills/superbrain'],['examples/shared','.superbrain/examples/shared'],['examples/product-motion','.superbrain/examples/product-motion'],['lib','.superbrain/lib'],['docs','.superbrain/docs'],['data','.superbrain/data'],['vendor/anthropic','.superbrain/vendor/anthropic']];
+  if(anthropic)for(const id of anthropicSkillIds)mapping.push(['vendor/anthropic/skills/'+id,'.agents/skills/'+id]);
   const files=[];
   for(const [from,to] of mapping) for(const rel of await walk(path.join(root,from))) {
     const content=await readFile(path.join(root,from,rel));
-    files.push({path:`${to}/${rel}`,content,sha256:hash(content)});
+    files.push({path:`${to}/${rel}`,content,sha256:hash(content),...(from.startsWith('vendor/anthropic')?{mode:(await lstat(path.join(root,from,rel))).mode&0o111?0o755:0o644}:{})});
   }
   // The compiler needs the skill beside its lib in a standalone installation.
   for(const rel of await walk(path.join(root,'skills/superbrain'))) {
     const content=await readFile(path.join(root,'skills/superbrain',rel));
     files.push({path:`.superbrain/skills/superbrain/${rel}`,content,sha256:hash(content)});
   }
-  for(const rel of ['scripts/brief.mjs','scripts/discover.mjs','scripts/design.mjs','scripts/audit.mjs']) {
+  for(const rel of ['scripts/brief.mjs','scripts/discover.mjs','scripts/design.mjs','scripts/audit.mjs','scripts/anthropic.mjs']) {
     const content=await readFile(path.join(root,rel));files.push({path:`.superbrain/${rel}`,content,sha256:hash(content)});
   }
   const meta='.superbrain/install.json';
@@ -65,7 +69,7 @@ export async function install(targetArg) {
   agents=start<0?agents.trimEnd()+`\n\n${block}\n`:agents.slice(0,start)+block+agents.slice(finish+end.length);
   // All conflict checks precede mutations. Existing obsolete managed files are retained,
   // not deleted, and remain tracked for future local-edit checks.
-  for(const f of files){await mkdir(path.dirname(path.join(target,f.path)),{recursive:true});await writeFile(path.join(target,f.path),f.content,'utf8');}
+  for(const f of files){await mkdir(path.dirname(path.join(target,f.path)),{recursive:true});await writeFile(path.join(target,f.path),f.content,{mode:f.mode??0o666});}
   const tracked=new Map((previous?.files||[]).map(f=>[f.path,f]));
   for(const {content,...f} of files)tracked.set(f.path,f);
   await mkdir(path.join(target,'.superbrain'),{recursive:true});
@@ -74,6 +78,6 @@ export async function install(targetArg) {
   return {target,files:files.length};
 }
 if(process.argv[1] && path.resolve(process.argv[1])===path.join(root,'scripts/install.mjs')){
-  const args=process.argv.slice(2);if(args.length!==1)throw new Error('Usage: node scripts/install.mjs existing-project');
-  console.log(await install(args[0]));
+  const args=process.argv.slice(2);if(!args[0]||args[0].startsWith('--')||args.length>2||args.length===2&&args[1]!=='--anthropic')throw new Error('Usage: node scripts/install.mjs existing-project [--anthropic]');
+  console.log(await install(args[0],{anthropic:args[1]==='--anthropic'}));
 }

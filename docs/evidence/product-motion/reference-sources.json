@@ -1,0 +1,153 @@
+{
+  "schema": 1,
+  "reviewed": "2026-10-27",
+  "scope": "Verified HTTPS source snapshot: HTML/JS/CSS text and the first 1024 bytes of selected media. Subsequent native Chromium feature inspection is recorded separately in reference-browser.json. No reference website code or media was copied into SuperBrain demo assets.",
+  "pages": [
+    {
+      "site": "pave",
+      "url": "https://meetpave.com/",
+      "status": 200,
+      "bytes": 24396,
+      "sha256": "ea661cbc1ded7237281d8017a14ae3dea80e1276de799a1b78b1910902f480dd"
+    },
+    {
+      "site": "borel",
+      "url": "https://borel.one/",
+      "status": 200,
+      "bytes": 33498,
+      "sha256": "b753720c52d048d3aa5ac8a163bf12828ccb5aba47ba4a3725d46221dea02f29"
+    },
+    {
+      "site": "huly",
+      "url": "https://huly.io/",
+      "status": 200,
+      "bytes": 248033,
+      "sha256": "7ef03706648921a2fdad40c58b165d0c19a6d1e9b7ba82e7dc2bbe98774af2ee"
+    }
+  ],
+  "implementationAssets": [
+    {
+      "site": "pave",
+      "url": "https://meetpave.com/assets/js/hero.js?v=1",
+      "bytes": 54784,
+      "sha256": "ff1cf6c2bfe6f2b83b56d668b2e3982b902c525b164cb685e42aea8258b808f1"
+    },
+    {
+      "site": "pave",
+      "url": "https://meetpave.com/assets/js/page.js?v=2",
+      "bytes": 32984,
+      "sha256": "52bd92309458c05a1640b74f9a777a593443e3558b5850cd3fb5fb95ed77aa44"
+    },
+    {
+      "site": "pave",
+      "url": "https://meetpave.com/vendor/lenis-1.3.26.css",
+      "bytes": 513,
+      "sha256": "2f668ae84a668327f246faf8a770383a2bf69196d214290fbc4d5548910606c5"
+    },
+    {
+      "site": "pave",
+      "url": "https://meetpave.com/assets/css/tokens.css?v=1",
+      "bytes": 8847,
+      "sha256": "4751f9e99479a1d68afc41046da85dc069eff3a08e0a07cb35d8dc3971ce9c3d"
+    },
+    {
+      "site": "pave",
+      "url": "https://meetpave.com/assets/css/page.css?v=1",
+      "bytes": 21429,
+      "sha256": "2d434cef17c7e3566cf4bbc25a837900b204ad86a1d0deef3b2e713c5f77707c"
+    },
+    {
+      "site": "pave",
+      "url": "https://meetpave.com/assets/css/hero.css?v=1",
+      "bytes": 11421,
+      "sha256": "eccc1aac88e96ccab5e651d90f38a380738fa0fbd6875426fef90f3b5fd9cf97"
+    },
+    {
+      "site": "borel",
+      "url": "https://borel.one/assets/index-sTcJDhW_.js",
+      "bytes": 683371,
+      "sha256": "1d9ffeb1f86790fcbd2db96ed4dfcc2e510951ffe53f586ae77459340b958cf5"
+    },
+    {
+      "site": "borel",
+      "url": "https://borel.one/assets/index-BJU7SZpl.css",
+      "bytes": 302746,
+      "sha256": "abfc9fdb9c6769924e5b3e6764193c18cb3fe8f7004336efe1df149d25a28167"
+    },
+    {
+      "site": "huly",
+      "url": "https://huly.io/_next/static/chunks/app/(website)/layout-8244eaec6a9a7980.js",
+      "bytes": 10620,
+      "sha256": "38b3a54c0954ea76509924112772caa78f9c3afd74a159868db300423c81442f"
+    },
+    {
+      "site": "huly",
+      "url": "https://huly.io/_next/static/chunks/app/(website)/page-f3fa50c91bc3c49c.js",
+      "bytes": 53383,
+      "sha256": "284c694d0125a337cf6ec7a1c7a7729a0a646ca7f1f334b5ae35cc3d1723d9fd"
+    },
+    {
+      "site": "huly",
+      "url": "https://huly.io/_next/static/chunks/app/layout-bc33ae06a437ea6b.js",
+      "bytes": 1717,
+      "sha256": "0715ca797bda90ff0c1a1654cce30c53affb5c946af4ce2d1c623d6c26fe47a5"
+    },
+    {
+      "site": "huly",
+      "url": "https://huly.io/_next/static/css/256cc48a980f9a66.css",
+      "bytes": 3516,
+      "sha256": "1428fddf4d8020f537c427f75e1521931fcb8edada03973b23a6b28d66a065e3"
+    },
+    {
+      "site": "huly",
+      "url": "https://huly.io/_next/static/css/2cfc5f73f17d6511.css",
+      "bytes": 114537,
+      "sha256": "051871f4aad2cc6a668a7103fd5f5a2d31356170be739dea8b65adf087d5a8db"
+    }
+  ],
+  "mediaHeaders": [
+    {
+      "url": "https://meetpave.com/video/loop-learn-720.mp4?v=1",
+      "status": 206,
+      "contentType": "video/mp4",
+      "contentRange": "bytes 0-1023/1286315",
+      "responseLength": "1024",
+      "fileSignature": "ISO media header"
+    },
+    {
+      "url": "https://meetpave.com/video/loop-moment-720.mp4?v=1",
+      "status": 206,
+      "contentType": "video/mp4",
+      "contentRange": "bytes 0-1023/981797",
+      "responseLength": "1024",
+      "fileSignature": "ISO media header"
+    },
+    {
+      "url": "https://meetpave.com/video/loop-memory-720.mp4?v=1",
+      "status": 206,
+      "contentType": "video/mp4",
+      "contentRange": "bytes 0-1023/1058388",
+      "responseLength": "1024",
+      "fileSignature": "ISO media header"
+    },
+    {
+      "url": "https://huly.io/animations/pages/home/stay-productive/team-planner.riv?updated=20240529135708",
+      "status": 206,
+      "contentType": "application/octet-stream",
+      "contentRange": "bytes 0-1023/1662499",
+      "responseLength": "1024",
+      "fileSignature": "RIVE"
+    }
+  ],
+  "findings": {
+    "borel": "Native-feature icons use separately positioned outer wrappers and inner CSS bento-float: 6s, ease-in-out, infinite, staggered negative delays; Y moves 0 to -5px to 0.",
+    "pave": "Three feature cards use muted inline looping MP4. Sources load lazily; the visibility governor selects at most 1 mobile / 3 desktop, pauses when hidden and keeps a poster on rejected playback.",
+    "huly": "Team Planner loads a dedicated RIVE asset with artboard team-planner, state machine SM and +1 input. Mobile in-view effect fires that input. Other homepage components use separate Rive assets and a video/Rive combination."
+  },
+  "limits": [
+    "The six native browser observations cover selected feature scenes, not every interaction on each website.",
+    "TLS verification stayed enabled; the user authorized access to Chromium’s existing platform-proxy trust store.",
+    "Physical devices, whole-site accessibility, authenticated app behavior and field performance were not certified."
+  ],
+  "liveBrowserEvidence": "docs/evidence/product-motion/reference-browser.json"
+}

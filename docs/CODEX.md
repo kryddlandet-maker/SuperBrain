@@ -4,19 +4,40 @@ Du använder Codex och främst GPT 6.1 Sol. Hjälpmedlen är modelloberoende och
 
 ## Installera i hemsideprojektet
 
-Öppna SuperBrain-mappen och kör:
+Du behöver Git och Node.js 22 eller senare. Klona SuperBrain i en separat mapp utanför hemsideprojektet och kör följande i terminalen (fungerar även i PowerShell):
 
 ```sh
-node scripts/install.mjs "C:/absolut/sökväg/till/hemsideprojekt"
+git clone https://github.com/kryddlandet-maker/SuperBrain.git
+cd SuperBrain
+node scripts/install.mjs "C:/absolut/sökväg/till/hemsideprojekt" --anthropic
 ```
+
+Ersätt sökvägen med den befintliga projektmapp som du ska öppna i Codex. Kommandot installerar SuperBrain och de fyra offentliga originalskillsen `frontend-design`, `web-artifacts-builder`, `webapp-testing` och `skill-creator` under projektets `.agents/skills/`. Verktyg, animeringsrecept och licensierade originalresurser hamnar under `.superbrain/`. Befintliga projektinstruktioner bevaras. Utelämna `--anthropic` om du enbart vill registrera SuperBrain som en separat skill; originalpaketen finns fortfarande tillgängliga som valbara resurser.
 
 Välj projektet där hemsidans kod ska ligga, inte SuperBrain självt. Installationen skriver bara egna namnrymder och ett avgränsat AGENTS-block. Om gamla hjärnor redan anges i projektets instruktioner, låt Codex granska dem och ersätta deras aktiva laddningsblock med SuperBrain. Installern raderar inte gamla hjärnor automatiskt; dubbla aktiva instruktioner kan återinföra konflikten.
 
-Öppna sedan hemsideprojektet i Codex och använd:
+Öppna sedan hemsideprojektet i Codex och starta en ny chatt. Använd till exempel:
+
+> Använd $superbrain och $frontend-design. Bygg en flersidig sajt för [företag/produkt] med aktiva produktanimationer i sektionerna. Föreslå en tydlig egen designriktning, börja bygga och granska resultatet på dator- och mobilbredd.
+
+Eller använd bara SuperBrain:
 
 > Använd $superbrain. Bygg en flersidig hemsida för […]. Föreslå en tydlig designriktning och börja bygga direkt. Clean betyder en sammanhängande layout, genomtänkt typografi och lugna övergångar, även med mycket innehåll och avancerade interaktioner. Fråga vid viktiga val under bygget.
 
 Om klienten inte upptäcker skillen direkt, be den läsa `.agents/skills/superbrain/SKILL.md` uttryckligen. Projektets AGENTS-block visar samma ingång. Håll projektfakta i en egen brief och ladda bara relevanta referenskapitel.
+
+Verifiera de installerade originalpaketen från hemsideprojektets mapp med `node .superbrain/scripts/anthropic.mjs --verify`. Ingen API-nyckel behövs för SuperBrain eller för att läsa originalens instruktioner. Vissa originalhjälpare för modellutvärdering kräver de Claude-verktyg som beskrivs i [kompatibilitetsguiden](ANTHROPIC-SKILLS.md).
+
+## Uppdatera en befintlig installation
+
+Kör i din SuperBrain-klon:
+
+```sh
+git pull --ff-only origin main
+node scripts/install.mjs "C:/absolut/sökväg/till/hemsideprojekt" --anthropic
+```
+
+Installern stoppar innan den skriver om den hittar lokalt ändrade eller omanagerade filer på sina destinationssökvägar. Be då Codex jämföra och bevara de lokala anpassningarna innan uppdateringen fortsätter. Öppna en ny chatt i projektet efter uppdateringen. Installationen gäller det valda projektet; använd samma kommando för andra projekt.
 
 ## När resultatet blir sämre
 

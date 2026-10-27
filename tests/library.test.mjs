@@ -19,8 +19,8 @@ test('skill validates Windows CRLF and UTF-8 BOM without accepting missing metad
 test('registry preserves atlas identities and searches conjunctively with scoped maturity',async()=>{
  const library=await loadLibrary(),summary=summarizeLibrary(library);
  assert.equal(library.candidates.filter(c=>c.origin==='atlas-1.2').length,54);
- assert.equal(summary.candidates,86);assert.equal(summary.capabilities,110);
- assert.equal(new Set(library.candidates.map(c=>c.id)).size,86);
+ assert.equal(summary.candidates,95);assert.equal(summary.capabilities,110);
+ assert.equal(new Set(library.candidates.map(c=>c.id)).size,95);
  assert.equal(searchLibrary(library,{query:'horizontal light',domain:'D'})[0].id,'C004');
  assert.equal(searchLibrary(library,{query:'horizontal nonexistent'}).length,0);
  assert(searchLibrary(library,{maturity:'RESEARCHED'}).every(c=>c.maturity==='RESEARCHED'));
@@ -49,7 +49,7 @@ test('standalone installation can discover expanded registry and shared button c
  try{
   await install(target);
   const result=JSON.parse(execFileSync(process.execPath,[path.join(target,'.superbrain/scripts/discover.mjs'),'--query','horizontal light','--limit','1'],{encoding:'utf8'}));
-  assert.equal(result.matches[0].id,'C004');assert.equal(result.summary.candidates,86);
+  assert.equal(result.matches[0].id,'C004');assert.equal(result.summary.candidates,95);
   assert.match(await readFile(path.join(target,'.superbrain/examples/shared/buttons.css'),'utf8'),/data-horizontal-glow/);
   assert.deepEqual(await readFile(path.join(target,'.superbrain/examples/shared/pointer-buttons.js')),await readFile(path.join(root,'examples/shared/pointer-buttons.js')));
   assert.deepEqual(await readFile(path.join(target,'.superbrain/examples/shared/pointer-buttons.css')),await readFile(path.join(root,'examples/shared/pointer-buttons.css')));

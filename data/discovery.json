@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "reviewed": "2026-10-09",
+  "reviewed": "2026-10-27",
   "baseline": "38fef3f",
   "domains": [
     {
@@ -1215,6 +1215,83 @@
       "maintenance": "Reviewed snapshot; recheck at integration",
       "security": "No remote code executed or copied",
       "runtimeValidation": "not performed"
+    },
+    {
+      "id": "anthropic-frontend-design-20261027",
+      "author": "Anthropic",
+      "url": "https://github.com/anthropics/skills/blob/dbd4588f9e1033efb41dad4bef2f7947c8993d44/skills/frontend-design/SKILL.md",
+      "finding": "Subject-specific direction, deliberate type/composition and compact plan/build/critique; no dedicated product-motion engine is supplied.",
+      "kind": "public skill source",
+      "license": "Source-specific LICENSE.txt; original synthesis only; no third-party code/text copied",
+      "access": "read from pinned Git commit",
+      "reviewed": "2026-10-27",
+      "runtimeValidation": "Not executed; source/process review only"
+    },
+    {
+      "id": "anthropic-web-artifacts-builder-20261027",
+      "author": "Anthropic",
+      "url": "https://github.com/anthropics/skills/blob/dbd4588f9e1033efb41dad4bef2f7947c8993d44/skills/web-artifacts-builder/SKILL.md",
+      "finding": "React/TypeScript artifact scaffolding and bundling; this is an implementation workflow, not evidence of aesthetic superiority.",
+      "kind": "public skill source",
+      "license": "Source-specific LICENSE.txt; original synthesis only; no third-party code/text copied",
+      "access": "read from pinned Git commit",
+      "reviewed": "2026-10-27",
+      "runtimeValidation": "Not executed; source/process review only"
+    },
+    {
+      "id": "anthropic-webapp-testing-20261027",
+      "author": "Anthropic",
+      "url": "https://github.com/anthropics/skills/blob/dbd4588f9e1033efb41dad4bef2f7947c8993d44/skills/webapp-testing/SKILL.md",
+      "finding": "Playwright reconnaissance, rendered interaction and server lifecycle helpers.",
+      "kind": "public skill source",
+      "license": "Source-specific LICENSE.txt; original synthesis only; no third-party code/text copied",
+      "access": "read from pinned Git commit",
+      "reviewed": "2026-10-27",
+      "runtimeValidation": "Not executed; source/process review only"
+    },
+    {
+      "id": "anthropic-skill-creator-20261027",
+      "author": "Anthropic",
+      "url": "https://github.com/anthropics/skills/blob/dbd4588f9e1033efb41dad4bef2f7947c8993d44/skills/skill-creator/SKILL.md",
+      "finding": "Progressive disclosure, explicit trigger examples and controlled qualitative/quantitative iteration.",
+      "kind": "public skill source",
+      "license": "Source-specific LICENSE.txt; original synthesis only; no third-party code/text copied",
+      "access": "read from pinned Git commit",
+      "reviewed": "2026-10-27",
+      "runtimeValidation": "Not executed; source/process review only"
+    },
+    {
+      "id": "reference-borel-motion",
+      "author": "Borel",
+      "url": "https://borel.one/",
+      "finding": "Verified HTML/JS/CSS inspection: the native-feature icon card uses inner CSS float layers with six-second timing and staggered negative delays.",
+      "kind": "public website implementation",
+      "license": "Website code/assets are analysis references only; no code or media copied into SuperBrain",
+      "access": "Verified HTTPS HTML/JS/CSS and scoped media-header inspection",
+      "reviewed": "2026-10-27",
+      "runtimeValidation": "Selected feature motion observed in native Chromium at 1440px desktop and 390px touch emulation; see docs/evidence/product-motion/reference-browser.json. No whole-site or physical-device certification."
+    },
+    {
+      "id": "reference-pave-motion",
+      "author": "Pave",
+      "url": "https://meetpave.com/",
+      "finding": "Verified HTML/JS and MP4 header inspection: feature cards use muted inline loops, lazy sources, posters and a visibility/concurrency governor.",
+      "kind": "public website implementation",
+      "license": "Website code/assets are analysis references only; no code or media copied into SuperBrain",
+      "access": "Verified HTTPS HTML/JS/CSS and scoped media-header inspection",
+      "reviewed": "2026-10-27",
+      "runtimeValidation": "Selected feature motion observed in native Chromium at 1440px desktop and 390px touch emulation; see docs/evidence/product-motion/reference-browser.json. No whole-site or physical-device certification."
+    },
+    {
+      "id": "reference-huly-motion",
+      "author": "Huly",
+      "url": "https://huly.io/",
+      "finding": "Verified homepage chunk and RIVE header inspection: Team Planner has a dedicated authored Rive artboard/state machine; other cards mix Rive and video.",
+      "kind": "public website implementation",
+      "license": "Website code/assets are analysis references only; no code or media copied into SuperBrain",
+      "access": "Verified HTTPS HTML/JS/CSS and scoped media-header inspection",
+      "reviewed": "2026-10-27",
+      "runtimeValidation": "Selected feature motion observed in native Chromium at 1440px desktop and 390px touch emulation; see docs/evidence/product-motion/reference-browser.json. No whole-site or physical-device certification."
     }
   ],
   "candidates": [
@@ -2675,6 +2752,359 @@
       "reference": "skills/superbrain/references/accessible-actions.md",
       "reviewed": "2026-10-09",
       "priority": 2
+    },
+    {
+      "id": "C033",
+      "name": "Coordinated product workflow scene",
+      "kind": "component",
+      "domain": "H",
+      "capability": "H3",
+      "description": "One stable board with a task transfer, cursor, consequence, readable hold and reset.",
+      "triggers": [
+        "Animated feature cards and miniature product demonstrations"
+      ],
+      "keywords": [
+        "product",
+        "animation",
+        "workflow",
+        "bento",
+        "task",
+        "produktanimation",
+        "rörliga kort"
+      ],
+      "implementation": "examples/shared/product-motion.js; dedicated inner WAAPI tracks with visible-auto playback, manual pause and disposal",
+      "dependencies": [
+        "Browser Web Animations API; useful static fallback"
+      ],
+      "frameworks": [
+        "Vanilla DOM; adapt to the existing framework lifecycle"
+      ],
+      "sourceIds": [
+        "wcag-pause",
+        "mdn-media",
+        "animation-performance"
+      ],
+      "license": "Original implementation and SVG/CSS artwork",
+      "performance": "Pause offscreen/hidden; no JavaScript render loop",
+      "mobile": "Dedicated responsive composition; tested scope recorded separately",
+      "accessibility": "Keyboard pause and replay; reduced-motion still and explicit local playback; no-JS content",
+      "complexity": "medium",
+      "visualImpact": "A legible input/action/consequence scene",
+      "fit": "Product and feature explanation",
+      "alternatives": "A licensed muted video with poster for baked footage or 3D material",
+      "conflicts": "Do not run another engine on the owned inner transform/opacity tracks",
+      "maturity": "TESTED",
+      "validation": {
+        "scope": "Original local scene: lifecycle/tool tests plus 17 Chromium browser groups across 320–1440px. No physical-device, production or comparative-model certification.",
+        "evidence": [
+          "docs/evidence/product-motion/browser.json",
+          "docs/PRODUCT-MOTION-VERIFICATION.md",
+          "tests/product-motion.test.mjs"
+        ]
+      },
+      "reference": "skills/superbrain/references/product-motion.md",
+      "demo": "/examples/product-motion/#workflow",
+      "reviewed": "2026-10-27",
+      "priority": 1
+    },
+    {
+      "id": "C034",
+      "name": "Capability icon choreography",
+      "kind": "component",
+      "domain": "H",
+      "capability": "H3",
+      "description": "Original SVG/DOM icons move in one bounded composition with a stable center.",
+      "triggers": [
+        "Animated feature cards and miniature product demonstrations"
+      ],
+      "keywords": [
+        "product",
+        "animation",
+        "icons",
+        "orbit",
+        "ikoner"
+      ],
+      "implementation": "examples/shared/product-motion.js; dedicated inner WAAPI tracks with visible-auto playback, manual pause and disposal",
+      "dependencies": [
+        "Browser Web Animations API; useful static fallback"
+      ],
+      "frameworks": [
+        "Vanilla DOM; adapt to the existing framework lifecycle"
+      ],
+      "sourceIds": [
+        "wcag-pause",
+        "mdn-media",
+        "animation-performance"
+      ],
+      "license": "Original implementation and SVG/CSS artwork",
+      "performance": "Pause offscreen/hidden; no JavaScript render loop",
+      "mobile": "Dedicated responsive composition; tested scope recorded separately",
+      "accessibility": "Keyboard pause and replay; reduced-motion still and explicit local playback; no-JS content",
+      "complexity": "medium",
+      "visualImpact": "A legible input/action/consequence scene",
+      "fit": "Product and feature explanation",
+      "alternatives": "A licensed muted video with poster for baked footage or 3D material",
+      "conflicts": "Do not run another engine on the owned inner transform/opacity tracks",
+      "maturity": "TESTED",
+      "validation": {
+        "scope": "Original local scene: lifecycle/tool tests plus 17 Chromium browser groups across 320–1440px. No physical-device, production or comparative-model certification.",
+        "evidence": [
+          "docs/evidence/product-motion/browser.json",
+          "docs/PRODUCT-MOTION-VERIFICATION.md",
+          "tests/product-motion.test.mjs"
+        ]
+      },
+      "reference": "skills/superbrain/references/product-motion.md",
+      "demo": "/examples/product-motion/#orbit",
+      "reviewed": "2026-10-27",
+      "priority": 1
+    },
+    {
+      "id": "C035",
+      "name": "Editor timeline product demonstration",
+      "kind": "component",
+      "domain": "H",
+      "capability": "H3",
+      "description": "Coordinate source clips, a playhead, caption and visible result on one timebase.",
+      "triggers": [
+        "Animated feature cards and miniature product demonstrations"
+      ],
+      "keywords": [
+        "product",
+        "animation",
+        "timeline",
+        "editor",
+        "video",
+        "tidslinje"
+      ],
+      "implementation": "examples/shared/product-motion.js; dedicated inner WAAPI tracks with visible-auto playback, manual pause and disposal",
+      "dependencies": [
+        "Browser Web Animations API; useful static fallback"
+      ],
+      "frameworks": [
+        "Vanilla DOM; adapt to the existing framework lifecycle"
+      ],
+      "sourceIds": [
+        "wcag-pause",
+        "mdn-media",
+        "animation-performance"
+      ],
+      "license": "Original implementation and SVG/CSS artwork",
+      "performance": "Pause offscreen/hidden; no JavaScript render loop",
+      "mobile": "Dedicated responsive composition; tested scope recorded separately",
+      "accessibility": "Keyboard pause and replay; reduced-motion still and explicit local playback; no-JS content",
+      "complexity": "medium",
+      "visualImpact": "A legible input/action/consequence scene",
+      "fit": "Product and feature explanation",
+      "alternatives": "A licensed muted video with poster for baked footage or 3D material",
+      "conflicts": "Do not run another engine on the owned inner transform/opacity tracks",
+      "maturity": "TESTED",
+      "validation": {
+        "scope": "Original local scene: lifecycle/tool tests plus 17 Chromium browser groups across 320–1440px. No physical-device, production or comparative-model certification.",
+        "evidence": [
+          "docs/evidence/product-motion/browser.json",
+          "docs/PRODUCT-MOTION-VERIFICATION.md",
+          "tests/product-motion.test.mjs"
+        ]
+      },
+      "reference": "skills/superbrain/references/product-motion.md",
+      "demo": "/examples/product-motion/#timeline",
+      "reviewed": "2026-10-27",
+      "priority": 1
+    },
+    {
+      "id": "C036",
+      "name": "Product motion medium selection",
+      "kind": "pattern",
+      "domain": "T",
+      "capability": "T1",
+      "description": "Choose editable DOM/SVG, licensed video, authored vector motion or GPU rendering from the actual visual and source assets. Screenshot appearance does not establish implementation.",
+      "keywords": [
+        "product",
+        "animation",
+        "media",
+        "video",
+        "rive",
+        "lottie",
+        "webgl",
+        "poster"
+      ],
+      "implementation": "Inspect live layers and media; define poster/loading/error/play-rejection and visibility behavior before adding an expensive runtime.",
+      "sourceIds": [
+        "animation-performance",
+        "lottie-runtime",
+        "model-materials",
+        "reference-borel-motion",
+        "reference-pave-motion",
+        "reference-huly-motion"
+      ],
+      "maturity": "RESEARCHED",
+      "validation": {
+        "scope": "Original synthesis of existing source research; no new video/Rive/Lottie integration or live reference identification",
+        "evidence": []
+      },
+      "reference": "skills/superbrain/references/product-motion.md",
+      "reviewed": "2026-10-27",
+      "priority": 1
+    },
+    {
+      "id": "C037",
+      "name": "Short-brief product-scene workflow",
+      "kind": "skill",
+      "domain": "V",
+      "capability": "V1",
+      "description": "Route a compact request for active product cards to a scene contract and relevant chapters, then implement and inspect real motion without requiring a master prompt.",
+      "keywords": [
+        "one prompt",
+        "short brief",
+        "claude",
+        "product animation",
+        "routing",
+        "aktiva animationer"
+      ],
+      "implementation": "lib/product-motion.mjs plus selective routing; compare actual outcomes under controlled prompts before claiming model superiority.",
+      "sourceIds": [
+        "anthropic-frontend-design-20261027",
+        "anthropic-web-artifacts-builder-20261027",
+        "anthropic-webapp-testing-20261027",
+        "anthropic-skill-creator-20261027"
+      ],
+      "maturity": "RESEARCHED",
+      "validation": {
+        "scope": "Public source comparison and deterministic planning tests; comparative model trials have not run",
+        "evidence": []
+      },
+      "reference": "skills/superbrain/references/design-intelligence.md",
+      "reviewed": "2026-10-27",
+      "priority": 1
+    },
+    {
+      "id": "C038",
+      "name": "Anthropic frontend-design (original)",
+      "kind": "skill",
+      "domain": "V",
+      "capability": "V4",
+      "description": "Original subject-specific visual direction, typography, composition and critique instructions.",
+      "keywords": [
+        "anthropic",
+        "claude",
+        "original",
+        "frontend-design",
+        "optional",
+        "skills"
+      ],
+      "implementation": "Unmodified pinned package at vendor/anthropic/skills/frontend-design; available in installed projects under .superbrain/vendor/anthropic; optional native activation with --anthropic.",
+      "sourceIds": [
+        "anthropic-frontend-design-20261027"
+      ],
+      "license": "Original per-package LICENSE.txt and upstream notices retained; see vendor/anthropic/manifest.json",
+      "maturity": "RESEARCHED",
+      "validation": {
+        "scope": "Original package hashes, licensing and optional installation verified; original instructions are not a comparative model-quality result.",
+        "evidence": [
+          "docs/ANTHROPIC-SKILLS.md",
+          "tests/anthropic-skills.test.mjs"
+        ]
+      },
+      "reference": "skills/superbrain/references/anthropic-skills.md",
+      "reviewed": "2026-10-27",
+      "priority": 1
+    },
+    {
+      "id": "C039",
+      "name": "Anthropic web-artifacts-builder (original)",
+      "kind": "skill",
+      "domain": "V",
+      "capability": "V4",
+      "description": "Original React/TypeScript artifact bootstrap, component archive and single-HTML bundling helpers.",
+      "keywords": [
+        "anthropic",
+        "claude",
+        "original",
+        "web-artifacts-builder",
+        "optional",
+        "skills"
+      ],
+      "implementation": "Unmodified pinned package at vendor/anthropic/skills/web-artifacts-builder; available in installed projects under .superbrain/vendor/anthropic; optional native activation with --anthropic.",
+      "sourceIds": [
+        "anthropic-web-artifacts-builder-20261027"
+      ],
+      "license": "Original per-package LICENSE.txt and upstream notices retained; see vendor/anthropic/manifest.json",
+      "maturity": "RESEARCHED",
+      "validation": {
+        "scope": "Original package hashes, licensing and optional installation verified; original instructions are not a comparative model-quality result.",
+        "evidence": [
+          "docs/ANTHROPIC-SKILLS.md",
+          "tests/anthropic-skills.test.mjs"
+        ]
+      },
+      "reference": "skills/superbrain/references/anthropic-skills.md",
+      "reviewed": "2026-10-27",
+      "priority": 1
+    },
+    {
+      "id": "C040",
+      "name": "Anthropic webapp-testing (original)",
+      "kind": "skill",
+      "domain": "V",
+      "capability": "V4",
+      "description": "Original Python Playwright examples and a server-lifecycle helper for browser automation.",
+      "keywords": [
+        "anthropic",
+        "claude",
+        "original",
+        "webapp-testing",
+        "optional",
+        "skills"
+      ],
+      "implementation": "Unmodified pinned package at vendor/anthropic/skills/webapp-testing; available in installed projects under .superbrain/vendor/anthropic; optional native activation with --anthropic.",
+      "sourceIds": [
+        "anthropic-webapp-testing-20261027"
+      ],
+      "license": "Original per-package LICENSE.txt and upstream notices retained; see vendor/anthropic/manifest.json",
+      "maturity": "RESEARCHED",
+      "validation": {
+        "scope": "Original package hashes, licensing and optional installation verified; original instructions are not a comparative model-quality result.",
+        "evidence": [
+          "docs/ANTHROPIC-SKILLS.md",
+          "tests/anthropic-skills.test.mjs"
+        ]
+      },
+      "reference": "skills/superbrain/references/anthropic-skills.md",
+      "reviewed": "2026-10-27",
+      "priority": 1
+    },
+    {
+      "id": "C041",
+      "name": "Anthropic skill-creator (original)",
+      "kind": "skill",
+      "domain": "V",
+      "capability": "V4",
+      "description": "Original skill creation, evaluation, comparison, packaging and review helpers.",
+      "keywords": [
+        "anthropic",
+        "claude",
+        "original",
+        "skill-creator",
+        "optional",
+        "skills"
+      ],
+      "implementation": "Unmodified pinned package at vendor/anthropic/skills/skill-creator; available in installed projects under .superbrain/vendor/anthropic; optional native activation with --anthropic.",
+      "sourceIds": [
+        "anthropic-skill-creator-20261027"
+      ],
+      "license": "Original per-package LICENSE.txt and upstream notices retained; see vendor/anthropic/manifest.json",
+      "maturity": "RESEARCHED",
+      "validation": {
+        "scope": "Original package hashes, licensing and optional installation verified; original instructions are not a comparative model-quality result.",
+        "evidence": [
+          "docs/ANTHROPIC-SKILLS.md",
+          "tests/anthropic-skills.test.mjs"
+        ]
+      },
+      "reference": "skills/superbrain/references/anthropic-skills.md",
+      "reviewed": "2026-10-27",
+      "priority": 1
     }
   ],
   "deferredSources": [

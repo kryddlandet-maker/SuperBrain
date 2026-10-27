@@ -1,5 +1,21 @@
 # SuperBrain 2.0.0-rc.4
 
+## Originalskills från Anthropic
+
+De fyra offentliga originalpaketen **frontend-design**, **web-artifacts-builder**, **webapp-testing** och **skill-creator** finns nu i `vendor/anthropic/`, med oförändrade instruktioner, licenser och hjälpskript. Alla 32 upstream-filer är versionslåsta och kontrolleras med `npm run skills:anthropic -- --verify`.
+
+De följer med som valbara resurser vid installation av SuperBrain. För att dessutom aktivera dem som separata projekt-skills: `node scripts/install.mjs /sökväg/till/befintligt-projekt --anthropic`. [Användning, verifiering och kompatibilitet](docs/ANTHROPIC-SKILLS.md).
+
+[Installera eller uppdatera SuperBrain i Codex — steg för steg](docs/CODEX.md).
+
+## Aktiva produktanimationer
+
+SuperBrain kan nu guida och bygga levande produktkort: ett arbetsflöde, rörliga funktionsikoner och en redigeringstidslinje. Kör `npm run studio` och gå till `/examples/product-motion/`. Scenerna spelar när de syns, med synkroniserad rörelse, paus, stilla alternativ och stöd för mobil.
+
+En kort brief kan säga: **”Använd SuperBrain. Bygg en produktsajt med aktiva animationer i rörliga kort som visar hur produkten fungerar.”** Den nya teknikfamiljen `scenes` finns också i båda briefverktygen. Generatorn exporterar en rörelseplan; Codex implementerar och granskar den faktiska sidan. Installern tar med både kunskapen, den delade modulen och scenernas HTML/CSS/JS för återanvändning.
+
+Verifierat lokalt: 52 kodtester, 526 valideringskontroller och 17 webbläsargrupper. Läs [research och jämförelsen med offentliga Claude-skills](docs/PRODUCT-MOTION-RESEARCH.md), [verifieringen och begränsningarna](docs/PRODUCT-MOTION-VERIFICATION.md) samt [rörelseguiden](skills/superbrain/references/product-motion.md). Källkoden visar CSS-rörelse hos Borel, videoloopar hos Pave och Rive hos Huly. Referensernas rörelser är även granskade i Chromium på dator- och mobilbredd. Jämförande modelltester har inte körts. Tidigare installationer uppdateras genom att hämta senaste källversionen och köra installern igen.
+
 ## Color and expression library — 2.0.0-rc.4
 
 24 color families (48 light/dark palettes), 12 visual expressions and a Prova ny variation control now produce actual type, form, grid and composition tokens. Explicit brand choices win; existing project styles and interaction runtime remain preserved. 44 tool tests, 510 validation checks, nine color groups, ten theme groups and the existing 22 engine groups pass. [Behavior, Codex workflow and evidence](docs/DESIGN-EXPRESSIONS-2.0-rc.4.md).

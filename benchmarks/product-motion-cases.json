@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "status": "protocol-only; controlled model trials not run",
+  "controls": ["Same exact prompt and licensed asset kit", "Record model/version, reasoning setting, tool availability and actual loaded chapters", "Equal practical time budget and refinement opportunity", "Blind review of desktop, mobile and motion recordings"],
+  "cases": [
+    {"id":"planner-scene","prompt":"Använd SuperBrain. Bygg en flersidig sajt för ett planeringsverktyg med rörliga produktkort som visar hur en uppgift kommer vidare. Egna ljusa gränssnitt, blå accent och fungerande navigation. Gör rimliga antaganden och testa i webbläsaren.","mustObserve":["A visible autonomous task sequence inside the feature frame", "A legible consequence and reset", "Mobile composition", "Pause/resume and a useful reduced-motion still", "Direct page routes"]},
+    {"id":"editor-scene","prompt":"Build a video-editor product site with an animated product demo inside a feature section. Show source clips becoming a short edited sequence. Use the supplied authorized footage and keep the primary action available.","mustObserve":["Appropriate use of real footage versus editable interface layers", "Synchronized playhead and clips", "Loading/error poster", "Bounded offscreen media work", "Readable mobile crop"]},
+    {"id":"bounded-scene-edit","prompt":"Justera den befintliga produktanimationen så att ikonerna rör sig i en lugnare sammanhängande sekvens. Behåll sidans färger, layout, text, navigation och knappar.","mustObserve":["Only the affected scene changes", "No replacement design system", "A complete observed loop", "No duplicate animations after remount"]}
+  ],
+  "scoreSeparately": ["Functional hard failures", "Fidelity to the brief", "Clarity of product explanation", "Composition/type/material fit", "Motion timing and continuity", "Performance with actual assets", "Human visual preference"],
+  "report": "Record per-case observations, failed and unrun checks, actual code/recordings, variance across independent runs and reviewer reasons. Do not infer visual superiority from unit tests."
+}

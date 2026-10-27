@@ -1,0 +1,46 @@
+{
+  "validators": [
+    {
+      "package": "frontend-design",
+      "validatorExit": 0,
+      "output": "Skill is valid!",
+      "error": ""
+    },
+    {
+      "package": "web-artifacts-builder",
+      "validatorExit": 0,
+      "output": "Skill is valid!",
+      "error": ""
+    },
+    {
+      "package": "webapp-testing",
+      "validatorExit": 0,
+      "output": "Skill is valid!",
+      "error": ""
+    },
+    {
+      "package": "skill-creator",
+      "validatorExit": 0,
+      "output": "Skill is valid!",
+      "error": ""
+    }
+  ],
+  "withServer": {
+    "exit": 0,
+    "functionalRequests": "pass",
+    "serverStopped": true,
+    "invocation": "--server \"exec node scripts/serve.mjs\"; isolated ephemeral port"
+  },
+  "notExecuted": [
+    "Frontend npm/bootstrap/bundle installation",
+    "Claude model evaluation and description optimization",
+    "Python Playwright browser examples"
+  ],
+  "sourceCommit": "dbd4588f9e1033efb41dad4bef2f7947c8993d44",
+  "upstreamFilesVerified": 32,
+  "repositoryNodeTests": {
+    "passed": 52,
+    "failed": 0
+  },
+  "repositoryValidationChecks": 526
+}

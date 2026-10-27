@@ -1,0 +1,2284 @@
+{
+  "date": "2026-10-27T18:13:17.661Z",
+  "browser": "154.0.8037.57",
+  "tlsVerification": "enabled; existing platform proxy CA in NSS store; filesystem access authorized by user",
+  "observations": [
+    {
+      "site": "pave",
+      "width": 1440,
+      "status": 200,
+      "url": "https://meetpave.com/",
+      "observedAssets": [
+        {
+          "url": "https://meetpave.com/video/edit-360.mp4",
+          "status": 206
+        },
+        {
+          "url": "https://meetpave.com/video/loop-memory-720.mp4",
+          "status": 206
+        },
+        {
+          "url": "https://meetpave.com/video/loop-moment-720.mp4",
+          "status": 206
+        },
+        {
+          "url": "https://meetpave.com/video/loop-learn-720.mp4",
+          "status": 206
+        }
+      ],
+      "errors": [],
+      "requestFailures": [],
+      "frames": [
+        "pave-1440-start.png",
+        "pave-1440-middle.png"
+      ],
+      "before": [
+        {
+          "source": "https://meetpave.com/video/loop-learn-720.mp4?v=1",
+          "paused": false,
+          "time": 2.809867,
+          "duration": 7,
+          "muted": true,
+          "loop": true,
+          "inline": true,
+          "width": 270.390625,
+          "height": 337.984375,
+          "visible": true
+        },
+        {
+          "source": "https://meetpave.com/video/loop-moment-720.mp4?v=1",
+          "paused": false,
+          "time": 2.82703,
+          "duration": 6.6,
+          "muted": true,
+          "loop": true,
+          "inline": true,
+          "width": 270.40625,
+          "height": 338,
+          "visible": true
+        },
+        {
+          "source": "https://meetpave.com/video/loop-memory-720.mp4?v=1",
+          "paused": false,
+          "time": 2.866996,
+          "duration": 6.8,
+          "muted": true,
+          "loop": true,
+          "inline": true,
+          "width": 270.390625,
+          "height": 337.984375,
+          "visible": true
+        }
+      ],
+      "after": [
+        {
+          "source": "https://meetpave.com/video/loop-learn-720.mp4?v=1",
+          "paused": false,
+          "time": 5.268942,
+          "duration": 7,
+          "muted": true,
+          "loop": true,
+          "inline": true,
+          "width": 270.390625,
+          "height": 337.984375,
+          "visible": true
+        },
+        {
+          "source": "https://meetpave.com/video/loop-moment-720.mp4?v=1",
+          "paused": false,
+          "time": 5.28611,
+          "duration": 6.6,
+          "muted": true,
+          "loop": true,
+          "inline": true,
+          "width": 270.40625,
+          "height": 338,
+          "visible": true
+        },
+        {
+          "source": "https://meetpave.com/video/loop-memory-720.mp4?v=1",
+          "paused": false,
+          "time": 5.326082,
+          "duration": 6.8,
+          "muted": true,
+          "loop": true,
+          "inline": true,
+          "width": 270.390625,
+          "height": 337.984375,
+          "visible": true
+        }
+      ],
+      "observedMovement": true,
+      "concurrentPlaying": 3,
+      "offscreen": [
+        {
+          "source": "https://meetpave.com/video/loop-learn-720.mp4?v=1",
+          "paused": true,
+          "time": 5.514825,
+          "duration": 7,
+          "muted": true,
+          "loop": true,
+          "inline": true,
+          "width": 270.390625,
+          "height": 337.984375,
+          "visible": false
+        },
+        {
+          "source": "https://meetpave.com/video/loop-moment-720.mp4?v=1",
+          "paused": true,
+          "time": 5.532007,
+          "duration": 6.6,
+          "muted": true,
+          "loop": true,
+          "inline": true,
+          "width": 270.40625,
+          "height": 338,
+          "visible": false
+        },
+        {
+          "source": "https://meetpave.com/video/loop-memory-720.mp4?v=1",
+          "paused": true,
+          "time": 5.572022,
+          "duration": 6.8,
+          "muted": true,
+          "loop": true,
+          "inline": true,
+          "width": 270.390625,
+          "height": 337.984375,
+          "visible": false
+        }
+      ],
+      "returned": [
+        {
+          "source": "https://meetpave.com/video/loop-learn-720.mp4?v=1",
+          "paused": false,
+          "time": 5.537189,
+          "duration": 7,
+          "muted": true,
+          "loop": true,
+          "inline": true,
+          "width": 270.390625,
+          "height": 337.984375,
+          "visible": true
+        },
+        {
+          "source": "https://meetpave.com/video/loop-moment-720.mp4?v=1",
+          "paused": false,
+          "time": 5.554062,
+          "duration": 6.6,
+          "muted": true,
+          "loop": true,
+          "inline": true,
+          "width": 270.40625,
+          "height": 338,
+          "visible": true
+        },
+        {
+          "source": "https://meetpave.com/video/loop-memory-720.mp4?v=1",
+          "paused": false,
+          "time": 5.593972,
+          "duration": 6.8,
+          "muted": true,
+          "loop": true,
+          "inline": true,
+          "width": 270.390625,
+          "height": 337.984375,
+          "visible": true
+        }
+      ],
+      "completeCycleSample": [
+        {
+          "source": "https://meetpave.com/video/loop-learn-720.mp4?v=1",
+          "paused": false,
+          "time": 5.841476,
+          "duration": 7,
+          "muted": true,
+          "loop": true,
+          "inline": true,
+          "width": 270.390625,
+          "height": 337.984375,
+          "visible": true
+        },
+        {
+          "source": "https://meetpave.com/video/loop-moment-720.mp4?v=1",
+          "paused": false,
+          "time": 6.255699,
+          "duration": 6.6,
+          "muted": true,
+          "loop": true,
+          "inline": true,
+          "width": 270.40625,
+          "height": 338,
+          "visible": true
+        },
+        {
+          "source": "https://meetpave.com/video/loop-memory-720.mp4?v=1",
+          "paused": false,
+          "time": 6.094417,
+          "duration": 6.8,
+          "muted": true,
+          "loop": true,
+          "inline": true,
+          "width": 270.390625,
+          "height": 337.984375,
+          "visible": true
+        }
+      ],
+      "summary": "Feature-card MP4 advances on arrival, pauses away from the section and resumes on return; poster layer remains under presented video. Concurrency measured only for this viewport.",
+      "pageOverflow": false,
+      "artifactsDirectory": "artifacts/reference-motion/",
+      "frameNote": "Reference-site captures are local analysis artifacts; they are not included as SuperBrain demo assets."
+    },
+    {
+      "site": "borel",
+      "width": 1440,
+      "status": 200,
+      "url": "https://borel.one/",
+      "observedAssets": [],
+      "errors": [],
+      "requestFailures": [
+        {
+          "host": "api.borel.one",
+          "path": "/api/auth/me",
+          "error": "net::ERR_TUNNEL_CONNECTION_FAILED"
+        }
+      ],
+      "frames": [
+        "borel-1440-start.png",
+        "borel-1440-middle.png"
+      ],
+      "before": {
+        "icons": [
+          {
+            "source": "https://borel.one/landing/ios-icons/files.webp",
+            "width": 42,
+            "height": 42,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/facetime.webp",
+            "width": 42,
+            "height": 42,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/passwords.webp",
+            "width": 44,
+            "height": 44,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/notes.webp",
+            "width": 40,
+            "height": 40,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/clock.webp",
+            "width": 40,
+            "height": 40,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/books.webp",
+            "width": 44,
+            "height": 44,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/app-store.svg",
+            "width": 42,
+            "height": 42,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/safari.webp",
+            "width": 42,
+            "height": 42,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/contacts.webp",
+            "width": 48,
+            "height": 48,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/calendar.webp",
+            "width": 48,
+            "height": 48,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/maps.webp",
+            "width": 50,
+            "height": 50,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/messages.webp",
+            "width": 48,
+            "height": 48,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/settings.svg",
+            "width": 46,
+            "height": 46,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/voice-memos.webp",
+            "width": 48,
+            "height": 48,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/reminders.webp",
+            "width": 54,
+            "height": 54,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/find-my.webp",
+            "width": 52,
+            "height": 52,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/photos.webp",
+            "width": 58,
+            "height": 58,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/face-id.svg",
+            "width": 58,
+            "height": 58,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/camera.webp",
+            "width": 60,
+            "height": 60,
+            "loaded": true
+          }
+        ],
+        "floats": [
+          {
+            "time": 949.9239999995916,
+            "duration": 6000,
+            "delay": 0,
+            "transform": "matrix(1, 0, 0, 1, 0, -1.04513)"
+          },
+          {
+            "time": 949.9239999995916,
+            "duration": 6000,
+            "delay": -1200,
+            "transform": "matrix(1, 0, 0, 1, 0, -4.16568)"
+          },
+          {
+            "time": 949.9239999995916,
+            "duration": 6000,
+            "delay": -2400,
+            "transform": "matrix(1, 0, 0, 1, 0, -4.86497)"
+          },
+          {
+            "time": 949.9239999995916,
+            "duration": 6000,
+            "delay": -3599.9999999999995,
+            "transform": "matrix(1, 0, 0, 1, 0, -2.35664)"
+          },
+          {
+            "time": 949.9239999995916,
+            "duration": 6000,
+            "delay": -4800,
+            "transform": "matrix(1, 0, 0, 1, 0, -0.0680658)"
+          },
+          {
+            "time": 949.9239999995916,
+            "duration": 6000,
+            "delay": 0,
+            "transform": "matrix(1, 0, 0, 1, 0, -1.04513)"
+          },
+          {
+            "time": 949.9239999995916,
+            "duration": 6000,
+            "delay": -1200,
+            "transform": "matrix(1, 0, 0, 1, 0, -4.16568)"
+          },
+          {
+            "time": 949.9239999995916,
+            "duration": 6000,
+            "delay": -2400,
+            "transform": "matrix(1, 0, 0, 1, 0, -4.86497)"
+          },
+          {
+            "time": 949.9239999995916,
+            "duration": 6000,
+            "delay": -3599.9999999999995,
+            "transform": "matrix(1, 0, 0, 1, 0, -2.35664)"
+          },
+          {
+            "time": 949.9239999995916,
+            "duration": 6000,
+            "delay": -4800,
+            "transform": "matrix(1, 0, 0, 1, 0, -0.0680658)"
+          },
+          {
+            "time": 949.9239999995916,
+            "duration": 6000,
+            "delay": 0,
+            "transform": "matrix(1, 0, 0, 1, 0, -1.04513)"
+          },
+          {
+            "time": 949.9239999995916,
+            "duration": 6000,
+            "delay": -1200,
+            "transform": "matrix(1, 0, 0, 1, 0, -4.16568)"
+          },
+          {
+            "time": 949.9239999995916,
+            "duration": 6000,
+            "delay": -2400,
+            "transform": "matrix(1, 0, 0, 1, 0, -4.86497)"
+          },
+          {
+            "time": 949.9239999995916,
+            "duration": 6000,
+            "delay": -3599.9999999999995,
+            "transform": "matrix(1, 0, 0, 1, 0, -2.35664)"
+          },
+          {
+            "time": 949.9239999995916,
+            "duration": 6000,
+            "delay": -4800,
+            "transform": "matrix(1, 0, 0, 1, 0, -0.0680658)"
+          },
+          {
+            "time": 949.9239999995916,
+            "duration": 6000,
+            "delay": 0,
+            "transform": "matrix(1, 0, 0, 1, 0, -1.04513)"
+          },
+          {
+            "time": 949.9239999995916,
+            "duration": 6000,
+            "delay": -1200,
+            "transform": "matrix(1, 0, 0, 1, 0, -4.16568)"
+          },
+          {
+            "time": 949.9239999995916,
+            "duration": 6000,
+            "delay": -2400,
+            "transform": "matrix(1, 0, 0, 1, 0, -4.86497)"
+          },
+          {
+            "time": 949.9239999995916,
+            "duration": 6000,
+            "delay": -3599.9999999999995,
+            "transform": "matrix(1, 0, 0, 1, 0, -2.35664)"
+          }
+        ],
+        "rect": {
+          "width": 408.5,
+          "height": 367.0625
+        }
+      },
+      "after": {
+        "icons": [
+          {
+            "source": "https://borel.one/landing/ios-icons/files.webp",
+            "width": 42,
+            "height": 42,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/facetime.webp",
+            "width": 42,
+            "height": 42,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/passwords.webp",
+            "width": 44,
+            "height": 44,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/notes.webp",
+            "width": 40,
+            "height": 40,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/clock.webp",
+            "width": 40,
+            "height": 40,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/books.webp",
+            "width": 44,
+            "height": 44,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/app-store.svg",
+            "width": 42,
+            "height": 42,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/safari.webp",
+            "width": 42,
+            "height": 42,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/contacts.webp",
+            "width": 48,
+            "height": 48,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/calendar.webp",
+            "width": 48,
+            "height": 48,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/maps.webp",
+            "width": 50,
+            "height": 50,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/messages.webp",
+            "width": 48,
+            "height": 48,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/settings.svg",
+            "width": 46,
+            "height": 46,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/voice-memos.webp",
+            "width": 48,
+            "height": 48,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/reminders.webp",
+            "width": 54,
+            "height": 54,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/find-my.webp",
+            "width": 52,
+            "height": 52,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/photos.webp",
+            "width": 58,
+            "height": 58,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/face-id.svg",
+            "width": 58,
+            "height": 58,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/camera.webp",
+            "width": 60,
+            "height": 60,
+            "loaded": true
+          }
+        ],
+        "floats": [
+          {
+            "time": 3283.223999999592,
+            "duration": 6000,
+            "delay": 0,
+            "transform": "matrix(1, 0, 0, 1, 0, -4.9123)"
+          },
+          {
+            "time": 3283.223999999592,
+            "duration": 6000,
+            "delay": -1200,
+            "transform": "matrix(1, 0, 0, 1, 0, -2.5482)"
+          },
+          {
+            "time": 3283.223999999592,
+            "duration": 6000,
+            "delay": -2400,
+            "transform": "matrix(1, 0, 0, 1, 0, -0.110191)"
+          },
+          {
+            "time": 3283.223999999592,
+            "duration": 6000,
+            "delay": -3599.9999999999995,
+            "transform": "matrix(1, 0, 0, 1, 0, -0.901859)"
+          },
+          {
+            "time": 3283.223999999592,
+            "duration": 6000,
+            "delay": -4800,
+            "transform": "matrix(1, 0, 0, 1, 0, -4.02728)"
+          },
+          {
+            "time": 3283.223999999592,
+            "duration": 6000,
+            "delay": 0,
+            "transform": "matrix(1, 0, 0, 1, 0, -4.9123)"
+          },
+          {
+            "time": 3283.223999999592,
+            "duration": 6000,
+            "delay": -1200,
+            "transform": "matrix(1, 0, 0, 1, 0, -2.5482)"
+          },
+          {
+            "time": 3283.223999999592,
+            "duration": 6000,
+            "delay": -2400,
+            "transform": "matrix(1, 0, 0, 1, 0, -0.110191)"
+          },
+          {
+            "time": 3283.223999999592,
+            "duration": 6000,
+            "delay": -3599.9999999999995,
+            "transform": "matrix(1, 0, 0, 1, 0, -0.901859)"
+          },
+          {
+            "time": 3283.223999999592,
+            "duration": 6000,
+            "delay": -4800,
+            "transform": "matrix(1, 0, 0, 1, 0, -4.02728)"
+          },
+          {
+            "time": 3283.223999999592,
+            "duration": 6000,
+            "delay": 0,
+            "transform": "matrix(1, 0, 0, 1, 0, -4.9123)"
+          },
+          {
+            "time": 3283.223999999592,
+            "duration": 6000,
+            "delay": -1200,
+            "transform": "matrix(1, 0, 0, 1, 0, -2.5482)"
+          },
+          {
+            "time": 3283.223999999592,
+            "duration": 6000,
+            "delay": -2400,
+            "transform": "matrix(1, 0, 0, 1, 0, -0.110191)"
+          },
+          {
+            "time": 3283.223999999592,
+            "duration": 6000,
+            "delay": -3599.9999999999995,
+            "transform": "matrix(1, 0, 0, 1, 0, -0.901859)"
+          },
+          {
+            "time": 3283.223999999592,
+            "duration": 6000,
+            "delay": -4800,
+            "transform": "matrix(1, 0, 0, 1, 0, -4.02728)"
+          },
+          {
+            "time": 3283.223999999592,
+            "duration": 6000,
+            "delay": 0,
+            "transform": "matrix(1, 0, 0, 1, 0, -4.9123)"
+          },
+          {
+            "time": 3283.223999999592,
+            "duration": 6000,
+            "delay": -1200,
+            "transform": "matrix(1, 0, 0, 1, 0, -2.5482)"
+          },
+          {
+            "time": 3283.223999999592,
+            "duration": 6000,
+            "delay": -2400,
+            "transform": "matrix(1, 0, 0, 1, 0, -0.110191)"
+          },
+          {
+            "time": 3283.223999999592,
+            "duration": 6000,
+            "delay": -3599.9999999999995,
+            "transform": "matrix(1, 0, 0, 1, 0, -0.901859)"
+          }
+        ],
+        "rect": {
+          "width": 408.5,
+          "height": 367.0625
+        }
+      },
+      "observedMovement": true,
+      "completeCycleSample": {
+        "icons": [
+          {
+            "source": "https://borel.one/landing/ios-icons/files.webp",
+            "width": 42,
+            "height": 42,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/facetime.webp",
+            "width": 42,
+            "height": 42,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/passwords.webp",
+            "width": 44,
+            "height": 44,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/notes.webp",
+            "width": 40,
+            "height": 40,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/clock.webp",
+            "width": 40,
+            "height": 40,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/books.webp",
+            "width": 44,
+            "height": 44,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/app-store.svg",
+            "width": 42,
+            "height": 42,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/safari.webp",
+            "width": 42,
+            "height": 42,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/contacts.webp",
+            "width": 48,
+            "height": 48,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/calendar.webp",
+            "width": 48,
+            "height": 48,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/maps.webp",
+            "width": 50,
+            "height": 50,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/messages.webp",
+            "width": 48,
+            "height": 48,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/settings.svg",
+            "width": 46,
+            "height": 46,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/voice-memos.webp",
+            "width": 48,
+            "height": 48,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/reminders.webp",
+            "width": 54,
+            "height": 54,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/find-my.webp",
+            "width": 52,
+            "height": 52,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/photos.webp",
+            "width": 58,
+            "height": 58,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/face-id.svg",
+            "width": 58,
+            "height": 58,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/camera.webp",
+            "width": 60,
+            "height": 60,
+            "loaded": true
+          }
+        ],
+        "floats": [
+          {
+            "time": 7616.323999999592,
+            "duration": 6000,
+            "delay": 0,
+            "transform": "matrix(1, 0, 0, 1, 0, -2.83299)"
+          },
+          {
+            "time": 7616.323999999592,
+            "duration": 6000,
+            "delay": -1200,
+            "transform": "matrix(1, 0, 0, 1, 0, -4.96362)"
+          },
+          {
+            "time": 7616.323999999592,
+            "duration": 6000,
+            "delay": -2400,
+            "transform": "matrix(1, 0, 0, 1, 0, -3.80295)"
+          },
+          {
+            "time": 7616.323999999592,
+            "duration": 6000,
+            "delay": -3599.9999999999995,
+            "transform": "matrix(1, 0, 0, 1, 0, -0.706615)"
+          },
+          {
+            "time": 7616.323999999592,
+            "duration": 6000,
+            "delay": -4800,
+            "transform": "matrix(1, 0, 0, 1, 0, -0.192717)"
+          },
+          {
+            "time": 7616.323999999592,
+            "duration": 6000,
+            "delay": 0,
+            "transform": "matrix(1, 0, 0, 1, 0, -2.83299)"
+          },
+          {
+            "time": 7616.323999999592,
+            "duration": 6000,
+            "delay": -1200,
+            "transform": "matrix(1, 0, 0, 1, 0, -4.96362)"
+          },
+          {
+            "time": 7616.323999999592,
+            "duration": 6000,
+            "delay": -2400,
+            "transform": "matrix(1, 0, 0, 1, 0, -3.80295)"
+          },
+          {
+            "time": 7616.323999999592,
+            "duration": 6000,
+            "delay": -3599.9999999999995,
+            "transform": "matrix(1, 0, 0, 1, 0, -0.706615)"
+          },
+          {
+            "time": 7616.323999999592,
+            "duration": 6000,
+            "delay": -4800,
+            "transform": "matrix(1, 0, 0, 1, 0, -0.192717)"
+          },
+          {
+            "time": 7616.323999999592,
+            "duration": 6000,
+            "delay": 0,
+            "transform": "matrix(1, 0, 0, 1, 0, -2.83299)"
+          },
+          {
+            "time": 7616.323999999592,
+            "duration": 6000,
+            "delay": -1200,
+            "transform": "matrix(1, 0, 0, 1, 0, -4.96362)"
+          },
+          {
+            "time": 7616.323999999592,
+            "duration": 6000,
+            "delay": -2400,
+            "transform": "matrix(1, 0, 0, 1, 0, -3.80295)"
+          },
+          {
+            "time": 7616.323999999592,
+            "duration": 6000,
+            "delay": -3599.9999999999995,
+            "transform": "matrix(1, 0, 0, 1, 0, -0.706615)"
+          },
+          {
+            "time": 7616.323999999592,
+            "duration": 6000,
+            "delay": -4800,
+            "transform": "matrix(1, 0, 0, 1, 0, -0.192717)"
+          },
+          {
+            "time": 7616.323999999592,
+            "duration": 6000,
+            "delay": 0,
+            "transform": "matrix(1, 0, 0, 1, 0, -2.83299)"
+          },
+          {
+            "time": 7616.323999999592,
+            "duration": 6000,
+            "delay": -1200,
+            "transform": "matrix(1, 0, 0, 1, 0, -4.96362)"
+          },
+          {
+            "time": 7616.323999999592,
+            "duration": 6000,
+            "delay": -2400,
+            "transform": "matrix(1, 0, 0, 1, 0, -3.80295)"
+          },
+          {
+            "time": 7616.323999999592,
+            "duration": 6000,
+            "delay": -3599.9999999999995,
+            "transform": "matrix(1, 0, 0, 1, 0, -0.706615)"
+          }
+        ],
+        "rect": {
+          "width": 408.5,
+          "height": 367.0625
+        }
+      },
+      "reducedMotion": {
+        "icons": [
+          {
+            "source": "https://borel.one/landing/ios-icons/files.webp",
+            "width": 42,
+            "height": 42,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/facetime.webp",
+            "width": 42,
+            "height": 42,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/passwords.webp",
+            "width": 44,
+            "height": 44,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/notes.webp",
+            "width": 40,
+            "height": 40,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/clock.webp",
+            "width": 40,
+            "height": 40,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/books.webp",
+            "width": 44,
+            "height": 44,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/app-store.svg",
+            "width": 42,
+            "height": 42,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/safari.webp",
+            "width": 42,
+            "height": 42,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/contacts.webp",
+            "width": 48,
+            "height": 48,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/calendar.webp",
+            "width": 48,
+            "height": 48,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/maps.webp",
+            "width": 50,
+            "height": 50,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/messages.webp",
+            "width": 48,
+            "height": 48,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/settings.svg",
+            "width": 46,
+            "height": 46,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/voice-memos.webp",
+            "width": 48,
+            "height": 48,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/reminders.webp",
+            "width": 54,
+            "height": 54,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/find-my.webp",
+            "width": 52,
+            "height": 52,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/photos.webp",
+            "width": 58,
+            "height": 58,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/face-id.svg",
+            "width": 58,
+            "height": 58,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/camera.webp",
+            "width": 60,
+            "height": 60,
+            "loaded": true
+          }
+        ],
+        "floats": [],
+        "rect": {
+          "width": 408.5,
+          "height": 367.0625
+        }
+      },
+      "summary": "The feature card is original-image layers in positioned wrappers. Inner CSS animations float independently on a six-second cycle; live reduced motion removes these CSS animations.",
+      "pageOverflow": false,
+      "artifactsDirectory": "artifacts/reference-motion/",
+      "frameNote": "Reference-site captures are local analysis artifacts; they are not included as SuperBrain demo assets."
+    },
+    {
+      "site": "huly",
+      "width": 1440,
+      "status": 200,
+      "url": "https://huly.io/",
+      "observedAssets": [
+        {
+          "url": "https://huly.io/_next/static/rive.b8b719dae3c2060a.wasm",
+          "status": 200
+        },
+        {
+          "url": "https://huly.io/videos/pages/home/stay-productive/waves.mp4",
+          "status": 206
+        },
+        {
+          "url": "https://huly.io/videos/pages/home/hero/hero.mp4",
+          "status": 206
+        },
+        {
+          "url": "https://huly.io/videos/pages/home/work-together/waves.mp4",
+          "status": 206
+        },
+        {
+          "url": "https://huly.io/animations/pages/home/stay-productive/hotkeys.riv",
+          "status": 200
+        },
+        {
+          "url": "https://huly.io/animations/pages/home/stay-productive/team-planner.riv",
+          "status": 200
+        },
+        {
+          "url": "https://huly.io/animations/pages/home/stay-productive/notifications.riv",
+          "status": 200
+        },
+        {
+          "url": "https://huly.io/animations/pages/home/stay-productive/time-blocking.riv",
+          "status": 200
+        }
+      ],
+      "errors": [],
+      "requestFailures": [
+        {
+          "host": "www.googletagmanager.com",
+          "path": "/gtm.js",
+          "error": "net::ERR_TUNNEL_CONNECTION_FAILED"
+        }
+      ],
+      "frames": [
+        "huly-1440-idle.png",
+        "huly-1440-idle-later.png",
+        "huly-1440-hover.png",
+        "huly-1440-hover-later.png"
+      ],
+      "idlePixelChange": true,
+      "hoverPixelChange": true,
+      "hoverFromIdle": true,
+      "canvas": {
+        "width": 768,
+        "height": 420,
+        "cssWidth": 767.984375,
+        "cssHeight": 420
+      },
+      "observedMovement": true,
+      "summary": "Team Planner mounts a Rive canvas at actual card dimensions; frame captures distinguish idle and pointer-triggered behavior. On compact layout the Rive wrapper disables pointer events and the source has an in-view input trigger.",
+      "pageOverflow": false,
+      "artifactsDirectory": "artifacts/reference-motion/",
+      "frameNote": "Reference-site captures are local analysis artifacts; they are not included as SuperBrain demo assets."
+    },
+    {
+      "site": "pave",
+      "width": 390,
+      "status": 200,
+      "url": "https://meetpave.com/",
+      "observedAssets": [
+        {
+          "url": "https://meetpave.com/video/edit-360.mp4",
+          "status": 206
+        },
+        {
+          "url": "https://meetpave.com/video/loop-learn-720.mp4",
+          "status": 206
+        }
+      ],
+      "errors": [],
+      "requestFailures": [],
+      "frames": [
+        "pave-390-start.png",
+        "pave-390-middle.png"
+      ],
+      "before": [
+        {
+          "source": "https://meetpave.com/video/loop-learn-720.mp4?v=1",
+          "paused": false,
+          "time": 2.811024,
+          "duration": 7,
+          "muted": true,
+          "loop": true,
+          "inline": true,
+          "width": 304.1875,
+          "height": 380.234375,
+          "visible": true
+        },
+        {
+          "source": "",
+          "paused": true,
+          "time": 0,
+          "duration": null,
+          "muted": true,
+          "loop": true,
+          "inline": true,
+          "width": 304.1875,
+          "height": 380.2343444824219,
+          "visible": true
+        },
+        {
+          "source": "",
+          "paused": true,
+          "time": 0,
+          "duration": null,
+          "muted": true,
+          "loop": true,
+          "inline": true,
+          "width": 304.1875,
+          "height": 380.234375,
+          "visible": true
+        }
+      ],
+      "after": [
+        {
+          "source": "https://meetpave.com/video/loop-learn-720.mp4?v=1",
+          "paused": false,
+          "time": 5.489409,
+          "duration": 7,
+          "muted": true,
+          "loop": true,
+          "inline": true,
+          "width": 304.1875,
+          "height": 380.234375,
+          "visible": true
+        },
+        {
+          "source": "",
+          "paused": true,
+          "time": 0,
+          "duration": null,
+          "muted": true,
+          "loop": true,
+          "inline": true,
+          "width": 304.1875,
+          "height": 380.234375,
+          "visible": true
+        },
+        {
+          "source": "",
+          "paused": true,
+          "time": 0,
+          "duration": null,
+          "muted": true,
+          "loop": true,
+          "inline": true,
+          "width": 304.1875,
+          "height": 380.234375,
+          "visible": true
+        }
+      ],
+      "observedMovement": true,
+      "concurrentPlaying": 1,
+      "offscreen": [
+        {
+          "source": "https://meetpave.com/video/loop-learn-720.mp4?v=1",
+          "paused": true,
+          "time": 5.673351,
+          "duration": 7,
+          "muted": true,
+          "loop": true,
+          "inline": true,
+          "width": 304.1875,
+          "height": 380.234375,
+          "visible": false
+        },
+        {
+          "source": "",
+          "paused": true,
+          "time": 0,
+          "duration": null,
+          "muted": true,
+          "loop": true,
+          "inline": true,
+          "width": 304.1875,
+          "height": 380.234375,
+          "visible": false
+        },
+        {
+          "source": "",
+          "paused": true,
+          "time": 0,
+          "duration": null,
+          "muted": true,
+          "loop": true,
+          "inline": true,
+          "width": 304.1875,
+          "height": 380.234375,
+          "visible": false
+        }
+      ],
+      "returned": [
+        {
+          "source": "https://meetpave.com/video/loop-learn-720.mp4?v=1",
+          "paused": false,
+          "time": 5.69067,
+          "duration": 7,
+          "muted": true,
+          "loop": true,
+          "inline": true,
+          "width": 304.1875,
+          "height": 380.234375,
+          "visible": true
+        },
+        {
+          "source": "",
+          "paused": true,
+          "time": 0,
+          "duration": null,
+          "muted": true,
+          "loop": true,
+          "inline": true,
+          "width": 304.1875,
+          "height": 380.234375,
+          "visible": true
+        },
+        {
+          "source": "",
+          "paused": true,
+          "time": 0,
+          "duration": null,
+          "muted": true,
+          "loop": true,
+          "inline": true,
+          "width": 304.1875,
+          "height": 380.234375,
+          "visible": true
+        }
+      ],
+      "summary": "Feature-card MP4 advances on arrival, pauses away from the section and resumes on return; poster layer remains under presented video. Concurrency measured only for this viewport.",
+      "pageOverflow": false,
+      "artifactsDirectory": "artifacts/reference-motion/",
+      "frameNote": "Reference-site captures are local analysis artifacts; they are not included as SuperBrain demo assets."
+    },
+    {
+      "site": "borel",
+      "width": 390,
+      "status": 200,
+      "url": "https://borel.one/",
+      "observedAssets": [],
+      "errors": [],
+      "requestFailures": [
+        {
+          "host": "api.borel.one",
+          "path": "/api/auth/me",
+          "error": "net::ERR_TUNNEL_CONNECTION_FAILED"
+        }
+      ],
+      "frames": [
+        "borel-390-start.png",
+        "borel-390-middle.png"
+      ],
+      "before": {
+        "icons": [
+          {
+            "source": "https://borel.one/landing/ios-icons/files.webp",
+            "width": 42,
+            "height": 42,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/facetime.webp",
+            "width": 42,
+            "height": 42,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/passwords.webp",
+            "width": 44,
+            "height": 44,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/notes.webp",
+            "width": 40,
+            "height": 40,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/clock.webp",
+            "width": 40,
+            "height": 40,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/books.webp",
+            "width": 44,
+            "height": 44,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/app-store.svg",
+            "width": 42,
+            "height": 42,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/safari.webp",
+            "width": 42,
+            "height": 42,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/contacts.webp",
+            "width": 48,
+            "height": 48,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/calendar.webp",
+            "width": 48,
+            "height": 48,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/maps.webp",
+            "width": 50,
+            "height": 50,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/messages.webp",
+            "width": 48,
+            "height": 48,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/settings.svg",
+            "width": 46,
+            "height": 46,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/voice-memos.webp",
+            "width": 48,
+            "height": 48,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/reminders.webp",
+            "width": 54,
+            "height": 54,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/find-my.webp",
+            "width": 52,
+            "height": 52,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/photos.webp",
+            "width": 58,
+            "height": 58,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/face-id.svg",
+            "width": 58,
+            "height": 58,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/camera.webp",
+            "width": 60,
+            "height": 60,
+            "loaded": true
+          }
+        ],
+        "floats": [
+          {
+            "time": 949.8909999988392,
+            "duration": 6000,
+            "delay": 0,
+            "transform": "matrix(1, 0, 0, 1, 0, -1.04505)"
+          },
+          {
+            "time": 949.8909999988392,
+            "duration": 6000,
+            "delay": -1200,
+            "transform": "matrix(1, 0, 0, 1, 0, -4.16562)"
+          },
+          {
+            "time": 949.8909999988392,
+            "duration": 6000,
+            "delay": -2400,
+            "transform": "matrix(1, 0, 0, 1, 0, -4.86499)"
+          },
+          {
+            "time": 949.8909999988392,
+            "duration": 6000,
+            "delay": -3599.9999999999995,
+            "transform": "matrix(1, 0, 0, 1, 0, -2.35674)"
+          },
+          {
+            "time": 949.8909999988392,
+            "duration": 6000,
+            "delay": -4800,
+            "transform": "matrix(1, 0, 0, 1, 0, -0.0680841)"
+          },
+          {
+            "time": 949.8909999988392,
+            "duration": 6000,
+            "delay": 0,
+            "transform": "matrix(1, 0, 0, 1, 0, -1.04505)"
+          },
+          {
+            "time": 949.8909999988392,
+            "duration": 6000,
+            "delay": -1200,
+            "transform": "matrix(1, 0, 0, 1, 0, -4.16562)"
+          },
+          {
+            "time": 949.8909999988392,
+            "duration": 6000,
+            "delay": -2400,
+            "transform": "matrix(1, 0, 0, 1, 0, -4.86499)"
+          },
+          {
+            "time": 949.8909999988392,
+            "duration": 6000,
+            "delay": -3599.9999999999995,
+            "transform": "matrix(1, 0, 0, 1, 0, -2.35674)"
+          },
+          {
+            "time": 949.8909999988392,
+            "duration": 6000,
+            "delay": -4800,
+            "transform": "matrix(1, 0, 0, 1, 0, -0.0680841)"
+          },
+          {
+            "time": 949.8909999988392,
+            "duration": 6000,
+            "delay": 0,
+            "transform": "matrix(1, 0, 0, 1, 0, -1.04505)"
+          },
+          {
+            "time": 949.8909999988392,
+            "duration": 6000,
+            "delay": -1200,
+            "transform": "matrix(1, 0, 0, 1, 0, -4.16562)"
+          },
+          {
+            "time": 949.8909999988392,
+            "duration": 6000,
+            "delay": -2400,
+            "transform": "matrix(1, 0, 0, 1, 0, -4.86499)"
+          },
+          {
+            "time": 949.8909999988392,
+            "duration": 6000,
+            "delay": -3599.9999999999995,
+            "transform": "matrix(1, 0, 0, 1, 0, -2.35674)"
+          },
+          {
+            "time": 949.8909999988392,
+            "duration": 6000,
+            "delay": -4800,
+            "transform": "matrix(1, 0, 0, 1, 0, -0.0680841)"
+          },
+          {
+            "time": 949.8909999988392,
+            "duration": 6000,
+            "delay": 0,
+            "transform": "matrix(1, 0, 0, 1, 0, -1.04505)"
+          },
+          {
+            "time": 949.8909999988392,
+            "duration": 6000,
+            "delay": -1200,
+            "transform": "matrix(1, 0, 0, 1, 0, -4.16562)"
+          },
+          {
+            "time": 949.8909999988392,
+            "duration": 6000,
+            "delay": -2400,
+            "transform": "matrix(1, 0, 0, 1, 0, -4.86499)"
+          },
+          {
+            "time": 949.8909999988392,
+            "duration": 6000,
+            "delay": -3599.9999999999995,
+            "transform": "matrix(1, 0, 0, 1, 0, -2.35674)"
+          }
+        ],
+        "rect": {
+          "width": 350,
+          "height": 329.25
+        }
+      },
+      "after": {
+        "icons": [
+          {
+            "source": "https://borel.one/landing/ios-icons/files.webp",
+            "width": 42,
+            "height": 42,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/facetime.webp",
+            "width": 42,
+            "height": 42,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/passwords.webp",
+            "width": 44,
+            "height": 44,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/notes.webp",
+            "width": 40,
+            "height": 40,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/clock.webp",
+            "width": 40,
+            "height": 40,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/books.webp",
+            "width": 44,
+            "height": 44,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/app-store.svg",
+            "width": 42,
+            "height": 42,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/safari.webp",
+            "width": 42,
+            "height": 42,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/contacts.webp",
+            "width": 48,
+            "height": 48,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/calendar.webp",
+            "width": 48,
+            "height": 48,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/maps.webp",
+            "width": 50,
+            "height": 50,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/messages.webp",
+            "width": 48,
+            "height": 48,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/settings.svg",
+            "width": 46,
+            "height": 46,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/voice-memos.webp",
+            "width": 48,
+            "height": 48,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/reminders.webp",
+            "width": 54,
+            "height": 54,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/find-my.webp",
+            "width": 52,
+            "height": 52,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/photos.webp",
+            "width": 58,
+            "height": 58,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/face-id.svg",
+            "width": 58,
+            "height": 58,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/camera.webp",
+            "width": 60,
+            "height": 60,
+            "loaded": true
+          }
+        ],
+        "floats": [
+          {
+            "time": 3349.7909999988387,
+            "duration": 6000,
+            "delay": 0,
+            "transform": "matrix(1, 0, 0, 1, 0, -4.86507)"
+          },
+          {
+            "time": 3349.7909999988387,
+            "duration": 6000,
+            "delay": -1200,
+            "transform": "matrix(1, 0, 0, 1, 0, -2.35702)"
+          },
+          {
+            "time": 3349.7909999988387,
+            "duration": 6000,
+            "delay": -2400,
+            "transform": "matrix(1, 0, 0, 1, 0, -0.0681395)"
+          },
+          {
+            "time": 3349.7909999988387,
+            "duration": 6000,
+            "delay": -3599.9999999999995,
+            "transform": "matrix(1, 0, 0, 1, 0, -1.04483)"
+          },
+          {
+            "time": 3349.7909999988387,
+            "duration": 6000,
+            "delay": -4800,
+            "transform": "matrix(1, 0, 0, 1, 0, -4.16542)"
+          },
+          {
+            "time": 3349.7909999988387,
+            "duration": 6000,
+            "delay": 0,
+            "transform": "matrix(1, 0, 0, 1, 0, -4.86507)"
+          },
+          {
+            "time": 3349.7909999988387,
+            "duration": 6000,
+            "delay": -1200,
+            "transform": "matrix(1, 0, 0, 1, 0, -2.35702)"
+          },
+          {
+            "time": 3349.7909999988387,
+            "duration": 6000,
+            "delay": -2400,
+            "transform": "matrix(1, 0, 0, 1, 0, -0.0681395)"
+          },
+          {
+            "time": 3349.7909999988387,
+            "duration": 6000,
+            "delay": -3599.9999999999995,
+            "transform": "matrix(1, 0, 0, 1, 0, -1.04483)"
+          },
+          {
+            "time": 3349.7909999988387,
+            "duration": 6000,
+            "delay": -4800,
+            "transform": "matrix(1, 0, 0, 1, 0, -4.16542)"
+          },
+          {
+            "time": 3349.7909999988387,
+            "duration": 6000,
+            "delay": 0,
+            "transform": "matrix(1, 0, 0, 1, 0, -4.86507)"
+          },
+          {
+            "time": 3349.7909999988387,
+            "duration": 6000,
+            "delay": -1200,
+            "transform": "matrix(1, 0, 0, 1, 0, -2.35702)"
+          },
+          {
+            "time": 3349.7909999988387,
+            "duration": 6000,
+            "delay": -2400,
+            "transform": "matrix(1, 0, 0, 1, 0, -0.0681395)"
+          },
+          {
+            "time": 3349.7909999988387,
+            "duration": 6000,
+            "delay": -3599.9999999999995,
+            "transform": "matrix(1, 0, 0, 1, 0, -1.04483)"
+          },
+          {
+            "time": 3349.7909999988387,
+            "duration": 6000,
+            "delay": -4800,
+            "transform": "matrix(1, 0, 0, 1, 0, -4.16542)"
+          },
+          {
+            "time": 3349.7909999988387,
+            "duration": 6000,
+            "delay": 0,
+            "transform": "matrix(1, 0, 0, 1, 0, -4.86507)"
+          },
+          {
+            "time": 3349.7909999988387,
+            "duration": 6000,
+            "delay": -1200,
+            "transform": "matrix(1, 0, 0, 1, 0, -2.35702)"
+          },
+          {
+            "time": 3349.7909999988387,
+            "duration": 6000,
+            "delay": -2400,
+            "transform": "matrix(1, 0, 0, 1, 0, -0.0681395)"
+          },
+          {
+            "time": 3349.7909999988387,
+            "duration": 6000,
+            "delay": -3599.9999999999995,
+            "transform": "matrix(1, 0, 0, 1, 0, -1.04483)"
+          }
+        ],
+        "rect": {
+          "width": 350,
+          "height": 329.25
+        }
+      },
+      "observedMovement": true,
+      "completeCycleSample": {
+        "icons": [
+          {
+            "source": "https://borel.one/landing/ios-icons/files.webp",
+            "width": 42,
+            "height": 42,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/facetime.webp",
+            "width": 42,
+            "height": 42,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/passwords.webp",
+            "width": 44,
+            "height": 44,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/notes.webp",
+            "width": 40,
+            "height": 40,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/clock.webp",
+            "width": 40,
+            "height": 40,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/books.webp",
+            "width": 44,
+            "height": 44,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/app-store.svg",
+            "width": 42,
+            "height": 42,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/safari.webp",
+            "width": 42,
+            "height": 42,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/contacts.webp",
+            "width": 48,
+            "height": 48,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/calendar.webp",
+            "width": 48,
+            "height": 48,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/maps.webp",
+            "width": 50,
+            "height": 50,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/messages.webp",
+            "width": 48,
+            "height": 48,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/settings.svg",
+            "width": 46,
+            "height": 46,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/voice-memos.webp",
+            "width": 48,
+            "height": 48,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/reminders.webp",
+            "width": 54,
+            "height": 54,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/find-my.webp",
+            "width": 52,
+            "height": 52,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/photos.webp",
+            "width": 58,
+            "height": 58,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/face-id.svg",
+            "width": 58,
+            "height": 58,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/camera.webp",
+            "width": 60,
+            "height": 60,
+            "loaded": true
+          }
+        ],
+        "floats": [
+          {
+            "time": 7666.29099999884,
+            "duration": 6000,
+            "delay": 0,
+            "transform": "matrix(1, 0, 0, 1, 0, -2.97413)"
+          },
+          {
+            "time": 7666.29099999884,
+            "duration": 6000,
+            "delay": -1200,
+            "transform": "matrix(1, 0, 0, 1, 0, -4.98086)"
+          },
+          {
+            "time": 7666.29099999884,
+            "duration": 6000,
+            "delay": -2400,
+            "transform": "matrix(1, 0, 0, 1, 0, -3.68292)"
+          },
+          {
+            "time": 7666.29099999884,
+            "duration": 6000,
+            "delay": -3599.9999999999995,
+            "transform": "matrix(1, 0, 0, 1, 0, -0.617367)"
+          },
+          {
+            "time": 7666.29099999884,
+            "duration": 6000,
+            "delay": -4800,
+            "transform": "matrix(1, 0, 0, 1, 0, -0.24317)"
+          },
+          {
+            "time": 7666.29099999884,
+            "duration": 6000,
+            "delay": 0,
+            "transform": "matrix(1, 0, 0, 1, 0, -2.97413)"
+          },
+          {
+            "time": 7666.29099999884,
+            "duration": 6000,
+            "delay": -1200,
+            "transform": "matrix(1, 0, 0, 1, 0, -4.98086)"
+          },
+          {
+            "time": 7666.29099999884,
+            "duration": 6000,
+            "delay": -2400,
+            "transform": "matrix(1, 0, 0, 1, 0, -3.68292)"
+          },
+          {
+            "time": 7666.29099999884,
+            "duration": 6000,
+            "delay": -3599.9999999999995,
+            "transform": "matrix(1, 0, 0, 1, 0, -0.617367)"
+          },
+          {
+            "time": 7666.29099999884,
+            "duration": 6000,
+            "delay": -4800,
+            "transform": "matrix(1, 0, 0, 1, 0, -0.24317)"
+          },
+          {
+            "time": 7666.29099999884,
+            "duration": 6000,
+            "delay": 0,
+            "transform": "matrix(1, 0, 0, 1, 0, -2.97413)"
+          },
+          {
+            "time": 7666.29099999884,
+            "duration": 6000,
+            "delay": -1200,
+            "transform": "matrix(1, 0, 0, 1, 0, -4.98086)"
+          },
+          {
+            "time": 7666.29099999884,
+            "duration": 6000,
+            "delay": -2400,
+            "transform": "matrix(1, 0, 0, 1, 0, -3.68292)"
+          },
+          {
+            "time": 7666.29099999884,
+            "duration": 6000,
+            "delay": -3599.9999999999995,
+            "transform": "matrix(1, 0, 0, 1, 0, -0.617367)"
+          },
+          {
+            "time": 7666.29099999884,
+            "duration": 6000,
+            "delay": -4800,
+            "transform": "matrix(1, 0, 0, 1, 0, -0.24317)"
+          },
+          {
+            "time": 7666.29099999884,
+            "duration": 6000,
+            "delay": 0,
+            "transform": "matrix(1, 0, 0, 1, 0, -2.97413)"
+          },
+          {
+            "time": 7666.29099999884,
+            "duration": 6000,
+            "delay": -1200,
+            "transform": "matrix(1, 0, 0, 1, 0, -4.98086)"
+          },
+          {
+            "time": 7666.29099999884,
+            "duration": 6000,
+            "delay": -2400,
+            "transform": "matrix(1, 0, 0, 1, 0, -3.68292)"
+          },
+          {
+            "time": 7666.29099999884,
+            "duration": 6000,
+            "delay": -3599.9999999999995,
+            "transform": "matrix(1, 0, 0, 1, 0, -0.617367)"
+          }
+        ],
+        "rect": {
+          "width": 350,
+          "height": 329.25
+        }
+      },
+      "reducedMotion": {
+        "icons": [
+          {
+            "source": "https://borel.one/landing/ios-icons/files.webp",
+            "width": 42,
+            "height": 42,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/facetime.webp",
+            "width": 42,
+            "height": 42,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/passwords.webp",
+            "width": 44,
+            "height": 44,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/notes.webp",
+            "width": 40,
+            "height": 40,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/clock.webp",
+            "width": 40,
+            "height": 40,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/books.webp",
+            "width": 44,
+            "height": 44,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/app-store.svg",
+            "width": 42,
+            "height": 42,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/safari.webp",
+            "width": 42,
+            "height": 42,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/contacts.webp",
+            "width": 48,
+            "height": 48,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/calendar.webp",
+            "width": 48,
+            "height": 48,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/maps.webp",
+            "width": 50,
+            "height": 50,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/messages.webp",
+            "width": 48,
+            "height": 48,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/settings.svg",
+            "width": 46,
+            "height": 46,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/voice-memos.webp",
+            "width": 48,
+            "height": 48,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/reminders.webp",
+            "width": 54,
+            "height": 54,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/find-my.webp",
+            "width": 52,
+            "height": 52,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/photos.webp",
+            "width": 58,
+            "height": 58,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/face-id.svg",
+            "width": 58,
+            "height": 58,
+            "loaded": true
+          },
+          {
+            "source": "https://borel.one/landing/ios-icons/camera.webp",
+            "width": 60,
+            "height": 60,
+            "loaded": true
+          }
+        ],
+        "floats": [],
+        "rect": {
+          "width": 350,
+          "height": 329.25
+        }
+      },
+      "summary": "The feature card is original-image layers in positioned wrappers. Inner CSS animations float independently on a six-second cycle; live reduced motion removes these CSS animations.",
+      "pageOverflow": false,
+      "artifactsDirectory": "artifacts/reference-motion/",
+      "frameNote": "Reference-site captures are local analysis artifacts; they are not included as SuperBrain demo assets."
+    },
+    {
+      "site": "huly",
+      "width": 390,
+      "status": 200,
+      "url": "https://huly.io/",
+      "observedAssets": [
+        {
+          "url": "https://huly.io/_next/static/rive.b8b719dae3c2060a.wasm",
+          "status": 200
+        },
+        {
+          "url": "https://huly.io/videos/pages/home/hero/hero.mp4",
+          "status": 206
+        },
+        {
+          "url": "https://huly.io/animations/pages/home/stay-productive/hotkeys.riv",
+          "status": 200
+        },
+        {
+          "url": "https://huly.io/animations/pages/home/stay-productive/team-planner.riv",
+          "status": 200
+        },
+        {
+          "url": "https://huly.io/videos/pages/home/stay-productive/waves.mp4",
+          "status": 206
+        },
+        {
+          "url": "https://huly.io/videos/pages/home/work-together/waves.mp4",
+          "status": 206
+        },
+        {
+          "url": "https://huly.io/animations/pages/home/stay-productive/time-blocking.riv",
+          "status": 200
+        },
+        {
+          "url": "https://huly.io/videos/pages/home/work-together/call.m3u8",
+          "status": 200
+        },
+        {
+          "url": "https://huly.io/animations/pages/home/stay-productive/notifications.riv",
+          "status": 200
+        }
+      ],
+      "errors": [],
+      "requestFailures": [
+        {
+          "host": "www.googletagmanager.com",
+          "path": "/gtm.js",
+          "error": "net::ERR_TUNNEL_CONNECTION_FAILED"
+        }
+      ],
+      "frames": [
+        "huly-390-idle.png",
+        "huly-390-idle-later.png",
+        "huly-390-inview-after.png",
+        "huly-390-inview-later.png"
+      ],
+      "captureTarget": "Visible clipped Team Planner card, including caption",
+      "cardTitle": "Team Planner. Keep track of the bigger picture by viewing all individual tasks in one centralized team calendar.",
+      "idlePixelChange": true,
+      "mobileContinuedPixelChange": true,
+      "inputMode": "Touch emulation; observed in-view animation without forcing hover",
+      "canvas": {
+        "width": 475,
+        "height": 260,
+        "cssWidth": 475.421875,
+        "cssHeight": 260
+      },
+      "observedMovement": true,
+      "summary": "Team Planner mounts a Rive canvas at actual card dimensions; frame captures distinguish idle and pointer-triggered behavior. On compact layout the Rive wrapper disables pointer events and the source has an in-view input trigger.",
+      "pageOverflow": false,
+      "artifactsDirectory": "artifacts/reference-motion/",
+      "frameNote": "Reference-site captures are local analysis artifacts; they are not included as SuperBrain demo assets."
+    }
+  ],
+  "scope": "Read-only feature-motion inspection at 1440px desktop and 390px touch emulation. No sign-in, form submission, data mutation or account operation.",
+  "limits": [
+    "Physical devices, Firefox/WebKit, field performance and full-site accessibility were not audited.",
+    "Borel auth-status requests and Huly analytics remained blocked; the inspected public feature scenes loaded and moved.",
+    "Some mobile media requests aborted during page lifecycle; this is not an application defect finding.",
+    "Huly pixel changes establish visible canvas animation, not causal identification of every internal state-machine transition."
+  ]
+}
