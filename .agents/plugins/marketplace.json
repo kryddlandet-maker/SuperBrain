@@ -1,0 +1,22 @@
+{
+  "name": "superbrain-tools",
+  "interface": {
+    "displayName": "SuperBrain Tools"
+  },
+  "plugins": [
+    {
+      "name": "superbrain",
+      "source": {
+        "source": "local",
+        "path": "."
+      }
+    },
+    {
+      "name": "frontend-design",
+      "source": {
+        "source": "local",
+        "path": "./plugins/frontend-design"
+      }
+    }
+  ]
+}

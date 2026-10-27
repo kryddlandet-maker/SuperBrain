@@ -1,0 +1,17 @@
+{
+  "name": "frontend-design",
+  "version": "1.0.0",
+  "description": "The original public Anthropic frontend-design skill, packaged for selection as a Codex plugin.",
+  "skills": "./skills",
+  "interface": {
+    "displayName": "Frontend Design",
+    "shortDescription": "Anthropics offentliga frontend-design-skill",
+    "longDescription": "The original frontend-design instructions and license from Anthropic's public skills repository. Packaging by SuperBrain; this plugin supplies guidance to the selected conversation.",
+    "developerName": "SuperBrain",
+    "category": "Design",
+    "websiteURL": "https://github.com/kryddlandet-maker/SuperBrain/tree/main/plugins/frontend-design",
+    "defaultPrompt": "Använd Frontend Design för att skapa ett tydligt visuellt uttryck som passar den här webbplatsen.",
+    "brandColor": "#30394F",
+    "composerIcon": "./assets/frontend-design.svg"
+  }
+}

@@ -2,6 +2,39 @@
 
 Du använder Codex och främst GPT 6.1 Sol. Hjälpmedlen är modelloberoende och tvingar inget modellbyte. Ingen API-nyckel behövs för skillen eller studion.
 
+## Välj med @ i olika chattar
+
+SuperBrain och Frontend Design finns som två separata Codex-pluginpaket. För att få dem i kontots pluginlista på datorn och i molnet behöver paketen registreras på kontot. Att länka en lokal `SKILL.md` i en chatt eller installera `.agents/skills` i ett projekt gör dem bara tillgängliga i den miljön.
+
+Kör i din befintliga SuperBrain-klon i PowerShell:
+
+```powershell
+git pull --ff-only origin main
+npm install --global @openai/codex
+codex login
+node scripts/register-plugins.mjs
+```
+
+Logga in med samma ChatGPT-konto och arbetsyta som du använder i Codex på datorn och i molnet. `codex login` kan hoppas över om rätt konto redan är inloggat. Node.js 22 eller senare behövs. Om du inte står i klonen från den tidigare installationen, börja med `Set-Location "$env:USERPROFILE\Desktop\Superbrain\SuperBrain"` eller öppna terminalen i din faktiska klon.
+
+Registreringskommandot använder Codex CLI:s app-server och dess befintliga inloggning. Det skapar privata paket med tom mottagarlista, installerar dem och läser tillbaka kontostatus. Ingen API-nyckel behövs. Endast resultatet `installed-and-verified` bekräftar installation på kontot. Därefter öppnar du en ny chatt, skriver `@` och söker efter **SuperBrain** respektive **Frontend Design**. Välj de plugins som ska användas i just den chatten. SuperBrain har en installationsguide som förbereder projektets verktyg när chatten har terminal och filsystem; Frontend Design tillför originalets designinstruktioner.
+
+Tillgång till egna privata plugins beror även på Codex-klientens version, konto, arbetsytans policy och vilka plugins klienten stöder. Kontoåterläsning bekräftar registreringen; kontrollera @-menyn separat i respektive klient. Vi har verifierat paketen med Codex CLI 0.163.0, men har **inte** kunnat verifiera registrering eller synlighet i datorns och molnets gränssnitt: den aktuella molnmiljön blockerar anslutningen till `chatgpt.com`. Kör kommandot på datorn, eller tillåt domänen i molnmiljöns nätinställningar och försök igen. Paketeringen i sig registrerar inget konto.
+
+Vid ett fel rapporteras installationen som obekräftad. Eventuella redan skapade plugin-ID:n sparas lokalt under ignorerade `artifacts/codex-plugins/registration.json`. Körning på nytt återanvänder egna privata SuperBrain-paket; namnkonflikter och delade eller obekräftade befintliga paket stoppar körningen. Uppdatera senare med `git pull --ff-only origin main` och `node scripts/register-plugins.mjs --update`. `--update` ersätter paketens innehåll och bevarar den privata åtkomsten.
+
+## Alternativ: lokal pluginmarknadsplats
+
+Om du vill installera från GitHub på en enskild dator:
+
+```sh
+codex plugin marketplace add kryddlandet-maker/SuperBrain --ref main
+codex plugin add superbrain@superbrain-tools
+codex plugin add frontend-design@superbrain-tools
+```
+
+Detta registrerar marknadsplatsen och paketen i den lokala Codex-profilen. Det bekräftar inte att molnchattar får tillgång till dem. För kontoregistrering används kommandot ovan. Teknisk information, paketering och verifieringsgränser finns i [pluginpaketen](CODEX-PLUGINS.md).
+
 ## Installera i hemsideprojektet
 
 Du behöver Git och Node.js 22 eller senare. Klona SuperBrain i en separat mapp utanför hemsideprojektet och kör följande i terminalen (fungerar även i PowerShell):
@@ -45,7 +78,7 @@ Beskriv observerade problem: rubrikfonten känns fel, varje sektion har en annan
 
 Spara en fungerande version före större omtag. Notera modell, brief, referenser och vilka kapitel som laddades. Jämför samma uppgift med en kortare kontext om ett bygge börjar bli stelt.
 
-## Pluginstöd
+## Andra användbara verktyg
 
 - GitHub: versionshantering och dokumenterade ändringar.
 - Inbyggd webbläsare: referensgranskning och kontroll av den faktiskt byggda sidan.

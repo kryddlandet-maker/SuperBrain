@@ -25,6 +25,9 @@
     "test:colors": "node scripts/check-colors.mjs",
     "test:themes": "node scripts/check-themes.mjs",
     "test:scenes": "node scripts/check-product-motion.mjs",
-    "skills:anthropic": "node scripts/anthropic.mjs"
+    "skills:anthropic": "node scripts/anthropic.mjs",
+    "plugins:package": "node scripts/package-plugins.mjs",
+    "plugins:register": "node scripts/register-plugins.mjs",
+    "test:plugins": "node --test tests/codex-plugins.test.mjs"
   }
 }

@@ -8,6 +8,8 @@ De följer med som valbara resurser vid installation av SuperBrain. För att des
 
 [Installera eller uppdatera SuperBrain i Codex — steg för steg](docs/CODEX.md).
 
+För val med **@ i olika chattar** finns två separata Codex-pluginpaket: **SuperBrain** och **Frontend Design**. Kör `node scripts/register-plugins.mjs` i klonen med Codex CLI inloggat på ditt konto. Kommandot försöker registrera privata paket och verifierar kontots installationsstatus. Paketen är testade lokalt; kontoregistrering och synlighet i datorns och molnets @-menyer återstår att verifiera eftersom molnmiljön blockerar kontotjänsten. [Installation och begränsningar](docs/CODEX.md#välj-med--i-olika-chattar).
+
 ## Aktiva produktanimationer
 
 SuperBrain kan nu guida och bygga levande produktkort: ett arbetsflöde, rörliga funktionsikoner och en redigeringstidslinje. Kör `npm run studio` och gå till `/examples/product-motion/`. Scenerna spelar när de syns, med synkroniserad rörelse, paus, stilla alternativ och stöd för mobil.

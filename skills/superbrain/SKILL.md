@@ -5,7 +5,9 @@ description: Design and build distinctive multi-page websites, coherent layouts 
 
 # SuperBrain
 
-Build for this business and its visitors. Choose composition, typography, imagery and interaction deliberately. Examples are starting points, not templates. User requirements and existing project decisions take priority. Keep project-specific taste and facts in the project brief.
+Design for this business and its visitors. Choose composition, type, imagery and motion deliberately. User requirements and existing decisions take priority. Keep project-specific facts and preferences in the brief; examples are starting points.
+
+When added as a plugin, read [setup](references/plugin-setup.md).
 
 ## Establish the actual brief
 
