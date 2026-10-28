@@ -2,13 +2,18 @@
   "name": "superbrain",
   "version": "2.0.0-rc.4",
   "description": "Distinctive websites, active product demonstrations and reusable design tools from SuperBrain.",
+  "author": {
+    "name": "SuperBrain",
+    "url": "https://github.com/kryddlandet-maker/SuperBrain"
+  },
   "skills": "./skills",
   "interface": {
     "displayName": "SuperBrain",
-    "shortDescription": "Webbdesign och aktiva produktanimationer",
+    "shortDescription": "Webbdesign och animationer",
     "longDescription": "Design guidance, project tools and original animated product studies. Select this plugin for the current conversation; setup prepares the current project when executable tools are available.",
     "developerName": "SuperBrain",
-    "category": "Design",
+    "category": "Creativity",
+    "capabilities": ["Webbdesign", "Produktanimationer", "Designverktyg"],
     "websiteURL": "https://github.com/kryddlandet-maker/SuperBrain",
     "defaultPrompt": "Använd SuperBrain för att bygga en webbplats med egen karaktär och genomtänkta produktanimationer.",
     "brandColor": "#3D61DF",

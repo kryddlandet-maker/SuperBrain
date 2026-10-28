@@ -27,7 +27,8 @@ test('original packages are available on demand; native activation is repeatable
     await install(target,{anthropic:true});await install(target,{anthropic:true});
     for(const id of anthropicSkillIds)assert.deepEqual(await readFile(path.join(target,'.agents/skills',id,'SKILL.md')),await readFile(path.join(root,'vendor/anthropic/skills',id,'SKILL.md')));
     const tar='web-artifacts-builder/scripts/shadcn-components.tar.gz';assert.deepEqual(await readFile(path.join(target,'.agents/skills',tar)),await readFile(path.join(root,'vendor/anthropic/skills',tar)));
-    assert((await stat(path.join(target,'.agents/skills/web-artifacts-builder/scripts/init-artifact.sh'))).mode&0o111);
+    // Windows does not expose POSIX executable bits; original bytes are checked above.
+    if(process.platform!=='win32')assert((await stat(path.join(target,'.agents/skills/web-artifacts-builder/scripts/init-artifact.sh'))).mode&0o111);
     const agents=await readFile(path.join(target,'AGENTS.md'),'utf8');assert(agents.includes('Preserve the booking flow.'));
     await writeFile(path.join(target,'.agents/skills/frontend-design/SKILL.md'),'Local customization');
     await assert.rejects(install(target,{anthropic:true}),/Locally edited/);assert.equal(await readFile(path.join(target,'AGENTS.md'),'utf8'),agents);

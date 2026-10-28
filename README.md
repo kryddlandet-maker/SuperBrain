@@ -8,7 +8,7 @@ De följer med som valbara resurser vid installation av SuperBrain. För att des
 
 [Installera eller uppdatera SuperBrain i Codex — steg för steg](docs/CODEX.md).
 
-För val med **@ i olika chattar** finns två separata Codex-pluginpaket: **SuperBrain** och **Frontend Design**. Kör `node scripts/register-plugins.mjs` i klonen med Codex CLI inloggat på ditt konto. Kommandot försöker registrera privata paket och verifierar kontots installationsstatus. Paketen är testade lokalt; kontoregistrering och synlighet i datorns och molnets @-menyer återstår att verifiera eftersom molnmiljön blockerar kontotjänsten. [Installation och begränsningar](docs/CODEX.md#välj-med--i-olika-chattar).
+För val med **@ i olika chattar** finns två separata Codex-pluginpaket: **SuperBrain** och **Frontend Design**. Kör `node scripts/register-plugins.mjs` i klonen med Codex CLI inloggat på ditt konto. Privat kontoinstallation, aktiverade skills och återkörning utan dubbletter är verifierade på Windows med Codex CLI 0.164.0. Öppna en ny chatt, skriv `@` och sök efter respektive plugin. [Installation och verifiering](docs/CODEX.md#välj-med--i-olika-chattar).
 
 ## Aktiva produktanimationer
 
