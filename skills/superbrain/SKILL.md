@@ -1,6 +1,6 @@
 ---
 name: superbrain
-description: Design and build distinctive multi-page websites, coherent layouts and interactive motion. Use for new sites, substantial redesigns, reference-led web design, animated product demonstrations and living feature cards.
+description: Design and build distinctive multi-page websites, coherent layouts and interactive motion. Use for new sites, substantial redesigns, reference-led web design, product demonstrations, scroll films and living cards.
 ---
 
 # SuperBrain
@@ -41,9 +41,11 @@ Respect the existing stack. Use semantic links/buttons, complete states, intenti
 
 For animation read [motion](references/motion.md); for cursor reveals, light-following buttons and scroll choreography read [interactive effects](references/interactive-effects.md). For media/heavy graphics read [assets/performance](references/assets-performance.md), and for adaptations read [accessibility](references/accessibility.md). Choose the simplest adequate technique; richer libraries are welcome when they materially help.
 
-For active product cards, “rörliga rutor”, icon choreography and miniature UI stories, read [product motion](references/product-motion.md). Build a coordinated input → action → consequence with readable holds. Play visible-auto scenes on arrival, not only on hover. Reuse examples/shared/product-motion.js and /examples/product-motion/ where appropriate. Verify whether references use live layers or video; rendered footage needs real authorized assets. A brief can select techniques: ["scenes"].
+For active product cards, “rörliga rutor” and miniature UI stories, read [product motion](references/product-motion.md). Coordinate input → action → consequence with readable holds; visible-auto scenes play on arrival. Reuse examples/shared/product-motion.js and /examples/product-motion/. Select techniques: ["scenes"]. Inspect live layers/media before recreation; footage needs authorized assets.
 
-Read [effect selection](references/effect-selection.md) to route to materials, type, product stories, galleries/commerce or graphics. Read [site archetypes](references/site-archetypes.md) for portfolio, restaurant or shop needs. Load these families selectively; the larger library should expand options without expanding every brief.
+For scrollfilm and cinematic heroes, read [cinematic media](references/cinematic-media.md): authorized film, media-time text cues, portrait treatment and still fallback. Select techniques: ["cinematic"] only when relevant.
+
+Use [effect selection](references/effect-selection.md) for materials, type, product stories, galleries or graphics, and [site archetypes](references/site-archetypes.md) for portfolio, restaurant or shop needs. Load these families selectively.
 
 ## Judge what was built
 

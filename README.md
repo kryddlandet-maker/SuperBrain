@@ -1,4 +1,9 @@
-# SuperBrain 2.0.0-rc.4
+# SuperBrain 2.0.0-rc.5
+
+## Scrollfilm och mediegranskning
+
+SuperBrain har en ny valbar `cinematic`-familj: scrollstyrd film, textlager som följer presenterad videotid, separat mobilkomposition och fungerande stillbild. Briefverktyget exporterar scen- och produktionsplaner. Lokala medieverktyg förbereder filmer och skapar en tidsstämplad bildöversikt med granskningsspelare. Originalkod och eget demomaterial; inga filer från 10k-websites har kopierats. [Användning, ursprung och verifiering](docs/CINEMATIC-MEDIA.md). Kör `npm run studio` och öppna `/examples/cinematic-media/`, eller skriv: **Använd SuperBrain. Bygg en filmisk scrollsajt med mobilkomposition och ett statiskt alternativ.**
+
 
 ## Originalskills från Anthropic
 

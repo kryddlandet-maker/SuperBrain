@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "reviewed": "2026-10-27",
+  "reviewed": "2026-11-03",
   "baseline": "38fef3f",
   "domains": [
     {
@@ -1292,6 +1292,26 @@
       "access": "Verified HTTPS HTML/JS/CSS and scoped media-header inspection",
       "reviewed": "2026-10-27",
       "runtimeValidation": "Selected feature motion observed in native Chromium at 1440px desktop and 390px touch emulation; see docs/evidence/product-motion/reference-browser.json. No whole-site or physical-device certification."
+    },
+    {
+      "id": "superbrain-cinematic-20261103",
+      "author": "SuperBrain",
+      "url": "https://github.com/kryddlandet-maker/SuperBrain/blob/main/docs/CINEMATIC-MEDIA.md",
+      "finding": "Original implemented scroll-film runtime, prepared local media, authored decoded-time typography and time-stamped review tools. Tested against procedural original films.",
+      "kind": "local implementation and verification",
+      "license": "Original SuperBrain implementation; no 10k-websites code or media copied",
+      "access": "Local unit, browser and installed-consumer verification",
+      "reviewed": "2026-11-03"
+    },
+    {
+      "id": "reference-10k-cinematic",
+      "author": "Metics Media",
+      "url": "https://github.com/meticsmedia/10k-websites/tree/b01a74dcd7bf1cfdc8448ed077f6d333fc329e40",
+      "finding": "Source analysis identified scroll-film, film-linked typography, review and production-plan concepts. No license file found at this pinned revision; no code or instruction text reused.",
+      "kind": "public source reference",
+      "license": "Reuse license not specified; analysis only",
+      "access": "Pinned GitHub source review",
+      "reviewed": "2026-11-03"
     }
   ],
   "candidates": [
@@ -3104,6 +3124,78 @@
       },
       "reference": "skills/superbrain/references/anthropic-skills.md",
       "reviewed": "2026-10-27",
+      "priority": 1
+    },
+    {
+      "id": "C042",
+      "name": "Scroll film with decoded-time typography",
+      "kind": "technique",
+      "domain": "I",
+      "capability": "I4",
+      "description": "Reversible native video seeking, separate portrait media, authored text cues and still/error/reduced-motion alternatives.",
+      "keywords": [
+        "cinematic",
+        "scrollfilm",
+        "scrollvideo",
+        "filmisk",
+        "video",
+        "media time"
+      ],
+      "implementation": "Optional original SuperBrain cinematic family; see runtime, media CLI and focus guide.",
+      "sourceIds": [
+        "superbrain-cinematic-20261103",
+        "reference-10k-cinematic"
+      ],
+      "license": "Original SuperBrain code and procedural assets; upstream is analysis only",
+      "maturity": "TESTED",
+      "validation": {
+        "scope": "Local Node, Chrome desktop/mobile emulation and installed-consumer tests. No physical-phone or all-browser certification; no optical tracking or depth inference.",
+        "evidence": [
+          "docs/CINEMATIC-MEDIA.md",
+          "tests/cinematic.test.mjs",
+          "tests/cinematic-integration.test.mjs",
+          "scripts/check-cinematic.mjs"
+        ]
+      },
+      "reference": "skills/superbrain/references/cinematic-media.md",
+      "demo": "/examples/cinematic-media/",
+      "reviewed": "2026-11-03",
+      "priority": 1
+    },
+    {
+      "id": "C043",
+      "name": "Time-stamped film review and preparation",
+      "kind": "technique",
+      "domain": "T",
+      "capability": "T1",
+      "description": "Local seek-friendly encodes, portrait crops, posters and HTML film overview with slow-motion review.",
+      "keywords": [
+        "cinematic",
+        "film review",
+        "contact sheet",
+        "kontaktkarta",
+        "ffmpeg",
+        "poster",
+        "portrait"
+      ],
+      "implementation": "Optional original SuperBrain cinematic family; see runtime, media CLI and focus guide.",
+      "sourceIds": [
+        "superbrain-cinematic-20261103",
+        "reference-10k-cinematic"
+      ],
+      "license": "Original SuperBrain code and procedural assets; upstream is analysis only",
+      "maturity": "TESTED",
+      "validation": {
+        "scope": "Local Node, Chrome desktop/mobile emulation and installed-consumer tests. No physical-phone or all-browser certification; no optical tracking or depth inference.",
+        "evidence": [
+          "docs/CINEMATIC-MEDIA.md",
+          "tests/cinematic-media.test.mjs",
+          "tests/cinematic-integration.test.mjs"
+        ]
+      },
+      "reference": "skills/superbrain/references/cinematic-media.md",
+      "demo": "/examples/cinematic-media/",
+      "reviewed": "2026-11-03",
       "priority": 1
     }
   ],

@@ -12,3 +12,7 @@ import './engine-api.test.mjs';
 import './product-motion.test.mjs';
 import './anthropic-skills.test.mjs';
 import './codex-plugins.test.mjs';
+import './cinematic.test.mjs';
+import './cinematic-media.test.mjs';
+import './cinematic-plan.test.mjs';
+import './cinematic-integration.test.mjs';

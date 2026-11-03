@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "origin": "Original SuperBrain procedural canvas study",
+  "generator": "scripts/create-cinematic-demo.mjs",
+  "subject": "Abstract orbital light sculpture; fictional demonstration",
+  "sources": [],
+  "fps": 24,
+  "frames": 96,
+  "duration": 4,
+  "variants": [
+    "wide",
+    "portrait"
+  ],
+  "license": "Repository-authored demonstration assets; no 10k-websites media or code included"
+}

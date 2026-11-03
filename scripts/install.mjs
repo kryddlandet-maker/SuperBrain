@@ -29,7 +29,7 @@ export async function install(targetArg,{anthropic=false}={}) {
     }
     return files.sort();
   }
-  const mapping=[['skills/superbrain','.agents/skills/superbrain'],['examples/shared','.superbrain/examples/shared'],['examples/product-motion','.superbrain/examples/product-motion'],['lib','.superbrain/lib'],['docs','.superbrain/docs'],['data','.superbrain/data'],['vendor/anthropic','.superbrain/vendor/anthropic']];
+  const mapping=[['skills/superbrain','.agents/skills/superbrain'],['examples/shared','.superbrain/examples/shared'],['examples/product-motion','.superbrain/examples/product-motion'],['examples/cinematic-media','.superbrain/examples/cinematic-media'],['lib','.superbrain/lib'],['docs','.superbrain/docs'],['data','.superbrain/data'],['vendor/anthropic','.superbrain/vendor/anthropic']];
   if(anthropic)for(const id of anthropicSkillIds)mapping.push(['vendor/anthropic/skills/'+id,'.agents/skills/'+id]);
   const files=[];
   for(const [from,to] of mapping) for(const rel of await walk(path.join(root,from))) {
@@ -41,7 +41,7 @@ export async function install(targetArg,{anthropic=false}={}) {
     const content=await readFile(path.join(root,'skills/superbrain',rel));
     files.push({path:`.superbrain/skills/superbrain/${rel}`,content,sha256:hash(content)});
   }
-  for(const rel of ['scripts/brief.mjs','scripts/discover.mjs','scripts/design.mjs','scripts/audit.mjs','scripts/anthropic.mjs']) {
+  for(const rel of ['scripts/brief.mjs','scripts/discover.mjs','scripts/design.mjs','scripts/audit.mjs','scripts/anthropic.mjs','scripts/cinematic-media.mjs']) {
     const content=await readFile(path.join(root,rel));files.push({path:`.superbrain/${rel}`,content,sha256:hash(content)});
   }
   const meta='.superbrain/install.json';

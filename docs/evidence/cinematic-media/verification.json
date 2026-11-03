@@ -1,0 +1,53 @@
+{
+  "checks": [
+    {
+      "name": "film-forward-reverse-1440",
+      "evidence": "Decoded film pixels change, arbitrary/reverse seek settles at the requested time, a single appropriate source is selected, and no horizontal overflow occurs."
+    },
+    {
+      "name": "responsive-source-replacement",
+      "evidence": "A live viewport change selects portrait and then wide again, preserving the requested media position with one video element."
+    },
+    {
+      "name": "still-and-skip-1440",
+      "evidence": "Still control releases the video source and the skip link reaches the following content."
+    },
+    {
+      "name": "film-forward-reverse-390",
+      "evidence": "Decoded film pixels change, arbitrary/reverse seek settles at the requested time, a single appropriate source is selected, and no horizontal overflow occurs."
+    },
+    {
+      "name": "still-and-skip-390",
+      "evidence": "Still control releases the video source and the skip link reaches the following content."
+    },
+    {
+      "name": "film-forward-reverse-320",
+      "evidence": "Decoded film pixels change, arbitrary/reverse seek settles at the requested time, a single appropriate source is selected, and no horizontal overflow occurs."
+    },
+    {
+      "name": "still-and-skip-320",
+      "evidence": "Still control releases the video source and the skip link reaches the following content."
+    },
+    {
+      "name": "reduced-motion-opt-in",
+      "evidence": "Reduced motion starts as a readable still without any film request; local opt-in loads only the portrait film."
+    },
+    {
+      "name": "no-javascript",
+      "evidence": "The poster, semantic heading and native navigation work with no video request."
+    },
+    {
+      "name": "failed-media",
+      "evidence": "A failed film request keeps the poster, headline and controls available."
+    },
+    {
+      "name": "studio-cinematic-brief",
+      "evidence": "The visible studio choice reaches the design API and returns both cinematic scene and production files."
+    }
+  ],
+  "browserErrors": [],
+  "limitations": [
+    "Desktop Chrome emulation; no physical phone or Safari run.",
+    "No automatic optical tracking or depth inference."
+  ]
+}

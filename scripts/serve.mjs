@@ -3,13 +3,14 @@ import {searchSkills} from '../lib/skill-router.mjs';
 import {creativeReview,refinementPlan,auditSnapshot} from '../lib/critique.mjs';
 import {planDesign} from '../lib/design-engine.mjs';
 import http from 'node:http';
+import {createReadStream} from 'node:fs';
 import { readFile, stat, realpath } from 'node:fs/promises';
 import path from 'node:path';
 import { pathToFileURL } from 'node:url';
 import { root, compileBrief } from '../lib/brief.mjs';
 import {loadLibrary,searchLibrary,summarizeLibrary} from '../lib/library.mjs';
 
-const mime = {'.html':'text/html; charset=utf-8','.css':'text/css; charset=utf-8','.js':'text/javascript; charset=utf-8','.svg':'image/svg+xml','.json':'application/json; charset=utf-8','.md':'text/plain; charset=utf-8'};
+const mime = {'.html':'text/html; charset=utf-8','.css':'text/css; charset=utf-8','.js':'text/javascript; charset=utf-8','.svg':'image/svg+xml','.png':'image/png','.webp':'image/webp','.mp4':'video/mp4','.webm':'video/webm','.json':'application/json; charset=utf-8','.md':'text/plain; charset=utf-8'};
 function within(base, target) { const rel=path.relative(base,target); return !rel.startsWith('..') && !path.isAbsolute(rel); }
 export function createServer() {
   return http.createServer(async (req,res) => {
@@ -51,6 +52,21 @@ export function createServer() {
       if((await stat(file)).isDirectory()) file=path.join(file,'index.html');
       const resolved=await realpath(file);
       if(!within(await realpath(base),resolved)) {res.writeHead(403);res.end('Forbidden');return;}
+      if(['.mp4','.webm'].includes(path.extname(file))){
+        const {size}=await stat(resolved);let start=0,end=size-1,partial=false;
+        if(req.headers.range){
+          const match=/^bytes=(\d*)-(\d*)$/.exec(req.headers.range);
+          if(match&&(match[1]||match[2])){
+            if(!match[1])start=Math.max(0,size-Number(match[2]));
+            else{start=Number(match[1]);if(match[2])end=Math.min(end,Number(match[2]));}
+          }
+          if(!match||!Number.isSafeInteger(start)||!Number.isSafeInteger(end)||start<0||start>end||start>=size||!match[1]&&Number(match[2])===0){res.writeHead(416,{'Content-Range':'bytes */'+size});res.end();return;}
+          partial=true;
+        }
+        res.writeHead(partial?206:200,{'Content-Type':mime[path.extname(file)],'Accept-Ranges':'bytes','Content-Length':end-start+1,...(partial?{'Content-Range':`bytes ${start}-${end}/${size}`}:{})});
+        if(req.method==='HEAD')res.end();else createReadStream(resolved,{start,end}).on('error',()=>res.destroy()).pipe(res);
+        return;
+      }
       res.writeHead(200,{'Content-Type':mime[path.extname(file)]||'application/octet-stream'});
       res.end(req.method==='HEAD'?undefined:await readFile(resolved));
     } catch(error) { res.writeHead(error.code==='ENOENT'?404:400); res.end('Page not found or invalid request'); }
