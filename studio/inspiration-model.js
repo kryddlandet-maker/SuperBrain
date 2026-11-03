@@ -1,5 +1,5 @@
 export const normalizeSearch=value=>String(value??'').normalize('NFD').replace(/\p{Diacritic}/gu,'').toLocaleLowerCase('sv').trim();
-const featuredIds=['workflow-scene','scroll-film','horizontal-glow','procedural-light','pointer-reveal','technology-site','image-comparison','salon-site','connected-scroll','editing-scene','warm-side-light','filter-gallery'];
+const featuredIds=['film-surface','image-depth','expanding-composition','workflow-scene','scroll-film','horizontal-glow','procedural-light','pointer-reveal','technology-site','image-comparison','salon-site','connected-scroll','editing-scene','warm-side-light','filter-gallery'];
 export function parseSavedIdeas(raw,items){
   let value;try{value=JSON.parse(raw||'[]');}catch{return [];}
   if(!Array.isArray(value))return [];

@@ -9,8 +9,8 @@ const raw=async()=>JSON.parse(await readFile(new URL('../data/studio-catalog.jso
 
 test('studio catalog groups actual local studies and useful tools without upgrading research',async()=>{
   const catalog=await loadStudioCatalog();
-  assert.equal(catalog.categories.length,8);assert.equal(catalog.items.length,35);
-  assert.deepEqual(catalog.items.filter(i=>i.category==='tools').map(i=>i.href),['/studio/brief/','/studio/engine/','/examples/library/','/examples/atlas/']);
+  assert.equal(catalog.categories.length,8);assert.equal(catalog.items.length,52);
+  assert.deepEqual(catalog.items.filter(i=>i.category==='tools').map(i=>i.href),['/studio/brief/','/studio/engine/','/examples/library/','/examples/atlas/','/studio/production/']);
   for(const name of ['workflow-scene','orbit-scene','editing-scene','scroll-film'])assert(catalog.items.some(i=>i.id===name));
   assert(catalog.items.every(i=>i.preview.thumbnail.endsWith('/'+i.id+'.png')));
   assert(catalog.items.every(i=>!('maturity' in i)));

@@ -24,7 +24,7 @@ test('saved inspirations discard invalid state and create a usable reference han
 test('studio catalog endpoint and direct brief route work without exposing repository sources',async()=>{
   const server=createServer();await new Promise(resolve=>server.listen(0,'127.0.0.1',resolve));const base='http://127.0.0.1:'+server.address().port;
   try{
-    const response=await fetch(base+'/api/studio');assert.equal(response.status,200);const data=await response.json();assert.equal(data.items.length,35);assert.equal(data.categories.length,8);
+    const response=await fetch(base+'/api/studio');assert.equal(response.status,200);const data=await response.json();assert.equal(data.items.length,(await loadStudioCatalog()).items.length);assert.equal(data.categories.length,8);
     const page=await fetch(base+'/studio/brief/');assert.equal(page.status,200);assert((await page.text()).includes('brief-form'));
     assert.equal((await fetch(base+'/api/studio',{method:'POST'})).status,405);assert.equal((await fetch(base+'/data/studio-catalog.json')).status,404);
     const head=await fetch(base+'/api/studio',{method:'HEAD'});assert.equal(head.status,200);assert.equal(await head.text(),'');

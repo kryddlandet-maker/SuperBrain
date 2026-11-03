@@ -1,0 +1,26 @@
+{
+  "brandExports": {
+    "html": true,
+    "png": true,
+    "pdf": true,
+    "rendering": "Actual local Chromium screenshot and PDF; no external network resources."
+  },
+  "edit": {
+    "duration": 2.71,
+    "joins": [
+      {
+        "at": 1.25,
+        "duration": 0.25,
+        "kind": "dissolve",
+        "from": 0,
+        "to": 1
+      }
+    ]
+  },
+  "standalone": {
+    "catalog": 52,
+    "guidance": true,
+    "specDownload": true,
+    "existingFiles": "preserved"
+  }
+}

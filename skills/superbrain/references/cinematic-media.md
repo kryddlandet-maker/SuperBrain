@@ -55,7 +55,7 @@ The scene maps normal scroll to a paused video's position and applies authored t
 
 Give each animated property one owner. Keep inner-layer transforms separate from controls and the pointer hit target. Supply intentional wide and portrait layouts; changing viewport must not fetch both full films unnecessarily. The controller's cleanup belongs in framework unmount and page lifecycle handling. Confirm the returned state and handle failed media with the composed still.
 
-This module interpolates authored cues. It does not measure camera movement, track text onto surfaces, infer depth maps or invent missing photographic footage. Surface tracking and image-based depth need separate licensed tooling and their own validation.
+This module interpolates authored cues. For actual measured planar motion and perspective text use [film tracking](film-tracking.md); for inferred relative image depth use [depth media](depth-media.md). Both are optional local tools with their own validation and input limitations. They do not invent missing photographic footage.
 
 ## Review motion and fallback separately
 

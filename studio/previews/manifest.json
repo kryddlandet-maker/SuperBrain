@@ -3,6 +3,24 @@
   "generator": "scripts/capture-studio-previews.mjs",
   "previews": [
     {
+      "id": "arrival-tilt",
+      "route": "/examples/advanced-studio/",
+      "selector": "#arrival",
+      "file": "/studio/previews/arrival-tilt.png",
+      "sourceFingerprint": "f6b298ad4ee5555f728b1bfacc4bc204418180b8067f1590466d31530f945aca",
+      "sha256": "cad63d03b769acb9060d6f3a5fd0e225880aea76c2f4e03128cb6e6c3f98117d",
+      "bytes": 26876,
+      "capturedAt": "2026-11-03T18:13:17.211Z",
+      "viewport": {
+        "width": 1100,
+        "height": 750
+      },
+      "deviceScaleFactor": 1,
+      "actions": [],
+      "blockedExternalOrigins": [],
+      "scope": "A real local browser frame for browsing inspiration; not a motion-quality certification."
+    },
+    {
       "id": "color-variants",
       "route": "/examples/collection/",
       "selector": ".shop-study",
@@ -93,6 +111,26 @@
       "scope": "A real local browser frame for browsing inspiration; not a motion-quality certification."
     },
     {
+      "id": "drifting-notes",
+      "route": "/examples/advanced-studio/",
+      "selector": "#drifting-columns",
+      "file": "/studio/previews/drifting-notes.png",
+      "sourceFingerprint": "502173ebb681fc33a84049d40e653d1ec3ee381edfd3cdb812b4099a6cdef7fc",
+      "sha256": "3f3a7bb6dcb346a5d0ced3e2d3a6d8697335ad9cf4314b4a873c42d671d2aaed",
+      "bytes": 37129,
+      "capturedAt": "2026-11-03T18:13:11.968Z",
+      "viewport": {
+        "width": 1100,
+        "height": 750
+      },
+      "deviceScaleFactor": 1,
+      "actions": [
+        "Sampled 2 authored native animations at 58%"
+      ],
+      "blockedExternalOrigins": [],
+      "scope": "A real local browser frame for browsing inspiration; not a motion-quality certification."
+    },
+    {
       "id": "edge-light",
       "route": "/examples/pointer-buttons/",
       "selector": "[data-pointer-effect=\"edge\"]",
@@ -130,6 +168,24 @@
       "actions": [
         "Sampled 4 authored native animations at 58%"
       ],
+      "blockedExternalOrigins": [],
+      "scope": "A real local browser frame for browsing inspiration; not a motion-quality certification."
+    },
+    {
+      "id": "expanding-composition",
+      "route": "/examples/advanced-studio/",
+      "selector": "#expand",
+      "file": "/studio/previews/expanding-composition.png",
+      "sourceFingerprint": "f6195131eeaf0c2df743db5512c0f6fc78e4960e825d6f9ae5533e06e817ed81",
+      "sha256": "6c9de76136759bf79202e510180c7f11d39e2931cb82cf5e8ef3cb646086c1c5",
+      "bytes": 94171,
+      "capturedAt": "2026-11-03T18:12:56.647Z",
+      "viewport": {
+        "width": 1100,
+        "height": 750
+      },
+      "deviceScaleFactor": 1,
+      "actions": [],
       "blockedExternalOrigins": [],
       "scope": "A real local browser frame for browsing inspiration; not a motion-quality certification."
     },
@@ -197,6 +253,24 @@
       "scope": "A real local browser frame for browsing inspiration; not a motion-quality certification."
     },
     {
+      "id": "film-surface",
+      "route": "/examples/advanced-studio/",
+      "selector": "#surface",
+      "file": "/studio/previews/film-surface.png",
+      "sourceFingerprint": "a1dad82d97a1579db0bbd7e63e034d2c836ca641d80c20a4e457147c3f2cdd98",
+      "sha256": "d7bd3e7dd29560e4744a031f8715599184e283be52383ae0536a2b01654adfc0",
+      "bytes": 178027,
+      "capturedAt": "2026-11-03T18:12:53.458Z",
+      "viewport": {
+        "width": 1100,
+        "height": 750
+      },
+      "deviceScaleFactor": 1,
+      "actions": [],
+      "blockedExternalOrigins": [],
+      "scope": "A real local browser frame for browsing inspiration; not a motion-quality certification."
+    },
+    {
       "id": "filter-gallery",
       "route": "/examples/collection/#gallery",
       "selector": "#gallery",
@@ -211,6 +285,46 @@
       },
       "deviceScaleFactor": 1,
       "actions": [],
+      "blockedExternalOrigins": [],
+      "scope": "A real local browser frame for browsing inspiration; not a motion-quality certification."
+    },
+    {
+      "id": "floating-row-image",
+      "route": "/examples/advanced-studio/",
+      "selector": "#floating-image",
+      "file": "/studio/previews/floating-row-image.png",
+      "sourceFingerprint": "9c4b315b999d4b405f4cdfd2403101b6e29d1d1ab12040899406b6e0c254d4c8",
+      "sha256": "3064046a576b1fbbff884281736cc57e53452e7633232c0595c218c85bd36697",
+      "bytes": 39838,
+      "capturedAt": "2026-11-03T18:13:05.069Z",
+      "viewport": {
+        "width": 1100,
+        "height": 750
+      },
+      "deviceScaleFactor": 1,
+      "actions": [
+        "Pointer hover inside actual preview target"
+      ],
+      "blockedExternalOrigins": [],
+      "scope": "A real local browser frame for browsing inspiration; not a motion-quality certification."
+    },
+    {
+      "id": "flowing-path",
+      "route": "/examples/advanced-studio/",
+      "selector": "#flow-path",
+      "file": "/studio/previews/flowing-path.png",
+      "sourceFingerprint": "a65b30c9c8dd557d1fe664b90053714ca8003af70fc921180431b6f21ffaff81",
+      "sha256": "9d2fd175b6c1236bfd363d2d0769cbaf6ea78d69457c31923e60ba30bcf8f220",
+      "bytes": 19450,
+      "capturedAt": "2026-11-03T18:13:15.469Z",
+      "viewport": {
+        "width": 1100,
+        "height": 750
+      },
+      "deviceScaleFactor": 1,
+      "actions": [
+        "Sampled 1 authored native animations at 58%"
+      ],
       "blockedExternalOrigins": [],
       "scope": "A real local browser frame for browsing inspiration; not a motion-quality certification."
     },
@@ -231,6 +345,27 @@
       "actions": [
         "Pointer hover inside actual control",
         "Sampled 1 authored native animations at 58%"
+      ],
+      "blockedExternalOrigins": [],
+      "scope": "A real local browser frame for browsing inspiration; not a motion-quality certification."
+    },
+    {
+      "id": "glass-sheen",
+      "route": "/examples/advanced-studio/",
+      "selector": "#glass-sheen",
+      "file": "/studio/previews/glass-sheen.png",
+      "sourceFingerprint": "3722a0cc2fa4d93205524f11c27be63ef804019f3c2ea12ed294d0a0a6a1fbe7",
+      "sha256": "39d1b4de773271fb3d8c055feb2462dd7bfdd9fc8e01d36dc8ef545da36468a0",
+      "bytes": 69002,
+      "capturedAt": "2026-11-03T18:13:03.856Z",
+      "viewport": {
+        "width": 1100,
+        "height": 750
+      },
+      "deviceScaleFactor": 1,
+      "actions": [
+        "Pointer hover inside actual preview target",
+        "Sampled 2 authored native animations at 58%"
       ],
       "blockedExternalOrigins": [],
       "scope": "A real local browser frame for browsing inspiration; not a motion-quality certification."
@@ -275,6 +410,26 @@
       "scope": "A real local browser frame for browsing inspiration; not a motion-quality certification."
     },
     {
+      "id": "image-depth",
+      "route": "/examples/advanced-studio/",
+      "selector": "#depth",
+      "file": "/studio/previews/image-depth.png",
+      "sourceFingerprint": "4c3d8900f8002c830984e318d273e77713ec606f66a4ef776daee98a3f89dd1e",
+      "sha256": "0e2deda6500b0ba1f6e83715bf3824d4014eb769adfeaf788ce32c3bc188753b",
+      "bytes": 333215,
+      "capturedAt": "2026-11-03T18:12:54.910Z",
+      "viewport": {
+        "width": 1100,
+        "height": 750
+      },
+      "deviceScaleFactor": 1,
+      "actions": [
+        "Pointer hover inside actual preview target"
+      ],
+      "blockedExternalOrigins": [],
+      "scope": "A real local browser frame for browsing inspiration; not a motion-quality certification."
+    },
+    {
       "id": "light-cta",
       "route": "/examples/effects/#buttons",
       "selector": "#buttons",
@@ -312,6 +467,24 @@
       "actions": [
         "Sampled 6 authored native animations at 58%"
       ],
+      "blockedExternalOrigins": [],
+      "scope": "A real local browser frame for browsing inspiration; not a motion-quality certification."
+    },
+    {
+      "id": "pinned-story-rail",
+      "route": "/examples/advanced-studio/",
+      "selector": "#rail",
+      "file": "/studio/previews/pinned-story-rail.png",
+      "sourceFingerprint": "34c85d21965f960958788fd071d24198ddf10edcdb83726a03a493f75058cabf",
+      "sha256": "b7f276da244809d269b47fff4fc7a544e7f5422a30214bd537d2d22da45164c5",
+      "bytes": 37370,
+      "capturedAt": "2026-11-03T18:12:58.387Z",
+      "viewport": {
+        "width": 1100,
+        "height": 750
+      },
+      "deviceScaleFactor": 1,
+      "actions": [],
       "blockedExternalOrigins": [],
       "scope": "A real local browser frame for browsing inspiration; not a motion-quality certification."
     },
@@ -430,6 +603,24 @@
       "scope": "A real local browser frame for browsing inspiration; not a motion-quality certification."
     },
     {
+      "id": "production-workflow",
+      "route": "/studio/production/",
+      "selector": ".introduction",
+      "file": "/studio/previews/production-workflow.png",
+      "sourceFingerprint": "9d5938f6610b240b5b4f51a8c864e0cc898c2d69f70c4d681d8c3c58b725d844",
+      "sha256": "afc06d322dbe2a24be87cb8de309479c9127f0b8963f5f4a5390562873956893",
+      "bytes": 45660,
+      "capturedAt": "2026-11-03T18:05:28.837Z",
+      "viewport": {
+        "width": 1100,
+        "height": 750
+      },
+      "deviceScaleFactor": 1,
+      "actions": [],
+      "blockedExternalOrigins": [],
+      "scope": "A real local browser frame for browsing inspiration; not a motion-quality certification."
+    },
+    {
       "id": "project-brief",
       "route": "/studio/brief/",
       "selector": "#brief-form",
@@ -474,6 +665,42 @@
       "sha256": "0d491e1d56eee807be0174e88d28284383352373db031db920f4c34f862bed38",
       "bytes": 11387,
       "capturedAt": "2026-11-03T09:12:12.504Z",
+      "viewport": {
+        "width": 1100,
+        "height": 750
+      },
+      "deviceScaleFactor": 1,
+      "actions": [],
+      "blockedExternalOrigins": [],
+      "scope": "A real local browser frame for browsing inspiration; not a motion-quality certification."
+    },
+    {
+      "id": "scroll-color",
+      "route": "/examples/advanced-studio/",
+      "selector": "#color-shift",
+      "file": "/studio/previews/scroll-color.png",
+      "sourceFingerprint": "ec4cd29069abb9809cddab914426c43c59d7c0cbbfbbeda9e442d70a45ecb090",
+      "sha256": "f2053838f8a2a6639627c3792785307c8cb22f28acc69439aa6a4e25d43d9aae",
+      "bytes": 30165,
+      "capturedAt": "2026-11-03T18:13:00.075Z",
+      "viewport": {
+        "width": 1100,
+        "height": 750
+      },
+      "deviceScaleFactor": 1,
+      "actions": [],
+      "blockedExternalOrigins": [],
+      "scope": "A real local browser frame for browsing inspiration; not a motion-quality certification."
+    },
+    {
+      "id": "scroll-counter",
+      "route": "/examples/advanced-studio/",
+      "selector": "#count-up",
+      "file": "/studio/previews/scroll-counter.png",
+      "sourceFingerprint": "656fb2342606b374b10fe8c1d1fa4b46e3acc93a10946e3dbab9490f5473fd48",
+      "sha256": "c30bb7142b4e5b472c2171b484320d67288458556a5f3abd7f6d3940323e2451",
+      "bytes": 7061,
+      "capturedAt": "2026-11-03T18:13:10.242Z",
       "viewport": {
         "width": 1100,
         "height": 750
@@ -540,6 +767,26 @@
       "scope": "A real local browser frame for browsing inspiration; not a motion-quality certification."
     },
     {
+      "id": "slow-marquee",
+      "route": "/examples/advanced-studio/",
+      "selector": "#marquee",
+      "file": "/studio/previews/slow-marquee.png",
+      "sourceFingerprint": "daed90428bdff17ce751d32fcc0fc798eb1f2a3515bd973de311c49f7bcf6784",
+      "sha256": "114aa10f68d0ab9a75f3d63cc71d6cbe0c00652804a2542cfcee02ce79ba1c94",
+      "bytes": 27105,
+      "capturedAt": "2026-11-03T18:13:13.689Z",
+      "viewport": {
+        "width": 1100,
+        "height": 750
+      },
+      "deviceScaleFactor": 1,
+      "actions": [
+        "Sampled 1 authored native animations at 58%"
+      ],
+      "blockedExternalOrigins": [],
+      "scope": "A real local browser frame for browsing inspiration; not a motion-quality certification."
+    },
+    {
       "id": "soft-spotlight",
       "route": "/examples/pointer-buttons/",
       "selector": "[data-pointer-effect=\"spot\"]",
@@ -556,6 +803,45 @@
       "actions": [
         "Pointer hover inside actual control",
         "Sampled 1 authored native animations at 58%"
+      ],
+      "blockedExternalOrigins": [],
+      "scope": "A real local browser frame for browsing inspiration; not a motion-quality certification."
+    },
+    {
+      "id": "split-type",
+      "route": "/examples/advanced-studio/",
+      "selector": "#split-text",
+      "file": "/studio/previews/split-type.png",
+      "sourceFingerprint": "d3baaa72d4b14cad2bfe8902b7aa6c1f7f36573bd8ce6ec404985f0605f417fd",
+      "sha256": "49ed40a5855988775d97fd44a10e261a60938f482efab38c4b4296f38428f799",
+      "bytes": 24663,
+      "capturedAt": "2026-11-03T18:13:06.786Z",
+      "viewport": {
+        "width": 1100,
+        "height": 750
+      },
+      "deviceScaleFactor": 1,
+      "actions": [],
+      "blockedExternalOrigins": [],
+      "scope": "A real local browser frame for browsing inspiration; not a motion-quality certification."
+    },
+    {
+      "id": "spotlight-grid",
+      "route": "/examples/advanced-studio/",
+      "selector": "#spotlight-grid",
+      "file": "/studio/previews/spotlight-grid.png",
+      "sourceFingerprint": "9bf5e31a3900c4e904e68389222a4443e1d4abd128565839a6aa0a085a06b208",
+      "sha256": "bf77d2bd0c5f6a4f73581bef03afe8a37aaa287cd3c46c1a4d462e81bdc2d9a4",
+      "bytes": 32034,
+      "capturedAt": "2026-11-03T18:13:01.339Z",
+      "viewport": {
+        "width": 1100,
+        "height": 750
+      },
+      "deviceScaleFactor": 1,
+      "actions": [
+        "Pointer hover inside actual preview target",
+        "Sampled 2 authored native animations at 58%"
       ],
       "blockedExternalOrigins": [],
       "scope": "A real local browser frame for browsing inspiration; not a motion-quality certification."
@@ -618,6 +904,27 @@
       "scope": "A real local browser frame for browsing inspiration; not a motion-quality certification."
     },
     {
+      "id": "tilt-and-glare",
+      "route": "/examples/advanced-studio/",
+      "selector": "#tilt-glare",
+      "file": "/studio/previews/tilt-and-glare.png",
+      "sourceFingerprint": "042298f6ecd49fdaef645bee990fc645884ac8abd68b7b1032692ba4240e5c2f",
+      "sha256": "4881f28cbfcec9e0a6ebcbc7c6f8ba03b7ed23e1374f146e02d7e571673a5ddc",
+      "bytes": 55632,
+      "capturedAt": "2026-11-03T18:13:02.601Z",
+      "viewport": {
+        "width": 1100,
+        "height": 750
+      },
+      "deviceScaleFactor": 1,
+      "actions": [
+        "Pointer hover inside actual preview target",
+        "Sampled 2 authored native animations at 58%"
+      ],
+      "blockedExternalOrigins": [],
+      "scope": "A real local browser frame for browsing inspiration; not a motion-quality certification."
+    },
+    {
       "id": "type-arrival",
       "route": "/examples/collection/",
       "selector": ".intro",
@@ -653,6 +960,24 @@
         "Pointer hover inside actual control",
         "Sampled 1 authored native animations at 58%"
       ],
+      "blockedExternalOrigins": [],
+      "scope": "A real local browser frame for browsing inspiration; not a motion-quality certification."
+    },
+    {
+      "id": "word-rotator",
+      "route": "/examples/advanced-studio/",
+      "selector": "#word-rotator",
+      "file": "/studio/previews/word-rotator.png",
+      "sourceFingerprint": "0ab0546c794c5a5aaaf3396c6034ad9c6edbe7a3b3aa296f24a1b7be9b1d01db",
+      "sha256": "251dc7160c21945a31c9034c944c0388987b536a315b66a4433a0c171f987908",
+      "bytes": 9002,
+      "capturedAt": "2026-11-03T18:13:08.520Z",
+      "viewport": {
+        "width": 1100,
+        "height": 750
+      },
+      "deviceScaleFactor": 1,
+      "actions": [],
       "blockedExternalOrigins": [],
       "scope": "A real local browser frame for browsing inspiration; not a motion-quality certification."
     },

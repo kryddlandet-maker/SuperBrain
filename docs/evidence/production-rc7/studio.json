@@ -1,0 +1,53 @@
+{
+  "checks": [
+    {
+      "name": "catalog-and-previews",
+      "evidence": "All catalog entries render; actual local preview images load and the desktop has no overflow."
+    },
+    {
+      "name": "search-filter-reset",
+      "evidence": "Category and accent-insensitive Swedish search combine correctly; zero results offers a working reset."
+    },
+    {
+      "name": "navigation-position-and-responsive-target",
+      "evidence": "Category changes return to the result beginning, and the selected effect remains in view after a mobile preview reflow."
+    },
+    {
+      "name": "live-preview-and-saved-board",
+      "evidence": "A real study loads in one iframe, mobile sizing works, Escape releases it, and saved choices survive reload and reach the copy action. Clipboard content is captured locally during this check."
+    },
+    {
+      "name": "inspiration-to-real-brief",
+      "evidence": "Saved study references and suggested techniques reach the real brief API and downloaded Markdown while preserving authored direction. Removing untouched suggestions clears them."
+    },
+    {
+      "name": "deep-links-and-back",
+      "evidence": "Shared filter URLs reproduce their result set and browser Back closes a preview while preserving the category."
+    },
+    {
+      "name": "responsive-768",
+      "evidence": "Readable category navigation, cards and preview controls fit this viewport under reduced motion."
+    },
+    {
+      "name": "responsive-390",
+      "evidence": "Readable category navigation, cards and preview controls fit this viewport under reduced motion."
+    },
+    {
+      "name": "responsive-320",
+      "evidence": "Readable category navigation, cards and preview controls fit this viewport under reduced motion."
+    },
+    {
+      "name": "failed-catalog-retry",
+      "evidence": "An unavailable catalog displays a useful error and retry recovers the real library."
+    },
+    {
+      "name": "no-javascript-navigation",
+      "evidence": "Native fallback links reach real studies when JavaScript is disabled."
+    }
+  ],
+  "browserErrors": [],
+  "limits": [
+    "Chrome desktop and mobile emulation; no physical-device run.",
+    "Static thumbnails are genuine sampled frames; live behavior is available in the selected original study."
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "name": "superbrain",
-  "version": "2.0.0-rc.6",
+  "version": "2.0.0-rc.7",
   "description": "Distinctive websites, product demonstrations, scroll films and reusable design tools from SuperBrain.",
   "author": {
     "name": "SuperBrain",
@@ -13,7 +13,12 @@
     "longDescription": "Design guidance, original product studies and optional scroll films with synchronized text and local media review. Select this plugin for the current conversation; setup prepares the current project when executable tools are available.",
     "developerName": "SuperBrain",
     "category": "Creativity",
-    "capabilities": ["Webbdesign", "Produktanimationer", "Scrollfilm", "Designverktyg"],
+    "capabilities": [
+      "Webbdesign",
+      "Produktanimationer",
+      "Scrollfilm",
+      "Designverktyg"
+    ],
     "websiteURL": "https://github.com/kryddlandet-maker/SuperBrain",
     "defaultPrompt": "Använd SuperBrain för att bygga en webbplats med egen karaktär och genomtänkta produktanimationer.",
     "brandColor": "#3D61DF",

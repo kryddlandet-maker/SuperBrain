@@ -1,4 +1,8 @@
-# SuperBrain 2.0.0-rc.6
+# SuperBrain 2.0.0-rc.7
+
+## Filmspårning, bilddjup och produktion
+
+SuperBrain har nu lokal plan ytspårning med perspektivlåst text, verklig inferens av bilddjup, klippning och sammanfogning av film, en fungerande formulärinkorg på Node-hosting samt versionsbundna mediegranskningar och budgetbokföring. Leveransverktyget kontrollerar sajtfiler och skapar metadata, ikoner, delningsbild, sitemap och kundpaket med valbar PDF. Studio har vuxit till **52 studier och verktyg**. Kör `npm run studio` och prova `/examples/advanced-studio/` eller skapa produktionsunderlag på `/studio/production/`. [Omfattning, kommandon och verifiering](docs/PRODUCTION-EXPANSION-RC7.md).
 
 ## Studio för nästa idé
 

@@ -1,0 +1,24 @@
+{
+  "schema": 1,
+  "kind": "relative-image-depth",
+  "model": {
+    "id": "onnx-community/depth-anything-v2-small",
+    "revision": "4472b7362082ad9968fee890ca0f1e5aca36b93d",
+    "license": "Apache-2.0",
+    "dtype": "q8"
+  },
+  "source": {
+    "name": "poster-wide.png",
+    "sha256": "dc6fea16959841a67f2484d008a28683b6c6c0128ada785e209576ce83af0c8c",
+    "file": "depth-photo.png"
+  },
+  "depth": {
+    "file": "depth.png",
+    "width": 960,
+    "height": 600,
+    "sha256": "f72206cf315faa45dba3ae2939a77ced37371c680cd3b74992300eb9ea50e4ba",
+    "convention": "lighter-nearer"
+  },
+  "scope": "Inferred relative depth for aligned image displacement; not metric measurement or a reconstructed 3D scene.",
+  "createdAt": "2026-11-03T10:27:45.752Z"
+}

@@ -1,0 +1,67 @@
+{
+  "date": "2026-11-03T18:06:19.634Z",
+  "algorithm": {
+    "name": "ORB-reference-RANSAC-homography",
+    "opencv": "4.10.0",
+    "referenceFrame": 0,
+    "referenceFeatures": 2500,
+    "sampleFps": 12,
+    "analysisWidth": 960,
+    "seed": 731,
+    "timestampSource": "OpenCV decoded presentation position (POS_MSEC)",
+    "timingLimit": "Track prepared constant-frame-rate delivery media; a decoder without timestamps uses declared-frame-rate timing.",
+    "cameraModel": "Projective motion of one selected plane; not full 3D camera reconstruction."
+  },
+  "summary": {
+    "samples": 36,
+    "tracked": 36,
+    "lost": 0,
+    "coverage": 1,
+    "reviewRequired": true
+  },
+  "maxCornerError": 1.8195031079363548,
+  "meanCornerError": 0.2594470197425562,
+  "loss": {
+    "samples": 36,
+    "tracked": 30,
+    "lost": 6,
+    "coverage": 0.8333333333333334,
+    "reviewRequired": true
+  },
+  "deterministic": true,
+  "browserChecks": [
+    {
+      "width": 1440,
+      "progress": 0.6,
+      "decodedTime": 1.791667,
+      "cssProjectionError": 0.04895421782842274,
+      "knownCornerError": 1.2288543184676164
+    },
+    {
+      "width": 1440,
+      "progress": 0.2,
+      "decodedTime": 0.583333,
+      "cssProjectionError": 0.09012624862104833,
+      "knownCornerError": 1.5501508265653876
+    },
+    {
+      "width": 390,
+      "progress": 0.6,
+      "decodedTime": 1.791667,
+      "cssProjectionError": 0.02964999414065682,
+      "knownCornerError": 0.8213165891461301
+    },
+    {
+      "width": 390,
+      "progress": 0.2,
+      "decodedTime": 0.583333,
+      "cssProjectionError": 0.049133150202240135,
+      "knownCornerError": 1.036338200393997
+    }
+  ],
+  "reducedMotion": "No film request until explicit local opt-in; static surface follows the poster.",
+  "limits": [
+    "Synthetic textured planar film; not a guarantee for arbitrary footage or nonplanar scenes.",
+    "Chrome emulation, no physical-device or Safari run."
+  ]
+}

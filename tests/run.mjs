@@ -18,3 +18,8 @@ import './cinematic-plan.test.mjs';
 import './cinematic-integration.test.mjs';
 import './studio-catalog.test.mjs';
 import './studio-inspiration.test.mjs';
+import './depth-media.test.mjs';
+import './film-tracking.test.mjs';
+import './form-inbox.test.mjs';
+import './production-workflow.test.mjs';
+import './production-integration.test.mjs';

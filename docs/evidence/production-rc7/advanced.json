@@ -1,0 +1,38 @@
+{
+  "checks": [
+    {
+      "name": "responsive-motion-1440",
+      "detail": {
+        "renderer": "rendered",
+        "scope": "Real film forward/reverse, presented-time surface, depth pointer/static, tilt, timed rotator, reduced motion, no overflow and disposal."
+      }
+    },
+    {
+      "name": "responsive-motion-390",
+      "detail": {
+        "renderer": "rendered",
+        "scope": "Real film forward/reverse, presented-time surface, depth pointer/static, tilt, timed rotator, reduced motion, no overflow and disposal."
+      }
+    },
+    {
+      "name": "responsive-motion-320",
+      "detail": {
+        "renderer": "rendered",
+        "scope": "Real film forward/reverse, presented-time surface, depth pointer/static, tilt, timed rotator, reduced motion, no overflow and disposal."
+      }
+    },
+    {
+      "name": "still-first",
+      "detail": "Reduced motion makes no film request before explicit local opt-in."
+    },
+    {
+      "name": "no-javascript",
+      "detail": "Source image, meaningful content, native rail and navigation remain available."
+    }
+  ],
+  "errors": [],
+  "limits": [
+    "Chrome emulated widths; no physical-phone or Safari execution.",
+    "Original planar synthetic film and procedural source image; not proof for all customer footage."
+  ]
+}

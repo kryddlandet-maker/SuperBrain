@@ -845,6 +845,395 @@
         "thumbnail": "/studio/previews/technique-atlas.png"
       },
       "techniques": []
+    },
+    {
+      "id": "film-surface",
+      "title": "Text som följer en filmad yta",
+      "description": "Automatiskt spårad plan yta med text som följer filmens presenterade perspektiv.",
+      "category": "graphics",
+      "href": "/examples/advanced-studio/#surface",
+      "keywords": [
+        "film",
+        "kameraspårning",
+        "homografi",
+        "perspektiv",
+        "text"
+      ],
+      "interaction": "scroll",
+      "preview": {
+        "route": "/examples/advanced-studio/",
+        "selector": "#surface",
+        "thumbnail": "/studio/previews/film-surface.png"
+      },
+      "techniques": [
+        "cinematic"
+      ]
+    },
+    {
+      "id": "image-depth",
+      "title": "Djup från en bild",
+      "description": "En lokalt infererad djupkarta ger originalbilden en avgränsad rumslig respons.",
+      "category": "graphics",
+      "href": "/examples/advanced-studio/#depth",
+      "keywords": [
+        "djup",
+        "depth",
+        "parallax",
+        "bild",
+        "inferens"
+      ],
+      "interaction": "hover",
+      "preview": {
+        "route": "/examples/advanced-studio/",
+        "selector": "#depth",
+        "thumbnail": "/studio/previews/image-depth.png"
+      },
+      "techniques": [
+        "graphics",
+        "images"
+      ]
+    },
+    {
+      "id": "expanding-composition",
+      "title": "Motivet tar plats",
+      "description": "En bildyta växer medan rubrikens två delar hittar sin plats.",
+      "category": "images",
+      "href": "/examples/advanced-studio/#expand",
+      "keywords": [
+        "expand",
+        "bild",
+        "helskärm",
+        "split",
+        "rubrik"
+      ],
+      "interaction": "scroll",
+      "preview": {
+        "route": "/examples/advanced-studio/",
+        "selector": "#expand",
+        "thumbnail": "/studio/previews/expanding-composition.png"
+      },
+      "techniques": [
+        "images",
+        "type"
+      ]
+    },
+    {
+      "id": "pinned-story-rail",
+      "title": "En berättelse i sidled",
+      "description": "En fäst kortrad på dator blir ett naturligt svepbart galleri på mobil.",
+      "category": "scroll",
+      "href": "/examples/advanced-studio/#rail",
+      "keywords": [
+        "pinned",
+        "rail",
+        "scroll",
+        "horisontell",
+        "swipe"
+      ],
+      "interaction": "scroll",
+      "preview": {
+        "route": "/examples/advanced-studio/",
+        "selector": "#rail",
+        "thumbnail": "/studio/previews/pinned-story-rail.png"
+      },
+      "techniques": [
+        "product"
+      ]
+    },
+    {
+      "id": "scroll-color",
+      "title": "Färg genom berättelsen",
+      "description": "Bakgrundens färg skiftar sammanhängande medan du läser.",
+      "category": "scroll",
+      "href": "/examples/advanced-studio/#color-shift",
+      "keywords": [
+        "färg",
+        "color",
+        "skifte",
+        "bakgrund",
+        "scroll"
+      ],
+      "interaction": "scroll",
+      "preview": {
+        "route": "/examples/advanced-studio/",
+        "selector": "#color-shift",
+        "thumbnail": "/studio/previews/scroll-color.png"
+      },
+      "techniques": [
+        "materials"
+      ]
+    },
+    {
+      "id": "spotlight-grid",
+      "title": "Ljus över en yta",
+      "description": "En mjuk spotlight följer pekaren över ett användbart innehållskort.",
+      "category": "pointer",
+      "href": "/examples/advanced-studio/#spotlight-grid",
+      "keywords": [
+        "grid",
+        "spotlight",
+        "ljus",
+        "hover"
+      ],
+      "interaction": "hover",
+      "preview": {
+        "route": "/examples/advanced-studio/",
+        "selector": "#spotlight-grid",
+        "thumbnail": "/studio/previews/spotlight-grid.png"
+      },
+      "techniques": [
+        "buttons"
+      ]
+    },
+    {
+      "id": "tilt-and-glare",
+      "title": "Vinkel och reflex",
+      "description": "Lätt lutning och riktad reflex med stilla alternativ för minskad rörelse.",
+      "category": "pointer",
+      "href": "/examples/advanced-studio/#tilt-glare",
+      "keywords": [
+        "tilt",
+        "glare",
+        "hover",
+        "vinkel",
+        "reflex"
+      ],
+      "interaction": "hover",
+      "preview": {
+        "route": "/examples/advanced-studio/",
+        "selector": "#tilt-glare",
+        "thumbnail": "/studio/previews/tilt-and-glare.png"
+      },
+      "techniques": [
+        "materials"
+      ]
+    },
+    {
+      "id": "glass-sheen",
+      "title": "Glans genom glas",
+      "description": "En avgränsad ljusreflex ger en genomskinlig yta karaktär.",
+      "category": "pointer",
+      "href": "/examples/advanced-studio/#glass-sheen",
+      "keywords": [
+        "glass",
+        "sheen",
+        "glas",
+        "glans"
+      ],
+      "interaction": "hover",
+      "preview": {
+        "route": "/examples/advanced-studio/",
+        "selector": "#glass-sheen",
+        "thumbnail": "/studio/previews/glass-sheen.png"
+      },
+      "techniques": [
+        "materials"
+      ]
+    },
+    {
+      "id": "floating-row-image",
+      "title": "En glimt över raden",
+      "description": "En pekarstyrd bildförhandsvisning hör till en verklig länk och fungerar med fokus.",
+      "category": "images",
+      "href": "/examples/advanced-studio/#floating-image",
+      "keywords": [
+        "floating",
+        "image",
+        "row",
+        "lista",
+        "bild",
+        "hover"
+      ],
+      "interaction": "hover",
+      "preview": {
+        "route": "/examples/advanced-studio/",
+        "selector": "#floating-image",
+        "thumbnail": "/studio/previews/floating-row-image.png"
+      },
+      "techniques": [
+        "images"
+      ]
+    },
+    {
+      "id": "split-type",
+      "title": "Text med egen rytm",
+      "description": "Ord och bokstäver kommer fram i en scrollstyrd typografisk komposition.",
+      "category": "scroll",
+      "href": "/examples/advanced-studio/#split-text",
+      "keywords": [
+        "split",
+        "ord",
+        "bokstäver",
+        "chars",
+        "type",
+        "text"
+      ],
+      "interaction": "scroll",
+      "preview": {
+        "route": "/examples/advanced-studio/",
+        "selector": "#split-text",
+        "thumbnail": "/studio/previews/split-type.png"
+      },
+      "techniques": [
+        "type"
+      ]
+    },
+    {
+      "id": "word-rotator",
+      "title": "En riktning i taget",
+      "description": "Tre ord växlar med läsbara pauser och stannar när studien inte syns.",
+      "category": "scroll",
+      "href": "/examples/advanced-studio/#word-rotator",
+      "keywords": [
+        "word",
+        "rotator",
+        "växla",
+        "ord",
+        "text"
+      ],
+      "interaction": "auto",
+      "preview": {
+        "route": "/examples/advanced-studio/",
+        "selector": "#word-rotator",
+        "thumbnail": "/studio/previews/word-rotator.png"
+      },
+      "techniques": [
+        "type"
+      ]
+    },
+    {
+      "id": "scroll-counter",
+      "title": "Ett värde byggs upp",
+      "description": "En demonstrativ räknare följer ankomsten och visar sitt slutvärde utan rörelse.",
+      "category": "scroll",
+      "href": "/examples/advanced-studio/#count-up",
+      "keywords": [
+        "countup",
+        "räknare",
+        "siffra",
+        "värde"
+      ],
+      "interaction": "scroll",
+      "preview": {
+        "route": "/examples/advanced-studio/",
+        "selector": "#count-up",
+        "thumbnail": "/studio/previews/scroll-counter.png"
+      },
+      "techniques": [
+        "type"
+      ]
+    },
+    {
+      "id": "drifting-notes",
+      "title": "Anteckningar i rörelse",
+      "description": "Två kolumner med idéer rör sig långsamt och pausar vid fokus eller hover.",
+      "category": "product",
+      "href": "/examples/advanced-studio/#drifting-columns",
+      "keywords": [
+        "columns",
+        "drifting",
+        "reviews",
+        "anteckningar",
+        "kolumner"
+      ],
+      "interaction": "auto",
+      "preview": {
+        "route": "/examples/advanced-studio/",
+        "selector": "#drifting-columns",
+        "thumbnail": "/studio/previews/drifting-notes.png"
+      },
+      "techniques": [
+        "product"
+      ]
+    },
+    {
+      "id": "slow-marquee",
+      "title": "En lugn textrad",
+      "description": "En långsam återkommande textrad med pauser och utan dubblerad uppläsning.",
+      "category": "scroll",
+      "href": "/examples/advanced-studio/#marquee",
+      "keywords": [
+        "marquee",
+        "löpande",
+        "text",
+        "loop"
+      ],
+      "interaction": "auto",
+      "preview": {
+        "route": "/examples/advanced-studio/",
+        "selector": "#marquee",
+        "thumbnail": "/studio/previews/slow-marquee.png"
+      },
+      "techniques": [
+        "type"
+      ]
+    },
+    {
+      "id": "flowing-path",
+      "title": "Ett flöde mellan punkterna",
+      "description": "Ett streckat SVG-flöde förenar tre noder och kan pausas.",
+      "category": "product",
+      "href": "/examples/advanced-studio/#flow-path",
+      "keywords": [
+        "flow",
+        "svg",
+        "path",
+        "flöde",
+        "diagram"
+      ],
+      "interaction": "auto",
+      "preview": {
+        "route": "/examples/advanced-studio/",
+        "selector": "#flow-path",
+        "thumbnail": "/studio/previews/flowing-path.png"
+      },
+      "techniques": [
+        "product"
+      ]
+    },
+    {
+      "id": "arrival-tilt",
+      "title": "En mjuk ankomst",
+      "description": "En komposition rätas ut när den kommer in i vyn och förblir stilla när den läses.",
+      "category": "scroll",
+      "href": "/examples/advanced-studio/#arrival",
+      "keywords": [
+        "arrival",
+        "tilt",
+        "ankomst",
+        "scroll"
+      ],
+      "interaction": "scroll",
+      "preview": {
+        "route": "/examples/advanced-studio/",
+        "selector": "#arrival",
+        "thumbnail": "/studio/previews/arrival-tilt.png"
+      },
+      "techniques": [
+        "materials"
+      ]
+    },
+    {
+      "id": "production-workflow",
+      "title": "Produktion till leverans",
+      "description": "Skapa produktionsunderlag och hitta verktygen för budget, media, inkorg och kontrollerad leverans.",
+      "category": "tools",
+      "href": "/studio/production/",
+      "keywords": [
+        "produktion",
+        "budget",
+        "media",
+        "release",
+        "inkorg",
+        "leverans"
+      ],
+      "interaction": "read",
+      "preview": {
+        "route": "/studio/production/",
+        "selector": ".introduction",
+        "thumbnail": "/studio/previews/production-workflow.png"
+      },
+      "techniques": []
     }
   ]
 }

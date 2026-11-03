@@ -34,7 +34,7 @@ The user identified [meticsmedia/10k-websites](https://github.com/meticsmedia/10
 
 Platform behavior is documented by [MDN's video-frame callback reference](https://developer.mozilla.org/en-US/docs/Web/API/HTMLVideoElement/requestVideoFrameCallback), [native currentTime seeking](https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/currentTime), and [FFmpeg's documentation](https://ffmpeg.org/ffmpeg.html). The runtime uses presented `mediaTime` where supported and a `seeked` fallback. It does not claim to guarantee compositor timing on every browser.
 
-Automatic optical/camera tracking, perspective-locked text and inferred depth maps are not implemented. Existing pointer-depth and scroll/product modules remain available. Neither a passing technical check nor a contact sheet establishes cinematic/design quality; watch complete playback, fast/reverse scroll and joins, then judge the result against the actual brief.
+The rc.7 expansion adds measured planar tracking, perspective-locked DOM text, inferred relative image depth and local film assembly. Read [the expansion scope and evidence](PRODUCTION-EXPANSION-RC7.md). Planar tracking is not full 3D camera reconstruction. Existing pointer-depth and scroll/product modules remain available. Neither a passing technical check nor a contact sheet establishes cinematic/design quality; watch complete playback, fast/reverse scroll and joins, then judge the result against the actual brief.
 
 ## Verification
 

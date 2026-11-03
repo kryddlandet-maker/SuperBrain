@@ -1,6 +1,6 @@
 # SuperBrain Studio — inspirationsbibliotek
 
-Studio-startsidan samlar **35 lokala studier och verktyg i åtta kategorier**. Kör `npm run studio` och öppna adressen som servern skriver ut. Befintliga demonstrationer har sina egna adresser och kan fortfarande öppnas direkt.
+Studio-startsidan samlar nu **52 lokala studier och verktyg i åtta kategorier**. Kör `npm run studio` och öppna adressen som servern skriver ut. Befintliga demonstrationer har sina egna adresser och kan fortfarande öppnas direkt. [Tilläggen i rc.7](PRODUCTION-EXPANSION-RC7.md).
 
 ## Hitta, prova och samla
 
@@ -43,7 +43,7 @@ Oförändrade källor återanvänder befintliga bilder. Skriptet vägrar skriva 
 
 ## Verifiering
 
-Lokalt på Windows den 2026-11-03:
+Ombyggnaden i rc.6 med dåvarande 35 poster verifierades lokalt på Windows den 2026-11-03. Senare tillägg har separat [rc.7-verifiering](PRODUCTION-EXPANSION-RC7.md).
 
 - 92 Node-tester och 600 valideringskontroller godkända. Valideringen omfattar även befintliga Anthropic-originals integritet och de två pluginpaketen.
 - 11 fokuserade webbläsargrupper godkända i Chrome: bildladdning, kombinerad sökning och filtrering, tomma resultat, position vid kategoribyte, levande preview, byte till mobilbredd, dialogstängning, beständig lagring, kopierat innehåll, faktisk brief-API och nedladdning, URL/bakåt, felläge/återförsök och användbar navigation utan JavaScript.

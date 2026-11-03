@@ -1,0 +1,41 @@
+{
+  "schema": 1,
+  "author": "SuperBrain",
+  "sources": [
+    "Original procedural light study from scripts/create-cinematic-demo.mjs",
+    "Original textured planar material film from scripts/create-film-tracking-demo.py"
+  ],
+  "derivation": "Planar film scaled/encoded to 640×400 H264, then measured again. Depth inferred locally from the original procedural still using the pinned model in depth-manifest.json.",
+  "files": [
+    {
+      "file": "surface.mp4",
+      "sha256": "1a097006c5ec830766e9d1bc3bf96f2947932f1da176f72d48fc39fce2627cfa",
+      "bytes": 229086
+    },
+    {
+      "file": "surface-poster.png",
+      "sha256": "1a59c6060ebd88997b304e795f37b8f7b034949dd1ba7df9577987a5905169cd",
+      "bytes": 90100
+    },
+    {
+      "file": "surface-track.json",
+      "sha256": "a7a11412f85994df8bf5af096d25e1152d134be16045bcd1bd37b952014d0d0e",
+      "bytes": 20206
+    },
+    {
+      "file": "depth-photo.png",
+      "sha256": "dc6fea16959841a67f2484d008a28683b6c6c0128ada785e209576ce83af0c8c",
+      "bytes": 658114
+    },
+    {
+      "file": "depth.png",
+      "sha256": "f72206cf315faa45dba3ae2939a77ced37371c680cd3b74992300eb9ea50e4ba",
+      "bytes": 196446
+    },
+    {
+      "file": "depth-manifest.json",
+      "sha256": "574534224dd9e97b65c633d58ef45111d3143476458572ffddeb24cd3e10ea03",
+      "bytes": 775
+    }
+  ]
+}
