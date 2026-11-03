@@ -1,0 +1,850 @@
+{
+  "schema": 1,
+  "categories": [
+    {
+      "id": "buttons",
+      "label": "Knappar",
+      "description": "Fyllningar, ljus och respons för en stabil klickyta."
+    },
+    {
+      "id": "pointer",
+      "label": "Mus & ljus",
+      "description": "Pekarstyrt ljus, mjuka förflyttningar och taktilt djup."
+    },
+    {
+      "id": "scroll",
+      "label": "Scroll & typografi",
+      "description": "Sammanhängande scener, film och text genom vanlig scroll."
+    },
+    {
+      "id": "product",
+      "label": "Produktanimationer",
+      "description": "Arbetsflöden, diagram och levande funktionskort."
+    },
+    {
+      "id": "graphics",
+      "label": "Grafik & 3D",
+      "description": "Proceduralt ljus och rumsliga grafiska studier."
+    },
+    {
+      "id": "images",
+      "label": "Bilder & galleri",
+      "description": "Bildjämförelser, gallerier och produktvarianter."
+    },
+    {
+      "id": "websites",
+      "label": "Webbplatser",
+      "description": "Hela riktningar och riktiga undersidor att utforska."
+    },
+    {
+      "id": "tools",
+      "label": "Verktyg",
+      "description": "Brief, designsystem, referenser och det sökbara teknikregistret."
+    }
+  ],
+  "items": [
+    {
+      "id": "fill-left",
+      "title": "Fyllning från vänster",
+      "description": "Ett horisontellt svep med fast text och en stadig klickyta.",
+      "category": "buttons",
+      "href": "/examples/buttons/#fill-left",
+      "keywords": [
+        "knapp",
+        "fyllning",
+        "svep",
+        "vänster",
+        "hover",
+        "css"
+      ],
+      "interaction": "hover",
+      "preview": {
+        "route": "/examples/buttons/#fill-left",
+        "selector": "#fill-left",
+        "thumbnail": "/studio/previews/fill-left.png"
+      },
+      "techniques": [
+        "buttons"
+      ]
+    },
+    {
+      "id": "fill-bottom",
+      "title": "Fyllning från botten",
+      "description": "En lugn vertikal knappfyllning som även visas vid tangentbordsfokus.",
+      "category": "buttons",
+      "href": "/examples/buttons/#fill-bottom",
+      "keywords": [
+        "knapp",
+        "fyllning",
+        "botten",
+        "vertikal",
+        "fokus"
+      ],
+      "interaction": "hover",
+      "preview": {
+        "route": "/examples/buttons/#fill-bottom",
+        "selector": "#fill-bottom",
+        "thumbnail": "/studio/previews/fill-bottom.png"
+      },
+      "techniques": [
+        "buttons"
+      ]
+    },
+    {
+      "id": "fill-top",
+      "title": "Fyllning från toppen",
+      "description": "Jämför hur en omvänd svepriktning förändrar knappens uttryck.",
+      "category": "buttons",
+      "href": "/examples/buttons/#fill-top",
+      "keywords": [
+        "knapp",
+        "fyllning",
+        "toppen",
+        "svep"
+      ],
+      "interaction": "hover",
+      "preview": {
+        "route": "/examples/buttons/#fill-top",
+        "selector": "#fill-top",
+        "thumbnail": "/studio/previews/fill-top.png"
+      },
+      "techniques": [
+        "buttons"
+      ]
+    },
+    {
+      "id": "horizontal-glow",
+      "title": "Ljusbubbla i sidled",
+      "description": "Ett mjukt ljus följer pekaren horisontellt och tonar bort när den lämnar.",
+      "category": "buttons",
+      "href": "/examples/buttons/#horizontal-glow",
+      "keywords": [
+        "knapp",
+        "ljus",
+        "glow",
+        "bubbla",
+        "horisontell",
+        "hover"
+      ],
+      "interaction": "hover",
+      "preview": {
+        "route": "/examples/buttons/#horizontal-glow",
+        "selector": "#horizontal-glow",
+        "thumbnail": "/studio/previews/horizontal-glow.png"
+      },
+      "techniques": [
+        "buttons"
+      ]
+    },
+    {
+      "id": "warm-side-light",
+      "title": "Varmt sidoljus",
+      "description": "Ett brett varmt ljus följer mjukt i sidled över knappens yta.",
+      "category": "pointer",
+      "href": "/examples/pointer-buttons/",
+      "keywords": [
+        "pekare",
+        "mus",
+        "varmt",
+        "sidoljus",
+        "knapp"
+      ],
+      "interaction": "hover",
+      "preview": {
+        "route": "/examples/pointer-buttons/",
+        "selector": "[data-pointer-effect=\"side\"]",
+        "thumbnail": "/studio/previews/warm-side-light.png"
+      },
+      "techniques": [
+        "buttons"
+      ]
+    },
+    {
+      "id": "soft-spotlight",
+      "title": "Mjuk spotlight",
+      "description": "Ett dämpat ljus följer pekarens höjd och sidled över en mörk yta.",
+      "category": "pointer",
+      "href": "/examples/pointer-buttons/",
+      "keywords": [
+        "pekare",
+        "mus",
+        "spotlight",
+        "ljus",
+        "knapp"
+      ],
+      "interaction": "hover",
+      "preview": {
+        "route": "/examples/pointer-buttons/",
+        "selector": "[data-pointer-effect=\"spot\"]",
+        "thumbnail": "/studio/previews/soft-spotlight.png"
+      },
+      "techniques": [
+        "buttons"
+      ]
+    },
+    {
+      "id": "edge-light",
+      "title": "Ljus längs kanten",
+      "description": "En ljuspunkt vandrar runt knappens kontur medan mitten behåller sitt lugn.",
+      "category": "pointer",
+      "href": "/examples/pointer-buttons/",
+      "keywords": [
+        "kant",
+        "kontur",
+        "ljus",
+        "pekare",
+        "knapp"
+      ],
+      "interaction": "hover",
+      "preview": {
+        "route": "/examples/pointer-buttons/",
+        "selector": "[data-pointer-effect=\"edge\"]",
+        "thumbnail": "/studio/previews/edge-light.png"
+      },
+      "techniques": [
+        "buttons"
+      ]
+    },
+    {
+      "id": "gentle-magnet",
+      "title": "Lätt dragningskraft",
+      "description": "Knappens inre yta närmar sig pekaren och återvänder utan att flytta klickmålet.",
+      "category": "pointer",
+      "href": "/examples/pointer-buttons/",
+      "keywords": [
+        "magnet",
+        "dragningskraft",
+        "pekare",
+        "mus",
+        "rörelse"
+      ],
+      "interaction": "hover",
+      "preview": {
+        "route": "/examples/pointer-buttons/",
+        "selector": "[data-pointer-effect=\"magnet\"]",
+        "thumbnail": "/studio/previews/gentle-magnet.png"
+      },
+      "techniques": [
+        "buttons"
+      ]
+    },
+    {
+      "id": "pointer-reveal",
+      "title": "Ljus som avslöjar",
+      "description": "En mjuk pekarstyrd ljusyta avslöjar grafiska lager bakom texten.",
+      "category": "pointer",
+      "href": "/examples/effects/#reveal",
+      "keywords": [
+        "reveal",
+        "pekare",
+        "ljus",
+        "bakgrund",
+        "mask",
+        "avslöja"
+      ],
+      "interaction": "hover",
+      "preview": {
+        "route": "/examples/effects/#reveal",
+        "selector": "#reveal",
+        "thumbnail": "/studio/previews/pointer-reveal.png"
+      },
+      "techniques": [
+        "materials"
+      ]
+    },
+    {
+      "id": "light-cta",
+      "title": "Ljusföljande knapp",
+      "description": "Jämför varm och sval ljusrespons med lokal klickåterkoppling.",
+      "category": "buttons",
+      "href": "/examples/effects/#buttons",
+      "keywords": [
+        "cta",
+        "knapp",
+        "ripple",
+        "klickvåg",
+        "ljus"
+      ],
+      "interaction": "hover",
+      "preview": {
+        "route": "/examples/effects/#buttons",
+        "selector": "#buttons",
+        "thumbnail": "/studio/previews/light-cta.png"
+      },
+      "techniques": [
+        "buttons"
+      ]
+    },
+    {
+      "id": "scroll-orbit",
+      "title": "En idé i flera tillstånd",
+      "description": "Samma orbitala objekt följer en berättelse och samlas när du scrollar.",
+      "category": "scroll",
+      "href": "/examples/effects/#scene",
+      "keywords": [
+        "scroll",
+        "orbit",
+        "berättelse",
+        "sticky",
+        "ring"
+      ],
+      "interaction": "scroll",
+      "preview": {
+        "route": "/examples/effects/#scene",
+        "selector": "#scene",
+        "thumbnail": "/studio/previews/scroll-orbit.png"
+      },
+      "techniques": [
+        "product"
+      ]
+    },
+    {
+      "id": "shared-image-transition",
+      "title": "Bilden följer med",
+      "description": "En delad illustration knyter ihop ett projektkort och dess riktiga undersida.",
+      "category": "images",
+      "href": "/examples/effects/#project",
+      "keywords": [
+        "bild",
+        "övergång",
+        "view transition",
+        "projekt",
+        "navigation"
+      ],
+      "interaction": "click",
+      "preview": {
+        "route": "/examples/effects/#project",
+        "selector": "#project",
+        "thumbnail": "/studio/previews/shared-image-transition.png"
+      },
+      "techniques": [
+        "images"
+      ]
+    },
+    {
+      "id": "procedural-light",
+      "title": "Proceduralt ljusfält",
+      "description": "Utforska ett originalskrivet shaderljus med pekarrespons och kort uppspelning.",
+      "category": "graphics",
+      "href": "/examples/collection/#light",
+      "keywords": [
+        "webgl",
+        "shader",
+        "3d",
+        "ljus",
+        "canvas",
+        "atmosfär"
+      ],
+      "interaction": "click",
+      "preview": {
+        "route": "/examples/collection/#light",
+        "selector": "#light",
+        "thumbnail": "/studio/previews/procedural-light.png"
+      },
+      "techniques": [
+        "graphics"
+      ]
+    },
+    {
+      "id": "pointer-depth",
+      "title": "Taktilt pekardjup",
+      "description": "Ett produktkort får ett begränsat perspektivdjup medan dess klickyta står still.",
+      "category": "pointer",
+      "href": "/examples/collection/#product",
+      "keywords": [
+        "djup",
+        "tilt",
+        "perspektiv",
+        "3d",
+        "pekare",
+        "kort"
+      ],
+      "interaction": "hover",
+      "preview": {
+        "route": "/examples/collection/#product",
+        "selector": "[data-depth]",
+        "thumbnail": "/studio/previews/pointer-depth.png"
+      },
+      "techniques": [
+        "materials"
+      ]
+    },
+    {
+      "id": "product-steps",
+      "title": "Produktberättelse i steg",
+      "description": "Välj planera, koppla ihop eller landa för att se ett sammanhängande arbetsflöde.",
+      "category": "product",
+      "href": "/examples/collection/#product",
+      "keywords": [
+        "produkt",
+        "steg",
+        "arbetsflöde",
+        "state",
+        "kanban"
+      ],
+      "interaction": "click",
+      "preview": {
+        "route": "/examples/collection/#product",
+        "selector": "[data-product-demo]",
+        "thumbnail": "/studio/previews/product-steps.png"
+      },
+      "techniques": [
+        "product"
+      ]
+    },
+    {
+      "id": "drawn-connection",
+      "title": "Linjen som binder ihop",
+      "description": "En ritad SVG-linje gör en koppling synlig utan att förändra läsordningen.",
+      "category": "product",
+      "href": "/examples/collection/#product",
+      "keywords": [
+        "svg",
+        "linje",
+        "diagram",
+        "rita",
+        "koppling"
+      ],
+      "interaction": "scroll",
+      "preview": {
+        "route": "/examples/collection/#product",
+        "selector": ".connection-art",
+        "thumbnail": "/studio/previews/drawn-connection.png"
+      },
+      "techniques": [
+        "product"
+      ]
+    },
+    {
+      "id": "image-comparison",
+      "title": "Ljus och skugga",
+      "description": "Ett tillgängligt reglage jämför två färgbehandlingar av samma illustration.",
+      "category": "images",
+      "href": "/examples/collection/#images",
+      "keywords": [
+        "bild",
+        "jämförelse",
+        "reglage",
+        "före efter",
+        "slider"
+      ],
+      "interaction": "click",
+      "preview": {
+        "route": "/examples/collection/#images",
+        "selector": "#images",
+        "thumbnail": "/studio/previews/image-comparison.png"
+      },
+      "techniques": [
+        "images"
+      ]
+    },
+    {
+      "id": "filter-gallery",
+      "title": "Ett filtrerbart galleri",
+      "description": "Växla mellan rum och objekt med kontroller som behåller rätt synliga bilder.",
+      "category": "images",
+      "href": "/examples/collection/#gallery",
+      "keywords": [
+        "galleri",
+        "filter",
+        "bilder",
+        "portfolio",
+        "rum",
+        "objekt"
+      ],
+      "interaction": "click",
+      "preview": {
+        "route": "/examples/collection/#gallery",
+        "selector": "#gallery",
+        "thumbnail": "/studio/previews/filter-gallery.png"
+      },
+      "techniques": [
+        "images"
+      ]
+    },
+    {
+      "id": "product-rail",
+      "title": "Produkter i sidled",
+      "description": "En vanlig horisontell produktvy med försiktig snäppning och tydlig fokusyta.",
+      "category": "images",
+      "href": "/examples/collection/",
+      "keywords": [
+        "produkt",
+        "rail",
+        "horisontell",
+        "scroll",
+        "snap",
+        "shop"
+      ],
+      "interaction": "scroll",
+      "preview": {
+        "route": "/examples/collection/",
+        "selector": ".shop-study",
+        "thumbnail": "/studio/previews/product-rail.png"
+      },
+      "techniques": [
+        "images"
+      ]
+    },
+    {
+      "id": "color-variants",
+      "title": "Byt produktens färg",
+      "description": "Sand, salvia och bläck ger samma fiktiva produkt olika färguttryck.",
+      "category": "images",
+      "href": "/examples/collection/",
+      "keywords": [
+        "färg",
+        "swatches",
+        "produkt",
+        "varianter",
+        "ehandel"
+      ],
+      "interaction": "click",
+      "preview": {
+        "route": "/examples/collection/",
+        "selector": ".shop-study",
+        "thumbnail": "/studio/previews/color-variants.png"
+      },
+      "techniques": [
+        "images"
+      ]
+    },
+    {
+      "id": "type-arrival",
+      "title": "Typografi som anländer",
+      "description": "En samordnad rubrikentré ger texten karaktär med ett stilla alternativ.",
+      "category": "scroll",
+      "href": "/examples/collection/",
+      "keywords": [
+        "typografi",
+        "text",
+        "rubrik",
+        "entré",
+        "reveal",
+        "motion"
+      ],
+      "interaction": "scroll",
+      "preview": {
+        "route": "/examples/collection/",
+        "selector": ".intro",
+        "thumbnail": "/studio/previews/type-arrival.png"
+      },
+      "techniques": [
+        "type"
+      ]
+    },
+    {
+      "id": "connected-scroll",
+      "title": "Ett objekt genom scrollen",
+      "description": "Rotation, maskning och lager låter samma form följa en reversibel berättelse.",
+      "category": "scroll",
+      "href": "/examples/cinematic/#story",
+      "keywords": [
+        "scroll",
+        "timeline",
+        "rotation",
+        "mask",
+        "lager",
+        "cinematic"
+      ],
+      "interaction": "scroll",
+      "preview": {
+        "route": "/examples/cinematic/#story",
+        "selector": "#story",
+        "thumbnail": "/studio/previews/connected-scroll.png"
+      },
+      "techniques": [
+        "product"
+      ]
+    },
+    {
+      "id": "scroll-film",
+      "title": "Film som följer din scroll",
+      "description": "En egen film med synkroniserade textlager, separat mobilkomposition och stillbild.",
+      "category": "scroll",
+      "href": "/examples/cinematic-media/#film",
+      "keywords": [
+        "film",
+        "scrollfilm",
+        "scrollvideo",
+        "video",
+        "textsynk",
+        "cinematic"
+      ],
+      "interaction": "scroll",
+      "preview": {
+        "route": "/examples/cinematic-media/#film",
+        "selector": ".film-stage",
+        "thumbnail": "/studio/previews/scroll-film.png"
+      },
+      "techniques": [
+        "cinematic"
+      ]
+    },
+    {
+      "id": "workflow-scene",
+      "title": "En uppgift tar nästa steg",
+      "description": "Ett animerat kort flyttar till rätt kolumn och visar ett läsbart resultat.",
+      "category": "product",
+      "href": "/examples/product-motion/#workflow",
+      "keywords": [
+        "produktanimation",
+        "arbetsflöde",
+        "kanban",
+        "kort",
+        "workflow"
+      ],
+      "interaction": "auto",
+      "preview": {
+        "route": "/examples/product-motion/#workflow",
+        "selector": "#workflow .visual",
+        "thumbnail": "/studio/previews/workflow-scene.png"
+      },
+      "techniques": [
+        "scenes"
+      ]
+    },
+    {
+      "id": "orbit-scene",
+      "title": "Funktioner som hör ihop",
+      "description": "En samlad ikonrörelse kopplar produktens olika funktioner till en gemensam helhet.",
+      "category": "product",
+      "href": "/examples/product-motion/#orbit",
+      "keywords": [
+        "produktanimation",
+        "ikoner",
+        "orbit",
+        "funktioner",
+        "bento"
+      ],
+      "interaction": "auto",
+      "preview": {
+        "route": "/examples/product-motion/#orbit",
+        "selector": "#orbit .visual",
+        "thumbnail": "/studio/previews/orbit-scene.png"
+      },
+      "techniques": [
+        "scenes"
+      ]
+    },
+    {
+      "id": "editing-scene",
+      "title": "Från klipp till berättelse",
+      "description": "Klipp, ljud och text får samma rytm i en levande redigeringstidslinje.",
+      "category": "product",
+      "href": "/examples/product-motion/#timeline",
+      "keywords": [
+        "produktanimation",
+        "redigering",
+        "timeline",
+        "tidslinje",
+        "video"
+      ],
+      "interaction": "auto",
+      "preview": {
+        "route": "/examples/product-motion/#timeline",
+        "selector": "#timeline .visual",
+        "thumbnail": "/studio/previews/editing-scene.png"
+      },
+      "techniques": [
+        "scenes"
+      ]
+    },
+    {
+      "id": "technology-site",
+      "title": "Teknik med atmosfär",
+      "description": "En flersidig produktstudie med orbital grafik, pekarljus och sammanhållna undersidor.",
+      "category": "websites",
+      "href": "/examples/technology/",
+      "keywords": [
+        "tech",
+        "saas",
+        "webbplats",
+        "mörk",
+        "ljus",
+        "produkt"
+      ],
+      "interaction": "hover",
+      "preview": {
+        "route": "/examples/technology/",
+        "selector": ".hero",
+        "thumbnail": "/studio/previews/technology-site.png"
+      },
+      "techniques": [
+        "materials",
+        "product"
+      ]
+    },
+    {
+      "id": "salon-site",
+      "title": "Varmt och redaktionellt",
+      "description": "En salongsriktning med tydlig typografi, tjänster, team och bokningssida.",
+      "category": "websites",
+      "href": "/examples/salon/",
+      "keywords": [
+        "salong",
+        "frisör",
+        "webbplats",
+        "varm",
+        "redaktionell",
+        "bokning"
+      ],
+      "interaction": "read",
+      "preview": {
+        "route": "/examples/salon/",
+        "selector": ".hero",
+        "thumbnail": "/studio/previews/salon-site.png"
+      },
+      "techniques": []
+    },
+    {
+      "id": "construction-site",
+      "title": "Material och precision",
+      "description": "En byggstudie med mineralfärger, projektsidor och tydliga kontaktvägar.",
+      "category": "websites",
+      "href": "/examples/construction/",
+      "keywords": [
+        "bygg",
+        "hantverk",
+        "webbplats",
+        "material",
+        "projekt"
+      ],
+      "interaction": "read",
+      "preview": {
+        "route": "/examples/construction/",
+        "selector": ".hero",
+        "thumbnail": "/studio/previews/construction-site.png"
+      },
+      "techniques": []
+    },
+    {
+      "id": "product-detail-page",
+      "title": "En sammanhängande undersida",
+      "description": "Produktens detaljvy behåller huvudsidans uttryck och vanliga URL-navigering.",
+      "category": "websites",
+      "href": "/examples/technology/product/",
+      "keywords": [
+        "undersida",
+        "produkt",
+        "navigation",
+        "tech",
+        "detalj"
+      ],
+      "interaction": "read",
+      "preview": {
+        "route": "/examples/technology/product/",
+        "selector": ".inner-hero",
+        "thumbnail": "/studio/previews/product-detail-page.png"
+      },
+      "techniques": [
+        "product"
+      ]
+    },
+    {
+      "id": "scoped-crm",
+      "title": "En avgränsad ändring",
+      "description": "Prova en lokal växling i en CRM-studie utan att starta ett nytt designsystem.",
+      "category": "websites",
+      "href": "/examples/crm-scope/",
+      "keywords": [
+        "crm",
+        "dashboard",
+        "state",
+        "avgränsad",
+        "quick edit"
+      ],
+      "interaction": "click",
+      "preview": {
+        "route": "/examples/crm-scope/",
+        "selector": "#overview",
+        "thumbnail": "/studio/previews/scoped-crm.png"
+      },
+      "techniques": []
+    },
+    {
+      "id": "project-brief",
+      "title": "Skapa en projektbrief",
+      "description": "Samla mål, innehåll och valda teknikfamiljer till relevant SuperBrain-guidning.",
+      "category": "tools",
+      "href": "/studio/brief/",
+      "keywords": [
+        "brief",
+        "projekt",
+        "mål",
+        "export",
+        "bygg"
+      ],
+      "interaction": "read",
+      "preview": {
+        "route": "/studio/brief/",
+        "selector": "#brief-form",
+        "thumbnail": "/studio/previews/project-brief.png"
+      },
+      "techniques": []
+    },
+    {
+      "id": "design-engine",
+      "title": "Designsystem och granskning",
+      "description": "Utforska färger, uttryck, projektbeslut och verktyg för granskning.",
+      "category": "tools",
+      "href": "/studio/engine/",
+      "keywords": [
+        "designsystem",
+        "färg",
+        "tokens",
+        "verktyg",
+        "granskning"
+      ],
+      "interaction": "read",
+      "preview": {
+        "route": "/studio/engine/",
+        "selector": ".engine-intro",
+        "thumbnail": "/studio/previews/design-engine.png"
+      },
+      "techniques": []
+    },
+    {
+      "id": "technique-library",
+      "title": "Hela teknikregistret",
+      "description": "Sök alla registrerade tekniker och läs källor, belägg och begränsningar.",
+      "category": "tools",
+      "href": "/examples/library/",
+      "keywords": [
+        "bibliotek",
+        "register",
+        "research",
+        "referenser",
+        "sök"
+      ],
+      "interaction": "read",
+      "preview": {
+        "route": "/examples/library/",
+        "selector": ".intro",
+        "thumbnail": "/studio/previews/technique-library.png"
+      },
+      "techniques": []
+    },
+    {
+      "id": "technique-atlas",
+      "title": "Teknikatlasen",
+      "description": "Bläddra bland den bevarade atlasens designgrepp, användningar och källor.",
+      "category": "tools",
+      "href": "/examples/atlas/",
+      "keywords": [
+        "atlas",
+        "bibliotek",
+        "designgrepp",
+        "referenser",
+        "tekniker"
+      ],
+      "interaction": "read",
+      "preview": {
+        "route": "/examples/atlas/",
+        "selector": ".intro",
+        "thumbnail": "/studio/previews/technique-atlas.png"
+      },
+      "techniques": []
+    }
+  ]
+}

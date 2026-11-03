@@ -9,6 +9,7 @@ import path from 'node:path';
 import { pathToFileURL } from 'node:url';
 import { root, compileBrief } from '../lib/brief.mjs';
 import {loadLibrary,searchLibrary,summarizeLibrary} from '../lib/library.mjs';
+import {loadStudioCatalog} from '../lib/studio-catalog.mjs';
 
 const mime = {'.html':'text/html; charset=utf-8','.css':'text/css; charset=utf-8','.js':'text/javascript; charset=utf-8','.svg':'image/svg+xml','.png':'image/png','.webp':'image/webp','.mp4':'video/mp4','.webm':'video/webm','.json':'application/json; charset=utf-8','.md':'text/plain; charset=utf-8'};
 function within(base, target) { const rel=path.relative(base,target); return !rel.startsWith('..') && !path.isAbsolute(rel); }
@@ -31,6 +32,7 @@ export function createServer() {
       // The local laboratory has no icon asset. Avoid an automatic broken request.
       if(url.pathname==='/favicon.ico'){res.writeHead(204);res.end();return;}
       if(url.pathname==='/api/skills'){res.writeHead(200,{'Content-Type':'application/json; charset=utf-8'});res.end(req.method==='HEAD'?undefined:JSON.stringify(searchSkills(url.searchParams.get('q')||'')));return;}
+      if(url.pathname==='/api/studio'){res.writeHead(200,{'Content-Type':'application/json; charset=utf-8'});res.end(req.method==='HEAD'?undefined:JSON.stringify(await loadStudioCatalog()));return;}
       if(url.pathname==='/api/benchmarks'){res.writeHead(200,{'Content-Type':'application/json; charset=utf-8'});res.end(req.method==='HEAD'?undefined:await readFile(path.join(root,'docs/evidence/engine-benchmark.json'),'utf8'));return;}
       if(url.pathname==='/api/library') {
         const library=await loadLibrary();

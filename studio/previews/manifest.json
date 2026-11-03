@@ -1,0 +1,680 @@
+{
+  "schema": 1,
+  "generator": "scripts/capture-studio-previews.mjs",
+  "previews": [
+    {
+      "id": "color-variants",
+      "route": "/examples/collection/",
+      "selector": ".shop-study",
+      "file": "/studio/previews/color-variants.png",
+      "sourceFingerprint": "b5b002aa92830aee0d6b5c7e3c055d5ab227b126cba92e94160626fd33036e19",
+      "sha256": "0505ce899969ee10fca0c622c73294bd092e6892abc087e081f74c47f8036104",
+      "bytes": 66953,
+      "capturedAt": "2026-11-03T09:11:52.022Z",
+      "viewport": {
+        "width": 1100,
+        "height": 750
+      },
+      "deviceScaleFactor": 1,
+      "actions": [],
+      "blockedExternalOrigins": [],
+      "scope": "A real local browser frame for browsing inspiration; not a motion-quality certification."
+    },
+    {
+      "id": "connected-scroll",
+      "route": "/examples/cinematic/#story",
+      "selector": "#story",
+      "file": "/studio/previews/connected-scroll.png",
+      "sourceFingerprint": "df0b4af1b9512647f34543f0a81113c7fe91190e38ded6598012d066041efa17",
+      "sha256": "985ae271b4df2280f048ac2a587b60702b193e9b4eb19d3a20986e43ac6b75c3",
+      "bytes": 75194,
+      "capturedAt": "2026-11-03T09:11:55.559Z",
+      "viewport": {
+        "width": 1100,
+        "height": 750
+      },
+      "deviceScaleFactor": 1,
+      "actions": [],
+      "blockedExternalOrigins": [],
+      "scope": "A real local browser frame for browsing inspiration; not a motion-quality certification."
+    },
+    {
+      "id": "construction-site",
+      "route": "/examples/construction/",
+      "selector": ".hero",
+      "file": "/studio/previews/construction-site.png",
+      "sourceFingerprint": "79bc7ffea9accd30a0b3fe221f6ff289541af8d0181fdd2cea0978aa7727b838",
+      "sha256": "63987bd92cc9a51cff5ade3ca996d9600bf737dd4d272fb3227c0fabdbf1d668",
+      "bytes": 39410,
+      "capturedAt": "2026-11-03T09:12:08.975Z",
+      "viewport": {
+        "width": 1100,
+        "height": 750
+      },
+      "deviceScaleFactor": 1,
+      "actions": [],
+      "blockedExternalOrigins": [],
+      "scope": "A real local browser frame for browsing inspiration; not a motion-quality certification."
+    },
+    {
+      "id": "design-engine",
+      "route": "/studio/engine/",
+      "selector": ".engine-intro",
+      "file": "/studio/previews/design-engine.png",
+      "sourceFingerprint": "68e72b6832022602986f802e8ea7682a750c40ce22e463d21b7658e0851bdb7b",
+      "sha256": "3236e5638ef10aacffc08e796ed946341238774b0759063e5e8f11ee408ff579",
+      "bytes": 19051,
+      "capturedAt": "2026-11-03T09:12:16.042Z",
+      "viewport": {
+        "width": 1100,
+        "height": 750
+      },
+      "deviceScaleFactor": 1,
+      "actions": [],
+      "blockedExternalOrigins": [],
+      "scope": "A real local browser frame for browsing inspiration; not a motion-quality certification."
+    },
+    {
+      "id": "drawn-connection",
+      "route": "/examples/collection/#product",
+      "selector": ".connection-art",
+      "file": "/studio/previews/drawn-connection.png",
+      "sourceFingerprint": "468ad2c0e990a5d55dad7fe8eb00749ec04675b982bc47099081f3263e413934",
+      "sha256": "ad6d719b3cdc55974312a559d88dd89a8b63318d007a11d3819830795876fd48",
+      "bytes": 23539,
+      "capturedAt": "2026-11-03T09:11:44.566Z",
+      "viewport": {
+        "width": 1100,
+        "height": 750
+      },
+      "deviceScaleFactor": 1,
+      "actions": [],
+      "blockedExternalOrigins": [],
+      "scope": "A real local browser frame for browsing inspiration; not a motion-quality certification."
+    },
+    {
+      "id": "edge-light",
+      "route": "/examples/pointer-buttons/",
+      "selector": "[data-pointer-effect=\"edge\"]",
+      "file": "/studio/previews/edge-light.png",
+      "sourceFingerprint": "b7504dfb4a5d87f8300233e16f7e3b28e31cde91a9b68bad8fa1cc9ff741c595",
+      "sha256": "3d3ad017357970e9b1aed9d823320aa5733b6b875fb0fa909c13c5fd84c50a03",
+      "bytes": 25879,
+      "capturedAt": "2026-11-03T09:13:43.489Z",
+      "viewport": {
+        "width": 520,
+        "height": 650
+      },
+      "deviceScaleFactor": 1.5,
+      "actions": [
+        "Pointer hover inside actual control",
+        "Sampled 1 authored native animations at 58%"
+      ],
+      "blockedExternalOrigins": [],
+      "scope": "A real local browser frame for browsing inspiration; not a motion-quality certification."
+    },
+    {
+      "id": "editing-scene",
+      "route": "/examples/product-motion/#timeline",
+      "selector": "#timeline .visual",
+      "file": "/studio/previews/editing-scene.png",
+      "sourceFingerprint": "e80480aaf8349aa4ddbd3da8a4d4972507a0de7f0d5eca4b10b15a74f66e5ff9",
+      "sha256": "5e274ae6d95641f4d2b3100c3aa49c3cadd84f9cfb90815a3f66114d8854902c",
+      "bytes": 103828,
+      "capturedAt": "2026-11-03T09:12:03.547Z",
+      "viewport": {
+        "width": 720,
+        "height": 650
+      },
+      "deviceScaleFactor": 1,
+      "actions": [
+        "Sampled 4 authored native animations at 58%"
+      ],
+      "blockedExternalOrigins": [],
+      "scope": "A real local browser frame for browsing inspiration; not a motion-quality certification."
+    },
+    {
+      "id": "fill-bottom",
+      "route": "/examples/buttons/#fill-bottom",
+      "selector": "#fill-bottom",
+      "file": "/studio/previews/fill-bottom.png",
+      "sourceFingerprint": "ed3c0a111f4111a9b2d90fcf8197efaa65bac61eb619df9a229a0c43eacb4911",
+      "sha256": "d9ce26f68e151fc5f0f9d42c0d09d3ec389eb8503a6e29bf7397fbc75a67c9d0",
+      "bytes": 25498,
+      "capturedAt": "2026-11-03T09:13:37.200Z",
+      "viewport": {
+        "width": 520,
+        "height": 650
+      },
+      "deviceScaleFactor": 1.5,
+      "actions": [
+        "Pointer hover inside actual preview target",
+        "Sampled 1 authored native animations at 58%"
+      ],
+      "blockedExternalOrigins": [],
+      "scope": "A real local browser frame for browsing inspiration; not a motion-quality certification."
+    },
+    {
+      "id": "fill-left",
+      "route": "/examples/buttons/#fill-left",
+      "selector": "#fill-left",
+      "file": "/studio/previews/fill-left.png",
+      "sourceFingerprint": "b19f22a72f720f51b9a75aff89c23400d7547a95e88d0ded4e50d47a44142c66",
+      "sha256": "8b4fa61262abb26382c1f02ea1694f7c3df2380dfe1f7db82947340fddcebf68",
+      "bytes": 27332,
+      "capturedAt": "2026-11-03T09:13:35.961Z",
+      "viewport": {
+        "width": 520,
+        "height": 650
+      },
+      "deviceScaleFactor": 1.5,
+      "actions": [
+        "Pointer hover inside actual preview target",
+        "Sampled 1 authored native animations at 58%"
+      ],
+      "blockedExternalOrigins": [],
+      "scope": "A real local browser frame for browsing inspiration; not a motion-quality certification."
+    },
+    {
+      "id": "fill-top",
+      "route": "/examples/buttons/#fill-top",
+      "selector": "#fill-top",
+      "file": "/studio/previews/fill-top.png",
+      "sourceFingerprint": "e523bd560f71e38fc72f8be5a8a977c60bdf0871c1f34fb483dfb6e171bb82b3",
+      "sha256": "6feabaf835caeaeebd15c47e74536829d08b7bd199e695b9fb29e7d0eab4530c",
+      "bytes": 27358,
+      "capturedAt": "2026-11-03T09:13:38.465Z",
+      "viewport": {
+        "width": 520,
+        "height": 650
+      },
+      "deviceScaleFactor": 1.5,
+      "actions": [
+        "Pointer hover inside actual preview target",
+        "Sampled 1 authored native animations at 58%"
+      ],
+      "blockedExternalOrigins": [],
+      "scope": "A real local browser frame for browsing inspiration; not a motion-quality certification."
+    },
+    {
+      "id": "filter-gallery",
+      "route": "/examples/collection/#gallery",
+      "selector": "#gallery",
+      "file": "/studio/previews/filter-gallery.png",
+      "sourceFingerprint": "575ffc1927fcefe5f6f3d1e0578c710aaab0e7fc5a14e6e5800abba35bf61331",
+      "sha256": "cf277a7d003d5b56bf28db993526f10f0f40854228a9c8b3993ff651c7130993",
+      "bytes": 170505,
+      "capturedAt": "2026-11-03T09:11:48.303Z",
+      "viewport": {
+        "width": 1100,
+        "height": 750
+      },
+      "deviceScaleFactor": 1,
+      "actions": [],
+      "blockedExternalOrigins": [],
+      "scope": "A real local browser frame for browsing inspiration; not a motion-quality certification."
+    },
+    {
+      "id": "gentle-magnet",
+      "route": "/examples/pointer-buttons/",
+      "selector": "[data-pointer-effect=\"magnet\"]",
+      "file": "/studio/previews/gentle-magnet.png",
+      "sourceFingerprint": "6fc546f1e5bf6e3aaee81b82a378d58224e9227f27806f683d71e39257249d77",
+      "sha256": "d9efa7de2a9b0ce6cc0669e14a1bf3b79dcb31ef25b67e0a9228f97c4df45e3c",
+      "bytes": 39417,
+      "capturedAt": "2026-11-03T09:13:44.752Z",
+      "viewport": {
+        "width": 520,
+        "height": 650
+      },
+      "deviceScaleFactor": 1.5,
+      "actions": [
+        "Pointer hover inside actual control",
+        "Sampled 1 authored native animations at 58%"
+      ],
+      "blockedExternalOrigins": [],
+      "scope": "A real local browser frame for browsing inspiration; not a motion-quality certification."
+    },
+    {
+      "id": "horizontal-glow",
+      "route": "/examples/buttons/#horizontal-glow",
+      "selector": "#horizontal-glow",
+      "file": "/studio/previews/horizontal-glow.png",
+      "sourceFingerprint": "5690ec350c5f2c8f9c96375483acb1cd6b488c629b8cae586827a94eaceffdc2",
+      "sha256": "e83cbf2aa0665c7691001fe12878a44c451d5f4d7dccd70e80f09aa9ca4d72c8",
+      "bytes": 34138,
+      "capturedAt": "2026-11-03T09:13:39.761Z",
+      "viewport": {
+        "width": 520,
+        "height": 650
+      },
+      "deviceScaleFactor": 1.5,
+      "actions": [
+        "Pointer hover inside actual preview target",
+        "Sampled 1 authored native animations at 58%"
+      ],
+      "blockedExternalOrigins": [],
+      "scope": "A real local browser frame for browsing inspiration; not a motion-quality certification."
+    },
+    {
+      "id": "image-comparison",
+      "route": "/examples/collection/#images",
+      "selector": "#images",
+      "file": "/studio/previews/image-comparison.png",
+      "sourceFingerprint": "dd778cb28b2f81945251e7f14c13c6fcc7352f2aa576415eb0bc1bb9c1308f06",
+      "sha256": "6fe878103bcd2d2411d350d460c2b67e1e0e792881448841f6a8d461edce13c1",
+      "bytes": 88540,
+      "capturedAt": "2026-11-03T09:11:46.430Z",
+      "viewport": {
+        "width": 1100,
+        "height": 750
+      },
+      "deviceScaleFactor": 1,
+      "actions": [],
+      "blockedExternalOrigins": [],
+      "scope": "A real local browser frame for browsing inspiration; not a motion-quality certification."
+    },
+    {
+      "id": "light-cta",
+      "route": "/examples/effects/#buttons",
+      "selector": "#buttons",
+      "file": "/studio/previews/light-cta.png",
+      "sourceFingerprint": "047637d3f63483a280dbc1484e4ea690508f49ae328e735d4f7de357dfe450d5",
+      "sha256": "908113facc91cbd2ebe584dd65595e1177ef5324c1b997522bde2e604f26da9e",
+      "bytes": 46421,
+      "capturedAt": "2026-11-03T09:13:47.788Z",
+      "viewport": {
+        "width": 1100,
+        "height": 750
+      },
+      "deviceScaleFactor": 1,
+      "actions": [
+        "Pointer hover inside actual preview target",
+        "Sampled 2 authored native animations at 58%"
+      ],
+      "blockedExternalOrigins": [],
+      "scope": "A real local browser frame for browsing inspiration; not a motion-quality certification."
+    },
+    {
+      "id": "orbit-scene",
+      "route": "/examples/product-motion/#orbit",
+      "selector": "#orbit .visual",
+      "file": "/studio/previews/orbit-scene.png",
+      "sourceFingerprint": "32047fe9e8ca6567caa42afe43386f05f5fef49652d2adc3ac2f7a7b14f4942e",
+      "sha256": "f2e3e0db859ef300f57b60b4fdcf6616c7b7629dbf10447d6ed4da2c6e31027b",
+      "bytes": 192189,
+      "capturedAt": "2026-11-03T09:12:01.526Z",
+      "viewport": {
+        "width": 720,
+        "height": 650
+      },
+      "deviceScaleFactor": 1,
+      "actions": [
+        "Sampled 6 authored native animations at 58%"
+      ],
+      "blockedExternalOrigins": [],
+      "scope": "A real local browser frame for browsing inspiration; not a motion-quality certification."
+    },
+    {
+      "id": "pointer-depth",
+      "route": "/examples/collection/#product",
+      "selector": "[data-depth]",
+      "file": "/studio/previews/pointer-depth.png",
+      "sourceFingerprint": "bb228c3f1778875e71a7f3ae3baf5f804a7f6d7f04a04536357d94d26cbeb9ec",
+      "sha256": "3456dcc7127015d20460eaddaec2a8b1ecfd461d9ffc99e92674cba7b6ef56e0",
+      "bytes": 22716,
+      "capturedAt": "2026-11-03T09:13:49.534Z",
+      "viewport": {
+        "width": 1100,
+        "height": 750
+      },
+      "deviceScaleFactor": 1,
+      "actions": [
+        "Pointer hover inside actual preview target",
+        "Sampled 1 authored native animations at 58%"
+      ],
+      "blockedExternalOrigins": [],
+      "scope": "A real local browser frame for browsing inspiration; not a motion-quality certification."
+    },
+    {
+      "id": "pointer-reveal",
+      "route": "/examples/effects/#reveal",
+      "selector": "#reveal",
+      "file": "/studio/previews/pointer-reveal.png",
+      "sourceFingerprint": "13d0622ee329ff2e71716cd0204096eb5c96ec23d3774a01fb3dd96288bf85bd",
+      "sha256": "21955c327f38ff3d37dd5ca761f1fb4ced27db6e14390272aa6df5ee740595d5",
+      "bytes": 265817,
+      "capturedAt": "2026-11-03T09:13:46.280Z",
+      "viewport": {
+        "width": 1100,
+        "height": 750
+      },
+      "deviceScaleFactor": 1,
+      "actions": [
+        "Pointer hover inside actual preview target",
+        "Sampled 1 authored native animations at 58%"
+      ],
+      "blockedExternalOrigins": [],
+      "scope": "A real local browser frame for browsing inspiration; not a motion-quality certification."
+    },
+    {
+      "id": "procedural-light",
+      "route": "/examples/collection/#light",
+      "selector": "#light",
+      "file": "/studio/previews/procedural-light.png",
+      "sourceFingerprint": "a64b99f159c5f6258a0974b52dc2a46575fa760477a7fa36c8d57578b9211e43",
+      "sha256": "b1deaeedae789cf2c2f6564392550e38eacb64174f31e422dda8e7f6c3dc6cad",
+      "bytes": 528427,
+      "capturedAt": "2026-11-03T09:11:38.949Z",
+      "viewport": {
+        "width": 1100,
+        "height": 750
+      },
+      "deviceScaleFactor": 1,
+      "actions": [],
+      "blockedExternalOrigins": [],
+      "scope": "A real local browser frame for browsing inspiration; not a motion-quality certification."
+    },
+    {
+      "id": "product-detail-page",
+      "route": "/examples/technology/product/",
+      "selector": ".inner-hero",
+      "file": "/studio/previews/product-detail-page.png",
+      "sourceFingerprint": "28bb9bb47ef5d22deaa2285b93e616c9f96f3132d0ff5513574d91ba72f5ad6f",
+      "sha256": "2bf262f9f4982bc67a6cfeb83e8f4257e235cb8741e95410b96d7b0c6378fb74",
+      "bytes": 70941,
+      "capturedAt": "2026-11-03T09:12:10.769Z",
+      "viewport": {
+        "width": 1100,
+        "height": 750
+      },
+      "deviceScaleFactor": 1,
+      "actions": [],
+      "blockedExternalOrigins": [],
+      "scope": "A real local browser frame for browsing inspiration; not a motion-quality certification."
+    },
+    {
+      "id": "product-rail",
+      "route": "/examples/collection/",
+      "selector": ".shop-study",
+      "file": "/studio/previews/product-rail.png",
+      "sourceFingerprint": "0f795154fcb08746456d8e2ccb3567f6ef0c2b17e4b24f786f5a5136b775daf1",
+      "sha256": "0505ce899969ee10fca0c622c73294bd092e6892abc087e081f74c47f8036104",
+      "bytes": 66953,
+      "capturedAt": "2026-11-03T09:11:50.165Z",
+      "viewport": {
+        "width": 1100,
+        "height": 750
+      },
+      "deviceScaleFactor": 1,
+      "actions": [],
+      "blockedExternalOrigins": [],
+      "scope": "A real local browser frame for browsing inspiration; not a motion-quality certification."
+    },
+    {
+      "id": "product-steps",
+      "route": "/examples/collection/#product",
+      "selector": "[data-product-demo]",
+      "file": "/studio/previews/product-steps.png",
+      "sourceFingerprint": "821360349c451fbdd4fca11b6af1ec31182bce9f80d32ba43aa8c6bedc8c4db5",
+      "sha256": "95f75cc8431b89924140c39144a3327c14639fe01bcbf7b08fec701910f34558",
+      "bytes": 26024,
+      "capturedAt": "2026-11-03T09:11:42.708Z",
+      "viewport": {
+        "width": 1100,
+        "height": 750
+      },
+      "deviceScaleFactor": 1,
+      "actions": [],
+      "blockedExternalOrigins": [],
+      "scope": "A real local browser frame for browsing inspiration; not a motion-quality certification."
+    },
+    {
+      "id": "project-brief",
+      "route": "/studio/brief/",
+      "selector": "#brief-form",
+      "file": "/studio/previews/project-brief.png",
+      "sourceFingerprint": "edf29cb8a163cb4349b2433d57f04800a09bdb0331e2abddf478d8a4b859e4ae",
+      "sha256": "46b2bc9b06be150c489cfb8075b633e74e7bebd0ec52ece043158e45580dcac0",
+      "bytes": 34467,
+      "capturedAt": "2026-11-03T09:28:05.197Z",
+      "viewport": {
+        "width": 1100,
+        "height": 750
+      },
+      "deviceScaleFactor": 1,
+      "actions": [],
+      "blockedExternalOrigins": [],
+      "scope": "A real local browser frame for browsing inspiration; not a motion-quality certification."
+    },
+    {
+      "id": "salon-site",
+      "route": "/examples/salon/",
+      "selector": ".hero",
+      "file": "/studio/previews/salon-site.png",
+      "sourceFingerprint": "ddaf4f397257dfe142bb0c0a8c1c3d5d5770eb3bee171527126de1cc961344ee",
+      "sha256": "c9382d070e64c464567b93c17bb450d393ca6d5593713ca32484b51e848637bc",
+      "bytes": 124548,
+      "capturedAt": "2026-11-03T09:12:07.243Z",
+      "viewport": {
+        "width": 1100,
+        "height": 750
+      },
+      "deviceScaleFactor": 1,
+      "actions": [],
+      "blockedExternalOrigins": [],
+      "scope": "A real local browser frame for browsing inspiration; not a motion-quality certification."
+    },
+    {
+      "id": "scoped-crm",
+      "route": "/examples/crm-scope/",
+      "selector": "#overview",
+      "file": "/studio/previews/scoped-crm.png",
+      "sourceFingerprint": "840c96483c77168fbbc58df72d2c0a72574adbc9235defde9b1653c1981d9d4d",
+      "sha256": "0d491e1d56eee807be0174e88d28284383352373db031db920f4c34f862bed38",
+      "bytes": 11387,
+      "capturedAt": "2026-11-03T09:12:12.504Z",
+      "viewport": {
+        "width": 1100,
+        "height": 750
+      },
+      "deviceScaleFactor": 1,
+      "actions": [],
+      "blockedExternalOrigins": [],
+      "scope": "A real local browser frame for browsing inspiration; not a motion-quality certification."
+    },
+    {
+      "id": "scroll-film",
+      "route": "/examples/cinematic-media/#film",
+      "selector": ".film-stage",
+      "file": "/studio/previews/scroll-film.png",
+      "sourceFingerprint": "12c8901d1a2398c6a3c448bf602adb61b31bf79109c7061d18c6dc4647a1c001",
+      "sha256": "d87be8f8429b2606ffba8010526357048f27ad10c9cd460b34629ca71dcedabc",
+      "bytes": 408552,
+      "capturedAt": "2026-11-03T09:11:57.686Z",
+      "viewport": {
+        "width": 1100,
+        "height": 750
+      },
+      "deviceScaleFactor": 1,
+      "actions": [
+        "Native scroll to 60% of film"
+      ],
+      "blockedExternalOrigins": [],
+      "scope": "A real local browser frame for browsing inspiration; not a motion-quality certification."
+    },
+    {
+      "id": "scroll-orbit",
+      "route": "/examples/effects/#scene",
+      "selector": "#scene",
+      "file": "/studio/previews/scroll-orbit.png",
+      "sourceFingerprint": "a7ddb8698b78784d570cf894b73c33ac9fe53ea719a40d302b1bbfa39e420780",
+      "sha256": "d2be43da27d207553d77840c3b8d890545a8378809a03da06085490d8b85ca5d",
+      "bytes": 132115,
+      "capturedAt": "2026-11-03T09:11:34.985Z",
+      "viewport": {
+        "width": 1100,
+        "height": 750
+      },
+      "deviceScaleFactor": 1,
+      "actions": [],
+      "blockedExternalOrigins": [],
+      "scope": "A real local browser frame for browsing inspiration; not a motion-quality certification."
+    },
+    {
+      "id": "shared-image-transition",
+      "route": "/examples/effects/#project",
+      "selector": "#project",
+      "file": "/studio/previews/shared-image-transition.png",
+      "sourceFingerprint": "8a549be3fac6db7ddd35e158d591c625185912ee04bfaa38417a035273d2e660",
+      "sha256": "b99ccb2891a526f5d958fa5984f6a53a0dc503501c8afb8f7378d5369d541ebd",
+      "bytes": 124993,
+      "capturedAt": "2026-11-03T09:11:36.856Z",
+      "viewport": {
+        "width": 1100,
+        "height": 750
+      },
+      "deviceScaleFactor": 1,
+      "actions": [],
+      "blockedExternalOrigins": [],
+      "scope": "A real local browser frame for browsing inspiration; not a motion-quality certification."
+    },
+    {
+      "id": "soft-spotlight",
+      "route": "/examples/pointer-buttons/",
+      "selector": "[data-pointer-effect=\"spot\"]",
+      "file": "/studio/previews/soft-spotlight.png",
+      "sourceFingerprint": "1a9dfc5478330811c94dd36c9b43bb4cae132b9adef6211260105ecb8f79217a",
+      "sha256": "c36af8febf2cd838079006b93c9b7e64b7e625c55948576b312de975e316a7dd",
+      "bytes": 33294,
+      "capturedAt": "2026-11-03T09:13:42.328Z",
+      "viewport": {
+        "width": 520,
+        "height": 650
+      },
+      "deviceScaleFactor": 1.5,
+      "actions": [
+        "Pointer hover inside actual control",
+        "Sampled 1 authored native animations at 58%"
+      ],
+      "blockedExternalOrigins": [],
+      "scope": "A real local browser frame for browsing inspiration; not a motion-quality certification."
+    },
+    {
+      "id": "technique-atlas",
+      "route": "/examples/atlas/",
+      "selector": ".intro",
+      "file": "/studio/previews/technique-atlas.png",
+      "sourceFingerprint": "43662b43d533bf2f83b144d9a40700d0913f7d8f51d1d2d74d27cb67ba33c5e4",
+      "sha256": "b3fd2e155f5b495c2338bbce66064f1ec2c703a1aaf98488bfa37b4051eef8e2",
+      "bytes": 37574,
+      "capturedAt": "2026-11-03T09:12:19.421Z",
+      "viewport": {
+        "width": 1100,
+        "height": 750
+      },
+      "deviceScaleFactor": 1,
+      "actions": [],
+      "blockedExternalOrigins": [],
+      "scope": "A real local browser frame for browsing inspiration; not a motion-quality certification."
+    },
+    {
+      "id": "technique-library",
+      "route": "/examples/library/",
+      "selector": ".intro",
+      "file": "/studio/previews/technique-library.png",
+      "sourceFingerprint": "4eafc99c9e0eee2900e88320ecf54b5addfbf0bf59f3214e4f8764fafadc3ad4",
+      "sha256": "4e8fd8bf3f045cf6816c0c44e2727ae921cf0cf1a10fb4b5be847fb316f24260",
+      "bytes": 21129,
+      "capturedAt": "2026-11-03T09:12:17.764Z",
+      "viewport": {
+        "width": 1100,
+        "height": 750
+      },
+      "deviceScaleFactor": 1,
+      "actions": [],
+      "blockedExternalOrigins": [],
+      "scope": "A real local browser frame for browsing inspiration; not a motion-quality certification."
+    },
+    {
+      "id": "technology-site",
+      "route": "/examples/technology/",
+      "selector": ".hero",
+      "file": "/studio/previews/technology-site.png",
+      "sourceFingerprint": "f8471f312e732b4749b6b5b2eb4d515131ba3d7834c77f70a1ffb7b9c9be4dc9",
+      "sha256": "64216d4de0b170e633e893fb29338bd880ec89e3f2f6f296f9dab9557eeb74c8",
+      "bytes": 224414,
+      "capturedAt": "2026-11-03T09:13:51.052Z",
+      "viewport": {
+        "width": 1100,
+        "height": 750
+      },
+      "deviceScaleFactor": 1,
+      "actions": [
+        "Pointer hover inside actual preview target",
+        "Sampled 2 authored native animations at 58%"
+      ],
+      "blockedExternalOrigins": [],
+      "scope": "A real local browser frame for browsing inspiration; not a motion-quality certification."
+    },
+    {
+      "id": "type-arrival",
+      "route": "/examples/collection/",
+      "selector": ".intro",
+      "file": "/studio/previews/type-arrival.png",
+      "sourceFingerprint": "32299da43a312c758a63d1cac4f063bdf41e0bb2de53ef10b5eeb56ad3d4ffa1",
+      "sha256": "41a6de58d13dfb5bf7052e497adb5541a755ccff528d939797553c10f5ae7de0",
+      "bytes": 65884,
+      "capturedAt": "2026-11-03T09:11:53.871Z",
+      "viewport": {
+        "width": 1100,
+        "height": 750
+      },
+      "deviceScaleFactor": 1,
+      "actions": [],
+      "blockedExternalOrigins": [],
+      "scope": "A real local browser frame for browsing inspiration; not a motion-quality certification."
+    },
+    {
+      "id": "warm-side-light",
+      "route": "/examples/pointer-buttons/",
+      "selector": "[data-pointer-effect=\"side\"]",
+      "file": "/studio/previews/warm-side-light.png",
+      "sourceFingerprint": "c6bda7ba1cee66db5ac95548f813b2dd94f012bc0738f677ca6b49c12c3ce5c5",
+      "sha256": "96e6f25083e6a917066810ee91a8a050b82966cff68a15f3b50072e6c1045f1b",
+      "bytes": 36133,
+      "capturedAt": "2026-11-03T09:13:41.027Z",
+      "viewport": {
+        "width": 520,
+        "height": 650
+      },
+      "deviceScaleFactor": 1.5,
+      "actions": [
+        "Pointer hover inside actual control",
+        "Sampled 1 authored native animations at 58%"
+      ],
+      "blockedExternalOrigins": [],
+      "scope": "A real local browser frame for browsing inspiration; not a motion-quality certification."
+    },
+    {
+      "id": "workflow-scene",
+      "route": "/examples/product-motion/#workflow",
+      "selector": "#workflow .visual",
+      "file": "/studio/previews/workflow-scene.png",
+      "sourceFingerprint": "ba4ce354f115e2b34950a454a4c5a97d3b2806412e873f4c255b60c32f3d129c",
+      "sha256": "ab4a038fc76b234c69fa267e1d6cba52c84d19224d57c3b892fcc04aae4ba5e5",
+      "bytes": 142629,
+      "capturedAt": "2026-11-03T09:11:59.560Z",
+      "viewport": {
+        "width": 720,
+        "height": 650
+      },
+      "deviceScaleFactor": 1,
+      "actions": [
+        "Sampled 3 authored native animations at 58%"
+      ],
+      "blockedExternalOrigins": [],
+      "scope": "A real local browser frame for browsing inspiration; not a motion-quality certification."
+    }
+  ]
+}

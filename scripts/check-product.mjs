@@ -5,14 +5,15 @@ import path from 'node:path';
 import assert from 'node:assert/strict';
 import {root} from '../lib/brief.mjs';
 import {createServer} from './serve.mjs';
+import {loadLibrary,summarizeLibrary} from '../lib/library.mjs';
 const {chromium}=createRequire(import.meta.url)(process.env.SUPERBRAIN_PLAYWRIGHT||'playwright');
 const server=createServer();await new Promise(r=>server.listen(0,'127.0.0.1',r));
 const base='http://127.0.0.1:'+server.address().port,checks=[],errors=[];
-const evidence=path.join(root,'docs/evidence');await mkdir(evidence,{recursive:true});
+const evidence=path.resolve(process.argv[2]||path.join(root,'docs/evidence'));await mkdir(evidence,{recursive:true});
 const check=(name,details)=>checks.push({name,result:'pass',details});
 function observe(page){page.on('pageerror',e=>errors.push(e.message));page.on('response',r=>{if(r.status()>=400)errors.push(r.status()+' '+r.url());});page.on('console',m=>{if(m.type()==='error')errors.push(m.text());});}
 async function routes(dir){const result=[];for(const ent of await readdir(path.join(root,dir),{withFileTypes:true})){if(ent.isDirectory())result.push(...await routes(dir+'/'+ent.name));else if(ent.name==='index.html')result.push('/'+dir+'/');}return result;}
-const urls=['/',...await routes('examples')];
+const urls=['/',...await routes('examples'),'/studio/brief/'];
 const sample=async el=>el.evaluate(e=>{const s=getComputedStyle(e,'::before');return {opacity:+s.opacity,left:parseFloat(s.left),top:parseFloat(s.top)};});
 let browser;
 try{
@@ -28,20 +29,21 @@ try{
   check('all-routes-'+width+'-'+motion,{routes:urls.length,scope:'Direct loading, primary heading, no horizontal page overflow, no decorative numbered/eyebrow headings'});await context.close();
  }
  const context=await browser.newContext({viewport:{width:1440,height:1000}});const page=await context.newPage();observe(page);
- await page.goto(base+'/');await page.locator('[name=name]').fill('Lokal teststudio');await page.selectOption('[name=type]','salon');await page.selectOption('[name=motion]','quiet');
- await page.locator('[name=goal]').fill('Förstå tjänsterna och hitta nästa steg');await page.locator('[name=techniques]').selectOption('buttons');
+ await page.goto(base+'/studio/brief/');await page.locator('[name=name]').fill('Lokal teststudio');await page.selectOption('[name=type]','salon');await page.selectOption('[name=motion]','quiet');
+ await page.locator('[name=goal]').fill('Förstå tjänsterna och hitta nästa steg');await page.locator('[name=techniques][value=buttons]').check();
  await page.locator('[type=submit]').click();await page.locator('#result').waitFor({state:'visible'});
- const brief=await page.locator('#brief-output').inputValue();assert.match(brief,/Lokal teststudio/);assert.match(brief,/button-interactions/);assert.match(brief,/decorative 01\/02\/03/);
+ const brief=await page.locator('#brief-output').inputValue();assert.match(brief,/Lokal teststudio/);assert.match(brief,/button-interactions/);assert.match(brief,/Avoid decorative counters/);
  const downloadPromise=page.waitForEvent('download');await page.locator('#download').click();const download=await downloadPromise;
  assert.equal((await readFile(await download.path(),'utf8')).replace(/\r\n/g,'\n'),brief.replace(/\r\n/g,'\n'));check('brief-export','Actual local form submission compiles selected knowledge; downloaded Markdown matches output with normalized line endings; no external submission');
  await page.goto(base+'/examples/atlas/');await page.locator('.atlas-controls').waitFor({state:'visible'});
  await page.locator('#technique-search').fill('ljus');assert((await page.locator('.technique:visible').count())>0);assert((await page.locator('.technique:visible').count())<54);
  await page.locator('#technique-search').fill('zzzz-no-match');assert.equal(await page.locator('.technique:visible').count(),0);
  await page.locator('#technique-search').fill('');assert.equal(await page.locator('.technique:visible').count(),54);check('atlas-search','Search, zero-results and clearing restore the correct cards');
- await page.goto(base+'/examples/library/');await page.waitForFunction(()=>document.querySelector('#status').textContent==='86 träffar.');
- await page.selectOption('[name=state]','TESTED');await page.locator('button[type=submit]').click();await page.waitForFunction(()=>document.querySelector('#status').textContent==='4 träffar.');
+ const librarySummary=summarizeLibrary(await loadLibrary());
+ await page.goto(base+'/examples/library/');await page.waitForFunction(count=>document.querySelector('#status').textContent===count+' träffar.',librarySummary.candidates);
+ await page.selectOption('[name=state]','TESTED');await page.locator('button[type=submit]').click();await page.waitForFunction(count=>document.querySelector('#status').textContent===count+' träffar.',librarySummary.maturity.TESTED);
  await page.selectOption('[name=state]','PRODUCTION-READY');await page.locator('button[type=submit]').click();await page.waitForFunction(()=>document.querySelector('#status').textContent==='0 träffar.');
- check('library-maturity','Four scoped TESTED records; no fabricated production-ready results');
+ check('library-maturity','Current scoped TESTED records match the registry; no fabricated production-ready results');
  await page.goto(base+'/examples/collection/');await page.locator('[data-product-step=connect]').click();assert.equal(await page.locator('[data-product-demo]').getAttribute('data-state'),'connect');
  await page.locator('[data-product-step=finish]').click();assert.equal(await page.locator('[data-product-demo]').getAttribute('data-state'),'finish');
  assert.match(await page.locator('[data-product-demo] [role=status]').textContent(),/Landa/);
@@ -91,6 +93,6 @@ try{
  await page.locator('[data-demo-action]').first().click();assert.equal(Number((await page.locator('#action-status').textContent()).match(/aktiverad (\d+)/)[1]),before+1);
  check('effects-actions','Tone controls, exactly one activation, image detail route and back navigation without duplicated listeners');
  assert.deepEqual(errors,[]);check('runtime-errors','No missing resources, uncaught page exceptions or browser console errors');
- const report={date:new Date().toISOString(),browser:await browser.version(),host:process.env.COMPUTERNAME,scope:'Local Windows Edge automation. All document routes at five viewport/preference combinations plus functional journeys. Emulation does not certify physical devices, Firefox/WebKit, screen readers or production.',routes:urls,checks,errors};
+ const report={date:new Date().toISOString(),browser:await browser.version(),host:process.env.COMPUTERNAME,scope:'Local Windows Chromium automation. All document routes at five viewport/preference combinations plus functional journeys. Emulation does not certify physical devices, Firefox/WebKit, screen readers or production.',routes:urls,checks,errors};
  await writeFile(path.join(evidence,'product-browser.json'),JSON.stringify(report,null,2)+'\n');console.log('Passed '+checks.length+' product checks across '+urls.length+' routes.');
 }finally{await browser?.close();await new Promise(r=>server.close(r));}

@@ -5,6 +5,7 @@ import {validateSkill} from '../lib/skill-format.mjs';
 import {loadLibrary,validateLibraryFiles,summarizeLibrary} from '../lib/library.mjs';
 import {verifyAnthropicSkills} from '../lib/anthropic-skills.mjs';
 import {verifyCodexPlugins} from '../lib/codex-plugins.mjs';
+import {loadStudioCatalog} from '../lib/studio-catalog.mjs';
 let checks=0;
 function check(value,message){if(!value)throw new Error(message);checks++;}
 const skill=await readFile(path.join(root,'skills/superbrain/SKILL.md'),'utf8');
@@ -12,6 +13,8 @@ validateSkill(skill);checks+=2;
 await verifyAnthropicSkills(root);checks++;
 await verifyCodexPlugins(root);checks++;
 const library=await loadLibrary();await validateLibraryFiles(library);checks++;
+const studio=await loadStudioCatalog();checks++;
+for(const item of studio.items){check((await stat(path.join(root,item.preview.thumbnail))).isFile(),`Missing studio preview ${item.id}`);}
 const atlas=JSON.parse(await readFile(path.join(root,'data/techniques.json'),'utf8'));
 check(atlas.schema===1,'Unknown technique atlas schema');
 check(new Set(atlas.techniques.map(t=>t.id)).size===atlas.techniques.length,'Duplicate technique IDs');
@@ -27,7 +30,8 @@ for(const file of [...await walk(path.join(root,'examples')),...await walk(path.
  check(!/<(?:p|span)[^>]*class="[^\"]*\b(?:eyebrow|kicker|row-number|index)\b/.test(html),`Decorative heading/counter reintroduced ${file}`);
  for(const [,url] of html.matchAll(/(?:href|src)="([^"#]+)(?:#[^"]*)?"/g)){
   if(!url.startsWith('/'))continue;
-  let target=url==='/'?path.join(root,'studio/index.html'):path.join(root,url);
+  const pathname=new URL(url,'http://localhost').pathname;
+  let target=pathname==='/'?path.join(root,'studio/index.html'):path.join(root,pathname);
   const info=await stat(target);if(info.isDirectory())target=path.join(target,'index.html');await stat(target);checks++;
  }
 }

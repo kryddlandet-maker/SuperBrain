@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="sv">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Samla ditt nästa webbprojekt i en tydlig brief med utvalda effekter, innehåll och riktning från SuperBrain.">
+  <title>Skapa en projektbrief — SuperBrain</title>
+  <link rel="stylesheet" href="/studio/brief/brief.css">
+  <script type="module" src="/studio/studio.js"></script>
+</head>
+<body>
+  <a class="skip" href="#main">Till innehållet</a>
+  <header class="header">
+    <a class="brand" href="/"><img src="/studio/superbrain.svg" width="32" height="32" alt=""><span>SuperBrain <span class="brand-studio">Studio</span></span></a>
+    <nav aria-label="Studio"><a href="/">Till inspirationsbiblioteket</a><a href="/studio/engine/">Designverktyg</a></nav>
+  </header>
+  <main id="main">
+    <div class="brief-layout">
+      <aside class="introduction">
+        <a class="back" href="/">← Utforska fler idéer</a>
+        <h1>Ge nästa bygge en tydlig riktning.</h1>
+        <p>Samla vad du vill skapa, vem det är till för och vilka uttryck du vill utforska.</p>
+        <div id="inspiration-selection" class="selection-note" hidden></div>
+        <div class="how-to">
+          <h2>Från idé till projekt</h2>
+          <ol><li>Beskriv projektet och välj relevanta effekter.</li><li>Skapa briefen och kopiera eller ladda ner den.</li><li>Använd den med SuperBrain i projektets Codex-chatt.</li></ol>
+        </div>
+        <p class="privacy-note">Briefverktyget sammanställer instruktioner lokalt. Det kör ingen AI och skickar inget till en extern tjänst.</p>
+      </aside>
+      <section class="form-panel" aria-label="Projektbrief">
+        <form id="brief-form">
+          <fieldset>
+            <legend>Projektet</legend>
+            <p class="section-description">Börja med vad webbplatsen ska hjälpa besökaren att göra.</p>
+            <div class="form-row">
+              <label>Projektets namn <span class="required">obligatoriskt</span><input name="name" required maxlength="160" autocomplete="organization" placeholder="Till exempel Studio Forma"></label>
+              <label>Verksamhet<select name="type"><option value="technology">Tech / produkt</option><option value="salon">Frisör / salong</option><option value="construction">Bygg / hantverk</option><option value="portfolio">Portfolio / studio</option><option value="ecommerce">Webbshop / produkt</option><option value="restaurant">Restaurang / café</option><option value="ai">AI-produkt</option><option value="automotive">Bil / fordon</option><option value="real-estate">Fastigheter</option><option value="crm">CRM</option><option value="other">Annan verksamhet</option></select></label>
+            </div>
+            <label>Vad ska besökaren kunna göra? <span class="required">obligatoriskt</span><input name="goal" required maxlength="300" placeholder="Förstå tjänsterna och boka en tid"></label>
+            <label>Målgrupp <span class="optional">valfritt</span><input name="audience" maxlength="300" placeholder="Vem bygger vi för?"></label>
+          </fieldset>
+          <fieldset>
+            <legend>Uttryck och rörelse</legend>
+            <label>Designriktning <span class="optional">valfritt</span><textarea name="direction" rows="3" maxlength="1500" placeholder="Beskriv känslan, dina referenser eller idéer du vill bygga vidare på."></textarea></label>
+            <label>Rörelse och interaktion<select name="motion"><option value="expressive">Uttrycksfullt</option><option value="quiet">Lugnt</option><option value="immersive">Mer immersivt</option></select></label>
+            <div class="technique-heading"><h2>Effekter att utforska</h2><span class="optional">valfritt</span></div>
+            <p id="technique-help" class="field-help">Välj det som passar din idé. Lämna tomt för att låta SuperBrain föreslå en riktning.</p>
+            <div class="technique-grid" role="group" aria-label="Teknikfamiljer" aria-describedby="technique-help">
+              <label class="technique"><input type="checkbox" name="techniques" value="buttons"><span>Knappar och ljus</span></label>
+              <label class="technique"><input type="checkbox" name="techniques" value="materials"><span>Material och djup</span></label>
+              <label class="technique"><input type="checkbox" name="techniques" value="type"><span>Typografi i rörelse</span></label>
+              <label class="technique"><input type="checkbox" name="techniques" value="cinematic"><span>Scrollstyrd film</span></label>
+              <label class="technique"><input type="checkbox" name="techniques" value="scenes"><span>Aktiva produktanimationer</span></label>
+              <label class="technique"><input type="checkbox" name="techniques" value="product"><span>Produktberättelser och diagram</span></label>
+              <label class="technique"><input type="checkbox" name="techniques" value="images"><span>Gallerier och bilder</span></label>
+              <label class="technique"><input type="checkbox" name="techniques" value="graphics"><span>Shaders och avancerad grafik</span></label>
+            </div>
+          </fieldset>
+          <fieldset>
+            <legend>Innehåll och sidor</legend>
+            <label>Verifierade fakta och material <span class="optional">valfritt</span><textarea name="facts" rows="4" maxlength="8000" placeholder="Tjänster, tillgängliga bilder, riktiga kontaktuppgifter och annat vi kan utgå från."></textarea></label>
+            <label>Sidor och adresser <span class="optional">valfritt</span><input name="pages" placeholder="/, /services, /team, /booking" aria-describedby="routes-help"></label>
+            <p id="routes-help" class="field-help">Separera adresser med kommatecken. Lämna tomt för ett förslag utifrån besökarens behov.</p>
+          </fieldset>
+          <div class="submit-row"><button class="primary" type="submit">Skapa projektbrief <span aria-hidden="true">↗</span></button><p id="status" role="status" aria-live="polite"></p></div>
+        </form>
+      </section>
+    </div>
+    <section id="result" class="result-panel" hidden aria-labelledby="result-heading">
+      <div class="result-heading"><div><h2 id="result-heading">Din projektbrief</h2><p>Kopiera texten eller ladda ner filen och lämna den till Codex.</p></div><button id="download" type="button">Ladda ner .md <span aria-hidden="true">↓</span></button></div>
+      <label for="brief-output">Färdig brief</label><textarea id="brief-output" readonly rows="16"></textarea>
+    </section>
+    <noscript><p class="noscript">Slå på JavaScript för att sammanställa och ladda ner briefen. Du kan fortfarande läsa fälten och utforska <a href="/">inspirationsbiblioteket</a>.</p></noscript>
+  </main>
+  <footer><a href="/">Till inspirationsbiblioteket</a><a href="/studio/engine/">Fortsätt med designverktygen</a></footer>
+</body>
+</html>

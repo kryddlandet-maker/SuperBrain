@@ -16,3 +16,5 @@ import './cinematic.test.mjs';
 import './cinematic-media.test.mjs';
 import './cinematic-plan.test.mjs';
 import './cinematic-integration.test.mjs';
+import './studio-catalog.test.mjs';
+import './studio-inspiration.test.mjs';

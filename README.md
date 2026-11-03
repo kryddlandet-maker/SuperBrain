@@ -1,4 +1,8 @@
-# SuperBrain 2.0.0-rc.5
+# SuperBrain 2.0.0-rc.6
+
+## Studio för nästa idé
+
+Startsidan är nu ett inspirationsbibliotek med 35 riktiga studier och verktyg i åtta kategorier. Sök efter effekt eller funktion, prova en levande förhandsvisning på dator- eller mobilbredd och spara idéerna du vill bygga vidare på. Dina sparade val kan kopieras till en Codex-chatt eller följa med till projektbriefen. Kör `npm run studio` och öppna adressen som skrivs ut. Briefverktyget finns på `/studio/brief/` och designverktyget på `/studio/engine/`. [Användning och verifiering](docs/STUDIO-INSPIRATION.md).
 
 ## Scrollfilm och mediegranskning
 
