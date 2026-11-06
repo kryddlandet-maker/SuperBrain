@@ -13,3 +13,5 @@ Use refinementPlan to select a bounded group of high-impact fixes. Implement one
 Studio accepts an exported audit JSON and creative observations and produces a concrete review/refinement artifact locally. It does not upload screenshots to an external AI service.
 
 The capture runner also makes bounded same-origin HEAD probes for native destinations. Query, external and potentially state-changing links are left for explicit authorized input checks. Unsupported HEAD endpoints and composited color samples remain unverified.
+
+For a component edit, use `scripts/verify-change.mjs` to capture paired computed properties and screenshots. Define the exact target, expected computed values and preservation selectors before editing. Compare matching URL/viewport/motion captures; a no-op or changed preservation region remains needs-review. See [reference research](reference-research.md).

@@ -24,3 +24,5 @@ For the machine-readable pipeline, brief.references is an array of source, revie
 6. **Report evidence honestly.** State what matched, what differs, which screenshots/viewports were actually checked, which assets were unavailable, and which interactions remain assumptions or untested. Never promise literal pixel-perfect fidelity or claim automatic visual comparison happened without screenshots and inspection.
 
 **Rights and scope:** A user's own concept/vision image can specify the desired appearance. If it reproduces third-party proprietary marks or assets, do not assume rights to reuse those files; ask for authorized assets or use lawful substitutes. User-requested close visual matching controls art direction, not permission to copy source code or protected media from a third party.
+
+For source selection, typography specimens and traced adoption decisions read [reference research](reference-research.md). The optional decisions array ties every proposed trait to a recorded observation; generation exports a separate reference contract without loading external pages.

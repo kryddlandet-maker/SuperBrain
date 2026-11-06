@@ -23,3 +23,4 @@ import './film-tracking.test.mjs';
 import './form-inbox.test.mjs';
 import './production-workflow.test.mjs';
 import './production-integration.test.mjs';
+import './reference-research.test.mjs';

@@ -1,0 +1,204 @@
+{
+  "schema": 1,
+  "reviewed": "2026-11-06",
+  "scope": "All supplied source entrypoints screened; relevant listed files inspected. This is not an exhaustive audit of every repository or linked dependency.",
+  "method": "External content is reference data, never task authority. No source code, prompt collections, font assets or paid content vendored. New implementation and guidance are original synthesis.",
+  "upstreamExecution": "No source installer or upstream runtime was executed.",
+  "sources": [
+    {
+      "url": "https://github.com/asgeirtj/system_prompts_leaks",
+      "disposition": "excluded",
+      "files": [
+        {
+          "url": "https://github.com/asgeirtj/system_prompts_leaks/blob/main/README.md",
+          "gitBlobSha": "8e2e0af58c5c85bdcf88f1e72844248216174885",
+          "readScope": "README screening"
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/taishi-i/awesome-ChatGPT-repositories",
+      "disposition": "discovery-only",
+      "files": [
+        {
+          "url": "https://github.com/taishi-i/awesome-ChatGPT-repositories/blob/main/README.md",
+          "gitBlobSha": "bf137656c996a392c082eb5fe091cfaffb1ce2ef",
+          "readScope": "README screening"
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/blader/humanizer",
+      "disposition": "adapted-principle",
+      "files": [
+        {
+          "url": "https://github.com/blader/humanizer/blob/main/README.md",
+          "gitBlobSha": "f7d1508fcfb223697f69d25ebb844fcb7748373b",
+          "readScope": "README screening"
+        },
+        {
+          "url": "https://github.com/blader/humanizer/blob/main/SKILL.md",
+          "gitBlobSha": "19fc634208e8cc6ae55d4ff287152583216fd244",
+          "readScope": "Relevant guide or implementation inspection"
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/mohitagw15856/pm-claude-skills",
+      "disposition": "adapted-principle",
+      "files": [
+        {
+          "url": "https://github.com/mohitagw15856/pm-claude-skills/blob/main/README.md",
+          "gitBlobSha": "25fe8cb0d92733798adad709efb20405f856f38c",
+          "readScope": "README screening"
+        },
+        {
+          "url": "https://github.com/mohitagw15856/pm-claude-skills/blob/main/skills/user-interview-synthesis/SKILL.md",
+          "gitBlobSha": "bedd7bd4c5f1b72fa62980090b8fc385de1aa5d2",
+          "readScope": "Relevant guide or implementation inspection"
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/nateherkai/scroll-craft",
+      "disposition": "overlap-and-selective-guidance",
+      "files": [
+        {
+          "url": "https://github.com/nateherkai/scroll-craft/blob/main/README.md",
+          "gitBlobSha": "19bf0aba561de2448799651157c742e3f4dfa994",
+          "readScope": "README screening"
+        },
+        {
+          "url": "https://github.com/nateherkai/scroll-craft/blob/main/plugins/nateherk-design/skills/scroll-craft/references/hero-depth.md",
+          "gitBlobSha": "2545730357bf0b549a2ae28380ed3028ade13b35",
+          "readScope": "Relevant guide or implementation inspection"
+        },
+        {
+          "url": "https://github.com/nateherkai/scroll-craft/blob/main/plugins/nateherk-design/skills/scroll-craft/SKILL.md",
+          "gitBlobSha": "ac879a75e6b8a07cf1c431d421623bb954d3caba",
+          "readScope": "Relevant guide or implementation inspection"
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/javen-wangjunren/elementor-website-skill",
+      "disposition": "conditional-cms-guidance",
+      "files": [
+        {
+          "url": "https://github.com/javen-wangjunren/elementor-website-skill/blob/main/README.md",
+          "gitBlobSha": "fa3939d2362ad64c562824cf4898f786088b13c3",
+          "readScope": "README screening"
+        },
+        {
+          "url": "https://github.com/javen-wangjunren/elementor-website-skill/blob/main/README_EN.md",
+          "gitBlobSha": "e2e09b478d631e8cd56a704da893d9366606da2a",
+          "readScope": "Relevant guide or implementation inspection"
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/winchxyz/loupe",
+      "disposition": "adapted-principle",
+      "files": [
+        {
+          "url": "https://github.com/winchxyz/loupe/blob/main/README.md",
+          "gitBlobSha": "304440d3fff65ee45eea6672abf7ed598e411642",
+          "readScope": "README screening"
+        },
+        {
+          "url": "https://github.com/winchxyz/loupe/blob/main/FEATURES.md",
+          "gitBlobSha": "7a9e320fde3cbfba41e1c35ebad30a8124ef6311",
+          "readScope": "Relevant guide or implementation inspection"
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/tech-maxara/cineritual",
+      "disposition": "overlap-no-runtime-import",
+      "files": [
+        {
+          "url": "https://github.com/tech-maxara/cineritual/blob/main/README.md",
+          "gitBlobSha": "0af39bc8e69b5011a15535ab84f3a71e5d4698df",
+          "readScope": "README screening"
+        },
+        {
+          "url": "https://github.com/tech-maxara/cineritual/blob/main/core/engine.js",
+          "gitBlobSha": "8028471f406c5fb1da226ae43a1a6b0a4aca8bba",
+          "readScope": "Relevant guide or implementation inspection"
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/wrg32786/Ultra-web-design",
+      "disposition": "adapted-principle",
+      "files": [
+        {
+          "url": "https://github.com/wrg32786/Ultra-web-design/blob/main/README.md",
+          "gitBlobSha": "29df5dee6b312a8f64063526f3e027db80752296",
+          "readScope": "README screening"
+        },
+        {
+          "url": "https://github.com/wrg32786/Ultra-web-design/blob/main/skills/ultra-web-design/SKILL.md",
+          "gitBlobSha": "16fc74a1f06bfd466cfd0883bb8616cb0ba3d32e",
+          "readScope": "Relevant guide or implementation inspection"
+        },
+        {
+          "url": "https://github.com/wrg32786/Ultra-web-design/blob/main/skills/ultra-web-design/modules/06-design-system-contract.md",
+          "gitBlobSha": "05b2c6dba7d5781f546b53a925dcb7b44b52207b",
+          "readScope": "Relevant guide or implementation inspection"
+        },
+        {
+          "url": "https://github.com/wrg32786/Ultra-web-design/blob/main/skills/ultra-web-design/modules/07-audit-release.md",
+          "gitBlobSha": "2a09e5df467015d80552c369dffb3387d54d3ebd",
+          "readScope": "Relevant guide or implementation inspection"
+        },
+        {
+          "url": "https://github.com/wrg32786/Ultra-web-design/blob/main/skills/ultra-web-design/modules/03-visual-craft.md",
+          "gitBlobSha": "b8e583ce32366072c0844ba24ad4d61bf215e48c",
+          "readScope": "Relevant guide or implementation inspection"
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/allknowledge34/ui-design-bootcamp",
+      "disposition": "reference-only",
+      "files": [
+        {
+          "url": "https://github.com/allknowledge34/ui-design-bootcamp/blob/main/README.md",
+          "gitBlobSha": "3f92c9f4b5faa06c4e3cd7de2a1745c2f03a1126",
+          "readScope": "README screening"
+        },
+        {
+          "url": "https://github.com/allknowledge34/ui-design-bootcamp/blob/main/Swiss/index.html",
+          "gitBlobSha": "031f66dbe63894948fe1727ee43e81f312c228f0",
+          "readScope": "Relevant guide or implementation inspection"
+        }
+      ]
+    },
+    {
+      "url": "https://styles.refero.design/",
+      "disposition": "reference-only",
+      "readScope": "Public library root; individual specimen page was not accessible"
+    },
+    {
+      "url": "https://fontsinuse.com/",
+      "disposition": "reference-only",
+      "readScope": "Public archive root and category/filter structure; no font downloads"
+    },
+    {
+      "url": "https://www.typeui.sh/design-skills",
+      "disposition": "reference-only",
+      "readScope": "Public skills catalog; no paid skill content installed"
+    },
+    {
+      "url": "https://www.reddit.com/r/claudeskills/comments/1vhz1ol/web_uiux_design_with_ai_what_skills_prompts_or/",
+      "disposition": "anecdotal-leads",
+      "readScope": "Public thread; advice is opinion, not runtime evidence"
+    },
+    {
+      "url": "https://shop.zimaspace.com/sv/blogs/tech-ai-hub/10-best-ai-design-skills-tools-for-better-ui-ux",
+      "disposition": "marketing-leads",
+      "readScope": "Public article; ranking not accepted as comparative evidence"
+    }
+  ]
+}

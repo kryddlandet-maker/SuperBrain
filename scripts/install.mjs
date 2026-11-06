@@ -41,7 +41,7 @@ export async function install(targetArg,{anthropic=false}={}) {
     const content=await readFile(path.join(root,'skills/superbrain',rel));
     files.push({path:`.superbrain/skills/superbrain/${rel}`,content,sha256:hash(content)});
   }
-  for(const rel of ['scripts/brief.mjs','scripts/discover.mjs','scripts/design.mjs','scripts/audit.mjs','scripts/anthropic.mjs','scripts/cinematic-media.mjs','scripts/cinematic-edit.mjs','scripts/depth-media.mjs','scripts/film-tracking.mjs','scripts/film-tracking.py','scripts/production.mjs','scripts/inbox.mjs','scripts/launch-check.mjs','scripts/serve.mjs','package.json']) {
+  for(const rel of ['scripts/brief.mjs','scripts/discover.mjs','scripts/design.mjs','scripts/audit.mjs','scripts/anthropic.mjs','scripts/cinematic-media.mjs','scripts/cinematic-edit.mjs','scripts/depth-media.mjs','scripts/film-tracking.mjs','scripts/film-tracking.py','scripts/production.mjs','scripts/inbox.mjs','scripts/launch-check.mjs','scripts/serve.mjs','scripts/verify-change.mjs','package.json']) {
     const content=await readFile(path.join(root,rel));files.push({path:`.superbrain/${rel}`,content,sha256:hash(content)});
   }
   const meta='.superbrain/install.json';

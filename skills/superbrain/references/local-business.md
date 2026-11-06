@@ -17,3 +17,5 @@ Support quote requests with relevant fields and honest confirmation/error handli
 ## Shared content practice
 
 Do not repeat the same paragraph on every route. Reuse verified facts, write route-specific explanations, and maintain one source for contact details and opening hours. Use structured data only for confirmed business facts. Do not create misleading local landing pages or invented addresses.
+
+For customer-facing wording and honest loading/error/success microcopy, read [web copy](web-copy.md) when copy is part of the requested work.

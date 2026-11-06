@@ -1,6 +1,6 @@
 {
   "name": "superbrain-design",
-  "version": "2.0.0-rc.7",
+  "version": "2.0.0-rc.8",
   "private": true,
   "type": "module",
   "description": "A modular design skill, project brief compiler and interactive multi-page motion laboratory.",
@@ -37,6 +37,7 @@
     "production": "node scripts/production.mjs",
     "inbox": "node scripts/inbox.mjs",
     "test:advanced": "node scripts/check-advanced-studio.mjs",
-    "test:tracking": "node scripts/check-film-tracking.mjs"
+    "test:tracking": "node scripts/check-film-tracking.mjs",
+    "verify:change": "node scripts/verify-change.mjs"
   }
 }

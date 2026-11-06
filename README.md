@@ -1,4 +1,8 @@
-# SuperBrain 2.0.0-rc.7
+# SuperBrain 2.0.0-rc.8
+
+## Spårbar designresearch och verifierade ändringar
+
+De 15 nya researchkällorna har bedömts och relevanta delar har kopplats till befintliga arbetsflöden. Referenser kan nu spåras från observation till projektbeslut, webbtext får en valbar fokuserad guide och `npm run verify:change` kan kontrollera en faktisk CSS-ändring före/efter med utpekade delar att bevara. Två korta kapitel laddas selektivt; huvudskillen har inte vuxit. Inga externa promptpaket, designmallar eller nya rörelsemotorer har importerats. **111 kodtester, 640 valideringskontroller samt en verklig fristående installation och browserkontroll passerade.** [Källor, urval, användning och begränsningar](docs/DESIGN-RESEARCH-RC8.md).
 
 ## Filmspårning, bilddjup och produktion
 
